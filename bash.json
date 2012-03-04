@@ -1,0 +1,6 @@
+{
+	"Name": "bash",
+	"Version": "4.2",
+	"Mirror": "http://localhost:8080/src",
+	"File": "bash-4.2.tar.gz"
+}
