@@ -1,6 +1,5 @@
 {
 	"Name": "ccache",
-	"Version": "3.1.4",
-	"Mirror": "http://127.0.0.1:8080/src",
-	"File": "ccache-3.1.4.tar.gz"
+	"Version": "3.1.7",
+	"Url": "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz"
 }
