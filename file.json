@@ -3,19 +3,19 @@
     "Version"      : "5.11",
     "Url"          : "http://samba.org/ftp/ccache/file-5.11.tar.gz",
     "StageDir"     : "",
-    "Flags"        : null,
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
+    "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
-    ],
-    "Package" : [
-              "make install DESTDIR=$PKGDIR"
-    ],
-    "Depends" : null,
-    "Files"   : [
-              "data/data/gnuoid/this/is/very/long/bin/ccache",
-              "data/data/gnuoid/this/is/very/long/share/man/man1/ccache.1"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Depends"      : null,
+    "Files"        : [
+                   "data/data/gnuoid/this/is/very/long/bin/ccache",
+                   "data/data/gnuoid/this/is/very/long/share/man/man1/ccache.1"
     ]
 }

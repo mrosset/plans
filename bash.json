@@ -1,30 +1,30 @@
 {
-    "Name"     : "bash",
-    "Version"  : "4.2",
-    "Url"      : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
-    "StageDir" : "",
-    "Flags"    : [
-               "--bindir=/bin"
-    ],
+    "Name"         : "bash",
+    "Version"      : "4.2",
+    "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
+    "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-18T22:40:57.406672-07:00",
+    "Flags"        : [
+                   "--bindir=/bin"
+    ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
-    ],
-    "Package" : [
-              "make install DESTDIR=$PKGDIR"
-    ],
-    "Depends" : [
-              "ncurses",
-              "glibc"
-    ],
-    "Files" : [
-            "bin/bash",
-            "bin/bashbug",
-            "usr/share/info/bash.info",
-            "usr/share/info/dir",
-            "usr/share/man/man1/bash.1",
-            "usr/share/man/man1/bashbug.1"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Depends"      : [
+                   "ncurses",
+                   "glibc"
+    ],             
+    "Files"        : [
+                   "bin/bash",
+                   "bin/bashbug",
+                   "usr/share/info/bash.info",
+                   "usr/share/info/dir",
+                   "usr/share/man/man1/bash.1",
+                   "usr/share/man/man1/bashbug.1"
     ]
 }

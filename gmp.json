@@ -1,41 +1,41 @@
 {
-    "Name"     : "gmp",
-    "Version"  : "5.0.5",
-    "Url"      : "http://mirrors.kernel.org/gnu/wget/gmp-5.0.5.tar.gz",
-    "StageDir" : "",
-    "Flags"    : [
-               "--enable-cxx"
-    ],
+    "Name"         : "gmp",
+    "Version"      : "5.0.5",
+    "Url"          : "http://mirrors.kernel.org/gnu/wget/gmp-5.0.5.tar.gz",
+    "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
+    "Flags"        : [
+                   "--enable-cxx"
+    ],             
     "Build"        : [
                    "CCPFLAGS=-fexceptions $SRCDIR/configure $Flags",
                    "make"
-    ],
-    "Package" : [
-              "make install DESTDIR=$PKGDIR"
-    ],
-    "Depends" : [
-              "glibc",
-              "",
-              "libgcc"
-    ],
-    "Files" : [
-            "usr/include/gmp.h",
-            "usr/include/gmpxx.h",
-            "usr/lib/libgmp.a",
-            "usr/lib/libgmp.la",
-            "usr/lib/libgmp.so",
-            "usr/lib/libgmp.so.10",
-            "usr/lib/libgmp.so.10.0.5",
-            "usr/lib/libgmpxx.a",
-            "usr/lib/libgmpxx.la",
-            "usr/lib/libgmpxx.so",
-            "usr/lib/libgmpxx.so.4",
-            "usr/lib/libgmpxx.so.4.2.5",
-            "usr/share/info/dir",
-            "usr/share/info/gmp.info",
-            "usr/share/info/gmp.info-1",
-            "usr/share/info/gmp.info-2"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Depends"      : [
+                   "glibc",
+                   "",
+                   "libgcc"
+    ],             
+    "Files"        : [
+                   "usr/include/gmp.h",
+                   "usr/include/gmpxx.h",
+                   "usr/lib/libgmp.a",
+                   "usr/lib/libgmp.la",
+                   "usr/lib/libgmp.so",
+                   "usr/lib/libgmp.so.10",
+                   "usr/lib/libgmp.so.10.0.5",
+                   "usr/lib/libgmpxx.a",
+                   "usr/lib/libgmpxx.la",
+                   "usr/lib/libgmpxx.so",
+                   "usr/lib/libgmpxx.so.4",
+                   "usr/lib/libgmpxx.so.4.2.5",
+                   "usr/share/info/dir",
+                   "usr/share/info/gmp.info",
+                   "usr/share/info/gmp.info-1",
+                   "usr/share/info/gmp.info-2"
     ]
 }

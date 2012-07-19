@@ -1,45 +1,45 @@
 {
-    "Name"     : "mpfr",
-    "Version"  : "3.1.0",
-    "Url"      : "http://mirrors.kernel.org/gnu/wget/mpfr-3.1.0.tar.gz",
-    "StageDir" : "",
-    "Flags"    : [
-               "--with-gmp=/data/data/gnuoid"
-    ],
+    "Name"         : "mpfr",
+    "Version"      : "3.1.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/wget/mpfr-3.1.0.tar.gz",
+    "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
+    "Flags"        : [
+                   "--with-gmp=/data/data/gnuoid"
+    ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
-    ],
-    "Package" : [
-              "make install DESTDIR=$PKGDIR"
-    ],
-    "Depends" : [
-              "gmp",
-              "glibc"
-    ],
-    "Files" : [
-            "usr/include/mpf2mpfr.h",
-            "usr/include/mpfr.h",
-            "usr/lib/libmpfr.a",
-            "usr/lib/libmpfr.la",
-            "usr/lib/libmpfr.so",
-            "usr/lib/libmpfr.so.4",
-            "usr/lib/libmpfr.so.4.1.0",
-            "usr/share/doc/mpfr/AUTHORS",
-            "usr/share/doc/mpfr/BUGS",
-            "usr/share/doc/mpfr/COPYING",
-            "usr/share/doc/mpfr/COPYING.LESSER",
-            "usr/share/doc/mpfr/FAQ.html",
-            "usr/share/doc/mpfr/NEWS",
-            "usr/share/doc/mpfr/TODO",
-            "usr/share/doc/mpfr/examples/ReadMe",
-            "usr/share/doc/mpfr/examples/divworst.c",
-            "usr/share/doc/mpfr/examples/rndo-add.c",
-            "usr/share/doc/mpfr/examples/sample.c",
-            "usr/share/doc/mpfr/examples/version.c",
-            "usr/share/info/dir",
-            "usr/share/info/mpfr.info"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Depends"      : [
+                   "gmp",
+                   "glibc"
+    ],             
+    "Files"        : [
+                   "usr/include/mpf2mpfr.h",
+                   "usr/include/mpfr.h",
+                   "usr/lib/libmpfr.a",
+                   "usr/lib/libmpfr.la",
+                   "usr/lib/libmpfr.so",
+                   "usr/lib/libmpfr.so.4",
+                   "usr/lib/libmpfr.so.4.1.0",
+                   "usr/share/doc/mpfr/AUTHORS",
+                   "usr/share/doc/mpfr/BUGS",
+                   "usr/share/doc/mpfr/COPYING",
+                   "usr/share/doc/mpfr/COPYING.LESSER",
+                   "usr/share/doc/mpfr/FAQ.html",
+                   "usr/share/doc/mpfr/NEWS",
+                   "usr/share/doc/mpfr/TODO",
+                   "usr/share/doc/mpfr/examples/ReadMe",
+                   "usr/share/doc/mpfr/examples/divworst.c",
+                   "usr/share/doc/mpfr/examples/rndo-add.c",
+                   "usr/share/doc/mpfr/examples/sample.c",
+                   "usr/share/doc/mpfr/examples/version.c",
+                   "usr/share/info/dir",
+                   "usr/share/info/mpfr.info"
     ]
 }
