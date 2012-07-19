@@ -4,6 +4,7 @@
     "Url"      : "http://mirrors.kernel.org/gnu/coreutils/coreutils-8.13.tar.gz",
     "StageDir" : "",
     "Flags"    : null,
+    "Date"     : "0001-01-01T00:00:00Z",
     "Build"    : null,
     "Package"  : null,
     "Depends"  : null,

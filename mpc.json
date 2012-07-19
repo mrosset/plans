@@ -3,22 +3,21 @@
     "Version"  : "0.9",
     "Url"      : "http://mirrors.kernel.org/gnu/wget/mpc-0.9.tar.gz",
     "StageDir" : "",
-    "Flags"    : [
-               "--with-gmp=/data/data/gnuoid"
-    ],
-    "Build" : [
-            "$SRCDIR/configure $Flags",
-            "make"
+    "Flags"    : null,
+    "Date"     : "0001-01-01T00:00:00Z",
+    "Build"    : [
+               "$SRCDIR/configure $Flags",
+               "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"
     ],
-    "Depends" : null,
+    "Depends" : [],
     "Files"   : [
-              "data/data/gnuoid/include/mpc.h",
-              "data/data/gnuoid/lib/libmpc.a",
-              "data/data/gnuoid/lib/libmpc.la",
-              "data/data/gnuoid/share/info/dir",
-              "data/data/gnuoid/share/info/mpc.info"
+              "usr/include/mpc.h",
+              "usr/lib/libmpc.a",
+              "usr/lib/libmpc.la",
+              "usr/share/info/dir",
+              "usr/share/info/mpc.info"
     ]
 }

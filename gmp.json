@@ -3,25 +3,38 @@
     "Version"  : "5.0.5",
     "Url"      : "http://mirrors.kernel.org/gnu/wget/gmp-5.0.5.tar.gz",
     "StageDir" : "",
-    "Flags"    : null,
-    "Build"    : [
-               "CCPFLAGS=-fexceptions $SRCDIR/configure $Flags",
-               "make"
+    "Flags"    : [
+               "--enable-cxx"
+    ],
+    "Date"  : "0001-01-01T00:00:00Z",
+    "Build" : [
+            "CCPFLAGS=-fexceptions $SRCDIR/configure $Flags",
+            "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"
     ],
-    "Depends" : null,
-    "Files"   : [
-              "data/data/gnuoid/include/gmp.h",
-              "data/data/gnuoid/lib/libgmp.a",
-              "data/data/gnuoid/lib/libgmp.la",
-              "data/data/gnuoid/lib/libgmp.so",
-              "data/data/gnuoid/lib/libgmp.so.10",
-              "data/data/gnuoid/lib/libgmp.so.10.0.5",
-              "data/data/gnuoid/share/info/dir",
-              "data/data/gnuoid/share/info/gmp.info",
-              "data/data/gnuoid/share/info/gmp.info-1",
-              "data/data/gnuoid/share/info/gmp.info-2"
+    "Depends" : [
+              "glibc",
+              "",
+              "libgcc"
+    ],
+    "Files" : [
+            "usr/include/gmp.h",
+            "usr/include/gmpxx.h",
+            "usr/lib/libgmp.a",
+            "usr/lib/libgmp.la",
+            "usr/lib/libgmp.so",
+            "usr/lib/libgmp.so.10",
+            "usr/lib/libgmp.so.10.0.5",
+            "usr/lib/libgmpxx.a",
+            "usr/lib/libgmpxx.la",
+            "usr/lib/libgmpxx.so",
+            "usr/lib/libgmpxx.so.4",
+            "usr/lib/libgmpxx.so.4.2.5",
+            "usr/share/info/dir",
+            "usr/share/info/gmp.info",
+            "usr/share/info/gmp.info-1",
+            "usr/share/info/gmp.info-2"
     ]
 }

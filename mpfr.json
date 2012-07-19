@@ -6,6 +6,7 @@
     "Flags"    : [
                "--with-gmp=/data/data/gnuoid"
     ],
+    "Date"  : "0001-01-01T00:00:00Z",
     "Build" : [
             "$SRCDIR/configure $Flags",
             "make"
@@ -13,28 +14,31 @@
     "Package" : [
               "make install DESTDIR=$PKGDIR"
     ],
-    "Depends" : null,
-    "Files"   : [
-              "data/data/gnuoid/include/mpf2mpfr.h",
-              "data/data/gnuoid/include/mpfr.h",
-              "data/data/gnuoid/lib/libmpfr.a",
-              "data/data/gnuoid/lib/libmpfr.la",
-              "data/data/gnuoid/lib/libmpfr.so",
-              "data/data/gnuoid/lib/libmpfr.so.4",
-              "data/data/gnuoid/lib/libmpfr.so.4.1.0",
-              "data/data/gnuoid/share/doc/mpfr/AUTHORS",
-              "data/data/gnuoid/share/doc/mpfr/BUGS",
-              "data/data/gnuoid/share/doc/mpfr/COPYING",
-              "data/data/gnuoid/share/doc/mpfr/COPYING.LESSER",
-              "data/data/gnuoid/share/doc/mpfr/FAQ.html",
-              "data/data/gnuoid/share/doc/mpfr/NEWS",
-              "data/data/gnuoid/share/doc/mpfr/TODO",
-              "data/data/gnuoid/share/doc/mpfr/examples/ReadMe",
-              "data/data/gnuoid/share/doc/mpfr/examples/divworst.c",
-              "data/data/gnuoid/share/doc/mpfr/examples/rndo-add.c",
-              "data/data/gnuoid/share/doc/mpfr/examples/sample.c",
-              "data/data/gnuoid/share/doc/mpfr/examples/version.c",
-              "data/data/gnuoid/share/info/dir",
-              "data/data/gnuoid/share/info/mpfr.info"
+    "Depends" : [
+              "gmp",
+              "glibc"
+    ],
+    "Files" : [
+            "usr/include/mpf2mpfr.h",
+            "usr/include/mpfr.h",
+            "usr/lib/libmpfr.a",
+            "usr/lib/libmpfr.la",
+            "usr/lib/libmpfr.so",
+            "usr/lib/libmpfr.so.4",
+            "usr/lib/libmpfr.so.4.1.0",
+            "usr/share/doc/mpfr/AUTHORS",
+            "usr/share/doc/mpfr/BUGS",
+            "usr/share/doc/mpfr/COPYING",
+            "usr/share/doc/mpfr/COPYING.LESSER",
+            "usr/share/doc/mpfr/FAQ.html",
+            "usr/share/doc/mpfr/NEWS",
+            "usr/share/doc/mpfr/TODO",
+            "usr/share/doc/mpfr/examples/ReadMe",
+            "usr/share/doc/mpfr/examples/divworst.c",
+            "usr/share/doc/mpfr/examples/rndo-add.c",
+            "usr/share/doc/mpfr/examples/sample.c",
+            "usr/share/doc/mpfr/examples/version.c",
+            "usr/share/info/dir",
+            "usr/share/info/mpfr.info"
     ]
 }

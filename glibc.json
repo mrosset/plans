@@ -10,6 +10,7 @@
                "--without-cvs",
                "--without-gd"
     ],
+    "Date"  : "0001-01-01T00:00:00Z",
     "Build" : [
             "$SRCDIR/configure $Flags"
     ],

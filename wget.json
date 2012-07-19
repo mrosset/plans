@@ -6,6 +6,7 @@
     "Flags"    : [
                "--without-ssl"
     ],
+    "Date"  : "0001-01-01T00:00:00Z",
     "Build" : [
             "make distclean",
             "$SRCDIR/configure $Flags",
@@ -14,12 +15,14 @@
     "Package" : [
               "make install DESTDIR=$PKGDIR"
     ],
-    "Depends" : null,
-    "Files"   : [
-              "data/data/gnuoid/bin/wget",
-              "data/data/gnuoid/etc/wgetrc",
-              "data/data/gnuoid/share/info/dir",
-              "data/data/gnuoid/share/info/wget.info",
-              "data/data/gnuoid/share/man/man1/wget.1"
+    "Depends" : [
+              "glibc"
+    ],
+    "Files" : [
+            "usr/bin/wget",
+            "usr/etc/wgetrc",
+            "usr/share/info/dir",
+            "usr/share/info/wget.info",
+            "usr/share/man/man1/wget.1"
     ]
 }
