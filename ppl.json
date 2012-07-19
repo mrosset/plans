@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/ppl-0.12.1.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
+    "Date"         : "2012-07-19T01:58:23.01378-07:00",
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -14,8 +14,8 @@
                    "make install DESTDIR=$PKGDIR"
     ],             
     "Depends"      : [
-                   "",
                    "gmp",
+                   "libstdc++",
                    "glibc",
                    "libgcc"
     ],             

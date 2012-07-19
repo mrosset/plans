@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/zlib-1.2.7.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-07-18T23:15:20.441008-07:00",
+    "Date"         : "2012-07-19T03:56:10.000652-07:00",
     "Flags"        : null,
     "Build"        : [
                    "./configure --prefix=/usr",

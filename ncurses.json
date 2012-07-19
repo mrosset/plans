@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/ncurses-5.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
+    "Date"         : "2012-07-19T01:51:23.885399-07:00",
     "Flags"        : [
                    "--enable-widec"
     ],             

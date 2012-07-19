@@ -4,10 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/mpfr-3.1.0.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Flags"        : [
-                   "--with-gmp=/data/data/gnuoid"
-    ],             
+    "Date"         : "2012-07-19T02:01:58.142603-07:00",
+    "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

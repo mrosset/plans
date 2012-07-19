@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-18T22:40:57.406672-07:00",
+    "Date"         : "2012-07-19T03:41:51.709243-07:00",
     "Flags"        : [
                    "--bindir=/bin"
     ],             

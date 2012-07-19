@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.6.3/gcc-4.7.1.tar.bz2",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-18T22:43:51.534375-07:00",
+    "Date"         : "2012-07-19T03:25:35.118299-07:00",
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",
@@ -25,6 +25,7 @@
                    "glibc",
                    "ppl",
                    "gmp",
+                   "mpc",
                    "mpfr"
     ],             
     "Files"        : [
