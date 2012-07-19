@@ -1,5 +1,11 @@
 {
-	"Name": "gcc",
-	"Version": "4.6.3",
-	"Url": "http://mirrors.kernel.org/gnu/gcc/gcc-4.6.3/gcc-4.6.3.tar.gz"
+    "Name"     : "gcc",
+    "Version"  : "4.6.3",
+    "Url"      : "http://mirrors.kernel.org/gnu/gcc/gcc-4.6.3/gcc-4.6.3.tar.gz",
+    "StageDir" : "",
+    "Flags"    : null,
+    "Build"    : null,
+    "Package"  : null,
+    "Depends"  : null,
+    "Files"    : null
 }

@@ -1,7 +1,7 @@
 {
-    "Name"     : "coreutils",
-    "Version"  : "8.13",
-    "Url"      : "http://mirrors.kernel.org/gnu/coreutils/coreutils-8.13.tar.gz",
+    "Name"     : "vte",
+    "Version"  : "0.28.2",
+    "Url"      : "http://ftp.gnome.org/pub/GNOME/sources/vte/0.28/vte-0.28.2.tar.bz2",
     "StageDir" : "",
     "Flags"    : null,
     "Build"    : null,

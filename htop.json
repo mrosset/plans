@@ -1,7 +1,7 @@
 {
-    "Name"     : "coreutils",
-    "Version"  : "8.13",
-    "Url"      : "http://mirrors.kernel.org/gnu/coreutils/coreutils-8.13.tar.gz",
+    "Name"     : "htop",
+    "Version"  : "1.0.1",
+    "Url"      : "http://downloads.sourceforge.net/htop/htop-1.0.1.tar.gz",
     "StageDir" : "",
     "Flags"    : null,
     "Build"    : null,

@@ -1,0 +1,40 @@
+{
+    "Name"     : "mpfr",
+    "Version"  : "3.1.0",
+    "Url"      : "http://mirrors.kernel.org/gnu/wget/mpfr-3.1.0.tar.gz",
+    "StageDir" : "",
+    "Flags"    : [
+               "--with-gmp=/data/data/gnuoid"
+    ],
+    "Build" : [
+            "$SRCDIR/configure $Flags",
+            "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "Depends" : null,
+    "Files"   : [
+              "data/data/gnuoid/include/mpf2mpfr.h",
+              "data/data/gnuoid/include/mpfr.h",
+              "data/data/gnuoid/lib/libmpfr.a",
+              "data/data/gnuoid/lib/libmpfr.la",
+              "data/data/gnuoid/lib/libmpfr.so",
+              "data/data/gnuoid/lib/libmpfr.so.4",
+              "data/data/gnuoid/lib/libmpfr.so.4.1.0",
+              "data/data/gnuoid/share/doc/mpfr/AUTHORS",
+              "data/data/gnuoid/share/doc/mpfr/BUGS",
+              "data/data/gnuoid/share/doc/mpfr/COPYING",
+              "data/data/gnuoid/share/doc/mpfr/COPYING.LESSER",
+              "data/data/gnuoid/share/doc/mpfr/FAQ.html",
+              "data/data/gnuoid/share/doc/mpfr/NEWS",
+              "data/data/gnuoid/share/doc/mpfr/TODO",
+              "data/data/gnuoid/share/doc/mpfr/examples/ReadMe",
+              "data/data/gnuoid/share/doc/mpfr/examples/divworst.c",
+              "data/data/gnuoid/share/doc/mpfr/examples/rndo-add.c",
+              "data/data/gnuoid/share/doc/mpfr/examples/sample.c",
+              "data/data/gnuoid/share/doc/mpfr/examples/version.c",
+              "data/data/gnuoid/share/info/dir",
+              "data/data/gnuoid/share/info/mpfr.info"
+    ]
+}

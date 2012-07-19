@@ -1,5 +1,25 @@
 {
-	"Name": "wget",
-	"Version": "1.13",
-	"Url": "http://mirrors.kernel.org/gnu/wget/wget-1.13.tar.gz"
+    "Name"     : "wget",
+    "Version"  : "1.13",
+    "Url"      : "http://mirrors.kernel.org/gnu/wget/wget-1.13.tar.gz",
+    "StageDir" : "",
+    "Flags"    : [
+               "--without-ssl"
+    ],
+    "Build" : [
+            "make distclean",
+            "$SRCDIR/configure $Flags",
+            "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "Depends" : null,
+    "Files"   : [
+              "data/data/gnuoid/bin/wget",
+              "data/data/gnuoid/etc/wgetrc",
+              "data/data/gnuoid/share/info/dir",
+              "data/data/gnuoid/share/info/wget.info",
+              "data/data/gnuoid/share/man/man1/wget.1"
+    ]
 }

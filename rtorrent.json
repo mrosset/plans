@@ -1,5 +1,11 @@
 {
-	"Name": "rtorrent",
-	"Version": "0.8.9",
-	"Url": "http://libtorrent.rakshasa.no/downloads/rtorrent-0.8.9.tar.gz"
+    "Name"     : "rtorrent",
+    "Version"  : "0.8.9",
+    "Url"      : "http://libtorrent.rakshasa.no/downloads/rtorrent-0.8.9.tar.gz",
+    "StageDir" : "",
+    "Flags"    : null,
+    "Build"    : null,
+    "Package"  : null,
+    "Depends"  : null,
+    "Files"    : null
 }

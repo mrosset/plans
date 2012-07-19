@@ -1,0 +1,22 @@
+{
+    "Name"     : "ncdu",
+    "Version"  : "1.8",
+    "Url"      : "http://mirrors.kernel.org/gnu/wget/ncdu-1.8.tar.gz",
+    "StageDir" : "",
+    "Flags"    : null,
+    "Build"    : [
+               "$SRCDIR/configure $Flags",
+               "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "Depends" : [
+              "ncurses",
+              "glibc"
+    ],
+    "Files" : [
+            "usr/bin/ncdu",
+            "usr/share/man/man1/ncdu.1"
+    ]
+}
