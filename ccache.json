@@ -1,24 +1,24 @@
 {
-    "Name"     : "ccache",
-    "Version"  : "3.1.7",
-    "Url"      : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
-    "StageDir" : "",
-    "Flags"    : null,
-    "Date"     : "0001-01-01T00:00:00Z",
-    "Build"    : [
-               "$SRCDIR/configure $Flags",
-               "make"
+    "Name"         : "ccache",
+    "Version"      : "3.1.7",
+    "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
+    "StageDir"     : "",
+    "Flags"        : null,
+    "BuildInStage" : false,
+    "Date"         : "2012-07-18T23:19:35.220045-07:00",
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
     ],
     "Package" : [
-              "make install DESTDIR=$PKGDIR",
-              "touch $PKGDIR/data/foo",
-              "ln -s foo $PKGDIR/data/bar"
+              "make install DESTDIR=$PKGDIR"
     ],
-    "Depends" : null,
-    "Files"   : [
-              "data/bar",
-              "data/data/gnuoid/bin/ccache",
-              "data/data/gnuoid/share/man/man1/ccache.1",
-              "data/foo"
+    "Depends" : [
+              "glibc",
+              "zlib"
+    ],
+    "Files" : [
+            "usr/bin/ccache",
+            "usr/share/man/man1/ccache.1"
     ]
 }

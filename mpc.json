@@ -1,13 +1,14 @@
 {
-    "Name"     : "mpc",
-    "Version"  : "0.9",
-    "Url"      : "http://mirrors.kernel.org/gnu/wget/mpc-0.9.tar.gz",
-    "StageDir" : "",
-    "Flags"    : null,
-    "Date"     : "0001-01-01T00:00:00Z",
-    "Build"    : [
-               "$SRCDIR/configure $Flags",
-               "make"
+    "Name"         : "mpc",
+    "Version"      : "0.9",
+    "Url"          : "http://mirrors.kernel.org/gnu/wget/mpc-0.9.tar.gz",
+    "StageDir"     : "",
+    "Flags"        : null,
+    "BuildInStage" : false,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

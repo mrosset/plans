@@ -1,13 +1,14 @@
 {
-    "Name"     : "file",
-    "Version"  : "5.11",
-    "Url"      : "http://samba.org/ftp/ccache/file-5.11.tar.gz",
-    "StageDir" : "",
-    "Flags"    : null,
-    "Date"     : "0001-01-01T00:00:00Z",
-    "Build"    : [
-               "$SRCDIR/configure $Flags",
-               "make"
+    "Name"         : "file",
+    "Version"      : "5.11",
+    "Url"          : "http://samba.org/ftp/ccache/file-5.11.tar.gz",
+    "StageDir"     : "",
+    "Flags"        : null,
+    "BuildInStage" : false,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

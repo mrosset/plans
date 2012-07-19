@@ -6,10 +6,11 @@
     "Flags"    : [
                "--enable-widec"
     ],
-    "Date"  : "0001-01-01T00:00:00Z",
-    "Build" : [
-            "$SRCDIR/configure $Flags",
-            "make"
+    "BuildInStage" : false,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"
