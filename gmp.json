@@ -5,6 +5,12 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T22:44:52.212869-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc",
+                   "libgcc",
+                   "libstdc++"
+    ],             
     "Flags"        : [
                    "--enable-cxx"
     ],             
@@ -15,11 +21,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc",
-                   "libstdc++",
-                   "libgcc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/include/gmp.h",
                    "usr/include/gmpxx.h",

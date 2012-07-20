@@ -5,6 +5,10 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T13:01:13.288962-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -13,9 +17,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/include/readline/chardefs.h",
                    "usr/include/readline/history.h",

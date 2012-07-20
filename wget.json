@@ -5,6 +5,10 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : [
                    "--without-ssl"
     ],             
@@ -15,9 +19,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/bin/wget",
                    "usr/etc/wgetrc",

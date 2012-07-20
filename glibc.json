@@ -5,6 +5,8 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T20:38:33.525524-07:00",
+    "Size"         : 0,
+    "Depends"      : null,
     "Flags"        : [
                    "--disable-profile",
                    "--enable-add-ons",
@@ -20,7 +22,7 @@
                    "make",
                    "make install install_root=$PKGDIR"
     ],             
-    "Depends"      : null,
+    "Remove"       : null,
     "Files"        : [
                    "etc/ld.so.cache",
                    "etc/rpc",

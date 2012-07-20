@@ -5,6 +5,10 @@
     "StageDir"     : "gcc-4.7.1",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T20:42:10.704705-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",
@@ -20,9 +24,7 @@
     "Package"      : [
                    "make install-target-libgcc DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbegin.o",
                    "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbeginS.o",

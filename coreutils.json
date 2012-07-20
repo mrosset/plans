@@ -5,6 +5,11 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-20T08:38:32.718705-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc",
+                   "gmp"
+    ],             
     "Flags"        : [
                    "--disable-acl",
                    "--disable-libcap",
@@ -17,10 +22,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc",
-                   "gmp"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/bin/[",
                    "usr/bin/base64",

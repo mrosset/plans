@@ -5,6 +5,13 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T22:53:20.160388-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc",
+                   "gmp",
+                   "mpfr",
+                   "ppl"
+    ],             
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",
@@ -21,12 +28,7 @@
                    "make all-gcc",
                    "make install-gcc DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc",
-                   "ppl",
-                   "gmp",
-                   "mpfr"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/bin/cpp",
                    "usr/bin/gcc",

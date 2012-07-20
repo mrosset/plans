@@ -4,7 +4,12 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T22:56:50.464883-07:00",
+    "Date"         : "2012-07-20T11:29:03.900513-07:00",
+    "Size"         : 1087162,
+    "Depends"      : [
+                   "ncurses",
+                   "glibc"
+    ],             
     "Flags"        : [
                    "--bindir=/bin"
     ],             
@@ -15,14 +20,9 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "ncurses",
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "bin/bash",
-                   "bin/bashbug",
-                   "usr/share/man/man1/bash.1",
-                   "usr/share/man/man1/bashbug.1"
+                   "bin/bashbug"
     ]
 }

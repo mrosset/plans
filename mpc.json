@@ -5,6 +5,12 @@
     "StageDir"     : "",
     "BuildInStage" : true,
     "Date"         : "2012-07-20T07:22:53.805617-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc",
+                   "gmp",
+                   "mpfr"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -13,11 +19,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "mpfr",
-                   "gmp",
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/include/mpc.h",
                    "usr/lib/libmpc.a",

@@ -5,9 +5,11 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : null,
     "Package"      : null,
-    "Depends"      : null,
+    "Remove"       : null,
     "Files"        : null
 }

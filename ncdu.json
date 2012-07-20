@@ -5,6 +5,11 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T01:42:28.089117-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc",
+                   "ncurses"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -13,10 +18,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "ncurses",
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/bin/ncdu",
                    "usr/share/man/man1/ncdu.1"

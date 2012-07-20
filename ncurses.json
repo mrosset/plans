@@ -5,6 +5,10 @@
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T20:43:23.337362-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : [
                    "--enable-widec"
     ],             
@@ -15,9 +19,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/bin/captoinfo",
                    "usr/bin/clear",

@@ -5,6 +5,10 @@
     "StageDir"     : "",
     "BuildInStage" : true,
     "Date"         : "2012-07-19T03:56:10.000652-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "./configure --prefix=/usr",
@@ -13,9 +17,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/include/zconf.h",
                    "usr/include/zlib.h",

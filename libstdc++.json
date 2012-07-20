@@ -5,6 +5,11 @@
     "StageDir"     : "gcc-4.7.1",
     "BuildInStage" : false,
     "Date"         : "2012-07-19T22:43:55.941158-07:00",
+    "Size"         : 0,
+    "Depends"      : [
+                   "glibc",
+                   "libgcc"
+    ],             
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",
@@ -23,10 +28,7 @@
                    "make install-target-libstdc++-v3 DESTDIR=$PKGDIR",
                    "mv $PKGDIR/usr/lib64/* $PKGDIR/usr/lib"
     ],             
-    "Depends"      : [
-                   "glibc",
-                   "libgcc"
-    ],             
+    "Remove"       : null,
     "Files"        : [
                    "usr/include/c++/4.7.1/algorithm",
                    "usr/include/c++/4.7.1/array",
