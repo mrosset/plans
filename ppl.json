@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/ppl-0.12.1.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T01:58:23.01378-07:00",
+    "Date"         : "2012-07-19T22:48:50.657162-07:00",
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

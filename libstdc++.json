@@ -4,21 +4,24 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.6.3/gcc-4.7.1.tar.bz2",
     "StageDir"     : "gcc-4.7.1",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T02:29:51.684051-07:00",
+    "Date"         : "2012-07-19T22:43:55.941158-07:00",
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",
                    "--disable-libmudflap",
                    "--disable-libquadmath",
                    "--disable-libssp",
-                   "--enable-languages=c,c++"
+                   "--disable-libstdcxx-pch",
+                   "--enable-languages=c,c++",
+                   "--libdir=/usr/lib"
     ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make all-target-libstdc++-v3"
     ],             
     "Package"      : [
-                   "make install-target-libstdc++-v3 DESTDIR=$PKGDIR"
+                   "make install-target-libstdc++-v3 DESTDIR=$PKGDIR",
+                   "mv $PKGDIR/usr/lib64/* $PKGDIR/usr/lib"
     ],             
     "Depends"      : [
                    "glibc",
@@ -645,14 +648,14 @@
                    "usr/include/c++/4.7.1/x86_64-unknown-linux-gnu/bits/stdc++.h",
                    "usr/include/c++/4.7.1/x86_64-unknown-linux-gnu/bits/stdtr1c++.h",
                    "usr/include/c++/4.7.1/x86_64-unknown-linux-gnu/bits/time_members.h",
-                   "usr/lib64/libstdc++.a",
-                   "usr/lib64/libstdc++.la",
-                   "usr/lib64/libstdc++.so",
-                   "usr/lib64/libstdc++.so.6",
-                   "usr/lib64/libstdc++.so.6.0.17",
-                   "usr/lib64/libstdc++.so.6.0.17-gdb.py",
-                   "usr/lib64/libsupc++.a",
-                   "usr/lib64/libsupc++.la",
+                   "usr/lib/libstdc++.a",
+                   "usr/lib/libstdc++.la",
+                   "usr/lib/libstdc++.so",
+                   "usr/lib/libstdc++.so.6",
+                   "usr/lib/libstdc++.so.6.0.17",
+                   "usr/lib/libstdc++.so.6.0.17-gdb.py",
+                   "usr/lib/libsupc++.a",
+                   "usr/lib/libsupc++.la",
                    "usr/share/gcc-4.7.1/python/libstdcxx/__init__.py",
                    "usr/share/gcc-4.7.1/python/libstdcxx/v6/__init__.py",
                    "usr/share/gcc-4.7.1/python/libstdcxx/v6/printers.py"

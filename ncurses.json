@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/ncurses-5.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T01:51:23.885399-07:00",
+    "Date"         : "2012-07-19T20:43:23.337362-07:00",
     "Flags"        : [
                    "--enable-widec"
     ],             
@@ -72,14 +72,12 @@
                    "usr/lib/libpanelw.so.5.9",
                    "usr/lib/libpanelw_g.a",
                    "usr/lib/terminfo",
-                   "usr/man/man1/adacurses-config.1.gz",
                    "usr/man/man1/adacurses.1.gz",
                    "usr/man/man1/adacursesw-config.1.gz",
                    "usr/man/man1/captoinfo.1m.gz",
                    "usr/man/man1/clear.1.gz",
                    "usr/man/man1/infocmp.1m.gz",
                    "usr/man/man1/infotocap.1m.gz",
-                   "usr/man/man1/ncurses5-config.1.gz",
                    "usr/man/man1/ncursesw5-config.1.gz",
                    "usr/man/man1/reset.1.gz",
                    "usr/man/man1/tabs.1.gz",

@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T03:41:51.709243-07:00",
+    "Date"         : "2012-07-19T22:56:50.464883-07:00",
     "Flags"        : [
                    "--bindir=/bin"
     ],             
@@ -22,8 +22,6 @@
     "Files"        : [
                    "bin/bash",
                    "bin/bashbug",
-                   "usr/share/info/bash.info",
-                   "usr/share/info/dir",
                    "usr/share/man/man1/bash.1",
                    "usr/share/man/man1/bashbug.1"
     ]

@@ -9,7 +9,6 @@
                    "--without-ssl"
     ],             
     "Build"        : [
-                   "make distclean",
                    "$SRCDIR/configure $Flags",
                    "make"
     ],             

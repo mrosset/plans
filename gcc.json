@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.6.3/gcc-4.7.1.tar.bz2",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T03:25:35.118299-07:00",
+    "Date"         : "2012-07-19T22:53:20.160388-07:00",
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",
@@ -25,7 +25,6 @@
                    "glibc",
                    "ppl",
                    "gmp",
-                   "mpc",
                    "mpfr"
     ],             
     "Files"        : [
@@ -262,12 +261,6 @@
                    "usr/libexec/gcc/x86_64-unknown-linux-gnu/4.7.1/lto-wrapper",
                    "usr/libexec/gcc/x86_64-unknown-linux-gnu/4.7.1/lto1",
                    "usr/libexec/gcc/x86_64-unknown-linux-gnu/4.7.1/plugin/gengtype",
-                   "usr/share/info/cpp.info",
-                   "usr/share/info/cppinternals.info",
-                   "usr/share/info/dir",
-                   "usr/share/info/gcc.info",
-                   "usr/share/info/gccinstall.info",
-                   "usr/share/info/gccint.info",
                    "usr/share/man/man1/cpp.1",
                    "usr/share/man/man1/gcc.1",
                    "usr/share/man/man1/gcov.1",

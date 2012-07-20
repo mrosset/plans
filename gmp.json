@@ -4,7 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/gmp-5.0.5.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T01:55:07.273995-07:00",
+    "Date"         : "2012-07-19T22:44:52.212869-07:00",
     "Flags"        : [
                    "--enable-cxx"
     ],             
@@ -32,10 +32,6 @@
                    "usr/lib/libgmpxx.la",
                    "usr/lib/libgmpxx.so",
                    "usr/lib/libgmpxx.so.4",
-                   "usr/lib/libgmpxx.so.4.2.5",
-                   "usr/share/info/dir",
-                   "usr/share/info/gmp.info",
-                   "usr/share/info/gmp.info-1",
-                   "usr/share/info/gmp.info-2"
+                   "usr/lib/libgmpxx.so.4.2.5"
     ]
 }

@@ -4,10 +4,9 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/mpc-0.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-07-19T02:14:42.510055-07:00",
+    "Date"         : "2012-07-20T07:22:53.805617-07:00",
     "Flags"        : null,
     "Build"        : [
-                   "autoreconf || true",
                    "$SRCDIR/configure $Flags",
                    "make"
     ],             
@@ -25,8 +24,6 @@
                    "usr/lib/libmpc.la",
                    "usr/lib/libmpc.so",
                    "usr/lib/libmpc.so.2",
-                   "usr/lib/libmpc.so.2.0.0",
-                   "usr/share/info/dir",
-                   "usr/share/info/mpc.info"
+                   "usr/lib/libmpc.so.2.0.0"
     ]
 }
