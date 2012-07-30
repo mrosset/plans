@@ -4,12 +4,9 @@
     "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-20T07:51:52.216875-07:00",
-    "Size"         : 0,
-    "Depends"      : [
-                   "glibc",
-                   "zlib"
-    ],             
+    "Date"         : "2012-07-29T11:02:40.048342-07:00",
+    "Size"         : 160118,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -20,7 +17,6 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "usr/bin/ccache",
-                   "usr/share/man/man1/ccache.1"
+                   "data/data/gnuoid/bin/ccache"
     ]
 }

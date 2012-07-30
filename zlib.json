@@ -1,17 +1,17 @@
 {
     "Name"         : "zlib",
     "Version"      : "1.2.7",
-    "Url"          : "http://mirrors.kernel.org/gnu/wget/zlib-1.2.7.tar.gz",
+    "Url"          : "http://zlib.net/current/zlib-1.2.7.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-07-19T03:56:10.000652-07:00",
-    "Size"         : 0,
+    "Date"         : "2012-07-22T20:29:12.87165-07:00",
+    "Size"         : 187616,
     "Depends"      : [
                    "glibc"
     ],             
     "Flags"        : null,
     "Build"        : [
-                   "./configure --prefix=/usr",
+                   "./configure --prefix=/usr/local/via",
                    "make"
     ],             
     "Package"      : [
@@ -19,13 +19,11 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "usr/include/zconf.h",
-                   "usr/include/zlib.h",
-                   "usr/lib/libz.a",
-                   "usr/lib/libz.so",
-                   "usr/lib/libz.so.1",
-                   "usr/lib/libz.so.1.2.7",
-                   "usr/lib/pkgconfig/zlib.pc",
-                   "usr/share/man/man3/zlib.3"
+                   "usr/local/via/include/zconf.h",
+                   "usr/local/via/include/zlib.h",
+                   "usr/local/via/lib/libz.so",
+                   "usr/local/via/lib/libz.so.1",
+                   "usr/local/via/lib/libz.so.1.2.7",
+                   "usr/local/via/lib/pkgconfig/zlib.pc"
     ]
 }

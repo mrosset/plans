@@ -1,16 +1,16 @@
 {
     "Name"         : "ppl",
     "Version"      : "0.12.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/wget/ppl-0.12.1.tar.gz",
+    "Url"          : "http://bugseng.com/products/ppl/download/ftp/releases/0.12.1/ppl-0.12.1.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-20T11:28:26.444244-07:00",
-    "Size"         : 22145630,
+    "Date"         : "2012-07-22T12:02:38.921231-07:00",
+    "Size"         : 6550818,
     "Depends"      : [
-                   "gmp",
-                   "libstdc++",
                    "glibc",
-                   "libgcc"
+                   "gmp",
+                   "libgcc",
+                   "libstdc++"
     ],             
     "Flags"        : null,
     "Build"        : [

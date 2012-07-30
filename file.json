@@ -1,12 +1,14 @@
 {
     "Name"         : "file",
     "Version"      : "5.11",
-    "Url"          : "http://samba.org/ftp/ccache/file-5.11.tar.gz",
+    "Url"          : "http://ftp.astron.com/pub/file/file-5.11.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Size"         : 0,
-    "Depends"      : null,
+    "Date"         : "2012-07-29T14:42:19.912684-07:00",
+    "Size"         : 2550752,
+    "Depends"      : [
+                   "gcc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -17,7 +19,13 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "data/data/gnuoid/this/is/very/long/bin/ccache",
-                   "data/data/gnuoid/this/is/very/long/share/man/man1/ccache.1"
+                   "data/data/gnuoid/bin/file",
+                   "data/data/gnuoid/include/magic.h",
+                   "data/data/gnuoid/lib/libmagic.a",
+                   "data/data/gnuoid/lib/libmagic.la",
+                   "data/data/gnuoid/lib/libmagic.so",
+                   "data/data/gnuoid/lib/libmagic.so.1",
+                   "data/data/gnuoid/lib/libmagic.so.1.0.0",
+                   "data/data/gnuoid/share/misc/magic.mgc"
     ]
 }

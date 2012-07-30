@@ -3,13 +3,20 @@
     "Version"      : "1.0.1",
     "Url"          : "http://downloads.sourceforge.net/htop/htop-1.0.1.tar.gz",
     "StageDir"     : "",
-    "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
+    "BuildInStage" : true,
+    "Date"         : "2012-07-29T11:14:43.874699-07:00",
     "Size"         : 0,
     "Depends"      : null,
-    "Flags"        : null,
-    "Build"        : null,
-    "Package"      : null,
+    "Flags"        : [
+                   "--disable-unicode"
+    ],             
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : []
 }

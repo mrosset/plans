@@ -1,16 +1,12 @@
 {
     "Name"         : "mpc",
     "Version"      : "0.9",
-    "Url"          : "http://mirrors.kernel.org/gnu/wget/mpc-0.9.tar.gz",
+    "Url"          : "http://www.multiprecision.org/mpc/download/mpc-0.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-07-20T07:22:53.805617-07:00",
-    "Size"         : 0,
-    "Depends"      : [
-                   "glibc",
-                   "gmp",
-                   "mpfr"
-    ],             
+    "Date"         : "2012-07-29T08:12:48.999132-07:00",
+    "Size"         : 153670,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -21,11 +17,8 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "usr/include/mpc.h",
-                   "usr/lib/libmpc.a",
-                   "usr/lib/libmpc.la",
-                   "usr/lib/libmpc.so",
-                   "usr/lib/libmpc.so.2",
-                   "usr/lib/libmpc.so.2.0.0"
+                   "data/data/gnuoid/include/mpc.h",
+                   "data/data/gnuoid/lib/libmpc.a",
+                   "data/data/gnuoid/lib/libmpc.la"
     ]
 }

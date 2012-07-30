@@ -4,14 +4,22 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-20T11:29:03.900513-07:00",
-    "Size"         : 1087162,
-    "Depends"      : [
-                   "ncurses",
-                   "glibc"
-    ],             
+    "Date"         : "2012-07-29T07:54:50.204531-07:00",
+    "Size"         : 970198,
+    "Depends"      : null,
     "Flags"        : [
-                   "--bindir=/bin"
+                   "ac_cv_func_mmap_fixed_mapped=yes",
+                   "ac_cv_func_strcoll_works=yes",
+                   "ac_cv_func_working_mktime=yes",
+                   "bash_cv_func_sigsetjmp=present",
+                   "bash_cv_getcwd_malloc=yes",
+                   "bash_cv_job_control_missing=present",
+                   "bash_cv_printf_a_format=yes",
+                   "bash_cv_sys_named_pipes=present",
+                   "bash_cv_ulimit_maxfds=yes",
+                   "bash_cv_under_sys_siglist=yes",
+                   "bash_cv_unusable_rtsigs=no",
+                   "gt_cv_int_divbyzero_sigfpe=yes"
     ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -22,7 +30,7 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "bin/bash",
-                   "bin/bashbug"
+                   "data/data/gnuoid/bin/bash",
+                   "data/data/gnuoid/bin/bashbug"
     ]
 }

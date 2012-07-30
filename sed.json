@@ -1,0 +1,26 @@
+{
+    "Name"         : "sed",
+    "Version"      : "4.2.1",
+    "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-4.2.1.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-07-22T20:35:54.12767-07:00",
+    "Size"         : 145475,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : [
+                   "--without-ssl"
+    ],             
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/sed"
+    ]
+}

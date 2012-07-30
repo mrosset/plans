@@ -1,21 +1,23 @@
 {
     "Name"         : "libgcc",
     "Version"      : "4.7.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.6.3/gcc-4.7.1.tar.bz2",
+    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.7.1/gcc-4.7.1.tar.bz2",
     "StageDir"     : "gcc-4.7.1",
     "BuildInStage" : false,
-    "Date"         : "2012-07-19T20:42:10.704705-07:00",
-    "Size"         : 0,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Date"         : "2012-07-29T09:04:05.945476-07:00",
+    "Size"         : 6939214,
+    "Depends"      : null,
     "Flags"        : [
                    "--disable-bootstrap",
+                   "--disable-exceptions",
                    "--disable-libgomp",
                    "--disable-libmudflap",
                    "--disable-libquadmath",
                    "--disable-libssp",
-                   "--enable-languages=c"
+                   "--disable-sjlj-exceptions",
+                   "--enable-languages=c",
+                   "--enable-threads=posix",
+                   "--target=arm-linux-gnueabi"
     ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -26,20 +28,16 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbegin.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbeginS.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbeginT.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtend.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtendS.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtfastmath.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtprec32.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtprec64.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtprec80.o",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/include/unwind.h",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/libgcc.a",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/libgcc_eh.a",
-                   "usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/libgcov.a",
-                   "usr/lib64/libgcc_s.so",
-                   "usr/lib64/libgcc_s.so.1"
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtbegin.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtbeginS.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtbeginT.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtend.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtendS.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/include/unwind.h",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/libgcc.a",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/libgcc_eh.a",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/libgcov.a",
+                   "data/data/gnuoid/lib/libgcc_s.so",
+                   "data/data/gnuoid/lib/libgcc_s.so.1"
     ]
 }
