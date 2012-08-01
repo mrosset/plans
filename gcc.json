@@ -4,11 +4,11 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.7.1/gcc-4.7.1.tar.bz2",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-29T09:31:43.168136-07:00",
-    "Size"         : 37311396,
+    "Date"         : "2012-08-01T15:22:53.057992-07:00",
+    "Size"         : 37216875,
     "Depends"      : [
-                   "gmp",
-                   "mpfr"
+                   "mpfr",
+                   "gmp"
     ],             
     "Flags"        : [
                    "--disable-bootstrap",
@@ -18,11 +18,13 @@
                    "--disable-libssp",
                    "--disable-sjlj-exceptions",
                    "--enable-languages=c",
-                   "--enable-threads=posix"
+                   "--enable-threads=posix",
+                   "--target=arm-linux-gnueabi",
+                   "--with-gmp=$PREFIX"
     ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
-                   "make"
+                   "make all"
     ],             
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
@@ -40,15 +42,11 @@
                    "data/data/gnuoid/bin/gcc-nm",
                    "data/data/gnuoid/bin/gcc-ranlib",
                    "data/data/gnuoid/bin/gcov",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtbegin.o",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtbeginS.o",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtbeginT.o",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtend.o",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/crtendS.o",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/include/unwind.h",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/libgcc.a",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/libgcc_eh.a",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.0/libgcov.a",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/crtbegin.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/crtbeginS.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/crtbeginT.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/crtend.o",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/crtendS.o",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include/arm_neon.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include/float.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include/iso646.h",
@@ -76,17 +74,17 @@
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/net-snmp/net-snmp-config.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/nss/secport.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/openssl/bn.h",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/platform.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/syslimits.h",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/xorg/compiler.h",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/xorg/edid.h",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/xorg/servermd.h",
-                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/include-fixed/xorg/xf86str.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/install-tools/fixinc_list",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/install-tools/gsyslimits.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/install-tools/include/README",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/install-tools/include/limits.h",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/install-tools/macro_list",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/install-tools/mkheaders.conf",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/libgcc.a",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/libgcc_eh.a",
+                   "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/libgcov.a",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/plugin/gtype.state",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/plugin/include/ada/gcc-interface/ada-tree.def",
                    "data/data/gnuoid/lib/gcc/arm-linux-gnueabi/4.7.1/plugin/include/alias.h",

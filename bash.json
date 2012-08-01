@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-29T07:54:50.204531-07:00",
-    "Size"         : 970198,
+    "Date"         : "2012-08-01T15:11:30.4779-07:00",
+    "Size"         : 970248,
     "Depends"      : null,
     "Flags"        : [
                    "ac_cv_func_mmap_fixed_mapped=yes",
@@ -26,11 +26,13 @@
                    "make"
     ],             
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
+                   "make install DESTDIR=$PKGDIR",
+                   "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
     ],             
     "Remove"       : null,
     "Files"        : [
                    "data/data/gnuoid/bin/bash",
-                   "data/data/gnuoid/bin/bashbug"
+                   "data/data/gnuoid/bin/bashbug",
+                   "data/data/gnuoid/bin/sh"
     ]
 }

@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-5.0.5.tar.bz2",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-29T08:09:19.28402-07:00",
-    "Size"         : 1345024,
+    "Date"         : "2012-08-01T15:17:01.763811-07:00",
+    "Size"         : 1344932,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [

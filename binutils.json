@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/binutils/binutils-2.22.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-29T08:27:11.314146-07:00",
-    "Size"         : 20556527,
+    "Date"         : "2012-08-01T15:13:50.002522-07:00",
+    "Size"         : 20552879,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [

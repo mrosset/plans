@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/make/make-3.82.tar.bz2",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-29T07:52:45.166689-07:00",
-    "Size"         : 172940,
+    "Date"         : "2012-08-01T11:21:36.210786-07:00",
+    "Size"         : 177461,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [

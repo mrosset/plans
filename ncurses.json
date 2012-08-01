@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/ncurses-5.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-07-29T15:04:37.330707-07:00",
-    "Size"         : 8231658,
+    "Date"         : "2012-08-01T15:27:36.127057-07:00",
+    "Size"         : 8231275,
     "Depends"      : null,
     "Flags"        : [
                    "--without-cxx-binding"
@@ -16,7 +16,8 @@
     ],             
     "Package"      : [
                    "make install DESTDIR=$PKGDIR",
-                   "ln -s ncurses/curses.h $PKGDIR/$PREFIX/include/curses.h"
+                   "ln -s ncurses/curses.h $PKGDIR/$PREFIX/include/curses.h",
+                   "ln -s ncurses/ncurses.h $PKGDIR/$PREFIX/include/ncurses.h"
     ],             
     "Remove"       : null,
     "Files"        : [
@@ -45,6 +46,7 @@
                    "data/data/gnuoid/include/ncurses/termcap.h",
                    "data/data/gnuoid/include/ncurses/tic.h",
                    "data/data/gnuoid/include/ncurses/unctrl.h",
+                   "data/data/gnuoid/include/ncurses.h",
                    "data/data/gnuoid/lib/libform.a",
                    "data/data/gnuoid/lib/libform.so",
                    "data/data/gnuoid/lib/libform.so.5",

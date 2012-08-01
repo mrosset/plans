@@ -4,14 +4,12 @@
     "Url"          : "http://zlib.net/current/zlib-1.2.7.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-07-22T20:29:12.87165-07:00",
-    "Size"         : 187616,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Date"         : "2012-07-31T07:58:23.783096-07:00",
+    "Size"         : 291386,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
-                   "./configure --prefix=/usr/local/via",
+                   "./configure --prefix=$PREFIX",
                    "make"
     ],             
     "Package"      : [
@@ -19,11 +17,12 @@
     ],             
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/include/zconf.h",
-                   "usr/local/via/include/zlib.h",
-                   "usr/local/via/lib/libz.so",
-                   "usr/local/via/lib/libz.so.1",
-                   "usr/local/via/lib/libz.so.1.2.7",
-                   "usr/local/via/lib/pkgconfig/zlib.pc"
+                   "data/data/gnuoid/include/zconf.h",
+                   "data/data/gnuoid/include/zlib.h",
+                   "data/data/gnuoid/lib/libz.a",
+                   "data/data/gnuoid/lib/libz.so",
+                   "data/data/gnuoid/lib/libz.so.1",
+                   "data/data/gnuoid/lib/libz.so.1.2.7",
+                   "data/data/gnuoid/lib/pkgconfig/zlib.pc"
     ]
 }
