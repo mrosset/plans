@@ -4,8 +4,11 @@
     "Url"          : "http://mirrors.kernel.org/gnu/glibc/glibc-2.16.0.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-01T13:32:11.581695-07:00",
-    "Size"         : 31144912,
+    "Date"         : "2012-08-03T19:10:20.515521Z",
+    "Size"         : 31296669,
+    "Depends"      : [
+                   "gcc"
+    ],             
     "Flags"        : [
                    "--disable-profile",
                    "--enable-add-ons",

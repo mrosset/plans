@@ -4,12 +4,9 @@
     "Url"          : "http://ftp.astron.com/pub/file/file-5.11.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-01T04:17:26.592893-07:00",
-    "Size"         : 2536222,
-    "Depends"      : [
-                   "libgcc",
-                   "zlib"
-    ],             
+    "Date"         : "2012-08-03T07:20:15.978055-07:00",
+    "Size"         : 2543041,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -24,9 +21,6 @@
                    "data/data/gnuoid/include/magic.h",
                    "data/data/gnuoid/lib/libmagic.a",
                    "data/data/gnuoid/lib/libmagic.la",
-                   "data/data/gnuoid/lib/libmagic.so",
-                   "data/data/gnuoid/lib/libmagic.so.1",
-                   "data/data/gnuoid/lib/libmagic.so.1.0.0",
                    "data/data/gnuoid/share/misc/magic.mgc"
     ]
 }

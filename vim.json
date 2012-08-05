@@ -4,11 +4,11 @@
     "Url"          : "http://ftp.vim.org/pub/vim/unix/vim-7.3.tar.bz2",
     "StageDir"     : "vim73",
     "BuildInStage" : true,
-    "Date"         : "2012-08-01T16:51:51.61832-07:00",
-    "Size"         : 18732796,
+    "Date"         : "2012-08-03T07:26:20.884819-07:00",
+    "Size"         : 19227180,
     "Depends"      : [
-                   "ncurses",
-                   "gcc"
+                   "gcc",
+                   "ncurses"
     ],             
     "Flags"        : [
                    "--with-tlib=ncurses",

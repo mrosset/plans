@@ -4,8 +4,8 @@
     "Url"          : "http://dev.yorhel.nl/download/ncdu-1.8.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-01T03:02:34.936068-07:00",
-    "Size"         : 63944,
+    "Date"         : "2012-08-02T00:21:59.929086-07:00",
+    "Size"         : 63936,
     "Depends"      : [
                    "ncurses"
     ],             

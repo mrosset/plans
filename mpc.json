@@ -4,10 +4,12 @@
     "Url"          : "http://www.multiprecision.org/mpc/download/mpc-0.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-01T15:18:14.963911-07:00",
-    "Size"         : 153670,
+    "Date"         : "2012-08-03T19:54:47.661204Z",
+    "Size"         : 153506,
     "Depends"      : null,
-    "Flags"        : null,
+    "Flags"        : [
+                   "--with-gmp=$PREFIX"
+    ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
