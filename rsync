@@ -4,8 +4,8 @@
     "Url"          : "http://rsync.samba.org/ftp/rsync/rsync-3.0.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-03T01:36:26.971565-07:00",
-    "Size"         : 432750,
+    "Date"         : "2012-08-05T06:12:43.115423Z",
+    "Size"         : 454590,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
@@ -19,6 +19,6 @@
     "Remove"       : null,
     "Dirs"         : null,
     "Files"        : [
-                   "data/data/gnuoid/bin/rsync"
+                   "usr/bin/rsync"
     ]
 }

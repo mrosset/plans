@@ -4,7 +4,7 @@
     "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T03:31:35.165326Z",
+    "Date"         : "2012-08-05T07:46:59.195135Z",
     "Size"         : 95254,
     "Depends"      : [
                    "zlib"
