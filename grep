@@ -1,0 +1,25 @@
+{
+    "Name"         : "grep",
+    "Version"      : "2.9",
+    "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.9.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-05T03:17:47.66389Z",
+    "Size"         : 395004,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : null,
+    "Dirs"         : null,
+    "Files"        : [
+                   "usr/bin/egrep",
+                   "usr/bin/fgrep",
+                   "usr/bin/grep"
+    ]
+}

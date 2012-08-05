@@ -1,0 +1,23 @@
+{
+    "Name"         : "which",
+    "Version"      : "2.20",
+    "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-05T03:29:46.937994Z",
+    "Size"         : 27652,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : null,
+    "Dirs"         : null,
+    "Files"        : [
+                   "usr/bin/which"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Name"         : "gmp",
+    "Version"      : "5.0.5",
+    "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-5.0.5.tar.bz2",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-05T02:55:09.71371Z",
+    "Size"         : 2247919,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : null,
+    "Dirs"         : null,
+    "Files"        : [
+                   "usr/include/gmp.h",
+                   "usr/lib/libgmp.a",
+                   "usr/lib/libgmp.la",
+                   "usr/lib/libgmp.so",
+                   "usr/lib/libgmp.so.10",
+                   "usr/lib/libgmp.so.10.0.5",
+                   "usr/share/info/gmp.info",
+                   "usr/share/info/gmp.info-1",
+                   "usr/share/info/gmp.info-2"
+    ]
+}

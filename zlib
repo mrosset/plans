@@ -1,0 +1,30 @@
+{
+    "Name"         : "zlib",
+    "Version"      : "1.2.7",
+    "Url"          : "http://zlib.net/current/zlib-1.2.7.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : true,
+    "Date"         : "2012-08-05T02:34:57.521376Z",
+    "Size"         : 318321,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "./configure --prefix=$PREFIX",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : null,
+    "Dirs"         : null,
+    "Files"        : [
+                   "usr/include/zconf.h",
+                   "usr/include/zlib.h",
+                   "usr/lib/libz.a",
+                   "usr/lib/libz.so",
+                   "usr/lib/libz.so.1",
+                   "usr/lib/libz.so.1.2.7",
+                   "usr/lib/pkgconfig/zlib.pc",
+                   "usr/share/man/man3/zlib.3"
+    ]
+}

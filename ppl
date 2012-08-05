@@ -1,0 +1,40 @@
+{
+    "Name"         : "ppl",
+    "Version"      : "0.12.1",
+    "Url"          : "http://bugseng.com/products/ppl/download/ftp/releases/0.12.1/ppl-0.12.1.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-07-22T12:02:38.921231-07:00",
+    "Size"         : 6550818,
+    "Depends"      : [
+                   "glibc",
+                   "gmp",
+                   "libgcc",
+                   "libstdc++"
+    ],             
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : [
+                   "usr/lib/libppl_c.*"
+    ],             
+    "Dirs"         : null,
+    "Files"        : [
+                   "usr/bin/ppl-config",
+                   "usr/bin/ppl_lcdd",
+                   "usr/bin/ppl_pips",
+                   "usr/include/ppl.hh",
+                   "usr/include/ppl_c.h",
+                   "usr/lib/libppl.la",
+                   "usr/lib/libppl.so",
+                   "usr/lib/libppl.so.11",
+                   "usr/lib/libppl.so.11.0.0",
+                   "usr/share/aclocal/ppl.m4",
+                   "usr/share/aclocal/ppl_c.m4"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "Name"         : "less",
+    "Version"      : "444",
+    "Url"          : "http://www.greenwoodsoftware.com/less/less-444.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-03T04:10:43.664647-07:00",
+    "Size"         : 181621,
+    "Depends"      : [
+                   "gcc",
+                   "ncurses"
+    ],             
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "Remove"       : null,
+    "Dirs"         : null,
+    "Files"        : [
+                   "data/data/gnuoid/bin/less",
+                   "data/data/gnuoid/bin/lessecho",
+                   "data/data/gnuoid/bin/lesskey"
+    ]
+}
