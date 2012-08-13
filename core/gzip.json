@@ -2,6 +2,7 @@
     "Name"         : "gzip",
     "Version"      : "1.5",
     "Url"          : "ftp://ftp.gnu.org/pub/gnu/gzip/gzip-1.5.tar.xz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-08T20:24:39.40728Z",

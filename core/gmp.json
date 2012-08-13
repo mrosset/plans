@@ -2,6 +2,7 @@
     "Name"         : "gmp",
     "Version"      : "5.0.5",
     "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-5.0.5.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T15:24:50.78076Z",

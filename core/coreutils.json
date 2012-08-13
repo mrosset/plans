@@ -2,6 +2,7 @@
     "Name"         : "coreutils",
     "Version"      : "8.17",
     "Url"          : "http://mirrors.kernel.org/gnu/coreutils/coreutils-8.17.tar.xz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T19:48:45.956718Z",

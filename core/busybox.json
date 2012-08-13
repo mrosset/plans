@@ -2,6 +2,7 @@
     "Name"         : "busybox",
     "Version"      : "1.20.2",
     "Url"          : "http://www.busybox.net/downloads/busybox-1.20.2.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
     "Date"         : "2012-08-10T03:33:21.541466Z",

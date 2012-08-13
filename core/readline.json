@@ -2,6 +2,7 @@
     "Name"         : "readline",
     "Version"      : "6.2",
     "Url"          : "http://mirrors.kernel.org/gnu/bash/readline-6.2.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T14:45:08.275604Z",

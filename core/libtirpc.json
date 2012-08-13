@@ -2,6 +2,7 @@
     "Name"         : "libtirpc",
     "Version"      : "0.2.2",
     "Url"          : "http://downloads.sourceforge.net/sourceforge/libtirpc/libtirpc-0.2.2.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",

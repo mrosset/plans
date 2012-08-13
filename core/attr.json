@@ -2,6 +2,7 @@
     "Name"         : "attr",
     "Version"      : "2.4.46",
     "Url"          : "http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
     "Date"         : "2012-08-08T09:12:09.115661Z",

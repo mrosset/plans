@@ -2,6 +2,7 @@
     "Name"         : "autoconf",
     "Version"      : "2.69",
     "Url"          : "ftp://ftp.gnu.org/pub/gnu/autoconf/autoconf-2.69.tar.xz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T16:52:08.218096Z",

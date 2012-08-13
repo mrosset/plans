@@ -1,0 +1,30 @@
+{
+    "Identity"  : "test user \u003ctest@test.com\u003e",
+    "Arch"      : "x86_64",
+    "OS"        : "linux",
+    "Root"      : "/",
+    "PlansRepo" : "https://code.google.com/p/via.plans",
+    "Cache"     : "$HOME/via/cache",
+    "DB"        : "/usr/local/via/db",
+    "Plans"     : "$HOME/via/plans",
+    "Repo"      : "$HOME/via/repo",
+    "Flags"     : [
+                "--disable-acl",
+                "--disable-dependency-tracking",
+                "--disable-multilib",
+                "--disable-nls",
+                "--without-manpages",
+                "--prefix=$PREFIX",
+                "--sysconfdir=$PREFIX/etc"
+    ],          
+    "Env"       : {
+                "CFLAGS"    : "-pipe -O2 -mtune=generic",
+                "CXXFLAGS"  : "-pipe -O2 -mtune=generic",
+                "LDFLAGS"   : "-Wl,--as-needed",
+                "MAKEFLAGS" : "-j3",
+                "PREFIX"    : "/usr/local/via"
+    },          
+    "Remove"    : [
+                "usr/local/via/share/info/dir"
+    ]
+}

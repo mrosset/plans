@@ -2,6 +2,7 @@
     "Name"         : "bison",
     "Version"      : "2.6.1",
     "Url"          : "http://mirrors.kernel.org/gnu/bison/bison-2.6.1.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-08T10:35:31.856573Z",

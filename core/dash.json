@@ -2,6 +2,7 @@
     "Name"         : "dash",
     "Version"      : "0.5.7",
     "Url"          : "http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.7.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-10T10:26:23.007615Z",

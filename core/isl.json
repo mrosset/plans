@@ -2,6 +2,7 @@
     "Name"         : "isl",
     "Version"      : "0.10",
     "Url"          : "http://www.kotnet.org/~skimo/isl/isl-0.10.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",

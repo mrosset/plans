@@ -2,6 +2,7 @@
     "Name"         : "grub",
     "Version"      : "2.00",
     "Url"          : "http://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-09T11:36:48.21449Z",

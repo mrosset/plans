@@ -2,6 +2,7 @@
     "Name"         : "make",
     "Version"      : "3.82",
     "Url"          : "http://mirrors.kernel.org/gnu/make/make-3.82.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T15:47:52.285343Z",

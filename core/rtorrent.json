@@ -2,6 +2,7 @@
     "Name"         : "rtorrent",
     "Version"      : "0.8.9",
     "Url"          : "http://libtorrent.rakshasa.no/downloads/rtorrent-0.8.9.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",

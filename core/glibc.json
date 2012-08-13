@@ -2,6 +2,7 @@
     "Name"         : "glibc",
     "Version"      : "2.16.0",
     "Url"          : "http://mirrors.kernel.org/gnu/glibc/glibc-2.16.0.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T15:32:09.992935Z",

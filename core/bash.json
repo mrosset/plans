@@ -2,13 +2,12 @@
     "Name"         : "bash",
     "Version"      : "4.2",
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-13T17:06:09.72142Z",
-    "Size"         : 1830349,
-    "Depends"      : [
-                   "ncurses"
-    ],             
+    "Date"         : "2012-08-13T18:48:51.996619Z",
+    "Size"         : 1829740,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -23,7 +22,6 @@
                    "usr/local/via/bin/bash",
                    "usr/local/via/bin/bashbug",
                    "usr/local/via/share/info/bash.info",
-                   "usr/local/via/share/info/dir",
                    "usr/local/via/share/man/man1/bash.1",
                    "usr/local/via/share/man/man1/bashbug.1"
     ]

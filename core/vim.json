@@ -2,6 +2,7 @@
     "Name"         : "vim",
     "Version"      : "7.3",
     "Url"          : "http://ftp.vim.org/pub/vim/unix/vim-7.3.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "vim73",
     "BuildInStage" : true,
     "Date"         : "2012-08-12T12:08:09.79927Z",

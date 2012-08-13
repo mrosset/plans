@@ -2,6 +2,7 @@
     "Name"         : "sed",
     "Version"      : "4.2.1",
     "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-4.2.1.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-12T19:47:31.182016Z",

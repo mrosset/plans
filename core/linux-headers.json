@@ -2,6 +2,7 @@
     "Name"         : "linux-headers",
     "Version"      : "3.4.7",
     "Url"          : "http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.4.7.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "linux-3.4.7",
     "BuildInStage" : true,
     "Date"         : "2012-08-12T15:29:15.941135Z",

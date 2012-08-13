@@ -2,6 +2,7 @@
     "Name"         : "perl",
     "Version"      : "5.16.0",
     "Url"          : "http://www.cpan.org/src/5.0/perl-5.16.0.tar.bz2",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
     "Date"         : "2012-08-08T17:32:11.434654Z",

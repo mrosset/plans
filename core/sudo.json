@@ -2,6 +2,7 @@
     "Name"         : "sudo",
     "Version"      : "1.8.5.p2",
     "Url"          : "ftp://ftp.sudo.ws/pub/sudo/sudo-1.8.5p2.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
     "Date"         : "0001-01-01T00:00:00Z",

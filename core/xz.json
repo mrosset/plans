@@ -2,6 +2,7 @@
     "Name"         : "xz",
     "Version"      : "5.0.4",
     "Url"          : "http://tukaani.org/xz/xz-5.0.4.tar.gz",
+    "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-09T00:20:23.465995Z",
