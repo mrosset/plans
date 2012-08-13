@@ -4,12 +4,12 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.2.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T11:21:09.226193Z",
-    "Size"         : 1096901,
-    "Depends"      : null,
-    "Flags"        : [
-                   "--bindir=/bin"
+    "Date"         : "2012-08-13T17:06:09.72142Z",
+    "Size"         : 1830349,
+    "Depends"      : [
+                   "ncurses"
     ],             
+    "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
@@ -17,10 +17,14 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "bin/bash",
-                   "bin/bashbug"
+                   "usr/local/via/bin/bash",
+                   "usr/local/via/bin/bashbug",
+                   "usr/local/via/share/info/bash.info",
+                   "usr/local/via/share/info/dir",
+                   "usr/local/via/share/man/man1/bash.1",
+                   "usr/local/via/share/man/man1/bashbug.1"
     ]
 }

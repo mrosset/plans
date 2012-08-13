@@ -1,0 +1,20 @@
+{
+    "Name"         : "attr",
+    "Version"      : "2.4.46",
+    "Url"          : "http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : true,
+    "Date"         : "2012-08-08T09:12:09.115661Z",
+    "Size"         : 368442,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install install-dev install-lib DIST_ROOT=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

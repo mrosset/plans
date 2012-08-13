@@ -1,0 +1,20 @@
+{
+    "Name"         : "sudo",
+    "Version"      : "1.8.5.p2",
+    "Url"          : "ftp://ftp.sudo.ws/pub/sudo/sudo-1.8.5p2.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : true,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "./configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

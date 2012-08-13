@@ -1,0 +1,20 @@
+{
+    "Name"         : "libtirpc",
+    "Version"      : "0.2.2",
+    "Url"          : "http://downloads.sourceforge.net/sourceforge/libtirpc/libtirpc-0.2.2.tar.bz2",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

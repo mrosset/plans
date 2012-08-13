@@ -1,0 +1,20 @@
+{
+    "Name"         : "intltool",
+    "Version"      : "0.50.2",
+    "Url"          : "http://edge.launchpad.net/intltool/trunk/0.50.2/+download/intltool-0.50.2.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-05T21:46:27.454842Z",
+    "Size"         : 138750,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

@@ -4,8 +4,8 @@
     "Url"          : "http://dev.yorhel.nl/download/ncdu-1.8.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-02T00:21:59.929086-07:00",
-    "Size"         : 63936,
+    "Date"         : "2012-08-12T15:53:39.535821Z",
+    "Size"         : 57174,
     "Depends"      : [
                    "ncurses"
     ],             
@@ -17,9 +17,10 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "data/data/gnuoid/bin/ncdu"
+                   "usr/local/via/bin/ncdu",
+                   "usr/local/via/share/man/man1/ncdu.1"
     ]
 }

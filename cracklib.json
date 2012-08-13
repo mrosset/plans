@@ -1,0 +1,20 @@
+{
+    "Name"         : "cracklib",
+    "Version"      : "2.8.18",
+    "Url"          : "http://downloads.sourceforge.net/sourceforge/cracklib/cracklib-2.8.18.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-08T12:21:19.787128Z",
+    "Size"         : 637276,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

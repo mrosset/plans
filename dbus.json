@@ -1,0 +1,26 @@
+{
+    "Name"         : "dbus",
+    "Version"      : "1.6.4",
+    "Url"          : "http://dbus.freedesktop.org/releases/dbus/dbus-1.6.4.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-08T14:27:41.879032Z",
+    "Size"         : 2086954,
+    "Depends"      : null,
+    "Flags"        : [
+                   "--disable-x",
+                   "--enable-systemd",
+                   "--with-dbus-user=81"
+    ],             
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : [
+                   "echo stuff"
+    ],             
+    "Remove"       : null,
+    "Files"        : null
+}

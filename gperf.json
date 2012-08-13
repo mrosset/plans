@@ -6,9 +6,7 @@
     "BuildInStage" : false,
     "Date"         : "2012-08-03T02:28:22.704172-07:00",
     "Size"         : 306820,
-    "Depends"      : [
-                   "gcc"
-    ],             
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -17,9 +15,7 @@
     "Package"      : [
                    "make install -C src DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
-    "Files"        : [
-                   "data/data/gnuoid/bin/gperf"
-    ]
+    "Files"        : null
 }

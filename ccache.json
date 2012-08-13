@@ -4,8 +4,8 @@
     "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T07:46:59.195135Z",
-    "Size"         : 95254,
+    "Date"         : "2012-08-12T15:50:41.474815Z",
+    "Size"         : 139446,
     "Depends"      : [
                    "zlib"
     ],             
@@ -17,9 +17,10 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "usr/bin/ccache"
+                   "usr/local/via/bin/ccache",
+                   "usr/local/via/share/man/man1/ccache.1"
     ]
 }

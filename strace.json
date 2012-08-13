@@ -17,11 +17,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
-    "Files"        : [
-                   "data/data/gnuoid/bin/strace",
-                   "data/data/gnuoid/bin/strace-graph",
-                   "data/data/gnuoid/bin/strace-log-merge"
-    ]
+    "Files"        : null
 }

@@ -16,9 +16,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
-    "Files"        : [
-                   "usr/bin/rsync"
-    ]
+    "Files"        : null
 }

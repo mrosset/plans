@@ -4,11 +4,9 @@
     "Url"          : "http://ftp.astron.com/pub/file/file-5.11.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T06:19:06.743345Z",
-    "Size"         : 2617681,
-    "Depends"      : [
-                   "zlib"
-    ],             
+    "Date"         : "2012-08-12T07:09:56.535917Z",
+    "Size"         : 2659857,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -17,16 +15,19 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "usr/bin/file",
-                   "usr/include/magic.h",
-                   "usr/lib/libmagic.a",
-                   "usr/lib/libmagic.la",
-                   "usr/lib/libmagic.so",
-                   "usr/lib/libmagic.so.1",
-                   "usr/lib/libmagic.so.1.0.0",
-                   "usr/share/misc/magic.mgc"
+                   "usr/local/via/bin/file",
+                   "usr/local/via/include/magic.h",
+                   "usr/local/via/lib/libmagic.a",
+                   "usr/local/via/lib/libmagic.la",
+                   "usr/local/via/lib/libmagic.so",
+                   "usr/local/via/lib/libmagic.so.1",
+                   "usr/local/via/lib/libmagic.so.1.0.0",
+                   "usr/local/via/share/man/man1/file.1",
+                   "usr/local/via/share/man/man3/libmagic.3",
+                   "usr/local/via/share/man/man4/magic.4",
+                   "usr/local/via/share/misc/magic.mgc"
     ]
 }

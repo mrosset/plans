@@ -1,0 +1,20 @@
+{
+    "Name"         : "libcap",
+    "Version"      : "2.22",
+    "Url"          : "http://mirrors.kernel.org/gnu/wget/libcap-2.22.tar.bz2",
+    "StageDir"     : "",
+    "BuildInStage" : true,
+    "Date"         : "2012-08-08T12:05:55.0651Z",
+    "Size"         : 304153,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "make"
+    ],             
+    "Package"      : [
+                   "make prefix=$PREFIX DESTDIR=$PKGDIR RAISE_SETFCAP=no install"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

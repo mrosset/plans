@@ -4,8 +4,8 @@
     "Url"          : "http://www.multiprecision.org/mpc/download/mpc-0.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-03T19:54:47.661204Z",
-    "Size"         : 153506,
+    "Date"         : "2012-08-12T15:26:22.301639Z",
+    "Size"         : 289119,
     "Depends"      : null,
     "Flags"        : [
                    "--with-gmp=$PREFIX"
@@ -17,11 +17,12 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "data/data/gnuoid/include/mpc.h",
-                   "data/data/gnuoid/lib/libmpc.a",
-                   "data/data/gnuoid/lib/libmpc.la"
+                   "usr/local/via/include/mpc.h",
+                   "usr/local/via/lib/libmpc.a",
+                   "usr/local/via/lib/libmpc.la",
+                   "usr/local/via/share/info/mpc.info"
     ]
 }

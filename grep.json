@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.9.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T03:17:47.66389Z",
-    "Size"         : 395004,
+    "Date"         : "2012-08-12T19:50:20.911768Z",
+    "Size"         : 530141,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
@@ -15,11 +15,15 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "usr/bin/egrep",
-                   "usr/bin/fgrep",
-                   "usr/bin/grep"
+                   "usr/local/via/bin/egrep",
+                   "usr/local/via/bin/fgrep",
+                   "usr/local/via/bin/grep",
+                   "usr/local/via/share/info/grep.info",
+                   "usr/local/via/share/man/man1/egrep.1",
+                   "usr/local/via/share/man/man1/fgrep.1",
+                   "usr/local/via/share/man/man1/grep.1"
     ]
 }

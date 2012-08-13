@@ -10,7 +10,7 @@
     "Flags"        : null,
     "Build"        : null,
     "Package"      : null,
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : null
 }

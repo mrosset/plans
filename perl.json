@@ -1,0 +1,21 @@
+{
+    "Name"         : "perl",
+    "Version"      : "5.16.0",
+    "Url"          : "http://www.cpan.org/src/5.0/perl-5.16.0.tar.bz2",
+    "StageDir"     : "",
+    "BuildInStage" : true,
+    "Date"         : "2012-08-08T17:32:11.434654Z",
+    "Size"         : 49049994,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "./configure.gnu --prefix=$PREFIX",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

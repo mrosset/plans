@@ -1,0 +1,21 @@
+{
+    "Name"         : "findutils",
+    "Version"      : "4.4.2",
+    "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-4.4.2.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-08T11:53:30.470527Z",
+    "Size"         : 799743,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

@@ -4,11 +4,9 @@
     "Url"          : "http://mirrors.kernel.org/gnu/wget/wget-1.13.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Size"         : 0,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Date"         : "2012-08-09T12:31:15.239935Z",
+    "Size"         : 674922,
+    "Depends"      : null,
     "Flags"        : [
                    "--without-ssl"
     ],             
@@ -19,13 +17,7 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
-    "Files"        : [
-                   "usr/bin/wget",
-                   "usr/etc/wgetrc",
-                   "usr/share/info/dir",
-                   "usr/share/info/wget.info",
-                   "usr/share/man/man1/wget.1"
-    ]
+    "Files"        : null
 }

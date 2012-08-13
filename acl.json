@@ -1,0 +1,20 @@
+{
+    "Name"         : "acl",
+    "Version"      : "2.2.51",
+    "Url"          : "http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

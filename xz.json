@@ -1,0 +1,20 @@
+{
+    "Name"         : "xz",
+    "Version"      : "5.0.4",
+    "Url"          : "http://tukaani.org/xz/xz-5.0.4.tar.gz",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2012-08-09T00:20:23.465995Z",
+    "Size"         : 713249,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

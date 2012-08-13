@@ -4,8 +4,8 @@
     "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-4.2.1.tar.gz",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T02:51:25.647216Z",
-    "Size"         : 253239,
+    "Date"         : "2012-08-12T19:47:31.182016Z",
+    "Size"         : 253194,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
@@ -15,11 +15,11 @@
     "Package"      : [
                    "make install DESTDIR=$PKGDIR"
     ],             
+    "PostInstall"  : null,
     "Remove"       : null,
-    "Dirs"         : null,
     "Files"        : [
-                   "usr/bin/sed",
-                   "usr/share/info/sed.info",
-                   "usr/share/man/man1/sed.1"
+                   "usr/local/via/bin/sed",
+                   "usr/local/via/share/info/sed.info",
+                   "usr/local/via/share/man/man1/sed.1"
     ]
 }
