@@ -5,10 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T15:53:39.535821Z",
+    "Date"         : "2012-08-16T20:17:46.047882Z",
     "Size"         : 57174,
     "Depends"      : [
-                   "ncurses"
+                   "ncurses",
+                   "glibc"
     ],             
     "Flags"        : null,
     "Build"        : [

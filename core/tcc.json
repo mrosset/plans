@@ -1,11 +1,11 @@
 {
-    "Name"         : "acl",
-    "Version"      : "2.2.51",
-    "Url"          : "http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz",
+    "Name"         : "tcc",
+    "Version"      : "0.9.25",
+    "Url"          : "http://download.savannah.nongnu.org/releases/tinycc/tcc-0.9.25.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
-    "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
+    "BuildInStage" : true,
+    "Date"         : "2012-08-16T13:17:21.55817Z",
     "Size"         : 0,
     "Depends"      : null,
     "Flags"        : null,
@@ -18,5 +18,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : []
 }

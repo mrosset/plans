@@ -5,9 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-13T18:48:51.996619Z",
-    "Size"         : 1829740,
-    "Depends"      : null,
+    "Date"         : "2012-08-16T20:13:54.155561Z",
+    "Size"         : 1829847,
+    "Depends"      : [
+                   "ncurses",
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

@@ -5,11 +5,9 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T15:38:37.611313Z",
-    "Size"         : 34820681,
-    "Depends"      : [
-                   "zlib"
-    ],             
+    "Date"         : "2012-08-15T12:36:21.92239Z",
+    "Size"         : 34770207,
+    "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

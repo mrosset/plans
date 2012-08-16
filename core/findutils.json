@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-08T11:53:30.470527Z",
-    "Size"         : 799743,
+    "Date"         : "2012-08-15T17:36:45.317781Z",
+    "Size"         : 1261682,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [
@@ -18,5 +18,21 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/find",
+                   "usr/local/via/bin/locate",
+                   "usr/local/via/bin/oldfind",
+                   "usr/local/via/bin/updatedb",
+                   "usr/local/via/bin/xargs",
+                   "usr/local/via/libexec/bigram",
+                   "usr/local/via/libexec/code",
+                   "usr/local/via/libexec/frcode",
+                   "usr/local/via/share/info/find-maint.info",
+                   "usr/local/via/share/info/find.info",
+                   "usr/local/via/share/man/man1/find.1",
+                   "usr/local/via/share/man/man1/locate.1",
+                   "usr/local/via/share/man/man1/updatedb.1",
+                   "usr/local/via/share/man/man1/xargs.1",
+                   "usr/local/via/share/man/man5/locatedb.5"
+    ]
 }

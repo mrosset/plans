@@ -5,9 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-13T18:45:30.089805Z",
+    "Date"         : "2012-08-16T20:01:53.191331Z",
     "Size"         : 317891,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "./configure --prefix=$PREFIX",

@@ -3,26 +3,27 @@
     "Arch"      : "x86_64",
     "OS"        : "linux",
     "Root"      : "/",
-    "PlansRepo" : "https://code.google.com/p/via.plans",
+    "PlansRepo" : "http://jupiter/plans",
     "Cache"     : "$HOME/via/cache",
-    "DB"        : "/usr/local/via/db",
+    "DB"        : "usr/local/via/db",
     "Plans"     : "$HOME/via/plans",
     "Repo"      : "$HOME/via/repo",
     "Flags"     : [
                 "--disable-acl",
-                "--disable-dependency-tracking",
                 "--disable-multilib",
                 "--disable-nls",
                 "--without-manpages",
                 "--prefix=$PREFIX",
-                "--sysconfdir=$PREFIX/etc"
+                "--sysconfdir=$PREFIX/etc",
+                "--config-cache"
     ],          
     "Env"       : {
-                "CFLAGS"    : "-pipe -O2 -mtune=generic",
-                "CXXFLAGS"  : "-pipe -O2 -mtune=generic",
+                "CFLAGS"    : "-pipe -O2 -march=x86-64 -mtune=generic -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
+                "CXXFLAGS"  : "-pipe -O2 -march=x86-64 -mtune=generic -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
                 "LDFLAGS"   : "-Wl,--as-needed",
                 "MAKEFLAGS" : "-j3",
-                "PREFIX"    : "/usr/local/via"
+                "PREFIX"    : "/usr/local/via",
+                "TARGET"    : "x86_64-unknown-linux-gnu"
     },          
     "Remove"    : [
                 "usr/local/via/share/info/dir"

@@ -5,11 +5,9 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T15:25:22.336467Z",
-    "Size"         : 1706577,
-    "Depends"      : [
-                   "gmp"
-    ],             
+    "Date"         : "2012-08-15T12:38:34.18394Z",
+    "Size"         : 1705497,
+    "Depends"      : null,
     "Flags"        : [
                    "--with-gmp=$PREFIX"
     ],             
