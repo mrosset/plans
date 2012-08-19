@@ -9,13 +9,13 @@
     "Plans"     : "$HOME/via/plans",
     "Repo"      : "$HOME/via/repo",
     "Flags"     : [
+                "--config-cache",
                 "--disable-acl",
                 "--disable-multilib",
                 "--disable-nls",
-                "--without-manpages",
                 "--prefix=$PREFIX",
                 "--sysconfdir=$PREFIX/etc",
-                "--config-cache"
+                "--without-manpages"
     ],          
     "Env"       : {
                 "CFLAGS"    : "-pipe -O2 -march=x86-64 -mtune=generic -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
