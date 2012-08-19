@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-16T20:17:12.94273Z",
-    "Size"         : 11016578,
+    "Date"         : "2012-08-19T20:28:49.136817Z",
+    "Size"         : 10889113,
     "Depends"      : [
                    "glibc"
     ],             
@@ -22,8 +22,7 @@
     ],             
     "Package"      : [
                    "make install DESTDIR=$PKGDIR",
-                   "ln -s ncursesw/curses.h $PKGDIR/$PREFIX/include/curses.h",
-                   "ln -s ncursesw/ncurses.h $PKGDIR/$PREFIX/include/ncurses.h"
+                   "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libncurses.so"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
@@ -39,8 +38,6 @@
                    "usr/local/via/bin/toe",
                    "usr/local/via/bin/tput",
                    "usr/local/via/bin/tset",
-                   "usr/local/via/include/curses.h",
-                   "usr/local/via/include/ncurses.h",
                    "usr/local/via/include/ncursesw/curses.h",
                    "usr/local/via/include/ncursesw/eti.h",
                    "usr/local/via/include/ncursesw/form.h",
@@ -64,6 +61,7 @@
                    "usr/local/via/lib/libmenuw.so.5",
                    "usr/local/via/lib/libmenuw.so.5.9",
                    "usr/local/via/lib/libmenuw_g.a",
+                   "usr/local/via/lib/libncurses.so",
                    "usr/local/via/lib/libncursesw.a",
                    "usr/local/via/lib/libncursesw.so",
                    "usr/local/via/lib/libncursesw.so.5",
