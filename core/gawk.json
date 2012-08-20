@@ -7,6 +7,7 @@
     "BuildInStage" : false,
     "Date"         : "2012-08-12T19:49:39.360283Z",
     "Size"         : 3939506,
+    "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
     "Build"        : [

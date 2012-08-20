@@ -5,8 +5,9 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-16T20:01:53.191331Z",
-    "Size"         : 317891,
+    "Date"         : "2012-08-20T18:20:53.048151Z",
+    "Size"         : 318331,
+    "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             

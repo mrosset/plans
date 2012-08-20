@@ -5,36 +5,37 @@
     "Group"        : "core",
     "StageDir"     : "gcc-4.7.1",
     "BuildInStage" : false,
-    "Date"         : "2012-08-19T17:53:44.117689Z",
-    "Size"         : 6956566,
+    "Date"         : "2012-08-20T18:45:41.894588Z",
+    "Size"         : 9828991,
+    "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
-    "Flags"        : [
-                   "--enable-sjlj-exceptions",
-                   "--target=arm-unknown-linux-gnueabi"
-    ],             
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make all-target-libgcc"
-    ],             
+    "Flags"        : null,
+    "Build"        : null,
     "Package"      : [
-                   "make install-target-libgcc DESTDIR=$PKGDIR"
+                   "make install-target-libgcc DESTDIR=$PKGDIR",
+                   "mv $PKGDIR/$PREFIX/lib64/* $PKGDIR/$PREFIX/lib",
+                   "rmdir $PKGDIR/$PREFIX/lib64"
     ],             
     "PostInstall"  : null,
     "Remove"       : [
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/include/unwind.h"
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/include/unwind.h"
     ],             
     "Files"        : [
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/crtbegin.o",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/crtbeginS.o",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/crtbeginT.o",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/crtend.o",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/crtendS.o",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/libgcc.a",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/libgcc_eh.a",
-                   "data/data/via/lib/gcc/arm-unknown-linux-gnueabi/4.7.1/libgcov.a",
-                   "data/data/via/lib/libgcc_s.so",
-                   "data/data/via/lib/libgcc_s.so.1"
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbegin.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbeginS.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtbeginT.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtend.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtendS.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtfastmath.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtprec32.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtprec64.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/crtprec80.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/libgcc.a",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/libgcc_eh.a",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.7.1/libgcov.a",
+                   "usr/local/via/lib/libgcc_s.so",
+                   "usr/local/via/lib/libgcc_s.so.1"
     ]
 }

@@ -5,9 +5,13 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-15T12:38:34.18394Z",
-    "Size"         : 1705497,
-    "Depends"      : null,
+    "Date"         : "2012-08-19T18:26:23.100768Z",
+    "Size"         : 1706577,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc",
+                   "gmp"
+    ],             
     "Flags"        : [
                    "--with-gmp=$PREFIX"
     ],             

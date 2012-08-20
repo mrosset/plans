@@ -7,6 +7,7 @@
     "BuildInStage" : false,
     "Date"         : "2012-08-01T04:15:27.778451-07:00",
     "Size"         : 308718,
+    "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : [
                    "--without-ssl"

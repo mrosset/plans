@@ -7,6 +7,7 @@
     "BuildInStage" : true,
     "Date"         : "2012-07-29T11:14:43.874699-07:00",
     "Size"         : 0,
+    "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : [
                    "--disable-unicode"

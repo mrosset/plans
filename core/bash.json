@@ -5,8 +5,9 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-16T20:13:54.155561Z",
-    "Size"         : 1829847,
+    "Date"         : "2012-08-20T18:47:51.489458Z",
+    "Size"         : 1735873,
+    "SubPackages"  : null,
     "Depends"      : [
                    "ncurses",
                    "glibc"

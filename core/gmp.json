@@ -5,9 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-15T12:38:00.416828Z",
+    "Date"         : "2012-08-19T18:25:48.120773Z",
     "Size"         : 2239187,
-    "Depends"      : null,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
