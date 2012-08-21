@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "gcc-4.7.1",
     "BuildInStage" : false,
-    "Date"         : "2012-08-20T18:45:45.43987Z",
-    "Size"         : 11902089,
+    "Date"         : "2012-08-20T22:03:21.006056Z",
+    "Size"         : 11922147,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",

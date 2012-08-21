@@ -9,9 +9,7 @@
     "Size"         : 0,
     "SubPackages"  : null,
     "Depends"      : null,
-    "Flags"        : [
-                   "--disable-unicode"
-    ],             
+    "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
