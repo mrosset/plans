@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-20T22:21:38.436078Z",
-    "Size"         : 1692881,
+    "Date"         : "2012-08-22T02:34:47.750715Z",
+    "Size"         : 1692969,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -18,7 +18,7 @@
                    "make"
     ],             
     "Package"      : [
-                   "make install-strip DESTDIR=$PKGDIR"
+                   "make install DESTDIR=$PKGDIR"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,

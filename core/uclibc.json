@@ -18,5 +18,6 @@
                    "make install PREFIX=$PKGDIR"
     ],             
     "PostInstall"  : null,
-    "Remove"       : null
+    "Remove"       : null,
+    "Files"        : null
 }

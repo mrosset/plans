@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-20T22:03:22.883253Z",
-    "Size"         : 65966384,
+    "Date"         : "2012-08-22T02:43:39.949048Z",
+    "Size"         : 61102632,
     "SubPackages"  : [
                    "libgcc",
                    "libgo",
@@ -28,6 +28,7 @@
                    "--disable-libssp",
                    "--disable-plugin",
                    "--enable-languages=c,c++,go",
+                   "--enable-linker-build-id",
                    "--with-ld=$PREFIX/bin/ld.gold",
                    "--with-native-system-header-dir=$PREFIX/include"
     ],             
@@ -36,7 +37,7 @@
                    "make"
     ],             
     "Package"      : [
-                   "make install-gcc DESTDIR=$PKGDIR"
+                   "make install-strip-gcc DESTDIR=$PKGDIR"
     ],             
     "PostInstall"  : null,
     "Remove"       : [

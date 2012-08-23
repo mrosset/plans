@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "binutils",
     "BuildInStage" : false,
-    "Date"         : "2012-08-20T21:51:18.698185Z",
-    "Size"         : 43383514,
+    "Date"         : "2012-08-22T02:48:01.488141Z",
+    "Size"         : 37966352,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -22,7 +22,7 @@
                    "make"
     ],             
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
+                   "make install-strip DESTDIR=$PKGDIR"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
