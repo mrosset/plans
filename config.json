@@ -13,19 +13,23 @@
                 "--disable-acl",
                 "--disable-multilib",
                 "--disable-nls",
+                "--disable-werror",
                 "--libexec=$PREFIX/lib",
                 "--prefix=$PREFIX",
                 "--sysconfdir=$PREFIX/etc",
                 "--without-manpages"
     ],          
     "Env"       : {
-                "CFLAGS"    : "-pipe -O2 -mtune=generic",
-                "CXXFLAGS"  : "-pipe -O2 -mtune=generic",
-                "LDFLAGS"   : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                "MAKEFLAGS" : "-j3",
-                "PREFIX"    : "/usr/local/via"
+                "CFLAGS"      : "-pipe -O2 -mtune=generic",
+                "CXXFLAGS"    : "-pipe -O2 -mtune=generic",
+                "LDFLAGS"     : "-Wl,--as-needed",
+                "LDFLAGS_OLD" : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
+                "MAKEFLAGS"   : "-j3",
+                "PREFIX"      : "/usr/local/via"
     },          
     "Remove"    : [
-                "usr/local/via/share/info/dir"
+                "usr/local/via/share/doc",
+                "usr/local/via/share/info",
+                "usr/local/via/share/man"
     ]
 }
