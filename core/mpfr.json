@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-19T18:26:23.100768Z",
-    "Size"         : 1706577,
+    "Date"         : "2014-11-23T04:43:40.704800557-08:00",
+    "Size"         : 1385316,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -31,19 +31,6 @@
                    "usr/local/via/lib/libmpfr.la",
                    "usr/local/via/lib/libmpfr.so",
                    "usr/local/via/lib/libmpfr.so.4",
-                   "usr/local/via/lib/libmpfr.so.4.1.0",
-                   "usr/local/via/share/doc/mpfr/AUTHORS",
-                   "usr/local/via/share/doc/mpfr/BUGS",
-                   "usr/local/via/share/doc/mpfr/COPYING",
-                   "usr/local/via/share/doc/mpfr/COPYING.LESSER",
-                   "usr/local/via/share/doc/mpfr/FAQ.html",
-                   "usr/local/via/share/doc/mpfr/NEWS",
-                   "usr/local/via/share/doc/mpfr/TODO",
-                   "usr/local/via/share/doc/mpfr/examples/ReadMe",
-                   "usr/local/via/share/doc/mpfr/examples/divworst.c",
-                   "usr/local/via/share/doc/mpfr/examples/rndo-add.c",
-                   "usr/local/via/share/doc/mpfr/examples/sample.c",
-                   "usr/local/via/share/doc/mpfr/examples/version.c",
-                   "usr/local/via/share/info/mpfr.info"
+                   "usr/local/via/lib/libmpfr.so.4.1.0"
     ]
 }

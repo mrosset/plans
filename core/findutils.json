@@ -5,10 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-15T17:36:45.317781Z",
-    "Size"         : 1261682,
+    "Date"         : "2014-11-23T01:13:44.471208138-08:00",
+    "Size"         : 692656,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -25,15 +27,8 @@
                    "usr/local/via/bin/oldfind",
                    "usr/local/via/bin/updatedb",
                    "usr/local/via/bin/xargs",
-                   "usr/local/via/libexec/bigram",
-                   "usr/local/via/libexec/code",
-                   "usr/local/via/libexec/frcode",
-                   "usr/local/via/share/info/find-maint.info",
-                   "usr/local/via/share/info/find.info",
-                   "usr/local/via/share/man/man1/find.1",
-                   "usr/local/via/share/man/man1/locate.1",
-                   "usr/local/via/share/man/man1/updatedb.1",
-                   "usr/local/via/share/man/man1/xargs.1",
-                   "usr/local/via/share/man/man5/locatedb.5"
+                   "usr/local/via/lib/bigram",
+                   "usr/local/via/lib/code",
+                   "usr/local/via/lib/frcode"
     ]
 }

@@ -1,12 +1,12 @@
 {
     "Name"         : "mpc",
-    "Version"      : "0.9",
-    "Url"          : "http://www.multiprecision.org/mpc/download/mpc-0.9.tar.gz",
+    "Version"      : "1.0.2",
+    "Url"          : "http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-19T18:54:33.676428Z",
-    "Size"         : 388204,
+    "Date"         : "2014-11-23T04:38:00.617465244-08:00",
+    "Size"         : 359033,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -31,8 +31,7 @@
                    "usr/local/via/lib/libmpc.a",
                    "usr/local/via/lib/libmpc.la",
                    "usr/local/via/lib/libmpc.so",
-                   "usr/local/via/lib/libmpc.so.2",
-                   "usr/local/via/lib/libmpc.so.2.0.0",
-                   "usr/local/via/share/info/mpc.info"
+                   "usr/local/via/lib/libmpc.so.3",
+                   "usr/local/via/lib/libmpc.so.3.0.0"
     ]
 }

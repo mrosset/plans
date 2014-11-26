@@ -5,10 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T19:47:31.182016Z",
-    "Size"         : 253194,
+    "Date"         : "2014-11-23T00:43:41.251913667-08:00",
+    "Size"         : 131160,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -20,8 +22,6 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/sed",
-                   "usr/local/via/share/info/sed.info",
-                   "usr/local/via/share/man/man1/sed.1"
+                   "usr/local/via/bin/sed"
     ]
 }

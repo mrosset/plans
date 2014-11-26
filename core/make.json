@@ -1,15 +1,15 @@
 {
     "Name"         : "make",
-    "Version"      : "4.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.bz2",
+    "Version"      : "3.82",
+    "Url"          : "http://mirrors.kernel.org/gnu/make/make-3.82.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-19T05:55:02.17068879-08:00",
-    "Size"         : 198696,
+    "Date"         : "2014-11-26T03:26:50.127430384-08:00",
+    "Size"         : 167976,
     "SubPackages"  : null,
     "Depends"      : [
-                   ""
+                   "glibc"
     ],             
     "Flags"        : [
                    "--without-guile"
@@ -24,7 +24,6 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "tools/bin/make",
-                   "tools/include/gnumake.h"
+                   "usr/local/via/bin/make"
     ]
 }

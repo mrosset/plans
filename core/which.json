@@ -5,10 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T12:07:00.22379Z",
-    "Size"         : 38946,
+    "Date"         : "2014-11-19T06:08:03.295541223-08:00",
+    "Size"         : 21272,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   ""
+    ],             
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -20,8 +22,6 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/which",
-                   "usr/local/via/share/info/which.info",
-                   "usr/local/via/share/man/man1/which.1"
+                   "tools/bin/which"
     ]
 }

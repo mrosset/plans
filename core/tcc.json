@@ -5,10 +5,10 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-16T13:17:21.55817Z",
+    "Date"         : "2014-11-19T05:58:23.815638927-08:00",
     "Size"         : 0,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [], 
     "Flags"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

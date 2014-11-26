@@ -5,8 +5,8 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-19T18:25:48.120773Z",
-    "Size"         : 2239187,
+    "Date"         : "2014-11-23T04:37:40.345354325-08:00",
+    "Size"         : 1746276,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -27,9 +27,6 @@
                    "usr/local/via/lib/libgmp.la",
                    "usr/local/via/lib/libgmp.so",
                    "usr/local/via/lib/libgmp.so.10",
-                   "usr/local/via/lib/libgmp.so.10.0.5",
-                   "usr/local/via/share/info/gmp.info",
-                   "usr/local/via/share/info/gmp.info-1",
-                   "usr/local/via/share/info/gmp.info-2"
+                   "usr/local/via/lib/libgmp.so.10.0.5"
     ]
 }

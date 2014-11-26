@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "linux-3.4.7",
     "BuildInStage" : true,
-    "Date"         : "2012-08-15T12:12:54.615093Z",
+    "Date"         : "2014-11-23T04:11:12.79023806-08:00",
     "Size"         : 2962915,
     "SubPackages"  : null,
     "Depends"      : null,
