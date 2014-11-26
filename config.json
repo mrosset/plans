@@ -22,9 +22,8 @@
     "Env"       : {
                 "CFLAGS"      : "-pipe -O2 -mtune=generic",
                 "CXXFLAGS"    : "-pipe -O2 -mtune=generic",
-                "LDFLAGS"     : "-Wl,--as-needed",
-                "LDFLAGS_OLD" : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                "MAKEFLAGS"   : "-j3",
+                "LDFLAGS"     : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
+                "PATH"        : "$HOME/bin:/usr/local/via/bin:$HOME/tools/bin:/bin:/usr/bin",
                 "PREFIX"      : "/usr/local/via"
     },          
     "Remove"    : [
