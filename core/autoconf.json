@@ -11,8 +11,10 @@
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
-    "Remove"       : null
+    "Remove"       : null,
+    "Files"        : null
 }

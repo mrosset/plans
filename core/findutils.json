@@ -5,15 +5,17 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "BuildInStage" : false,
-    "Date"         : "2014-11-23T01:13:44.471208138-08:00",
-    "Size"         : 692656,
+    "BuildInStage" : true,
+    "Date"         : "2014-11-29T09:18:55.058876865-08:00",
+    "Size"         : 810721,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
     "Flags"        : null,
-    "Patch"        : null,
+    "Patch"        : [
+                   "autoreconf"
+    ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

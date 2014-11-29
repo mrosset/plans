@@ -1,15 +1,18 @@
 {
     "Name"         : "rsync",
-    "Version"      : "3.0.9",
-    "Url"          : "http://rsync.samba.org/ftp/rsync/rsync-3.0.9.tar.gz",
+    "Version"      : "3.1.1",
+    "Url"          : "http://rsync.samba.org/ftp/rsync/rsync-3.1.1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2012-08-05T06:12:43.115423Z",
-    "Size"         : 454590,
+    "Date"         : "2014-11-29T08:52:21.088301975-08:00",
+    "Size"         : 510773,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "attr",
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
@@ -22,5 +25,7 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/rsync"
+    ]
 }
