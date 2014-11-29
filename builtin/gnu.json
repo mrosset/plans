@@ -1,0 +1,24 @@
+{
+    "Name"         : "gnu",
+    "Version"      : "",
+    "Url"          : "",
+    "Group"        : "builtin",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "Date"         : "2014-11-28T18:54:26.088069823-08:00",
+    "Size"         : 1162966,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags"
+    ],             
+    "Package"      : [
+                   "make install-strip DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}
