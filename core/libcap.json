@@ -4,12 +4,14 @@
     "Url"          : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2012-08-08T12:05:55.0651Z",
     "Size"         : 304153,
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "make"
     ],             

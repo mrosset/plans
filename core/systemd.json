@@ -4,6 +4,7 @@
     "Url"          : "http://www.freedesktop.org/software/systemd/systemd-217.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2012-08-08T22:10:25.134331Z",
     "Size"         : 6364964,
@@ -20,6 +21,7 @@
                    "--disable-tcpwrap",
                    "--disable-xz"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-19T06:08:03.295541223-08:00",
     "Size"         : 21272,
@@ -12,6 +13,7 @@
                    ""
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

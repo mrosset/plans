@@ -4,19 +4,20 @@
     "Url"          : "http://mirrors.kernel.org/gnu/bash/readline-6.2.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2012-08-15T17:22:24.84328Z",
     "Size"         : 1448620,
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
     ],             
     "Package"      : [
-                   "make DESTDIR=$PKGDIR install",
-                   "echo $Flags"
+                   "make DESTDIR=$PKGDIR install"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,

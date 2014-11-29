@@ -4,18 +4,16 @@
     "Url"          : "http://www.kernel.org/pub/linux/utils/util-linux/v2.21/util-linux-2.21.2.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
     "Date"         : "2012-08-08T17:37:40.575527Z",
     "Size"         : 3451858,
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : null

@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-4.2.1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T18:50:06.965334333-08:00",
     "Size"         : 149482,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

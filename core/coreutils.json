@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/coreutils/coreutils-8.23.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T23:12:25.59707052-08:00",
     "Size"         : 4651608,
@@ -17,6 +18,7 @@
                    "--disable-xattr",
                    "--enable-no-install-program=groups"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

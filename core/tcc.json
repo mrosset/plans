@@ -4,12 +4,14 @@
     "Url"          : "http://download.savannah.nongnu.org/releases/tinycc/tcc-0.9.25.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2014-11-19T05:58:23.815638927-08:00",
     "Size"         : 0,
     "SubPackages"  : null,
     "Depends"      : [], 
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

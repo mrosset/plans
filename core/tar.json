@@ -4,15 +4,27 @@
     "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Size"         : 0,
+    "Date"         : "2014-11-29T07:56:56.356486756-08:00",
+    "Size"         : 410448,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
-    "Build"        : null,
+    "Patch"        : [
+                   "autoreconf -v -s"
+    ],             
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/tar",
+                   "usr/local/via/lib/rmt"
+    ]
 }

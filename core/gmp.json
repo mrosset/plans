@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-5.0.5.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T17:08:32.483045741-08:00",
     "Size"         : 1789059,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

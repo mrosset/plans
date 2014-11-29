@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/glibc/glibc-2.20.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-29T02:14:35.063162268-08:00",
     "Size"         : 37423114,
@@ -17,6 +18,7 @@
                    "--without-cvs",
                    "--without-gd"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

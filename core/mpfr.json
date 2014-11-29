@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/mpfr/mpfr-3.1.0.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T17:09:56.652810723-08:00",
     "Size"         : 1419333,
@@ -15,6 +16,7 @@
     "Flags"        : [
                    "--with-gmp=$PREFIX"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

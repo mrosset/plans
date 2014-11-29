@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T22:46:29.513273728-08:00",
     "Size"         : 52086403,
@@ -36,6 +37,7 @@
                    "--enable-linker-build-id",
                    "--with-native-system-header-dir=$PREFIX/include"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

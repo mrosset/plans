@@ -4,6 +4,7 @@
     "Url"          : "http://zlib.net/current/zlib-1.2.8.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2014-11-28T22:06:34.272503566-08:00",
     "Size"         : 318576,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "./configure --prefix=$PREFIX",
                    "make"

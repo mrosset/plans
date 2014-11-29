@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "gcc-4.9.2",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T22:46:24.374885027-08:00",
     "Size"         : 8853113,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : null,
     "Package"      : [
                    "make install-strip-target-libgcc DESTDIR=$PKGDIR",

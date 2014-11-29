@@ -4,12 +4,14 @@
     "Url"          : "http://landley.net/toybox/downloads/toybox-0.4.0.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2012-08-05T01:17:43.472451Z",
     "Size"         : 1002962,
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "#sed -i 's|python|python2|g' scripts/config2help.py",
                    "make"

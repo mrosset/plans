@@ -4,18 +4,16 @@
     "Url"          : "http://downloads.sourceforge.net/sourceforge/expat/expat-2.1.0.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
     "Size"         : 0,
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : null

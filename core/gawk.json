@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gawk/gawk-4.0.1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T23:00:38.782696324-08:00",
     "Size"         : 2387797,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/binutils/binutils-2.24.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T23:42:35.422161767-08:00",
     "Size"         : 31760007,
@@ -15,6 +16,7 @@
                    "--with-lib-path=$PREFIX/lib",
                    "--with-sysroot"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

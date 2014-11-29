@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-29T03:39:22.368298936-08:00",
     "Size"         : 174464,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

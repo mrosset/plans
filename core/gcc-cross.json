@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "gcc-4.9.2",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T22:05:11.241581578-08:00",
     "Size"         : 72709743,
@@ -28,11 +29,13 @@
                    "--disable-shared",
                    "--disable-threads",
                    "--enable-languages=c,c++",
+                   "--target=x86_64-via-linux-gnu",
                    "--with-gmp=$PREFIX",
                    "--with-native-system-header-dir=$PREFIX/include",
                    "--with-newlib",
                    "--without-headers"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

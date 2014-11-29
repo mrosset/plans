@@ -4,6 +4,7 @@
     "Url"          : "https://www.kernel.org/pub/software/scm/git/git-2.1.3.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2014-11-29T03:11:45.905423913-08:00",
     "Size"         : 23659686,
@@ -20,6 +21,7 @@
                    "ac_cv_fread_reads_directories=yes",
                    "ac_cv_snprintf_returns_bogus=no"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags --with-curl=$PREFIX",
                    "make NO_INSTALL_HARDLINKS=1"

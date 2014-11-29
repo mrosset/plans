@@ -4,12 +4,14 @@
     "Url"          : "http://downloads.sourceforge.net/htop/htop-1.0.1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : true,
     "Date"         : "2012-07-29T11:14:43.874699-07:00",
     "Size"         : 0,
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

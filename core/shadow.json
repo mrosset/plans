@@ -4,6 +4,7 @@
     "Url"          : "http://pkg-shadow.alioth.debian.org/releases/shadow-4.2.1.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T22:10:27.853975377-08:00",
     "Size"         : 1839425,
@@ -12,12 +13,9 @@
                    "glibc"
     ],             
     "Flags"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [

@@ -4,6 +4,7 @@
     "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-4.4.2.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-23T01:13:44.471208138-08:00",
     "Size"         : 692656,
@@ -12,6 +13,7 @@
                    "glibc"
     ],             
     "Flags"        : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"

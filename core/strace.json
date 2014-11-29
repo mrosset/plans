@@ -4,6 +4,7 @@
     "Url"          : "http://downloads.sourceforge.net/4.9/strace-4.9.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
+    "Inherit"      : "",
     "BuildInStage" : false,
     "Date"         : "2014-11-28T23:36:05.755424476-08:00",
     "Size"         : 476885,
@@ -14,6 +15,7 @@
     "Flags"        : [
                    "--without-ssl"
     ],             
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
