@@ -1,7 +1,7 @@
 {
     "Name"         : "sudo",
-    "Version"      : "1.8.5.p2",
-    "Url"          : "ftp://ftp.sudo.ws/pub/sudo/sudo-1.8.5p2.tar.gz",
+    "Version"      : "1.8.11p2",
+    "Url"          : "http://www.sudo.ws/sudo/dist/sudo-1.8.11p2.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,

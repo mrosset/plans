@@ -5,17 +5,25 @@
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-26T04:37:11.868595909-08:00",
-    "Size"         : 52171459,
+    "Date"         : "2014-11-28T22:46:29.513273728-08:00",
+    "Size"         : 52086403,
     "SubPackages"  : [
                    "libgcc",
                    "libstdc++"
     ],             
     "Depends"      : [
+                   "bash",
+                   "bash",
+                   "binutils",
+                   "coreutils",
+                   "gawk",
                    "glibc",
                    "gmp",
+                   "libgcc",
+                   "make",
                    "mpc",
-                   "mpfr"
+                   "mpfr",
+                   "sed"
     ],             
     "Flags"        : [
                    "--disable-bootstrap",

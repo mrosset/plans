@@ -1,9 +1,9 @@
 {
     "Name"         : "pam",
-    "Version"      : "1.1.5",
-    "Url"          : "https://fedorahosted.org/releases/l/i/linux-pam/Linux-PAM-1.1.5.tar.bz2",
+    "Version"      : "1.1.8",
+    "Url"          : "https://fedorahosted.org/releases/l/i/linux-pam/Linux-PAM-1.1.8.tar.bz2",
     "Group"        : "core",
-    "StageDir"     : "Linux-PAM-1.1.5",
+    "StageDir"     : "Linux-PAM-1.1.8",
     "BuildInStage" : true,
     "Date"         : "2012-08-08T12:29:08.409567Z",
     "Size"         : 925540,
@@ -14,7 +14,7 @@
                    "--enable-read-both-confs"
     ],             
     "Build"        : [
-                   "./configure $Flags",
+                   "LDFLAGS= CFLAGS= ./configure $Flags",
                    "make"
     ],             
     "Package"      : [

@@ -5,10 +5,10 @@
     "Group"        : "core",
     "StageDir"     : "linux-3.4.7",
     "BuildInStage" : true,
-    "Date"         : "2014-11-23T04:11:12.79023806-08:00",
+    "Date"         : "2014-11-28T17:06:31.45406213-08:00",
     "Size"         : 2962915,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [], 
     "Flags"        : null,
     "Build"        : [
                    "make mrproper",

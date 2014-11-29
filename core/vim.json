@@ -5,10 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "vim73",
     "BuildInStage" : true,
-    "Date"         : "2012-08-12T12:08:09.79927Z",
-    "Size"         : 19029447,
+    "Date"         : "2014-11-26T07:10:51.664235382-08:00",
+    "Size"         : 19036868,
     "SubPackages"  : null,
     "Depends"      : [
+                   "glibc",
                    "ncurses"
     ],             
     "Flags"        : [
@@ -32,11 +33,6 @@
                    "usr/local/via/bin/vimdiff",
                    "usr/local/via/bin/vimtutor",
                    "usr/local/via/bin/xxd",
-                   "usr/local/via/share/man/man1/evim.1",
-                   "usr/local/via/share/man/man1/vim.1",
-                   "usr/local/via/share/man/man1/vimdiff.1",
-                   "usr/local/via/share/man/man1/vimtutor.1",
-                   "usr/local/via/share/man/man1/xxd.1",
                    "usr/local/via/share/vim/vim73/autoload/README.txt",
                    "usr/local/via/share/vim/vim73/autoload/ada.vim",
                    "usr/local/via/share/vim/vim73/autoload/adacomplete.vim",

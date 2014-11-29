@@ -1,7 +1,7 @@
 {
     "Name"         : "libcap",
-    "Version"      : "2.22",
-    "Url"          : "http://mirrors.kernel.org/gnu/wget/libcap-2.22.tar.bz2",
+    "Version"      : "2.24",
+    "Url"          : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : true,

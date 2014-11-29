@@ -1,14 +1,16 @@
 {
     "Name"         : "strace",
-    "Version"      : "4.7",
-    "Url"          : "http://downloads.sourceforge.net/strace/strace-4.7.tar.gz",
+    "Version"      : "4.9",
+    "Url"          : "http://downloads.sourceforge.net/4.9/strace-4.9.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-01T04:15:27.778451-07:00",
-    "Size"         : 308718,
+    "Date"         : "2014-11-28T23:36:05.755424476-08:00",
+    "Size"         : 476885,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : [
                    "--without-ssl"
     ],             
@@ -21,5 +23,9 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/strace",
+                   "usr/local/via/bin/strace-graph",
+                   "usr/local/via/bin/strace-log-merge"
+    ]
 }

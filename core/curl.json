@@ -1,0 +1,45 @@
+{
+    "Name"         : "curl",
+    "Version"      : "7.39.0",
+    "Url"          : "http://curl.haxx.se/download/curl-7.39.0.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "BuildInStage" : false,
+    "Date"         : "2014-11-29T02:59:00.154697035-08:00",
+    "Size"         : 1473797,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc",
+                   "zlib"
+    ],             
+    "Flags"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/curl",
+                   "usr/local/via/bin/curl-config",
+                   "usr/local/via/include/curl/curl.h",
+                   "usr/local/via/include/curl/curlbuild.h",
+                   "usr/local/via/include/curl/curlrules.h",
+                   "usr/local/via/include/curl/curlver.h",
+                   "usr/local/via/include/curl/easy.h",
+                   "usr/local/via/include/curl/mprintf.h",
+                   "usr/local/via/include/curl/multi.h",
+                   "usr/local/via/include/curl/stdcheaders.h",
+                   "usr/local/via/include/curl/typecheck-gcc.h",
+                   "usr/local/via/lib/libcurl.a",
+                   "usr/local/via/lib/libcurl.la",
+                   "usr/local/via/lib/libcurl.so",
+                   "usr/local/via/lib/libcurl.so.4",
+                   "usr/local/via/lib/libcurl.so.4.3.0",
+                   "usr/local/via/lib/pkgconfig/libcurl.pc",
+                   "usr/local/via/share/aclocal/libcurl.m4"
+    ]
+}
