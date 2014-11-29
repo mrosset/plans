@@ -13,7 +13,8 @@
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
-                   "$SRCDIR/configure $Flags"
+                   "$SRCDIR/configure $Flags",
+                   "make"
     ],             
     "Package"      : [
                    "make install-strip DESTDIR=$PKGDIR"
