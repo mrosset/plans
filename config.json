@@ -3,7 +3,7 @@
     "Arch"      : "x86_64",
     "OS"        : "linux",
     "Root"      : "/",
-    "PlansRepo" : "http://jupiter/plans",
+    "PlansRepo" : "git@bitbucket.org:strings/via.plans",
     "Cache"     : "$HOME/via/cache",
     "DB"        : "usr/local/via/db",
     "Plans"     : "$HOME/via/plans",
@@ -24,7 +24,7 @@
                 "CFLAGS"   : "-pipe -O2 -mtune=generic",
                 "CXXFLAGS" : "-pipe -O2 -mtune=generic",
                 "LDFLAGS"  : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                "PATH"     : "$HOME/bin:/usr/local/via/bin:$HOME/tools/bin:/bin:/usr/bin",
+                "PATH"     : "$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
                 "PREFIX"   : "/usr/local/via"
     },          
     "Remove"    : [
