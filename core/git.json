@@ -6,11 +6,12 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-11-29T03:11:45.905423913-08:00",
-    "Size"         : 23659686,
+    "Date"         : "2014-11-29T11:52:08.095726372-08:00",
+    "Size"         : 24614969,
     "SubPackages"  : null,
     "Depends"      : [
                    "curl",
+                   "expat",
                    "glibc",
                    "zlib"
     ],             
@@ -103,6 +104,7 @@
                    "usr/local/via/lib/git-core/git-help",
                    "usr/local/via/lib/git-core/git-http-backend",
                    "usr/local/via/lib/git-core/git-http-fetch",
+                   "usr/local/via/lib/git-core/git-http-push",
                    "usr/local/via/lib/git-core/git-imap-send",
                    "usr/local/via/lib/git-core/git-index-pack",
                    "usr/local/via/lib/git-core/git-init",

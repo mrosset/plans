@@ -14,17 +14,25 @@
     ],             
     "Depends"      : [
                    "bash",
-                   "bash",
                    "binutils",
+				   "diffutils",
                    "coreutils",
+				   "xz",
+                   "dash",
+				   "perl",
+				   "automake",
+				   "m4",
                    "gawk",
                    "glibc",
                    "gmp",
                    "libgcc",
                    "make",
+                   "mercurial",
                    "mpc",
                    "mpfr",
-                   "sed"
+                   "sed",
+                   "vim",
+                   "which"
     ],             
     "Flags"        : [
                    "--disable-bootstrap",

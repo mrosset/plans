@@ -1,0 +1,43 @@
+{
+    "Name"         : "bzip2",
+    "Version"      : "1.0.6",
+    "Url"          : "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : true,
+    "Date"         : "2014-11-29T11:21:29.263025149-08:00",
+    "Size"         : 247748,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "make -f Makefile-libbz2_so",
+                   "make bzip2 bzip2recover"
+    ],             
+    "Package"      : [
+                   "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",
+                   "install -m755 bzip2recover bzdiff bzgrep bzmore $PKGDIR/$PREFIX/bin",
+                   "install -m755 libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib",
+                   "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so",
+                   "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1",
+                   "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1.0",
+                   "install -m644 bzlib.h $PKGDIR/$PREFIX/include"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/bzdiff",
+                   "usr/local/via/bin/bzgrep",
+                   "usr/local/via/bin/bzip2recover",
+                   "usr/local/via/bin/bzmore",
+                   "usr/local/via/include/bzlib.h",
+                   "usr/local/via/lib/libbz2.so",
+                   "usr/local/via/lib/libbz2.so.1",
+                   "usr/local/via/lib/libbz2.so.1.0",
+                   "usr/local/via/lib/libbz2.so.1.0.6"
+    ]
+}

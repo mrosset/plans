@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-11-29T05:36:01.860029049-08:00",
-    "Size"         : 49377261,
+    "Date"         : "2014-11-29T12:52:08.448830649-08:00",
+    "Size"         : 49346349,
     "SubPackages"  : null,
     "Depends"      : [
                    "gdbm",
@@ -16,7 +16,7 @@
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
-                   "./Configure -des -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
+                   "CC=gcc ./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
                    "make"
     ],             
     "Package"      : [
@@ -1934,7 +1934,6 @@
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/File/Spec/Win32.pm",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/File/Spec.pm",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/Filter/Util/Call.pm",
-                   "usr/local/via/lib/perl5/5.16.0/x86_64-linux/GDBM_File.pm",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/Hash/Util/FieldHash.pm",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/Hash/Util.pm",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/I18N/Langinfo.pm",
@@ -2030,8 +2029,6 @@
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/File/Glob/Glob.so",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/Filter/Util/Call/Call.bs",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/Filter/Util/Call/Call.so",
-                   "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/GDBM_File/GDBM_File.bs",
-                   "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/GDBM_File/GDBM_File.so",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/Hash/Util/FieldHash/FieldHash.bs",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/Hash/Util/FieldHash/FieldHash.so",
                    "usr/local/via/lib/perl5/5.16.0/x86_64-linux/auto/Hash/Util/Util.bs",

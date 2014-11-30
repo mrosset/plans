@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T08:34:57.456427409-08:00",
-    "Size"         : 198904,
+    "Date"         : "2014-11-29T12:29:43.123536577-08:00",
+    "Size"         : 227267,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"

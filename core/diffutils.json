@@ -1,17 +1,21 @@
 {
     "Name"         : "diffutils",
-    "Version"      : "3.2",
-    "Url"          : "ftp://ftp.gnu.org/gnu/diffutils/diffutils-3.2.tar.xz",
+    "Version"      : "3.3",
+    "Url"          : "http://ftp.gnu.org/gnu/diffutils/diffutils-3.3.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T19:53:54.728139Z",
-    "Size"         : 531296,
+    "Date"         : "2014-11-29T12:35:19.673548564-08:00",
+    "Size"         : 315542,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
-    "Patch"        : null,
+    "Patch"        : [
+                   "autoreconf -i -f"
+    ],             
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
@@ -20,11 +24,6 @@
                    "usr/local/via/bin/cmp",
                    "usr/local/via/bin/diff",
                    "usr/local/via/bin/diff3",
-                   "usr/local/via/bin/sdiff",
-                   "usr/local/via/share/info/diffutils.info",
-                   "usr/local/via/share/man/man1/cmp.1",
-                   "usr/local/via/share/man/man1/diff.1",
-                   "usr/local/via/share/man/man1/diff3.1",
-                   "usr/local/via/share/man/man1/sdiff.1"
+                   "usr/local/via/bin/sdiff"
     ]
 }

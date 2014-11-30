@@ -6,11 +6,12 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T02:59:00.154697035-08:00",
-    "Size"         : 1473797,
+    "Date"         : "2014-11-29T11:54:41.163942324-08:00",
+    "Size"         : 1650486,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
+                   "openssl",
                    "zlib"
     ],             
     "Flags"        : null,

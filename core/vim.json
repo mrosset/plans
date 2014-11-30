@@ -6,8 +6,8 @@
     "StageDir"     : "vim74",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-11-29T08:59:41.109948593-08:00",
-    "Size"         : 20923276,
+    "Date"         : "2014-11-29T11:37:28.077022389-08:00",
+    "Size"         : 20923279,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -22,7 +22,8 @@
                    "make"
     ],             
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
+                   "make install DESTDIR=$PKGDIR",
+                   "ln -s vim $PKGDIR/$PREFIX/bin/vi"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
@@ -30,6 +31,7 @@
                    "usr/local/via/bin/ex",
                    "usr/local/via/bin/rview",
                    "usr/local/via/bin/rvim",
+                   "usr/local/via/bin/vi",
                    "usr/local/via/bin/view",
                    "usr/local/via/bin/vim",
                    "usr/local/via/bin/vimdiff",
