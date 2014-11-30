@@ -8,7 +8,7 @@
     "DB"        : "usr/local/via/db",
     "Plans"     : "$HOME/via/plans",
     "Repo"      : "$HOME/via/repo",
-    "Binary"    : "",
+    "Binary"    : "http://jupiter:8080/repo",
     "Flags"     : [
                 "--config-cache",
                 "--disable-acl",
