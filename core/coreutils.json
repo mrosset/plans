@@ -18,6 +18,7 @@
                    "--disable-xattr",
                    "--enable-no-install-program=groups"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

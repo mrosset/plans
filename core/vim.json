@@ -16,6 +16,7 @@
     "Flags"        : [
                    "--with-tlib=ncurses"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

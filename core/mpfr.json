@@ -16,6 +16,7 @@
     "Flags"        : [
                    "--with-gmp=$PREFIX"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

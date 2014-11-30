@@ -6,7 +6,7 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T12:29:43.123536577-08:00",
+    "Date"         : "2014-11-29T19:11:25.558502417-08:00",
     "Size"         : 227267,
     "SubPackages"  : null,
     "Depends"      : [
@@ -15,6 +15,7 @@
     "Flags"        : [
                    "--without-guile"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : [
                    "autoreconf -v -i"
     ],             

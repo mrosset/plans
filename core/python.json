@@ -21,6 +21,7 @@
     "Flags"        : [
                    "--with-openssl=$PREFIX"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

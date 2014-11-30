@@ -13,26 +13,27 @@
                    "libstdc++"
     ],             
     "Depends"      : [
+                   "automake",
                    "bash",
                    "binutils",
-				   "diffutils",
                    "coreutils",
-				   "xz",
                    "dash",
-				   "perl",
-				   "automake",
-				   "m4",
+                   "diffutils",
                    "gawk",
                    "glibc",
                    "gmp",
                    "libgcc",
+                   "linux-headers",
+                   "m4",
                    "make",
                    "mercurial",
                    "mpc",
                    "mpfr",
+                   "perl",
                    "sed",
                    "vim",
-                   "which"
+                   "which",
+                   "xz"
     ],             
     "Flags"        : [
                    "--disable-bootstrap",
@@ -45,6 +46,7 @@
                    "--enable-linker-build-id",
                    "--with-native-system-header-dir=$PREFIX/include"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

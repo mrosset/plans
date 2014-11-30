@@ -16,6 +16,7 @@
                    "--with-lib-path=$PREFIX/lib",
                    "--with-sysroot"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

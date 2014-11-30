@@ -35,6 +35,7 @@
                    "--with-newlib",
                    "--without-headers"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

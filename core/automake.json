@@ -11,6 +11,7 @@
     "SubPackages"  : null,
     "Depends"      : [], 
     "Flags"        : null,
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,

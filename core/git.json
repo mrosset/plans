@@ -22,6 +22,7 @@
                    "ac_cv_fread_reads_directories=yes",
                    "ac_cv_snprintf_returns_bogus=no"
     ],             
+    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags --with-curl=$PREFIX",
