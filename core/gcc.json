@@ -20,8 +20,10 @@
                    "dash",
                    "diffutils",
                    "gawk",
+                   "git",
                    "glibc",
                    "gmp",
+                   "grep",
                    "libgcc",
                    "linux-headers",
                    "m4",
@@ -31,6 +33,7 @@
                    "mpfr",
                    "perl",
                    "sed",
+                   "tar",
                    "vim",
                    "which",
                    "xz"
