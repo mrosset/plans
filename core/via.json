@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T19:51:13.923989087-08:00",
-    "Size"         : 5746920,
+    "Date"         : "2014-11-30T00:21:20.026296444-08:00",
+    "Size"         : 5697512,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -16,7 +16,7 @@
     "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
-                   "GOPATH=$SRCDIR go get bitbucket.org/strings/via/via"
+                   "GOPATH=$SRCDIR go get -u bitbucket.org/strings/via/via"
     ],             
     "Package"      : [
                    "install -m755 -s -D $SRCDIR/bin/via $PKGDIR/$PREFIX/bin/via"
