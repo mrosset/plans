@@ -3,11 +3,12 @@
     "Arch"      : "x86_64",
     "OS"        : "linux",
     "Root"      : "/",
-    "PlansRepo" : "git@bitbucket.org:strings/plans",
+    "PlansRepo" : "http://bitbucket.org/strings/plans",
     "Cache"     : "$HOME/via/cache",
     "DB"        : "usr/local/via/db",
     "Plans"     : "$HOME/via/plans",
     "Repo"      : "$HOME/via/repo",
+    "Binary"    : "",
     "Flags"     : [
                 "--config-cache",
                 "--disable-acl",
