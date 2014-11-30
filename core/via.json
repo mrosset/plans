@@ -1,0 +1,29 @@
+{
+    "Name"         : "via",
+    "Version"      : "0.0.1",
+    "Url"          : "",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "Date"         : "2014-11-29T19:51:13.923989087-08:00",
+    "Size"         : 5746920,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "ExtraFlags"   : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "GOPATH=$SRCDIR go get bitbucket.org/strings/via/via"
+    ],             
+    "Package"      : [
+                   "install -m755 -s -D $SRCDIR/bin/via $PKGDIR/$PREFIX/bin/via"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/via"
+    ]
+}
