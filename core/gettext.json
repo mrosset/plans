@@ -1,7 +1,7 @@
 {
     "Name"         : "gettext",
     "Version"      : "0.18.1.1",
-    "Url"          : "ftp://ftp.gnu.org/pub/gnu/gettext/gettext-0.18.1.1.tar.gz",
+    "Url"          : "http://ftp.gnu.org/pub/gnu/gettext/gettext-0.18.1.1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

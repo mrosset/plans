@@ -9,7 +9,9 @@
     "Date"         : "2014-11-29T02:14:35.063162268-08:00",
     "Size"         : 37423114,
     "SubPackages"  : null,
-    "Depends"      : [], 
+    "Depends"      : [
+                   "tzdata"
+    ],             
     "Flags"        : [
                    "--disable-profile",
                    "--enable-add-ons",

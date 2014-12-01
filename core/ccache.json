@@ -6,10 +6,11 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2012-08-12T15:50:41.474815Z",
-    "Size"         : 139446,
+    "Date"         : "2014-11-30T21:14:48.449382076-08:00",
+    "Size"         : 97656,
     "SubPackages"  : null,
     "Depends"      : [
+                   "glibc",
                    "zlib"
     ],             
     "Flags"        : null,
@@ -25,7 +26,6 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/ccache",
-                   "usr/local/via/share/man/man1/ccache.1"
+                   "usr/local/via/bin/ccache"
     ]
 }

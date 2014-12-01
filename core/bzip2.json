@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-11-29T11:21:29.263025149-08:00",
-    "Size"         : 247748,
+    "Date"         : "2014-11-30T09:10:21.001660449-08:00",
+    "Size"         : 326365,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -22,6 +22,7 @@
     "Package"      : [
                    "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",
                    "install -m755 bzip2recover bzdiff bzgrep bzmore $PKGDIR/$PREFIX/bin",
+                   "install -m755 bzip2-shared $PKGDIR/$PREFIX/bin/bzip2",
                    "install -m755 libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib",
                    "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so",
                    "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1",
@@ -33,6 +34,7 @@
     "Files"        : [
                    "usr/local/via/bin/bzdiff",
                    "usr/local/via/bin/bzgrep",
+                   "usr/local/via/bin/bzip2",
                    "usr/local/via/bin/bzip2recover",
                    "usr/local/via/bin/bzmore",
                    "usr/local/via/include/bzlib.h",

@@ -6,13 +6,15 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T12:43:48.380072175-08:00",
-    "Size"         : 1598723,
+    "Date"         : "2014-11-30T18:55:29.810338325-08:00",
+    "Size"         : 1598891,
     "SubPackages"  : null,
     "Depends"      : [], 
     "Flags"        : null,
     "ExtraFlags"   : null,
-    "Patch"        : null,
+    "Patch"        : [
+                   "autoreconf -i"
+    ],             
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,

@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T23:52:26.498123744-08:00",
-    "Size"         : 1810393,
+    "Date"         : "2014-11-30T18:55:45.550972641-08:00",
+    "Size"         : 1797370,
     "SubPackages"  : null,
     "Depends"      : [], 
     "Flags"        : null,
@@ -66,10 +66,6 @@
                    "usr/local/via/share/autoconf/m4sugar/m4sh.m4f",
                    "usr/local/via/share/autoconf/m4sugar/m4sugar.m4",
                    "usr/local/via/share/autoconf/m4sugar/m4sugar.m4f",
-                   "usr/local/via/share/autoconf/m4sugar/version.m4",
-                   "usr/local/via/share/emacs/site-lisp/autoconf-mode.el",
-                   "usr/local/via/share/emacs/site-lisp/autoconf-mode.elc",
-                   "usr/local/via/share/emacs/site-lisp/autotest-mode.el",
-                   "usr/local/via/share/emacs/site-lisp/autotest-mode.elc"
+                   "usr/local/via/share/autoconf/m4sugar/version.m4"
     ]
 }
