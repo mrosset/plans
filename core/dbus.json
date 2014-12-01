@@ -15,7 +15,6 @@
                    "--enable-systemd",
                    "--with-dbus-user=81"
     ],             
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,

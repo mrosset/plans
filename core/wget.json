@@ -13,7 +13,6 @@
     "Flags"        : [
                    "--without-ssl"
     ],             
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

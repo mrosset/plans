@@ -16,7 +16,6 @@
                    "zlib"
     ],             
     "Flags"        : null,
-    "ExtraFlags"   : null,
     "Patch"        : [
                    "autoreconf -i -f"
     ],             

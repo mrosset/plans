@@ -14,7 +14,6 @@
                    "libgcc"
     ],             
     "Flags"        : null,
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : [

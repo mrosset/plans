@@ -14,10 +14,6 @@
                    "ncurses"
     ],             
     "Flags"        : null,
-    "ExtraFlags"   : [
-                   "-DDEFAULT_PATH_VALUE=$PREFIX/bin",
-                   "-DSYS_BASHRC=$PREFIX/etc/bash.bashrc"
-    ],             
     "Patch"        : null,
     "Build"        : [
                    "CFLAGS=$ExtraFlags $SRCDIR/configure $Flags",

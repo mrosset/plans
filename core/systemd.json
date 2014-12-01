@@ -21,7 +21,6 @@
                    "--disable-tcpwrap",
                    "--disable-xz"
     ],             
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

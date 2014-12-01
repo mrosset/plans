@@ -15,7 +15,6 @@
     "Flags"        : [
                    "--enable-libgdbm-compat"
     ],             
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

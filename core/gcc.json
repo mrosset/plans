@@ -52,7 +52,6 @@
                    "--enable-linker-build-id",
                    "--with-native-system-header-dir=$PREFIX/include"
     ],             
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

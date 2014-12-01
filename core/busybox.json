@@ -11,7 +11,6 @@
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "sed '1,1i#include \u003csys/resource.h\u003e' -i include/libbb.h",

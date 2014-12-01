@@ -15,8 +15,9 @@
     "Flags"        : [
                    "--without-guile"
     ],             
-    "ExtraFlags"   : null,
-    "Patch"        : ["autoreconf -i"],
+    "Patch"        : [
+                   "autoreconf -i"
+    ],             
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,

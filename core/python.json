@@ -6,8 +6,8 @@
     "StageDir"     : "Python-2.7.8",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T11:22:47.015716572-08:00",
-    "Size"         : 102285966,
+    "Date"         : "2014-12-01T03:42:54.910772203-08:00",
+    "Size"         : 102302554,
     "SubPackages"  : null,
     "Depends"      : [
                    "",
@@ -21,7 +21,6 @@
     "Flags"        : [
                    "--with-openssl=$PREFIX"
     ],             
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
@@ -31,7 +30,9 @@
                    "make install DESTDIR=$PKGDIR"
     ],             
     "PostInstall"  : null,
-    "Remove"       : null,
+    "Remove"       : [
+                   "$PREFIX/lib/python2.7/test"
+    ],             
     "Files"        : [
                    "usr/local/via/bin/2to3",
                    "usr/local/via/bin/idle",
@@ -1939,6 +1940,7 @@
                    "usr/local/via/lib/python2.7/lib-dynload/cPickle.so",
                    "usr/local/via/lib/python2.7/lib-dynload/cStringIO.so",
                    "usr/local/via/lib/python2.7/lib-dynload/cmath.so",
+                   "usr/local/via/lib/python2.7/lib-dynload/crypt.so",
                    "usr/local/via/lib/python2.7/lib-dynload/crypt_failed.so",
                    "usr/local/via/lib/python2.7/lib-dynload/datetime.so",
                    "usr/local/via/lib/python2.7/lib-dynload/dbm.so",

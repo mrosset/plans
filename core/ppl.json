@@ -14,7 +14,6 @@
                    "gmp"
     ],             
     "Flags"        : null,
-    "ExtraFlags"   : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",

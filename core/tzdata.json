@@ -11,9 +11,6 @@
     "SubPackages"  : null,
     "Depends"      : [], 
     "Flags"        : null,
-    "ExtraFlags"   : [
-                   "africa antarctica asia australasia europe northamerica southamerica pacificnew etcetera backward systemv factory"
-    ],             
     "Patch"        : null,
     "Build"        : null,
     "Package"      : [
