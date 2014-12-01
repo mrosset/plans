@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-11-29T11:52:08.095726372-08:00",
-    "Size"         : 24614969,
+    "Date"         : "2014-12-01T06:39:32.783441768-08:00",
+    "Size"         : 24671262,
     "SubPackages"  : null,
     "Depends"      : [
                    "curl",
@@ -28,7 +28,9 @@
                    "make NO_INSTALL_HARDLINKS=1"
     ],             
     "Package"      : [
-                   "make NO_INSTALL_HARDLINKS=1 install DESTDIR=$PKGDIR"
+                   "make NO_INSTALL_HARDLINKS=1 install DESTDIR=$PKGDIR",
+                   "mkdir -p $PKGDIR/$PREFIX/share/bash-completion/completions/",
+                   "install -m644 ./contrib/completion/git-completion.bash $PKGDIR/$PREFIX/share/bash-completion/completions/git"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
@@ -227,6 +229,7 @@
                    "usr/local/via/lib/git-core/mergetools/xxdiff",
                    "usr/local/via/lib/perl5/core_perl/perllocal.pod",
                    "usr/local/via/lib/perl5/site_perl/auto/Git/.packlist",
+                   "usr/local/via/share/bash-completion/completions/git",
                    "usr/local/via/share/git-core/templates/description",
                    "usr/local/via/share/git-core/templates/hooks/applypatch-msg.sample",
                    "usr/local/via/share/git-core/templates/hooks/commit-msg.sample",
