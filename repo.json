@@ -58,6 +58,7 @@
     "core/mpfr.json",
     "core/ncdu.json",
     "core/ncurses.json",
+    "core/openssh.json",
     "core/openssl.json",
     "core/pam.json",
     "core/pcre.json",
