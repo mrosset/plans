@@ -11,7 +11,7 @@
     "SubPackages"  : null,
     "Depends"      : null,
     "Flags"        : null,
-    "ExtraFlags"   : null,
+    "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
