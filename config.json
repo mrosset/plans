@@ -1,37 +1,39 @@
 {
-    "Identity"  : "test user \u003ctest@test.com\u003e",
-    "Arch"      : "x86_64",
-    "OS"        : "linux",
-    "Root"      : "/",
-    "PlansRepo" : "http://bitbucket.org/strings/plans",
-    "Cache"     : "$HOME/via/cache",
-    "DB"        : "usr/local/via/db",
-    "Plans"     : "$HOME/via/plans",
-    "Repo"      : "$HOME/via/repo",
-    "Binary"    : "http://jupiter:8080/repo",
-    "Flags"     : [
-                "--config-cache",
-                "--disable-acl",
-                "--disable-manpages",
-                "--disable-multilib",
-                "--disable-nls",
-                "--disable-werror",
-                "--libexec=$PREFIX/lib",
-                "--prefix=$PREFIX",
-                "--sysconfdir=$PREFIX/etc",
-                "--without-manpages"
-    ],          
-    "Env"       : {
-                "CFLAGS"       : "-pipe -O2 -mtune=generic",
-                "CONFIG_SHELL" : "/usr/local/via/bin/dash",
-                "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
-                "LDFLAGS"      : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                "PATH"         : "$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
-                "PREFIX"       : "/usr/local/via"
-    },          
-    "Remove"    : [
-                "usr/local/via/share/doc",
-                "usr/local/via/share/info",
-                "usr/local/via/share/man"
-    ]
+    "Identity"    : "test user \u003ctest@test.com\u003e",
+    "Arch"        : "x86_64",
+    "OS"          : "linux",
+    "Root"        : "/",
+    "PlansRepo"   : "http://bitbucket.org/strings/plans",
+    "Mirror"      : "",
+    "Cache"       : "$HOME/via/cache",
+    "DB"          : "usr/local/via/db",
+    "Plans"       : "$HOME/via/plans",
+    "Repo"        : "$HOME/via/repo",
+    "Binary"      : "http://jupiter:8080/repo",
+    "Flags"       : [
+                  "--config-cache",
+                  "--disable-acl",
+                  "--disable-manpages",
+                  "--disable-multilib",
+                  "--disable-nls",
+                  "--disable-werror",
+                  "--libexec=$PREFIX/lib",
+                  "--prefix=$PREFIX",
+                  "--sysconfdir=$PREFIX/etc",
+                  "--without-manpages"
+    ],            
+    "Env"         : {
+                  "CFLAGS"       : "-pipe -O2 -mtune=generic",
+                  "CONFIG_SHELL" : "/usr/local/via/bin/dash",
+                  "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
+                  "LDFLAGS"      : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
+                  "PATH"         : "$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
+                  "PREFIX"       : "/usr/local/via"
+    },            
+    "Remove"      : [
+                  "usr/local/via/share/doc",
+                  "usr/local/via/share/info",
+                  "usr/local/via/share/man"
+    ],            
+    "PostInstall" : null
 }
