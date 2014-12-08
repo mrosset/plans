@@ -28,12 +28,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/include/mpc.h",
-                   "usr/local/via/lib/libmpc.a",
-                   "usr/local/via/lib/libmpc.la",
-                   "usr/local/via/lib/libmpc.so",
-                   "usr/local/via/lib/libmpc.so.3",
-                   "usr/local/via/lib/libmpc.so.3.0.0"
-    ]
+    "Files"        : null
 }

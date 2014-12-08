@@ -23,8 +23,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/tar",
-                   "usr/local/via/lib/rmt"
-    ]
+    "Files"        : null
 }

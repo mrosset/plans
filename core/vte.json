@@ -18,5 +18,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : []
+    "Files"        : null
 }

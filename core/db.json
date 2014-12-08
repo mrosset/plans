@@ -25,28 +25,5 @@
     "Remove"       : [
                    "usr/local/via/docs"
     ],             
-    "Files"        : [
-                   "usr/local/via/bin/db_archive",
-                   "usr/local/via/bin/db_checkpoint",
-                   "usr/local/via/bin/db_deadlock",
-                   "usr/local/via/bin/db_dump",
-                   "usr/local/via/bin/db_hotbackup",
-                   "usr/local/via/bin/db_load",
-                   "usr/local/via/bin/db_log_verify",
-                   "usr/local/via/bin/db_printlog",
-                   "usr/local/via/bin/db_recover",
-                   "usr/local/via/bin/db_replicate",
-                   "usr/local/via/bin/db_stat",
-                   "usr/local/via/bin/db_tuner",
-                   "usr/local/via/bin/db_upgrade",
-                   "usr/local/via/bin/db_verify",
-                   "usr/local/via/include/db.h",
-                   "usr/local/via/include/db_cxx.h",
-                   "usr/local/via/lib/libdb-5.3.a",
-                   "usr/local/via/lib/libdb-5.3.la",
-                   "usr/local/via/lib/libdb-5.3.so",
-                   "usr/local/via/lib/libdb-5.so",
-                   "usr/local/via/lib/libdb.a",
-                   "usr/local/via/lib/libdb.so"
-    ]
+    "Files"        : null
 }

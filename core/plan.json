@@ -1,0 +1,26 @@
+{
+    "Name"         : "plan",
+    "Version"      : "1.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/plan-1.0.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : true,
+    "Date"         : "2014-12-07T18:57:59.814073018-08:00",
+    "Size"         : 6694,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   ""
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : [
+                   "cp a.out $PKGDIR/"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "a.out"
+    ]
+}

@@ -30,16 +30,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/bzdiff",
-                   "usr/local/via/bin/bzgrep",
-                   "usr/local/via/bin/bzip2",
-                   "usr/local/via/bin/bzip2recover",
-                   "usr/local/via/bin/bzmore",
-                   "usr/local/via/include/bzlib.h",
-                   "usr/local/via/lib/libbz2.so",
-                   "usr/local/via/lib/libbz2.so.1",
-                   "usr/local/via/lib/libbz2.so.1.0",
-                   "usr/local/via/lib/libbz2.so.1.0.6"
-    ]
+    "Files"        : null
 }

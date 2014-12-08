@@ -22,8 +22,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/make",
-                   "usr/local/via/include/gnumake.h"
-    ]
+    "Files"        : null
 }

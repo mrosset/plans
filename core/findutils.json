@@ -25,14 +25,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/find",
-                   "usr/local/via/bin/locate",
-                   "usr/local/via/bin/oldfind",
-                   "usr/local/via/bin/updatedb",
-                   "usr/local/via/bin/xargs",
-                   "usr/local/via/lib/bigram",
-                   "usr/local/via/lib/code",
-                   "usr/local/via/lib/frcode"
-    ]
+    "Files"        : null
 }

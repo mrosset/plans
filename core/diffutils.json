@@ -20,10 +20,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/cmp",
-                   "usr/local/via/bin/diff",
-                   "usr/local/via/bin/diff3",
-                   "usr/local/via/bin/sdiff"
-    ]
+    "Files"        : null
 }

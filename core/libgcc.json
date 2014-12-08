@@ -24,20 +24,5 @@
     "Remove"       : [
                    "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/unwind.h"
     ],             
-    "Files"        : [
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbeginS.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbeginT.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtendS.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtfastmath.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtprec32.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtprec64.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtprec80.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/libgcc.a",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/libgcc_eh.a",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/libgcov.a",
-                   "usr/local/via/lib/libgcc_s.so",
-                   "usr/local/via/lib/libgcc_s.so.1"
-    ]
+    "Files"        : null
 }

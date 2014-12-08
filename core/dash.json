@@ -18,7 +18,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/dash"
-    ]
+    "Files"        : null
 }

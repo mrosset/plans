@@ -20,15 +20,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/xmlwf",
-                   "usr/local/via/include/expat.h",
-                   "usr/local/via/include/expat_external.h",
-                   "usr/local/via/lib/libexpat.a",
-                   "usr/local/via/lib/libexpat.la",
-                   "usr/local/via/lib/libexpat.so",
-                   "usr/local/via/lib/libexpat.so.1",
-                   "usr/local/via/lib/libexpat.so.1.6.0",
-                   "usr/local/via/lib/pkgconfig/expat.pc"
-    ]
+    "Files"        : null
 }

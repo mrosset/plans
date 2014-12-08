@@ -24,9 +24,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/less",
-                   "usr/local/via/bin/lessecho",
-                   "usr/local/via/bin/lesskey"
-    ]
+    "Files"        : null
 }

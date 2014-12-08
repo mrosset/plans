@@ -23,9 +23,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/egrep",
-                   "usr/local/via/bin/fgrep",
-                   "usr/local/via/bin/grep"
-    ]
+    "Files"        : null
 }

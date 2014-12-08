@@ -25,7 +25,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/rsync"
-    ]
+    "Files"        : null
 }

@@ -26,13 +26,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/include/mpf2mpfr.h",
-                   "usr/local/via/include/mpfr.h",
-                   "usr/local/via/lib/libmpfr.a",
-                   "usr/local/via/lib/libmpfr.la",
-                   "usr/local/via/lib/libmpfr.so",
-                   "usr/local/via/lib/libmpfr.so.4",
-                   "usr/local/via/lib/libmpfr.so.4.1.0"
-    ]
+    "Files"        : null
 }

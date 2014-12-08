@@ -23,12 +23,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/include/gmp.h",
-                   "usr/local/via/lib/libgmp.a",
-                   "usr/local/via/lib/libgmp.la",
-                   "usr/local/via/lib/libgmp.so",
-                   "usr/local/via/lib/libgmp.so.10",
-                   "usr/local/via/lib/libgmp.so.10.0.5"
-    ]
+    "Files"        : null
 }

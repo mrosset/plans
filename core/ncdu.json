@@ -24,8 +24,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/ncdu",
-                   "usr/local/via/share/man/man1/ncdu.1"
-    ]
+    "Files"        : null
 }

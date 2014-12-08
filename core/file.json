@@ -19,13 +19,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/file",
-                   "usr/local/via/include/magic.h",
-                   "usr/local/via/lib/libmagic.la",
-                   "usr/local/via/lib/libmagic.so",
-                   "usr/local/via/lib/libmagic.so.1",
-                   "usr/local/via/lib/libmagic.so.1.0.0",
-                   "usr/local/via/share/misc/magic.mgc"
-    ]
+    "Files"        : null
 }

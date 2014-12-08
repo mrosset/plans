@@ -25,9 +25,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/strace",
-                   "usr/local/via/bin/strace-graph",
-                   "usr/local/via/bin/strace-log-merge"
-    ]
+    "Files"        : null
 }

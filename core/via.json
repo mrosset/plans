@@ -22,7 +22,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/via"
-    ]
+    "Files"        : null
 }

@@ -25,9 +25,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/bash",
-                   "usr/local/via/bin/bashbug",
-                   "usr/local/via/bin/sh"
-    ]
+    "Files"        : null
 }
