@@ -4,7 +4,6 @@
     "OS"          : "linux",
     "Root"        : "/",
     "PlansRepo"   : "http://bitbucket.org/strings/plans",
-    "Mirror"      : "",
     "Cache"       : "$HOME/via/cache",
     "DB"          : "usr/local/via/db",
     "Plans"       : "$HOME/via/plans",
@@ -23,12 +22,11 @@
                   "--without-manpages"
     ],            
     "Env"         : {
-                  "CFLAGS"       : "-pipe -O2 -mtune=generic",
-                  "CONFIG_SHELL" : "/usr/local/via/bin/dash",
-                  "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
-                  "LDFLAGS"      : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                  "PATH"         : "$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
-                  "PREFIX"       : "/usr/local/via"
+                  "CFLAGS"   : "-pipe -O2 -mtune=generic",
+                  "CXXFLAGS" : "-pipe -O2 -mtune=generic",
+                  "LDFLAGS"  : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
+                  "PATH"     : "$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
+                  "PREFIX"   : "/usr/local/via"
     },            
     "Remove"      : [
                   "usr/local/via/share/doc",

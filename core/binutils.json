@@ -6,11 +6,12 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T09:11:48.636449671-08:00",
-    "Size"         : 31760007,
+    "Date"         : "2014-12-07T18:03:12.637118706-08:00",
+    "Size"         : 31769711,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glibc"
+                   "glibc",
+                   "zlib"
     ],             
     "Flags"        : [
                    "--with-lib-path=$PREFIX/lib",
