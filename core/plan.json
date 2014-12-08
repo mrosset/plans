@@ -20,7 +20,5 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "a.out"
-    ]
+    "Files"        : null
 }
