@@ -25,7 +25,7 @@
                   "CFLAGS"   : "-pipe -O2 -mtune=generic",
                   "CXXFLAGS" : "-pipe -O2 -mtune=generic",
                   "LDFLAGS"  : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                  "PATH"     : "$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
+                  "PATH"     : "$GOPATH/bin:$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
                   "PREFIX"   : "/usr/local/via"
     },            
     "Remove"      : [
