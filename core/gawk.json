@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-28T23:00:38.782696324-08:00",
-    "Size"         : 2387797,
+    "Date"         : "2014-12-23T14:42:44.385980939-08:00",
+    "Size"         : 2387669,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -23,5 +23,35 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/awk",
+                   "usr/local/via/bin/dgawk",
+                   "usr/local/via/bin/gawk",
+                   "usr/local/via/bin/gawk-4.0.1",
+                   "usr/local/via/bin/igawk",
+                   "usr/local/via/bin/pgawk",
+                   "usr/local/via/bin/pgawk-4.0.1",
+                   "usr/local/via/lib/awk/grcat",
+                   "usr/local/via/lib/awk/pwcat",
+                   "usr/local/via/share/awk/assert.awk",
+                   "usr/local/via/share/awk/bits2str.awk",
+                   "usr/local/via/share/awk/cliff_rand.awk",
+                   "usr/local/via/share/awk/ctime.awk",
+                   "usr/local/via/share/awk/ftrans.awk",
+                   "usr/local/via/share/awk/getopt.awk",
+                   "usr/local/via/share/awk/gettime.awk",
+                   "usr/local/via/share/awk/group.awk",
+                   "usr/local/via/share/awk/join.awk",
+                   "usr/local/via/share/awk/libintl.awk",
+                   "usr/local/via/share/awk/noassign.awk",
+                   "usr/local/via/share/awk/ord.awk",
+                   "usr/local/via/share/awk/passwd.awk",
+                   "usr/local/via/share/awk/quicksort.awk",
+                   "usr/local/via/share/awk/readable.awk",
+                   "usr/local/via/share/awk/rewind.awk",
+                   "usr/local/via/share/awk/round.awk",
+                   "usr/local/via/share/awk/strtonum.awk",
+                   "usr/local/via/share/awk/walkarray.awk",
+                   "usr/local/via/share/awk/zerofile.awk"
+    ]
 }

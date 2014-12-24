@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-30T09:05:12.373146755-08:00",
-    "Size"         : 148758,
+    "Date"         : "2014-12-23T14:52:17.612202037-08:00",
+    "Size"         : 149062,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -18,5 +18,20 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/gunzip",
+                   "usr/local/via/bin/gzexe",
+                   "usr/local/via/bin/gzip",
+                   "usr/local/via/bin/uncompress",
+                   "usr/local/via/bin/zcat",
+                   "usr/local/via/bin/zcmp",
+                   "usr/local/via/bin/zdiff",
+                   "usr/local/via/bin/zegrep",
+                   "usr/local/via/bin/zfgrep",
+                   "usr/local/via/bin/zforce",
+                   "usr/local/via/bin/zgrep",
+                   "usr/local/via/bin/zless",
+                   "usr/local/via/bin/zmore",
+                   "usr/local/via/bin/znew"
+    ]
 }

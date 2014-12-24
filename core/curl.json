@@ -6,10 +6,11 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T11:54:41.163942324-08:00",
-    "Size"         : 1650486,
+    "Date"         : "2014-12-23T14:46:44.879533928-08:00",
+    "Size"         : 1650514,
     "SubPackages"  : null,
     "Depends"      : [
+                   "",
                    "glibc",
                    "openssl",
                    "zlib"
@@ -25,5 +26,24 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/curl",
+                   "usr/local/via/bin/curl-config",
+                   "usr/local/via/include/curl/curl.h",
+                   "usr/local/via/include/curl/curlbuild.h",
+                   "usr/local/via/include/curl/curlrules.h",
+                   "usr/local/via/include/curl/curlver.h",
+                   "usr/local/via/include/curl/easy.h",
+                   "usr/local/via/include/curl/mprintf.h",
+                   "usr/local/via/include/curl/multi.h",
+                   "usr/local/via/include/curl/stdcheaders.h",
+                   "usr/local/via/include/curl/typecheck-gcc.h",
+                   "usr/local/via/lib/libcurl.a",
+                   "usr/local/via/lib/libcurl.la",
+                   "usr/local/via/lib/libcurl.so",
+                   "usr/local/via/lib/libcurl.so.4",
+                   "usr/local/via/lib/libcurl.so.4.3.0",
+                   "usr/local/via/lib/pkgconfig/libcurl.pc",
+                   "usr/local/via/share/aclocal/libcurl.m4"
+    ]
 }
