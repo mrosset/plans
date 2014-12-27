@@ -17,7 +17,7 @@
                    "make"
     ],             
     "Package"      : [
-                   "fakeroot make install DESTDIR=$PKGDIR"
+                   "fakeroot make install-strip DESTDIR=$PKGDIR"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,

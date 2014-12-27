@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-12-23T14:50:08.13943155-08:00",
-    "Size"         : 25137445,
+    "Date"         : "2014-12-27T08:26:56.222477658-08:00",
+    "Size"         : 22627825,
     "SubPackages"  : null,
     "Depends"      : [
                    "curl",
@@ -25,7 +25,7 @@
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags --with-curl=$PREFIX",
-                   "make NO_INSTALL_HARDLINKS=1"
+                   "make strip NO_INSTALL_HARDLINKS=1"
     ],             
     "Package"      : [
                    "make NO_INSTALL_HARDLINKS=1 install DESTDIR=$PKGDIR",
