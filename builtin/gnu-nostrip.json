@@ -1,6 +1,6 @@
 {
-    "Name"         : "gnu",
-    "Version"      : "",
+    "Name"         : "gnu-nostrip",
+    "Version"      : "1.0",
     "Url"          : "",
     "Group"        : "builtin",
     "StageDir"     : "",

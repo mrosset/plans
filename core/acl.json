@@ -4,7 +4,7 @@
     "Url"          : "http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
     "Date"         : "0001-01-01T00:00:00Z",
     "Size"         : 0,
@@ -12,13 +12,8 @@
     "Depends"      : null,
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : null

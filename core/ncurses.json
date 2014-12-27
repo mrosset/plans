@@ -4,9 +4,9 @@
     "Url"          : "http://mirrors.kernel.org/gnu/ncurses/ncurses-5.9.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2014-12-23T11:11:03.226180034-08:00",
+    "Date"         : "2014-12-27T11:01:30.693212533-08:00",
     "Size"         : 10826221,
     "SubPackages"  : null,
     "Depends"      : [
@@ -19,12 +19,8 @@
                    "--without-gpm"
     ],             
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
+    "Build"        : null,
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR",
                    "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libncurses.so"
     ],             
     "PostInstall"  : null,

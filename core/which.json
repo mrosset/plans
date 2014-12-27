@@ -4,23 +4,18 @@
     "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-12-23T17:23:34.642495329-08:00",
-    "Size"         : 28078,
+    "Date"         : "2014-12-27T09:28:44.650715844-08:00",
+    "Size"         : 21416,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [

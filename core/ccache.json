@@ -4,9 +4,9 @@
     "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-12-23T14:40:13.318713161-08:00",
+    "Date"         : "2014-12-27T09:00:30.412201735-08:00",
     "Size"         : 97588,
     "SubPackages"  : null,
     "Depends"      : [
@@ -15,13 +15,8 @@
     ],             
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [

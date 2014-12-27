@@ -4,9 +4,9 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-5.0.5.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-12-23T10:46:34.087306867-08:00",
+    "Date"         : "2014-12-27T08:41:40.662638529-08:00",
     "Size"         : 1778779,
     "SubPackages"  : null,
     "Depends"      : [
@@ -14,13 +14,8 @@
     ],             
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [

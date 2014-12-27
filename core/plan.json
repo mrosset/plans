@@ -6,11 +6,11 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-12-07T18:57:59.814073018-08:00",
-    "Size"         : 6694,
+    "Date"         : "2014-12-26T19:28:43.590451351-08:00",
+    "Size"         : 6555,
     "SubPackages"  : null,
     "Depends"      : [
-                   ""
+                   "glibc"
     ],             
     "Flags"        : null,
     "Patch"        : null,
@@ -20,5 +20,7 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "a.out"
+    ]
 }

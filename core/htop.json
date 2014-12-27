@@ -4,10 +4,10 @@
     "Url"          : "http://hisham.hm/htop/releases/1.0.3/htop-1.0.3.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "Date"         : "2014-12-23T11:13:18.008956456-08:00",
-    "Size"         : 159670,
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "Date"         : "2014-12-27T09:13:50.585684388-08:00",
+    "Size"         : 136162,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -15,13 +15,8 @@
     ],             
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [

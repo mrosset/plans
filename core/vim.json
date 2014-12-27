@@ -4,9 +4,9 @@
     "Url"          : "http://ftp.vim.org/pub/vim/unix/vim-7.4.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "vim74",
-    "Inherit"      : "",
+    "Inherit"      : "gnu-nostrip",
     "BuildInStage" : true,
-    "Date"         : "2014-12-23T17:22:21.422547976-08:00",
+    "Date"         : "2014-12-27T09:27:49.164326096-08:00",
     "Size"         : 21027087,
     "SubPackages"  : null,
     "Depends"      : [
@@ -26,12 +26,8 @@
                    "--with-x=no"
     ],             
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
+    "Build"        : null,
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR",
                    "ln -s vim $PKGDIR/$PREFIX/bin/vi"
     ],             
     "PostInstall"  : null,
