@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2012-08-16T20:17:46.047882Z",
-    "Size"         : 57174,
+    "Date"         : "2014-12-27T12:25:34.96137805-08:00",
+    "Size"         : 44288,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -19,5 +19,7 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/ncdu"
+    ]
 }
