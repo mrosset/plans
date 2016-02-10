@@ -1,0 +1,20 @@
+{
+    "Name"         : "newlib",
+    "Version"      : "2.2.0",
+    "Url"          : "ftp://sourceware.org/pub/newlib/newlib-2.2.0-1.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

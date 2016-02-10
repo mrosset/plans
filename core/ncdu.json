@@ -6,11 +6,11 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-12-27T12:25:34.96137805-08:00",
-    "Size"         : 44288,
+    "Date"         : "2016-02-10T14:04:25.373945262-08:00",
+    "Size"         : 44376,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glibc",
+                   "glibc-i686",
                    "ncurses"
     ],             
     "Flags"        : null,

@@ -1,0 +1,27 @@
+{
+    "Name"         : "gnu-i686-cross",
+    "Version"      : "1.0",
+    "Url"          : "",
+    "Group"        : "builtin",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "Date"         : "2014-11-28T18:54:26.088069823-08:00",
+    "Size"         : 1162966,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "Flags"        : [
+                   "--target=i686-via-linux-newlib"
+    ],             
+    "Patch"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "fakeroot make install-strip DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}
