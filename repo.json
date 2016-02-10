@@ -78,7 +78,6 @@
     "core/pam.json",
     "core/pcre.json",
     "core/perl.json",
-    "core/plan.json",
     "core/ppl.json",
     "core/python.json",
     "core/readline.json",

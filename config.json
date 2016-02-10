@@ -25,8 +25,8 @@
                   "CFLAGS"   : "-pipe -O2 -mtune=generic",
                   "CXXFLAGS" : "-pipe -O2 -mtune=generic",
                   "LDFLAGS"  : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                  "PATH"     : "$GOPATH/bin:$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
-                  "PREFIX"   : "/usr/local/via"
+                  "PREFIX"   : "/usr/local/via",
+                  "PATH"     : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:/usr/local/via/bin:/bin:/usr/bin"
     },            
     "Remove"      : [
                   "usr/local/via/share/doc",
