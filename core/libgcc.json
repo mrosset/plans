@@ -1,13 +1,13 @@
 {
     "Name"         : "libgcc",
-    "Version"      : "4.9.2",
-    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2",
+    "Version"      : "5.3.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-5.3.0/gcc-5.3.0.tar.bz2",
     "Group"        : "core",
-    "StageDir"     : "gcc-4.9.2",
+    "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
-    "Date"         : "2014-12-27T08:46:11.868284276-08:00",
-    "Size"         : 8853113,
+    "Date"         : "2016-02-07T12:02:58.515165433-08:00",
+    "Size"         : 8932421,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -22,21 +22,21 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : [
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/include/unwind.h"
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/unwind.h"
     ],             
     "Files"        : [
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbeginS.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbeginT.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtendS.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtfastmath.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtprec32.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtprec64.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtprec80.o",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/libgcc.a",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/libgcc_eh.a",
-                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/libgcov.a",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbegin.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginS.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginT.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtend.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtendS.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtfastmath.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtprec32.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtprec64.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtprec80.o",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/libgcc.a",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/libgcc_eh.a",
+                   "usr/local/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/libgcov.a",
                    "usr/local/via/lib/libgcc_s.so",
                    "usr/local/via/lib/libgcc_s.so.1"
     ]

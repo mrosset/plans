@@ -4,10 +4,10 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gdbm/gdbm-1.11.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T05:25:16.135474617-08:00",
-    "Size"         : 350271,
+    "Date"         : "2014-12-27T20:24:57.776748095-08:00",
+    "Size"         : 308247,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -16,12 +16,8 @@
                    "--enable-libgdbm-compat"
     ],             
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
+    "Build"        : null,
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR",
                    "mkdir -p $PKGDIR/$PREFIX/include/gdbm",
                    "ln -sf ../gdbm.h $PKGDIR/$PREFIX/include/gdbm/gdbm.h",
                    "ln -sf ../ndbm.h $PKGDIR/$PREFIX/include/gdbm/ndbm.h",
@@ -29,5 +25,25 @@
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/gdbm_dump",
+                   "usr/local/via/bin/gdbm_load",
+                   "usr/local/via/bin/gdbmtool",
+                   "usr/local/via/include/dbm.h",
+                   "usr/local/via/include/gdbm/dbm.h",
+                   "usr/local/via/include/gdbm/gdbm.h",
+                   "usr/local/via/include/gdbm/ndbm.h",
+                   "usr/local/via/include/gdbm.h",
+                   "usr/local/via/include/ndbm.h",
+                   "usr/local/via/lib/libgdbm.a",
+                   "usr/local/via/lib/libgdbm.la",
+                   "usr/local/via/lib/libgdbm.so",
+                   "usr/local/via/lib/libgdbm.so.4",
+                   "usr/local/via/lib/libgdbm.so.4.0.0",
+                   "usr/local/via/lib/libgdbm_compat.a",
+                   "usr/local/via/lib/libgdbm_compat.la",
+                   "usr/local/via/lib/libgdbm_compat.so",
+                   "usr/local/via/lib/libgdbm_compat.so.4",
+                   "usr/local/via/lib/libgdbm_compat.so.4.0.0"
+    ]
 }

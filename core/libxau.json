@@ -1,0 +1,30 @@
+{
+    "Name"         : "libxau",
+    "Version"      : "1.0.8",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXau-1.0.8.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "libXau-1.0.8",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "Date"         : "2014-12-29T16:05:43.616006647-08:00",
+    "Size"         : 34967,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/include/X11/Xauth.h",
+                   "usr/local/via/lib/libXau.a",
+                   "usr/local/via/lib/libXau.la",
+                   "usr/local/via/lib/libXau.so",
+                   "usr/local/via/lib/libXau.so.6",
+                   "usr/local/via/lib/libXau.so.6.0.0",
+                   "usr/local/via/lib/pkgconfig/xau.pc"
+    ]
+}

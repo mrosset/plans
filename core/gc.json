@@ -1,20 +1,20 @@
 {
-    "Name"         : "wget",
-    "Version"      : "1.13",
-    "Url"          : "http://mirrors.kernel.org/gnu/wget/wget-1.13.tar.gz",
+    "Name"         : "gc",
+    "Version"      : "7.4.2",
+    "Url"          : "http://www.hboehm.info/gc/gc_source/gc-7.4.2.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2012-08-09T12:31:15.239935Z",
-    "Size"         : 674922,
+    "Date"         : "2016-02-08T10:29:16.246291077-08:00",
+    "Size"         : 0,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [], 
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : []
 }

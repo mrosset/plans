@@ -1,0 +1,34 @@
+{
+    "Name"         : "libgcrypt",
+    "Version"      : "1.6.2",
+    "Url"          : "http://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.6.2.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "Date"         : "2014-12-28T12:55:24.093695776-08:00",
+    "Size"         : 1022135,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc",
+                   "libgpg-error"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/dumpsexp",
+                   "usr/local/via/bin/hmac256",
+                   "usr/local/via/bin/libgcrypt-config",
+                   "usr/local/via/bin/mpicalc",
+                   "usr/local/via/include/gcrypt.h",
+                   "usr/local/via/lib/libgcrypt.la",
+                   "usr/local/via/lib/libgcrypt.so",
+                   "usr/local/via/lib/libgcrypt.so.20",
+                   "usr/local/via/lib/libgcrypt.so.20.0.2",
+                   "usr/local/via/share/aclocal/libgcrypt.m4"
+    ]
+}

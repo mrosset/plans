@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2014-12-27T09:16:43.637928386-08:00",
-    "Size"         : 599700,
+    "Date"         : "2016-02-04T10:44:50.31588698-08:00",
+    "Size"         : 599628,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"

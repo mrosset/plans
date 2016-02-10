@@ -1,13 +1,13 @@
 {
     "Name"         : "file",
-    "Version"      : "5.20",
-    "Url"          : "http://ftp.astron.com/pub/file/file-5.20.tar.gz",
+    "Version"      : "5.25",
+    "Url"          : "http://ftp.astron.com/pub/file/file-5.25.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-30T11:27:54.567491391-08:00",
-    "Size"         : 3105161,
+    "Date"         : "2016-02-07T12:29:03.179586253-08:00",
+    "Size"         : 4027811,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -19,5 +19,13 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/file",
+                   "usr/local/via/include/magic.h",
+                   "usr/local/via/lib/libmagic.la",
+                   "usr/local/via/lib/libmagic.so",
+                   "usr/local/via/lib/libmagic.so.1",
+                   "usr/local/via/lib/libmagic.so.1.0.0",
+                   "usr/local/via/share/misc/magic.mgc"
+    ]
 }

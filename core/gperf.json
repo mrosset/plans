@@ -4,22 +4,23 @@
     "Url"          : "http://mirrors.kernel.org/gnu/gperf/gperf-3.0.4.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2012-08-03T02:28:22.704172-07:00",
-    "Size"         : 306820,
+    "Date"         : "2016-02-08T10:31:57.850627951-08:00",
+    "Size"         : 100456,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc",
+                   "libgcc",
+                   "libstdc++"
+    ],             
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make -C src"
-    ],             
-    "Package"      : [
-                   "make install -C src DESTDIR=$PKGDIR"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/gperf"
+    ]
 }

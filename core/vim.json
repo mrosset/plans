@@ -6,8 +6,8 @@
     "StageDir"     : "vim74",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : true,
-    "Date"         : "2014-12-27T09:27:49.164326096-08:00",
-    "Size"         : 21027087,
+    "Date"         : "2016-02-04T10:53:52.476104186-08:00",
+    "Size"         : 21027191,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",

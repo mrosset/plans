@@ -6,15 +6,23 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2012-08-05T21:46:27.454842Z",
-    "Size"         : 138750,
+    "Date"         : "2014-12-28T07:03:19.00697845-08:00",
+    "Size"         : 138744,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [], 
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/intltool-extract",
+                   "usr/local/via/bin/intltool-merge",
+                   "usr/local/via/bin/intltool-prepare",
+                   "usr/local/via/bin/intltool-update",
+                   "usr/local/via/bin/intltoolize",
+                   "usr/local/via/share/aclocal/intltool.m4",
+                   "usr/local/via/share/intltool/Makefile.in.in"
+    ]
 }

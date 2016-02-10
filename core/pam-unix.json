@@ -1,0 +1,29 @@
+{
+    "Name"         : "pam-unix",
+    "Version"      : "2.9.1",
+    "Url"          : "ftp://ftp.archlinux.org/other/pam_unix2/pam_unix2-2.9.1.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "pam_unix2-2.9.1",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "Date"         : "2014-12-27T09:15:05.441761224-08:00",
+    "Size"         : 131120,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags",
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install-strip DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/sed"
+    ]
+}

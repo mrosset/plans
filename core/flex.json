@@ -1,20 +1,36 @@
 {
     "Name"         : "flex",
-    "Version"      : "2.5.36",
-    "Url"          : "http://downloads.sourceforge.net/sourceforge/flex/flex-2.5.36.tar.bz2",
+    "Version"      : "2.5.39",
+    "Url"          : "http://downloads.sourceforge.net/sourceforge/flex/flex-2.5.39.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Size"         : 0,
+    "Date"         : "2016-02-08T10:33:40.198542365-08:00",
+    "Size"         : 334963,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/bin/flex",
+                   "usr/local/via/bin/flex++",
+                   "usr/local/via/include/FlexLexer.h",
+                   "usr/local/via/lib/libfl.a",
+                   "usr/local/via/lib/libfl.la",
+                   "usr/local/via/lib/libfl.so",
+                   "usr/local/via/lib/libfl.so.2",
+                   "usr/local/via/lib/libfl.so.2.0.0",
+                   "usr/local/via/lib/libfl_pic.a",
+                   "usr/local/via/lib/libfl_pic.la",
+                   "usr/local/via/lib/libfl_pic.so",
+                   "usr/local/via/lib/libfl_pic.so.2",
+                   "usr/local/via/lib/libfl_pic.so.2.0.0"
+    ]
 }

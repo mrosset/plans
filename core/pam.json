@@ -5,9 +5,9 @@
     "Group"        : "core",
     "StageDir"     : "Linux-PAM-1.1.8",
     "Inherit"      : "gnu",
-    "BuildInStage" : true,
-    "Date"         : "2014-12-28T07:16:00.56134792-08:00",
-    "Size"         : 748417,
+    "BuildInStage" : false,
+    "Date"         : "2016-02-08T10:33:55.03328789-08:00",
+    "Size"         : 744849,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,9 +19,7 @@
     ],             
     "Patch"        : null,
     "Build"        : null,
-    "Package"      : [
-                   "make DESTDIR=$pkgdir -C pam_unix2-2.9.1 install"
-    ],             
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [

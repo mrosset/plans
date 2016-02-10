@@ -1,0 +1,20 @@
+{
+    "Name"         : "libgpg",
+    "Version"      : "1.17",
+    "Url"          : "ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.17.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "Date"         : "2014-12-28T12:52:48.031513512-08:00",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : [], 
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : []
+}

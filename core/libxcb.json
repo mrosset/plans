@@ -1,17 +1,15 @@
 {
-    "Name"         : "strace",
-    "Version"      : "4.9",
-    "Url"          : "http://downloads.sourceforge.net/4.9/strace-4.9.tar.xz",
+    "Name"         : "libxcb",
+    "Version"      : "1.11",
+    "Url"          : "http://xcb.freedesktop.org//dist/libxcb-1.11.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-28T23:36:05.755424476-08:00",
-    "Size"         : 476885,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Depends"      : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,

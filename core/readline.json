@@ -4,24 +4,50 @@
     "Url"          : "http://ftp.gnu.org/gnu/readline/readline-6.3.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "",
+    "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2014-11-30T11:30:46.995555601-08:00",
-    "Size"         : 1120719,
+    "Date"         : "2016-02-03T14:42:02.883437949-08:00",
+    "Size"         : 1113787,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make DESTDIR=$PKGDIR install"
-    ],             
+    "Build"        : null,
+    "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "usr/local/via/include/readline/chardefs.h",
+                   "usr/local/via/include/readline/history.h",
+                   "usr/local/via/include/readline/keymaps.h",
+                   "usr/local/via/include/readline/readline.h",
+                   "usr/local/via/include/readline/rlconf.h",
+                   "usr/local/via/include/readline/rlstdc.h",
+                   "usr/local/via/include/readline/rltypedefs.h",
+                   "usr/local/via/include/readline/tilde.h",
+                   "usr/local/via/lib/libhistory.a",
+                   "usr/local/via/lib/libhistory.so",
+                   "usr/local/via/lib/libhistory.so.6",
+                   "usr/local/via/lib/libhistory.so.6.3",
+                   "usr/local/via/lib/libreadline.a",
+                   "usr/local/via/lib/libreadline.so",
+                   "usr/local/via/lib/libreadline.so.6",
+                   "usr/local/via/lib/libreadline.so.6.3",
+                   "usr/local/via/share/readline/excallback.c",
+                   "usr/local/via/share/readline/fileman.c",
+                   "usr/local/via/share/readline/hist_erasedups.c",
+                   "usr/local/via/share/readline/hist_purgecmd.c",
+                   "usr/local/via/share/readline/histexamp.c",
+                   "usr/local/via/share/readline/manexamp.c",
+                   "usr/local/via/share/readline/rl-callbacktest.c",
+                   "usr/local/via/share/readline/rl-fgets.c",
+                   "usr/local/via/share/readline/rl.c",
+                   "usr/local/via/share/readline/rlcat.c",
+                   "usr/local/via/share/readline/rlevent.c",
+                   "usr/local/via/share/readline/rlptytest.c",
+                   "usr/local/via/share/readline/rltest.c",
+                   "usr/local/via/share/readline/rlversion.c"
+    ]
 }

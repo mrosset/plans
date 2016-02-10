@@ -4,10 +4,10 @@
     "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "gnu",
+    "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2014-12-27T09:00:30.412201735-08:00",
-    "Size"         : 97588,
+    "Date"         : "2016-02-03T14:15:27.154602412-08:00",
+    "Size"         : 97360,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
