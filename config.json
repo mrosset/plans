@@ -19,14 +19,18 @@
                   "--libexec=$PREFIX/lib",
                   "--prefix=$PREFIX",
                   "--sysconfdir=$PREFIX/etc",
+				  "-q",
                   "--without-manpages"
     ],            
     "Env"         : {
+                  "PREFIX"   : "$HOME/install/via",
                   "CFLAGS"   : "-pipe -O2 -mtune=generic",
                   "CXXFLAGS" : "-pipe -O2 -mtune=generic",
+				  "MAKEFLAGS" : "-sw -j6",
                   "LDFLAGS"  : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                  "PREFIX"   : "/usr/local/via",
-                  "PATH"     : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:/usr/local/via/bin:/bin:/usr/bin"
+                  "PATH"     : "$GOPATH/bin:/usr/local/via/lib/ccache:$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
+				  "CONFIG_SHELL" : "/bin/sh",
+				  "MAKEINFO" : "missing"
     },            
     "Remove"      : [
                   "usr/local/via/share/doc",
