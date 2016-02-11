@@ -1,7 +1,7 @@
 {
     "Name"         : "file",
     "Version"      : "5.25",
-    "Url"          : "http://ftp.astron.com/pub/file/file-5.25.tar.gz",
+    "Url"          : "http://fossies.org/linux/misc/file-5.25.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

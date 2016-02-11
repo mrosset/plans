@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2016-02-10T14:28:24.521283474-08:00",
-    "Size"         : 97402,
+    "Date"         : "2016-02-11T11:36:12.08882312-08:00",
+    "Size"         : 97309,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -19,13 +19,19 @@
     "Package"      : [
                    "mkdir -p $PKGDIR/$PREFIX/lib/ccache",
                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/gcc",
-                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-newlib-gcc"
+                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
+                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
+                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
+                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
                    "usr/local/via/bin/ccache",
+                   "usr/local/via/lib/ccache/clang",
+                   "usr/local/via/lib/ccache/cpp",
+                   "usr/local/via/lib/ccache/g++",
                    "usr/local/via/lib/ccache/gcc",
-                   "usr/local/via/lib/ccache/i686-via-linux-newlib-gcc"
+                   "usr/local/via/lib/ccache/i686-via-linux-gnu-gcc"
     ]
 }
