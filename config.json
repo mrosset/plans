@@ -5,7 +5,7 @@
     "Root"        : "/",
     "PlansRepo"   : "http://bitbucket.org/strings/plans",
     "Cache"       : "$HOME/via/cache",
-    "DB"          : "usr/local/via/db",
+    "DB"          : "home/mrosset/install/db",
     "Plans"       : "$HOME/via/plans",
     "Repo"        : "$HOME/via/repo",
     "Binary"      : "http://jupiter:8080/repo",
@@ -19,23 +19,24 @@
                   "--libexec=$PREFIX/lib",
                   "--prefix=$PREFIX",
                   "--sysconfdir=$PREFIX/etc",
-				  "-q",
-                  "--without-manpages"
+                  "--without-manpages",
+                  "-q"
     ],            
     "Env"         : {
-                  "PREFIX"   : "$HOME/install/via",
-                  "CFLAGS"   : "-pipe -O2 -mtune=generic",
-                  "CXXFLAGS" : "-pipe -O2 -mtune=generic",
-				  "MAKEFLAGS" : "-sw -j6",
-                  "LDFLAGS"  : "-Wl,--as-needed -Wl,--dynamic-linker,/usr/local/via/lib/ld-linux-x86-64.so.2",
-                  "PATH"     : "$GOPATH/bin:/usr/local/via/lib/ccache:$HOME/bin:/usr/local/via/bin:/bin:/usr/bin",
-				  "CONFIG_SHELL" : "/bin/sh",
-				  "MAKEINFO" : "missing"
+                  "CFLAGS"       : "-pipe -O2 -mtune=generic",
+                  "CONFIG_SHELL" : "/bin/sh",
+                  "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
+                  "LDFLAGS"      : "-Wl,-rpath -Wl,/home/mrosset/install/lib -Wl,--as-needed -Wl,--dynamic-linker,/home/mrosset/install/lib/ld-linux-x86-64.so.2",
+                  "LIBRARY_PATH" : "/home/mrosset/install/lib",
+                  "MAKEFLAGS"    : "-sw -j4",
+                  "MAKEINFO"     : "missing",
+                  "PATH"         : "$GOPATH/bin:/home/mrosset/install/lib/ccache:$HOME/bin:/home/mrosset/install/bin:/bin:/usr/bin",
+                  "PREFIX"       : "$HOME/install"
     },            
     "Remove"      : [
-                  "usr/local/via/share/doc",
-                  "usr/local/via/share/info",
-                  "usr/local/via/share/man"
+                  "home/mrosset/install/share/doc",
+                  "home/mrosset/install/share/info",
+                  "home/mrosset/install/share/man"
     ],            
     "PostInstall" : null
 }
