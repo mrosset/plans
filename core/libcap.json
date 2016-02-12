@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-12-28T12:43:20.661766509-08:00",
-    "Size"         : 303132,
+    "Date"         : "2016-02-12T15:03:03.799763698-08:00",
+    "Size"         : 278664,
     "SubPackages"  : null,
     "Depends"      : [
                    "attr",
@@ -24,16 +24,15 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/include/sys/capability.h",
-                   "usr/local/via/libcap.a",
-                   "usr/local/via/libcap.so",
-                   "usr/local/via/libcap.so.2",
-                   "usr/local/via/libcap.so.2.24",
-                   "usr/local/via/pkgconfig/libcap.pc",
-                   "usr/local/via/sbin/capsh",
-                   "usr/local/via/sbin/getcap",
-                   "usr/local/via/sbin/getpcaps",
-                   "usr/local/via/sbin/setcap",
-                   "usr/local/via/security/pam_cap.so"
+                   "home/mrosset/install/include/sys/capability.h",
+                   "home/mrosset/install/libcap.a",
+                   "home/mrosset/install/libcap.so",
+                   "home/mrosset/install/libcap.so.2",
+                   "home/mrosset/install/libcap.so.2.24",
+                   "home/mrosset/install/pkgconfig/libcap.pc",
+                   "home/mrosset/install/sbin/capsh",
+                   "home/mrosset/install/sbin/getcap",
+                   "home/mrosset/install/sbin/getpcaps",
+                   "home/mrosset/install/sbin/setcap"
     ]
 }

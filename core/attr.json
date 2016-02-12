@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2014-12-29T09:26:00.843447152-08:00",
-    "Size"         : 362608,
+    "Date"         : "2016-02-12T15:02:38.705694185-08:00",
+    "Size"         : 358366,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -18,30 +18,30 @@
                    "$SRCDIR/configure $Flags"
     ],             
     "Package"      : [
-                   "make install install-dev install-lib DIST_ROOT=$PKGDIR"
+                   "make -j1 install install-dev install-lib DIST_ROOT=$PKGDIR"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/attr",
-                   "usr/local/via/bin/getfattr",
-                   "usr/local/via/bin/setfattr",
-                   "usr/local/via/include/attr/attributes.h",
-                   "usr/local/via/include/attr/error_context.h",
-                   "usr/local/via/include/attr/libattr.h",
-                   "usr/local/via/include/attr/xattr.h",
-                   "usr/local/via/lib/libattr.a",
-                   "usr/local/via/lib/libattr.la",
-                   "usr/local/via/lib/libattr.so",
-                   "usr/local/via/lib/libattr.so.1",
-                   "usr/local/via/lib/libattr.so.1.1.0",
-                   "usr/local/via/share/locale/cs/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/de/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/es/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/fr/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/gl/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/nl/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/pl/LC_MESSAGES/attr.mo",
-                   "usr/local/via/share/locale/sv/LC_MESSAGES/attr.mo"
+                   "home/mrosset/install/bin/attr",
+                   "home/mrosset/install/bin/getfattr",
+                   "home/mrosset/install/bin/setfattr",
+                   "home/mrosset/install/include/attr/attributes.h",
+                   "home/mrosset/install/include/attr/error_context.h",
+                   "home/mrosset/install/include/attr/libattr.h",
+                   "home/mrosset/install/include/attr/xattr.h",
+                   "home/mrosset/install/lib/libattr.a",
+                   "home/mrosset/install/lib/libattr.la",
+                   "home/mrosset/install/lib/libattr.so",
+                   "home/mrosset/install/lib/libattr.so.1",
+                   "home/mrosset/install/lib/libattr.so.1.1.0",
+                   "home/mrosset/install/share/locale/cs/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/de/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/es/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/fr/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/gl/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/nl/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/pl/LC_MESSAGES/attr.mo",
+                   "home/mrosset/install/share/locale/sv/LC_MESSAGES/attr.mo"
     ]
 }

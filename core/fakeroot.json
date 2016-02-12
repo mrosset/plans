@@ -1,0 +1,32 @@
+{
+    "Name"         : "fakeroot",
+    "Version"      : "1.20.2",
+    "Url"          : "http://ftp.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.20.2.orig.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "Date"         : "2016-02-12T15:10:09.000472406-08:00",
+    "Size"         : 78611,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : [
+                   "--disable-static",
+                   "--libdir=$PREFIX/lib/libfakeroot",
+                   "--with-ipc=sysv"
+    ],             
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/install/bin/faked",
+                   "home/mrosset/install/bin/fakeroot",
+                   "home/mrosset/install/lib/libfakeroot/libfakeroot-0.so",
+                   "home/mrosset/install/lib/libfakeroot/libfakeroot.la",
+                   "home/mrosset/install/lib/libfakeroot/libfakeroot.so"
+    ]
+}

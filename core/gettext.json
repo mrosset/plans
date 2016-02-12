@@ -12,7 +12,9 @@
     "Depends"      : null,
     "Flags"        : null,
     "Patch"        : null,
-    "Build"        : null,
+    "Build"        : [
+                   "make -j1"
+    ],             
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,

@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2016-02-03T13:24:46.570059281-08:00",
-    "Size"         : 357066,
+    "Date"         : "2016-02-12T14:39:30.344763345-08:00",
+    "Size"         : 359146,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -31,15 +31,15 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/bzdiff",
-                   "usr/local/via/bin/bzgrep",
-                   "usr/local/via/bin/bzip2",
-                   "usr/local/via/bin/bzip2recover",
-                   "usr/local/via/bin/bzmore",
-                   "usr/local/via/include/bzlib.h",
-                   "usr/local/via/lib/libbz2.so",
-                   "usr/local/via/lib/libbz2.so.1",
-                   "usr/local/via/lib/libbz2.so.1.0",
-                   "usr/local/via/lib/libbz2.so.1.0.6"
+                   "home/mrosset/install/bin/bzdiff",
+                   "home/mrosset/install/bin/bzgrep",
+                   "home/mrosset/install/bin/bzip2",
+                   "home/mrosset/install/bin/bzip2recover",
+                   "home/mrosset/install/bin/bzmore",
+                   "home/mrosset/install/include/bzlib.h",
+                   "home/mrosset/install/lib/libbz2.so",
+                   "home/mrosset/install/lib/libbz2.so.1",
+                   "home/mrosset/install/lib/libbz2.so.1.0",
+                   "home/mrosset/install/lib/libbz2.so.1.0.6"
     ]
 }
