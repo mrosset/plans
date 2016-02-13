@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2016-02-13T00:47:36.644210894-08:00",
-    "Size"         : 11919607,
+    "Date"         : "2016-02-13T01:04:28.34517939-08:00",
+    "Size"         : 14537049,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -15,7 +15,8 @@
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
-                   "$SRCDIR/config shared --prefix=$PREFIX",
+                   "LDFLAGS= $SRCDIR/config shared --prefix=$PREFIX",
+                   "make depend",
                    "make"
     ],             
     "Package"      : [

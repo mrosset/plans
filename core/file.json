@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-12T14:41:55.937268321-08:00",
-    "Size"         : 4029826,
+    "Date"         : "2016-02-13T13:28:02.703240671-08:00",
+    "Size"         : 4029843,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -20,12 +20,12 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/install/bin/file",
-                   "home/mrosset/install/include/magic.h",
-                   "home/mrosset/install/lib/libmagic.la",
-                   "home/mrosset/install/lib/libmagic.so",
-                   "home/mrosset/install/lib/libmagic.so.1",
-                   "home/mrosset/install/lib/libmagic.so.1.0.0",
-                   "home/mrosset/install/share/misc/magic.mgc"
+                   "home/mrosset/via/root/bin/file",
+                   "home/mrosset/via/root/include/magic.h",
+                   "home/mrosset/via/root/lib/libmagic.la",
+                   "home/mrosset/via/root/lib/libmagic.so",
+                   "home/mrosset/via/root/lib/libmagic.so.1",
+                   "home/mrosset/via/root/lib/libmagic.so.1.0.0",
+                   "home/mrosset/via/root/share/misc/magic.mgc"
     ]
 }

@@ -1,7 +1,7 @@
 {
     "Name"         : "perl",
     "Version"      : "5.16.0",
-    "Url"          : "http://www.cpan.org/src/5.0/perl-5.16.0.tar.bz2",
+    "Url"          : "http://www.cpan.org/src/5.0/perl-5.16.0.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
@@ -16,7 +16,7 @@
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
-                   "CC=gcc ./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
+                   "./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
                    "make"
     ],             
     "Package"      : [

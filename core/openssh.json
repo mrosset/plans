@@ -4,10 +4,10 @@
     "Url"          : "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.7p1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
-    "Inherit"      : "gnu",
+    "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2014-11-30T21:33:34.560658711-08:00",
-    "Size"         : 4297167,
+    "Date"         : "2016-02-13T01:06:32.745921855-08:00",
+    "Size"         : 4228224,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -20,5 +20,21 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "home/mrosset/install/bin/scp",
+                   "home/mrosset/install/bin/sftp",
+                   "home/mrosset/install/bin/slogin",
+                   "home/mrosset/install/bin/ssh",
+                   "home/mrosset/install/bin/ssh-add",
+                   "home/mrosset/install/bin/ssh-agent",
+                   "home/mrosset/install/bin/ssh-keygen",
+                   "home/mrosset/install/bin/ssh-keyscan",
+                   "home/mrosset/install/etc/moduli",
+                   "home/mrosset/install/etc/ssh_config",
+                   "home/mrosset/install/etc/sshd_config",
+                   "home/mrosset/install/lib/sftp-server",
+                   "home/mrosset/install/lib/ssh-keysign",
+                   "home/mrosset/install/lib/ssh-pkcs11-helper",
+                   "home/mrosset/install/sbin/sshd"
+    ]
 }

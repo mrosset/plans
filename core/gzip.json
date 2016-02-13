@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-12T14:43:41.340300951-08:00",
-    "Size"         : 130064,
+    "Date"         : "2016-02-13T12:32:30.811447335-08:00",
+    "Size"         : 130053,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,19 +19,19 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/install/bin/gunzip",
-                   "home/mrosset/install/bin/gzexe",
-                   "home/mrosset/install/bin/gzip",
-                   "home/mrosset/install/bin/uncompress",
-                   "home/mrosset/install/bin/zcat",
-                   "home/mrosset/install/bin/zcmp",
-                   "home/mrosset/install/bin/zdiff",
-                   "home/mrosset/install/bin/zegrep",
-                   "home/mrosset/install/bin/zfgrep",
-                   "home/mrosset/install/bin/zforce",
-                   "home/mrosset/install/bin/zgrep",
-                   "home/mrosset/install/bin/zless",
-                   "home/mrosset/install/bin/zmore",
-                   "home/mrosset/install/bin/znew"
+                   "home/mrosset/via/root/bin/gunzip",
+                   "home/mrosset/via/root/bin/gzexe",
+                   "home/mrosset/via/root/bin/gzip",
+                   "home/mrosset/via/root/bin/uncompress",
+                   "home/mrosset/via/root/bin/zcat",
+                   "home/mrosset/via/root/bin/zcmp",
+                   "home/mrosset/via/root/bin/zdiff",
+                   "home/mrosset/via/root/bin/zegrep",
+                   "home/mrosset/via/root/bin/zfgrep",
+                   "home/mrosset/via/root/bin/zforce",
+                   "home/mrosset/via/root/bin/zgrep",
+                   "home/mrosset/via/root/bin/zless",
+                   "home/mrosset/via/root/bin/zmore",
+                   "home/mrosset/via/root/bin/znew"
     ]
 }

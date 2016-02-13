@@ -6,19 +6,22 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2014-11-29T12:35:19.673548564-08:00",
-    "Size"         : 315542,
+    "Date"         : "2016-02-12T23:14:21.263243746-08:00",
+    "Size"         : 209832,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
     "Flags"        : null,
-    "Patch"        : [
-                   "autoreconf -i -f"
-    ],             
+    "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "home/mrosset/install/bin/cmp",
+                   "home/mrosset/install/bin/diff",
+                   "home/mrosset/install/bin/diff3",
+                   "home/mrosset/install/bin/sdiff"
+    ]
 }

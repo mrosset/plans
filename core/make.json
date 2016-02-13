@@ -1,13 +1,13 @@
 {
     "Name"         : "make",
     "Version"      : "4.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.bz2",
+    "Url"          : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-12T21:18:35.821376613-08:00",
-    "Size"         : 198608,
+    "Date"         : "2016-02-13T13:28:16.508745369-08:00",
+    "Size"         : 198600,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -21,7 +21,7 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/install/bin/make",
-                   "home/mrosset/install/include/gnumake.h"
+                   "home/mrosset/via/root/bin/make",
+                   "home/mrosset/via/root/include/gnumake.h"
     ]
 }

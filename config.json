@@ -5,7 +5,7 @@
     "Root"        : "/",
     "PlansRepo"   : "http://bitbucket.org/strings/plans",
     "Cache"       : "$HOME/via/cache",
-    "DB"          : "home/mrosset/install/db",
+    "DB"          : "/home/mrosset/via/root/db",
     "Plans"       : "$HOME/via/plans",
     "Repo"        : "$HOME/via/repo",
     "Binary"      : "http://jupiter:8080/repo",
@@ -25,17 +25,17 @@
                   "CFLAGS"       : "-pipe -O2 -mtune=generic",
                   "CONFIG_SHELL" : "/bin/sh",
                   "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
-                  "LDFLAGS"      : "-Wl,-rpath -Wl,/home/mrosset/install/lib -Wl,--as-needed -Wl,--dynamic-linker,/home/mrosset/install/lib/ld-linux-x86-64.so.2",
-                  "LIBRARY_PATH" : "/home/mrosset/install/lib",
+                  "LDFLAGS"      : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+                  "LIBRARY_PATH" : "$PREFIX/lib",
                   "MAKEFLAGS"    : "-sw -j4",
                   "MAKEINFO"     : "missing",
-                  "PATH"         : "$GOPATH/bin:/home/mrosset/install/lib/ccache:$HOME/bin:/home/mrosset/install/bin:/bin:/usr/bin",
-                  "PREFIX"       : "/home/mrosset/install"
+                  "PATH"         : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
+                  "PREFIX"       : "/home/mrosset/via/root"
     },            
     "Remove"      : [
-                  "home/mrosset/install/share/doc",
-                  "home/mrosset/install/share/info",
-                  "home/mrosset/install/share/man"
+                  "home/mrosset/via/root/share/doc",
+                  "home/mrosset/via/root/share/info",
+                  "home/mrosset/via/root/share/man"
     ],            
     "PostInstall" : null
 }

@@ -6,12 +6,11 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-12T14:36:26.21002521-08:00",
-    "Size"         : 1020448,
+    "Date"         : "2016-02-13T12:24:13.275948113-08:00",
+    "Size"         : 1025746,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glibc",
-                   "ncurses"
+                   "glibc"
     ],             
     "Flags"        : null,
     "Patch"        : null,
@@ -22,8 +21,8 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/install/bin/bash",
-                   "home/mrosset/install/bin/bashbug",
-                   "home/mrosset/install/bin/sh"
+                   "home/mrosset/via/root/bin/bash",
+                   "home/mrosset/via/root/bin/bashbug",
+                   "home/mrosset/via/root/bin/sh"
     ]
 }

@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-12T14:45:53.481860683-08:00",
-    "Size"         : 409872,
+    "Date"         : "2016-02-13T12:37:23.553671563-08:00",
+    "Size"         : 409896,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,7 +19,7 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/install/bin/tar",
-                   "home/mrosset/install/lib/rmt"
+                   "home/mrosset/via/root/bin/tar",
+                   "home/mrosset/via/root/lib/rmt"
     ]
 }
