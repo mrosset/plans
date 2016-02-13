@@ -6,8 +6,8 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-08T10:30:48.853532704-08:00",
-    "Size"         : 137178,
+    "Date"         : "2016-02-12T21:18:06.757808938-08:00",
+    "Size"         : 137210,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -20,8 +20,8 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/htop",
-                   "usr/local/via/share/applications/htop.desktop",
-                   "usr/local/via/share/pixmaps/htop.png"
+                   "home/mrosset/install/bin/htop",
+                   "home/mrosset/install/share/applications/htop.desktop",
+                   "home/mrosset/install/share/pixmaps/htop.png"
     ]
 }

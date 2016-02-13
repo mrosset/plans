@@ -30,7 +30,7 @@
                   "MAKEFLAGS"    : "-sw -j4",
                   "MAKEINFO"     : "missing",
                   "PATH"         : "$GOPATH/bin:/home/mrosset/install/lib/ccache:$HOME/bin:/home/mrosset/install/bin:/bin:/usr/bin",
-                  "PREFIX"       : "$HOME/install"
+                  "PREFIX"       : "/home/mrosset/install"
     },            
     "Remove"      : [
                   "home/mrosset/install/share/doc",
