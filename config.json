@@ -8,7 +8,7 @@
     "DB"          : "/home/mrosset/via/root/db",
     "Plans"       : "$HOME/via/plans",
     "Repo"        : "$HOME/publish/repo",
-    "Binary"      : "http://localhost:8080/ipns/QmW5zETgqGFkvy1fr2GZQidWrNfrxWLp4spPzrQXiw8Pmb/repo/master",
+    "Binary"      : "http://localhost:8080/ipns/Qmbv2FWXiBmEJDugzmAXUjRBpieu88Ts84Ui9J6K8y57u4/repo/master",
     "Flags"       : [
                   "--config-cache",
                   "--disable-manpages",
