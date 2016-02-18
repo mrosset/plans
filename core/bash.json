@@ -2,6 +2,7 @@
     "Name"         : "bash",
     "Version"      : "4.3",
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.3.tar.gz",
+    "SrcHash"      : "QmSPWTn915cMV76Vx39jksSMLqwxS5dq6YEdgcJXoB63YN",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
