@@ -2,11 +2,12 @@
     "Name"         : "ccache",
     "Version"      : "3.1.7",
     "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
+    "SrcHash"      : "QmZCR9URkLWtvokiBu8dsgL4TLk3tYoxTpDL64khMYDYJ1",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T12:26:07.892580818-08:00",
+    "Date"         : "2016-02-18T15:18:02.028806988-08:00",
     "Size"         : 97645,
     "SubPackages"  : null,
     "Depends"      : [
