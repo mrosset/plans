@@ -1,14 +1,13 @@
 {
     "Name"         : "htop",
     "Version"      : "1.0.3",
-    "Url"          : "http://hisham.hm/htop/releases/1.0.3/htop-1.0.3.tar.gz",
-    "SrcHash"      : "QmerriFMDvfc84erBByvPv3uCybzTXoH369tyKxTkE9ecX",
+    "Url"          : "http://localhost:8080/ipfs/QmWAmDs9fXtX1La7VRn6uki1Lzk1ZPGPWzytdQY3e1hRni",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-12T21:18:06.757808938-08:00",
-    "Size"         : 137210,
+    "Date"         : "2016-02-19T15:30:23.033924244-08:00",
+    "Size"         : 137194,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -21,8 +20,8 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/install/bin/htop",
-                   "home/mrosset/install/share/applications/htop.desktop",
-                   "home/mrosset/install/share/pixmaps/htop.png"
+                   "home/mrosset/via/root/bin/htop",
+                   "home/mrosset/via/root/share/applications/htop.desktop",
+                   "home/mrosset/via/root/share/pixmaps/htop.png"
     ]
 }
