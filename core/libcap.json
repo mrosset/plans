@@ -2,6 +2,7 @@
     "Name"         : "libcap",
     "Version"      : "2.24",
     "Url"          : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

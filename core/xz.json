@@ -2,6 +2,7 @@
     "Name"         : "xz",
     "Version"      : "5.2.2",
     "Url"          : "http://tukaani.org/xz/xz-5.2.2.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

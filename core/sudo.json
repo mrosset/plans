@@ -2,6 +2,7 @@
     "Name"         : "sudo",
     "Version"      : "1.8.15",
     "Url"          : "http://www.sudo.ws/sudo/dist/sudo-1.8.15.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

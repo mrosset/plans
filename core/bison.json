@@ -2,6 +2,7 @@
     "Name"         : "bison",
     "Version"      : "3.0.2",
     "Url"          : "http://mirrors.kernel.org/gnu/bison/bison-3.0.2.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

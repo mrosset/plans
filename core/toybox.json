@@ -2,6 +2,7 @@
     "Name"         : "toybox",
     "Version"      : "0.5.1",
     "Url"          : "http://landley.net/toybox/downloads/toybox-0.5.1.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

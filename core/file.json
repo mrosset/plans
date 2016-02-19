@@ -2,6 +2,7 @@
     "Name"         : "file",
     "Version"      : "5.25",
     "Url"          : "http://fossies.org/linux/misc/file-5.25.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

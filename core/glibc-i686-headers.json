@@ -2,6 +2,7 @@
     "Name"         : "glibc-i686-headers",
     "Version"      : "2.20",
     "Url"          : "http://mirrors.kernel.org/gnu/glibc/glibc-2.20.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "glibc-2.20",
     "Inherit"      : "",

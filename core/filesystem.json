@@ -2,6 +2,7 @@
     "Name"         : "filesystem",
     "Version"      : "0.1",
     "Url"          : "https://github.com/str1ngs/filesystem/releases/download/v0.1/filesystem-0.1.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

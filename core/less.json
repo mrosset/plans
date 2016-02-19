@@ -2,6 +2,7 @@
     "Name"         : "less",
     "Version"      : "444",
     "Url"          : "http://www.greenwoodsoftware.com/less/less-444.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

@@ -2,6 +2,7 @@
     "Name"         : "zlib",
     "Version"      : "1.2.8",
     "Url"          : "http://zlib.net/current/zlib-1.2.8.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

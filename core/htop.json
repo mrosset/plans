@@ -2,6 +2,7 @@
     "Name"         : "htop",
     "Version"      : "1.0.3",
     "Url"          : "http://hisham.hm/htop/releases/1.0.3/htop-1.0.3.tar.gz",
+    "SrcHash"      : "QmerriFMDvfc84erBByvPv3uCybzTXoH369tyKxTkE9ecX",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

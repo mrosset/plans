@@ -2,6 +2,7 @@
     "Name"         : "glibc",
     "Version"      : "2.22",
     "Url"          : "http://mirrors.kernel.org/gnu/glibc/glibc-2.22.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

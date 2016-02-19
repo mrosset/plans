@@ -2,6 +2,7 @@
     "Name"         : "python",
     "Version"      : "2.7.8",
     "Url"          : "http://www.python.org/ftp/python/2.7.8/Python-2.7.8.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "Python-2.7.8",
     "Inherit"      : "",

@@ -2,6 +2,7 @@
     "Name"         : "tar",
     "Version"      : "1.28",
     "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

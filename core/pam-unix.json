@@ -2,6 +2,7 @@
     "Name"         : "pam-unix",
     "Version"      : "2.9.1",
     "Url"          : "ftp://ftp.archlinux.org/other/pam_unix2/pam_unix2-2.9.1.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "pam_unix2-2.9.1",
     "Inherit"      : "",

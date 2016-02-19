@@ -2,6 +2,7 @@
     "Name"         : "util-linux",
     "Version"      : "2.21.2",
     "Url"          : "http://www.kernel.org/pub/linux/utils/util-linux/v2.21/util-linux-2.21.2.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

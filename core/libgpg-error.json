@@ -2,6 +2,7 @@
     "Name"         : "libgpg-error",
     "Version"      : "1.17",
     "Url"          : "ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.17.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

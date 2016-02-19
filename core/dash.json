@@ -2,6 +2,7 @@
     "Name"         : "dash",
     "Version"      : "0.5.7",
     "Url"          : "http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.7.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

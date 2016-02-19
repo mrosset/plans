@@ -2,6 +2,7 @@
     "Name"         : "which",
     "Version"      : "2.20",
     "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

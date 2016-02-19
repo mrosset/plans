@@ -2,6 +2,7 @@
     "Name"         : "via",
     "Version"      : "0.0.1",
     "Url"          : "",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

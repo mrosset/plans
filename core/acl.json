@@ -2,6 +2,7 @@
     "Name"         : "acl",
     "Version"      : "2.2.51",
     "Url"          : "http://download.savannah.gnu.org/releases/acl/acl-2.2.51.src.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

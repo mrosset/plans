@@ -2,6 +2,7 @@
     "Name"         : "bash-completion",
     "Version"      : "2.0",
     "Url"          : "http://bash-completion.alioth.debian.org/files/bash-completion-2.0.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

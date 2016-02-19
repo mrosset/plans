@@ -2,6 +2,7 @@
     "Name"         : "kmod",
     "Version"      : "9",
     "Url"          : "http://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-9.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

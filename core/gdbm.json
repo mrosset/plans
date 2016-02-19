@@ -2,6 +2,7 @@
     "Name"         : "gdbm",
     "Version"      : "1.11",
     "Url"          : "http://mirrors.kernel.org/gnu/gdbm/gdbm-1.11.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

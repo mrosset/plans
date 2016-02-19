@@ -2,6 +2,7 @@
     "Name"         : "fakeroot",
     "Version"      : "1.20.2",
     "Url"          : "http://ftp.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.20.2.orig.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

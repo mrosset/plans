@@ -2,6 +2,7 @@
     "Name"         : "newlib",
     "Version"      : "2.2.0",
     "Url"          : "ftp://sourceware.org/pub/newlib/newlib-2.2.0-1.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

@@ -2,6 +2,7 @@
     "Name"         : "gperf",
     "Version"      : "3.0.4",
     "Url"          : "http://mirrors.kernel.org/gnu/gperf/gperf-3.0.4.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",

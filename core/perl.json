@@ -2,6 +2,7 @@
     "Name"         : "perl",
     "Version"      : "5.16.0",
     "Url"          : "http://www.cpan.org/src/5.0/perl-5.16.0.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

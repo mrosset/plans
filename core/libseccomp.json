@@ -2,6 +2,7 @@
     "Name"         : "libseccomp",
     "Version"      : "2.1.1",
     "Url"          : "http://downloads.sourceforge.net/project/libseccomp/libseccomp-2.1.1/libseccomp-2.1.1.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

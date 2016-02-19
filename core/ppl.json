@@ -2,6 +2,7 @@
     "Name"         : "ppl",
     "Version"      : "0.12.1",
     "Url"          : "http://bugseng.com/products/ppl/download/ftp/releases/0.12.1/ppl-0.12.1.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

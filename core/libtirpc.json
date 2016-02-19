@@ -2,6 +2,7 @@
     "Name"         : "libtirpc",
     "Version"      : "0.2.2",
     "Url"          : "http://downloads.sourceforge.net/sourceforge/libtirpc/libtirpc-0.2.2.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

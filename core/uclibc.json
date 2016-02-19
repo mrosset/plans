@@ -2,6 +2,7 @@
     "Name"         : "uclibc",
     "Version"      : "0.9.33.2",
     "Url"          : "http://www.busybox.net/downloads/uClibc-0.9.33.2.tar.xz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "uClibc-0.9.33.2",
     "Inherit"      : "",

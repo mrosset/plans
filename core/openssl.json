@@ -2,6 +2,7 @@
     "Name"         : "openssl",
     "Version"      : "1.0.2f",
     "Url"          : "https://www.openssl.org/source/openssl-1.0.2f.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

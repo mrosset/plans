@@ -2,6 +2,7 @@
     "Name"         : "bzip2",
     "Version"      : "1.0.6",
     "Url"          : "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

@@ -2,6 +2,7 @@
     "Name"         : "libxcb",
     "Version"      : "1.11",
     "Url"          : "http://xcb.freedesktop.org//dist/libxcb-1.11.tar.bz2",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

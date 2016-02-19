@@ -2,6 +2,7 @@
     "Name"         : "gnu-i686-cross",
     "Version"      : "1.0",
     "Url"          : "",
+    "SrcHash"      : "",
     "Group"        : "builtin",
     "StageDir"     : "",
     "Inherit"      : "",

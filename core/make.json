@@ -2,6 +2,7 @@
     "Name"         : "make",
     "Version"      : "4.1",
     "Url"          : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

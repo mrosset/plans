@@ -2,6 +2,7 @@
     "Name"         : "db",
     "Version"      : "5.3.28",
     "Url"          : "http://download.oracle.com/berkeley-db/db-5.3.28.tar.gz",
+    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
