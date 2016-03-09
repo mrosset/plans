@@ -2,7 +2,6 @@
     "Name"         : "ncurses",
     "Version"      : "6.0",
     "Url"          : "http://mirrors.kernel.org/gnu/ncurses/ncurses-6.0.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",

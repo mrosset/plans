@@ -2,7 +2,6 @@
     "Name"         : "strace",
     "Version"      : "4.9",
     "Url"          : "http://downloads.sourceforge.net/4.9/strace-4.9.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

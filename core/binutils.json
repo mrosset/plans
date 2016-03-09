@@ -2,7 +2,6 @@
     "Name"         : "binutils",
     "Version"      : "2.26",
     "Url"          : "http://mirrors.kernel.org/gnu/binutils/binutils-2.26.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

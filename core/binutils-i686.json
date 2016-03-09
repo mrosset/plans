@@ -2,7 +2,6 @@
     "Name"         : "binutils-i686",
     "Version"      : "2.26",
     "Url"          : "http://mirrors.kernel.org/gnu/binutils/binutils-2.26.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "binutils-2.26",
     "Inherit"      : "gnu-i686-cross",

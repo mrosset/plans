@@ -2,7 +2,6 @@
     "Name"         : "libxau",
     "Version"      : "1.0.8",
     "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXau-1.0.8.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "libXau-1.0.8",
     "Inherit"      : "gnu",

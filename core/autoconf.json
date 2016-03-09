@@ -2,7 +2,6 @@
     "Name"         : "autoconf",
     "Version"      : "2.69",
     "Url"          : "http://ftp.gnu.org/pub/gnu/autoconf/autoconf-2.69.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

@@ -2,7 +2,6 @@
     "Name"         : "diffutils",
     "Version"      : "3.3",
     "Url"          : "http://ftp.gnu.org/gnu/diffutils/diffutils-3.3.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

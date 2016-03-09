@@ -2,7 +2,6 @@
     "Name"         : "gmp",
     "Version"      : "5.0.5",
     "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-5.0.5.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

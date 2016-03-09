@@ -2,7 +2,6 @@
     "Name"         : "devel",
     "Version"      : "1.0",
     "Url"          : "",
-    "SrcHash"      : "",
     "Group"        : "groups",
     "StageDir"     : "",
     "Inherit"      : "gnu",

@@ -2,7 +2,6 @@
     "Name"         : "libtool",
     "Version"      : "2.4.4",
     "Url"          : "http://ftp.gnu.org/pub/gnu/libtool/libtool-2.4.4.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

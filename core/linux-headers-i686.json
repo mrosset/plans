@@ -2,7 +2,6 @@
     "Name"         : "linux-headers-i686",
     "Version"      : "3.17",
     "Url"          : "http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.17.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "linux-3.17",
     "Inherit"      : "",

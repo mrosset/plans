@@ -2,7 +2,6 @@
     "Name"         : "pcre",
     "Version"      : "8.31",
     "Url"          : "http://downloads.sourceforge.net/project/pcre/pcre/8.31/pcre-8.31.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

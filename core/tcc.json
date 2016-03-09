@@ -2,7 +2,6 @@
     "Name"         : "tcc",
     "Version"      : "0.9.25",
     "Url"          : "http://download.savannah.nongnu.org/releases/tinycc/tcc-0.9.25.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

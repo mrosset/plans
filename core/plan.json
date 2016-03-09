@@ -2,7 +2,6 @@
     "Name"         : "plan",
     "Version"      : "1.0",
     "Url"          : "http://mirrors.kernel.org/gnu/plan-1.0.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

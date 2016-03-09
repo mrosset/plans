@@ -2,7 +2,6 @@
     "Name"         : "libgcrypt",
     "Version"      : "1.6.2",
     "Url"          : "http://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.6.2.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

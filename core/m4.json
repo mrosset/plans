@@ -2,7 +2,6 @@
     "Name"         : "m4",
     "Version"      : "1.4.17",
     "Url"          : "http://mirrors.kernel.org/gnu/m4/m4-1.4.17.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

@@ -2,7 +2,6 @@
     "Name"         : "flex",
     "Version"      : "2.5.39",
     "Url"          : "http://downloads.sourceforge.net/sourceforge/flex/flex-2.5.39.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

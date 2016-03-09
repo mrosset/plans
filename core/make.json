@@ -1,14 +1,13 @@
 {
     "Name"         : "make",
     "Version"      : "4.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.gz",
-    "SrcHash"      : "",
+    "Url"          : "git://git.savannah.gnu.org/make.git",
     "Group"        : "core",
-    "StageDir"     : "",
+    "StageDir"     : "make.git",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T13:28:16.508745369-08:00",
-    "Size"         : 198600,
+    "Date"         : "2016-03-08T17:13:47.444226968-08:00",
+    "Size"         : 213640,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -16,13 +15,17 @@
     "Flags"        : [
                    "--without-guile"
     ],             
-    "Patch"        : null,
+    "Patch"        : [
+                   "sed -i 's/po doc//g' Makefile.am",
+                   "autoreconf -fi"
+    ],             
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/make",
-                   "home/mrosset/via/root/include/gnumake.h"
+                   "home/mrosset/.local/bin/make",
+                   "home/mrosset/.local/include/gnumake.h",
+                   "home/mrosset/.local/share/man/man1/make.1"
     ]
 }

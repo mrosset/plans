@@ -2,7 +2,6 @@
     "Name"         : "shadow",
     "Version"      : "4.2.1",
     "Url"          : "http://pkg-shadow.alioth.debian.org/releases/shadow-4.2.1.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

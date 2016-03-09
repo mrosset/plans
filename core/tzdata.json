@@ -2,7 +2,6 @@
     "Name"         : "tzdata",
     "Version"      : "2014",
     "Url"          : "http://www.iana.org/time-zones/repository/releases/tzdata2014i.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

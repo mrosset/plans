@@ -2,7 +2,6 @@
     "Name"         : "mpc",
     "Version"      : "1.0.2",
     "Url"          : "http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

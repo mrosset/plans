@@ -2,7 +2,6 @@
     "Name"         : "gc",
     "Version"      : "7.4.2",
     "Url"          : "http://www.hboehm.info/gc/gc_source/gc-7.4.2.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

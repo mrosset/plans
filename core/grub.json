@@ -2,7 +2,6 @@
     "Name"         : "grub",
     "Version"      : "2.00",
     "Url"          : "http://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

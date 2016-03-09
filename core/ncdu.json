@@ -2,7 +2,6 @@
     "Name"         : "ncdu",
     "Version"      : "1.8",
     "Url"          : "http://dev.yorhel.nl/download/ncdu-1.8.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

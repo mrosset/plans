@@ -2,7 +2,6 @@
     "Name"         : "libtorrent",
     "Version"      : "0.12.9",
     "Url"          : "http://libtorrent.rakshasa.no/downloads/libtorrent-0.12.9.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

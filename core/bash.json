@@ -2,13 +2,12 @@
     "Name"         : "bash",
     "Version"      : "4.3",
     "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.3.tar.gz",
-    "SrcHash"      : "QmSPWTn915cMV76Vx39jksSMLqwxS5dq6YEdgcJXoB63YN",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-18T16:02:44.50357212-08:00",
-    "Size"         : 1024636,
+    "Date"         : "2016-03-08T16:40:37.341840748-08:00",
+    "Size"         : 3513107,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -23,8 +22,22 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/bash",
-                   "home/mrosset/via/root/bin/bashbug",
-                   "home/mrosset/via/root/bin/sh"
+                   "home/strings/.local/bin/bash",
+                   "home/strings/.local/bin/bashbug",
+                   "home/strings/.local/bin/sh",
+                   "home/strings/.local/share/doc/bash/CHANGES",
+                   "home/strings/.local/share/doc/bash/COMPAT",
+                   "home/strings/.local/share/doc/bash/FAQ",
+                   "home/strings/.local/share/doc/bash/INTRO",
+                   "home/strings/.local/share/doc/bash/NEWS",
+                   "home/strings/.local/share/doc/bash/POSIX",
+                   "home/strings/.local/share/doc/bash/RBASH",
+                   "home/strings/.local/share/doc/bash/README",
+                   "home/strings/.local/share/doc/bash/bash.html",
+                   "home/strings/.local/share/doc/bash/bashref.html",
+                   "home/strings/.local/share/info/bash.info",
+                   "home/strings/.local/share/info/dir",
+                   "home/strings/.local/share/man/man1/bash.1",
+                   "home/strings/.local/share/man/man1/bashbug.1"
     ]
 }

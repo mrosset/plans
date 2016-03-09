@@ -2,7 +2,6 @@
     "Name"         : "gzip",
     "Version"      : "1.5",
     "Url"          : "http://ftp.gnu.org/pub/gnu/gzip/gzip-1.5.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

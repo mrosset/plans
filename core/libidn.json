@@ -2,7 +2,6 @@
     "Name"         : "libidn",
     "Version"      : "1.29",
     "Url"          : "http://ftp.gnu.org/gnu/libidn/libidn-1.29.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

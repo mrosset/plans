@@ -2,7 +2,6 @@
     "Name"         : "cracklib",
     "Version"      : "2.8.18",
     "Url"          : "http://downloads.sourceforge.net/sourceforge/cracklib/cracklib-2.8.18.tar.gz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

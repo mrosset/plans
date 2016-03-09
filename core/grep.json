@@ -2,7 +2,6 @@
     "Name"         : "grep",
     "Version"      : "2.21",
     "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

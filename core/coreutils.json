@@ -2,7 +2,6 @@
     "Name"         : "coreutils",
     "Version"      : "8.23",
     "Url"          : "http://mirrors.kernel.org/gnu/coreutils/coreutils-8.23.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

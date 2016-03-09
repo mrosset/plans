@@ -2,7 +2,6 @@
     "Name"         : "libxkbcommon",
     "Version"      : "0.5.0",
     "Url"          : "http://xkbcommon.org/download/libxkbcommon-0.5.0.tar.xz",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

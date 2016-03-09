@@ -2,7 +2,6 @@
     "Name"         : "gcc-i686",
     "Version"      : "5.3.0",
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-5.3.0/gcc-5.3.0.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "gcc-5.3.0",
     "Inherit"      : "gnu-i686-cross",

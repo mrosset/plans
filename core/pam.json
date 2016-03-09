@@ -2,7 +2,6 @@
     "Name"         : "pam",
     "Version"      : "1.1.8",
     "Url"          : "https://fedorahosted.org/releases/l/i/linux-pam/Linux-PAM-1.1.8.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "Linux-PAM-1.1.8",
     "Inherit"      : "gnu",

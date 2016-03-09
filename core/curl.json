@@ -2,7 +2,6 @@
     "Name"         : "curl",
     "Version"      : "7.39.0",
     "Url"          : "http://curl.haxx.se/download/curl-7.39.0.tar.bz2",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

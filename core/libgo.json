@@ -2,7 +2,6 @@
     "Name"         : "libgo",
     "Version"      : "4.7.1",
     "Url"          : "",
-    "SrcHash"      : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
