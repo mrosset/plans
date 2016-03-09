@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2016-02-18T15:58:45.093864144-08:00",
-    "Size"         : 97517,
+    "BuildTime"    : 4665966173,
+    "Date"         : "2016-03-08T19:45:20.875348207-08:00",
+    "Size"         : 139311,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -27,11 +28,12 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/ccache",
-                   "home/mrosset/via/root/lib/ccache/clang",
-                   "home/mrosset/via/root/lib/ccache/cpp",
-                   "home/mrosset/via/root/lib/ccache/g++",
-                   "home/mrosset/via/root/lib/ccache/gcc",
-                   "home/mrosset/via/root/lib/ccache/i686-via-linux-gnu-gcc"
+                   "home/mrosset/.local/bin/ccache",
+                   "home/mrosset/.local/lib/ccache/clang",
+                   "home/mrosset/.local/lib/ccache/cpp",
+                   "home/mrosset/.local/lib/ccache/g++",
+                   "home/mrosset/.local/lib/ccache/gcc",
+                   "home/mrosset/.local/lib/ccache/i686-via-linux-gnu-gcc",
+                   "home/mrosset/.local/share/man/man1/ccache.1"
     ]
 }

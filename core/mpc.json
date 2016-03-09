@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T11:38:31.733960128-08:00",
-    "Size"         : 347664,
+    "BuildTime"    : 1705545903,
+    "Date"         : "2016-03-08T19:25:14.371391941-08:00",
+    "Size"         : 444512,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -24,11 +25,13 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/include/mpc.h",
-                   "home/mrosset/via/root/lib/libmpc.a",
-                   "home/mrosset/via/root/lib/libmpc.la",
-                   "home/mrosset/via/root/lib/libmpc.so",
-                   "home/mrosset/via/root/lib/libmpc.so.3",
-                   "home/mrosset/via/root/lib/libmpc.so.3.0.0"
+                   "home/mrosset/.local/include/mpc.h",
+                   "home/mrosset/.local/lib/libmpc.a",
+                   "home/mrosset/.local/lib/libmpc.la",
+                   "home/mrosset/.local/lib/libmpc.so",
+                   "home/mrosset/.local/lib/libmpc.so.3",
+                   "home/mrosset/.local/lib/libmpc.so.3.0.0",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/mpc.info"
     ]
 }

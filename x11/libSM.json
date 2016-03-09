@@ -1,0 +1,38 @@
+{
+    "Name"         : "libSM",
+    "Version"      : "1.2.2",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libSM-1.2.2.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T00:53:06.562712058-08:00",
+    "Size"         : 309877,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc",
+                   "libICE",
+                   "libbsd",
+                   "util-linux"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/X11/SM/SM.h",
+                   "home/mrosset/.local/include/X11/SM/SMlib.h",
+                   "home/mrosset/.local/include/X11/SM/SMproto.h",
+                   "home/mrosset/.local/lib/libSM.a",
+                   "home/mrosset/.local/lib/libSM.la",
+                   "home/mrosset/.local/lib/libSM.so",
+                   "home/mrosset/.local/lib/libSM.so.6",
+                   "home/mrosset/.local/lib/libSM.so.6.0.1",
+                   "home/mrosset/.local/lib/pkgconfig/sm.pc",
+                   "home/mrosset/.local/share/doc/libSM/SMlib.xml",
+                   "home/mrosset/.local/share/doc/libSM/xsmp.xml"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "Name"         : "randrproto",
+    "Version"      : "1.5.0",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/proto/randrproto-1.5.0.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T01:41:32.677221419-08:00",
+    "Size"         : 138656,
+    "SubPackages"  : null,
+    "Depends"      : [], 
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/X11/extensions/randr.h",
+                   "home/mrosset/.local/include/X11/extensions/randrproto.h",
+                   "home/mrosset/.local/lib/pkgconfig/randrproto.pc",
+                   "home/mrosset/.local/share/doc/randrproto/randrproto.txt"
+    ]
+}

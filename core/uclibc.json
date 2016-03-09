@@ -6,6 +6,7 @@
     "StageDir"     : "uClibc-0.9.33.2",
     "Inherit"      : "",
     "BuildInStage" : true,
+    "BuildTime"    : 0,
     "Date"         : "2012-08-12T09:24:37.368535Z",
     "Size"         : 3776659,
     "SubPackages"  : null,

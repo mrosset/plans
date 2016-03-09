@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T12:35:48.764126282-08:00",
-    "Size"         : 131168,
+    "BuildTime"    : 11670073958,
+    "Date"         : "2016-03-08T19:49:53.707162486-08:00",
+    "Size"         : 239407,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,6 +20,9 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/sed"
+                   "home/mrosset/.local/bin/sed",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/sed.info",
+                   "home/mrosset/.local/share/man/man1/sed.1"
     ]
 }

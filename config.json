@@ -14,7 +14,9 @@
                   "--disable-manpages",
                   "--disable-multilib",
                   "--disable-nls",
+                  "--disable-static",
                   "--disable-werror",
+                  "--enable-shared",
                   "--libexec=$PREFIX/lib",
                   "--prefix=$PREFIX",
                   "--sysconfdir=$PREFIX/etc",
@@ -27,7 +29,7 @@
                   "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
                   "LDFLAGS"      : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
                   "LIBRARY_PATH" : "$PREFIX/lib",
-                  "MAKEFLAGS"    : "-sw -j4",
+                  "MAKEFLAGS"    : "-sw",
                   "MAKEINFO"     : "missing",
                   "PATH"         : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
                   "PREFIX"       : "/home/mrosset/.local"

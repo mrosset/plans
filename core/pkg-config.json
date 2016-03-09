@@ -1,0 +1,30 @@
+{
+    "Name"         : "pkg-config",
+    "Version"      : "0.29",
+    "Url"          : "http://pkgconfig.freedesktop.org/releases/pkg-config-0.29.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-08T22:47:47.913366825-08:00",
+    "Size"         : 138479,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glib",
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/bin/pkg-config",
+                   "home/mrosset/.local/bin/x86_64-unknown-linux-gnu-pkg-config",
+                   "home/mrosset/.local/share/aclocal/pkg.m4",
+                   "home/mrosset/.local/share/doc/pkg-config/pkg-config-guide.html",
+                   "home/mrosset/.local/share/man/man1/pkg-config.1"
+    ]
+}

@@ -1,15 +1,22 @@
 {
     "Name"         : "systemd",
-    "Version"      : "218",
-    "Url"          : "http://www.freedesktop.org/software/systemd/systemd-218.tar.xz",
+    "Version"      : "229",
+    "Url"          : "http://anduin.linuxfromscratch.org/sources/other/systemd/systemd-229.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "BuildInStage" : true,
-    "Date"         : "2012-08-08T22:10:25.134331Z",
-    "Size"         : 6364964,
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T03:37:32.362486345-08:00",
+    "Size"         : 923702,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "elfutils",
+                   "glibc",
+                   "libcap",
+                   "libgcrypt",
+                   "libgpg-error"
+    ],             
     "Flags"        : [
                    "--disable-doc",
                    "--disable-gtk-doc",
@@ -18,8 +25,10 @@
                    "--disable-kmod",
                    "--disable-libcryptsetup",
                    "--disable-pam",
-                   "--disable-tcpwrap",
-                   "--disable-xz"
+                   "--disable-xz",
+				   "cc_cv_CFLAGS__flto=no",
+                   "MOUNT_CFLAGS=-I$PREFIX/include/libmount",
+                   "MOUNT_LIBS=-lmount"
     ],             
     "Patch"        : null,
     "Build"        : [
@@ -27,11 +36,26 @@
                    "make"
     ],             
     "Package"      : [
-                   "make install DESTDIR=$PKGDIR",
+                   "make install DESTDIR=$PKGDIR #install-libLTLIBRARIES",
                    "mkdir $PKGDIR/bin",
                    "ln -s ../usr/lib/systemd/systemd $PKGDIR/bin/systemd"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "home/mrosset/.local/lib/libnss_myhostname.la",
+                   "home/mrosset/.local/lib/libnss_myhostname.so.2",
+                   "home/mrosset/.local/lib/libnss_mymachines.la",
+                   "home/mrosset/.local/lib/libnss_mymachines.so.2",
+                   "home/mrosset/.local/lib/libnss_resolve.la",
+                   "home/mrosset/.local/lib/libnss_resolve.so.2",
+                   "home/mrosset/.local/lib/libsystemd.la",
+                   "home/mrosset/.local/lib/libsystemd.so",
+                   "home/mrosset/.local/lib/libsystemd.so.0",
+                   "home/mrosset/.local/lib/libsystemd.so.0.5.1",
+                   "home/mrosset/.local/lib/libudev.la",
+                   "home/mrosset/.local/lib/libudev.so",
+                   "home/mrosset/.local/lib/libudev.so.1",
+                   "home/mrosset/.local/lib/libudev.so.1.6.2"
+    ]
 }

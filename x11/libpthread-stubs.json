@@ -1,0 +1,23 @@
+{
+    "Name"         : "libpthread-stubs",
+    "Version"      : "0.3",
+    "Url"          : "http://xcb.freedesktop.org/dist/libpthread-stubs-0.3.tar.gz",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T02:44:33.686521601-08:00",
+    "Size"         : 185,
+    "SubPackages"  : null,
+    "Depends"      : [], 
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/lib/pkgconfig/pthread-stubs.pc"
+    ]
+}

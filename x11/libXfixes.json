@@ -1,0 +1,35 @@
+{
+    "Name"         : "libXfixes",
+    "Version"      : "5.0.1",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXfixes-5.0.1.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T01:39:20.738668429-08:00",
+    "Size"         : 58803,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc",
+                   "libX11",
+                   "libxau",
+                   "libxcb"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/X11/extensions/Xfixes.h",
+                   "home/mrosset/.local/lib/libXfixes.a",
+                   "home/mrosset/.local/lib/libXfixes.la",
+                   "home/mrosset/.local/lib/libXfixes.so",
+                   "home/mrosset/.local/lib/libXfixes.so.3",
+                   "home/mrosset/.local/lib/libXfixes.so.3.1.0",
+                   "home/mrosset/.local/lib/pkgconfig/xfixes.pc",
+                   "home/mrosset/.local/share/man/man3/Xfixes.3"
+    ]
+}

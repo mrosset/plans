@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T11:37:27.211057963-08:00",
-    "Size"         : 146576,
+    "BuildTime"    : 22752465060,
+    "Date"         : "2016-03-09T03:48:05.298212028-08:00",
+    "Size"         : 508903,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,6 +20,11 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/m4"
+                   "home/mrosset/.local/bin/m4",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/m4.info",
+                   "home/mrosset/.local/share/info/m4.info-1",
+                   "home/mrosset/.local/share/info/m4.info-2",
+                   "home/mrosset/.local/share/man/man1/m4.1"
     ]
 }

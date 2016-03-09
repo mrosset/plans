@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
-    "Date"         : "2016-02-04T10:44:50.31588698-08:00",
-    "Size"         : 599628,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-08T23:20:03.94796061-08:00",
+    "Size"         : 615887,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,14 +20,15 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/bin/xmlwf",
-                   "usr/local/via/include/expat.h",
-                   "usr/local/via/include/expat_external.h",
-                   "usr/local/via/lib/libexpat.a",
-                   "usr/local/via/lib/libexpat.la",
-                   "usr/local/via/lib/libexpat.so",
-                   "usr/local/via/lib/libexpat.so.1",
-                   "usr/local/via/lib/libexpat.so.1.6.0",
-                   "usr/local/via/lib/pkgconfig/expat.pc"
+                   "home/mrosset/.local/bin/xmlwf",
+                   "home/mrosset/.local/include/expat.h",
+                   "home/mrosset/.local/include/expat_external.h",
+                   "home/mrosset/.local/lib/libexpat.a",
+                   "home/mrosset/.local/lib/libexpat.la",
+                   "home/mrosset/.local/lib/libexpat.so",
+                   "home/mrosset/.local/lib/libexpat.so.1",
+                   "home/mrosset/.local/lib/libexpat.so.1.6.0",
+                   "home/mrosset/.local/lib/pkgconfig/expat.pc",
+                   "home/mrosset/.local/share/man/man1/xmlwf.1"
     ]
 }

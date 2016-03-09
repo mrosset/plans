@@ -1,0 +1,21 @@
+{
+    "Name"         : "vte3",
+    "Version"      : "0.42.4",
+    "Url"          : "http://download.gnome.org/sources/vte/0.42/vte-0.42.4.tar.xz",
+    "Group"        : "gnome",
+    "StageDir"     : "vte-0.42.4",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

@@ -1,0 +1,21 @@
+{
+    "Name"         : "gnome-terminal",
+    "Version"      : "3.18.3",
+    "Url"          : "http://download.gnome.org/sources/gnome-terminal/3.18/gnome-terminal-3.18.3.tar.xz",
+    "Group"        : "gnome",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

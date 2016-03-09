@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T11:37:54.45482414-08:00",
-    "Size"         : 1700816,
+    "BuildTime"    : 69211121595,
+    "Date"         : "2016-03-08T19:23:39.190105221-08:00",
+    "Size"         : 2223173,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,11 +20,15 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/include/gmp.h",
-                   "home/mrosset/via/root/lib/libgmp.a",
-                   "home/mrosset/via/root/lib/libgmp.la",
-                   "home/mrosset/via/root/lib/libgmp.so",
-                   "home/mrosset/via/root/lib/libgmp.so.10",
-                   "home/mrosset/via/root/lib/libgmp.so.10.0.5"
+                   "home/mrosset/.local/include/gmp.h",
+                   "home/mrosset/.local/lib/libgmp.a",
+                   "home/mrosset/.local/lib/libgmp.la",
+                   "home/mrosset/.local/lib/libgmp.so",
+                   "home/mrosset/.local/lib/libgmp.so.10",
+                   "home/mrosset/.local/lib/libgmp.so.10.0.5",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/gmp.info",
+                   "home/mrosset/.local/share/info/gmp.info-1",
+                   "home/mrosset/.local/share/info/gmp.info-2"
     ]
 }

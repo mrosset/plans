@@ -6,6 +6,7 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
+    "BuildTime"    : 0,
     "Date"         : "2016-02-04T10:41:55.114098516-08:00",
     "Size"         : 1569689,
     "SubPackages"  : null,

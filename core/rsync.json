@@ -6,6 +6,7 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
+    "BuildTime"    : 0,
     "Date"         : "2014-11-29T08:52:21.088301975-08:00",
     "Size"         : 510773,
     "SubPackages"  : null,

@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : true,
-    "Date"         : "2016-02-13T12:25:54.935414123-08:00",
-    "Size"         : 317473,
+    "BuildTime"    : 6129663920,
+    "Date"         : "2016-03-08T19:45:02.397147392-08:00",
+    "Size"         : 321707,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -24,12 +25,13 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/include/zconf.h",
-                   "home/mrosset/via/root/include/zlib.h",
-                   "home/mrosset/via/root/lib/libz.a",
-                   "home/mrosset/via/root/lib/libz.so",
-                   "home/mrosset/via/root/lib/libz.so.1",
-                   "home/mrosset/via/root/lib/libz.so.1.2.8",
-                   "home/mrosset/via/root/lib/pkgconfig/zlib.pc"
+                   "home/mrosset/.local/include/zconf.h",
+                   "home/mrosset/.local/include/zlib.h",
+                   "home/mrosset/.local/lib/libz.a",
+                   "home/mrosset/.local/lib/libz.so",
+                   "home/mrosset/.local/lib/libz.so.1",
+                   "home/mrosset/.local/lib/libz.so.1.2.8",
+                   "home/mrosset/.local/lib/pkgconfig/zlib.pc",
+                   "home/mrosset/.local/share/man/man3/zlib.3"
     ]
 }

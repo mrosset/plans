@@ -1,0 +1,21 @@
+{
+    "Name"         : "mesa",
+    "Version"      : "11.1.2",
+    "Url"          : "ftp://ftp.freedesktop.org/pub/mesa/11.1.2/mesa-11.1.2.tar.xz",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}

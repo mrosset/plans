@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T12:31:25.904733341-08:00",
-    "Size"         : 139380,
+    "BuildTime"    : 24151209794,
+    "Date"         : "2016-03-08T19:48:32.048680108-08:00",
+    "Size"         : 275151,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,8 +20,13 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/egrep",
-                   "home/mrosset/via/root/bin/fgrep",
-                   "home/mrosset/via/root/bin/grep"
+                   "home/mrosset/.local/bin/egrep",
+                   "home/mrosset/.local/bin/fgrep",
+                   "home/mrosset/.local/bin/grep",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/grep.info",
+                   "home/mrosset/.local/share/man/man1/egrep.1",
+                   "home/mrosset/.local/share/man/man1/fgrep.1",
+                   "home/mrosset/.local/share/man/man1/grep.1"
     ]
 }

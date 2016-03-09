@@ -1,0 +1,37 @@
+{
+    "Name"         : "libffi",
+    "Version"      : "3.2.1",
+    "Url"          : "http://www.mirrorservice.org/sites/sourceware.org/pub/libffi/libffi-3.2.1.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T06:48:03.313140292-08:00",
+    "Size"         : 83874,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/lib/libffi-3.2.1/include/ffi.h",
+                   "home/mrosset/.local/lib/libffi-3.2.1/include/ffitarget.h",
+                   "home/mrosset/.local/lib/pkgconfig/libffi.pc",
+                   "home/mrosset/.local/lib64/libffi.la",
+                   "home/mrosset/.local/lib64/libffi.so",
+                   "home/mrosset/.local/lib64/libffi.so.6",
+                   "home/mrosset/.local/lib64/libffi.so.6.0.4",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/libffi.info",
+                   "home/mrosset/.local/share/man/man3/ffi.3",
+                   "home/mrosset/.local/share/man/man3/ffi_call.3",
+                   "home/mrosset/.local/share/man/man3/ffi_prep_cif.3",
+                   "home/mrosset/.local/share/man/man3/ffi_prep_cif_var.3"
+    ]
+}

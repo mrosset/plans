@@ -6,8 +6,9 @@
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
-    "Date"         : "2016-02-13T12:37:23.553671563-08:00",
-    "Size"         : 409896,
+    "BuildTime"    : 43004169556,
+    "Date"         : "2016-03-08T19:50:42.60766687-08:00",
+    "Size"         : 1080540,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -19,7 +20,14 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/via/root/bin/tar",
-                   "home/mrosset/via/root/lib/rmt"
+                   "home/mrosset/.local/bin/tar",
+                   "home/mrosset/.local/lib/rmt",
+                   "home/mrosset/.local/share/info/dir",
+                   "home/mrosset/.local/share/info/tar.info",
+                   "home/mrosset/.local/share/info/tar.info-1",
+                   "home/mrosset/.local/share/info/tar.info-2",
+                   "home/mrosset/.local/share/info/tar.info-3",
+                   "home/mrosset/.local/share/man/man1/tar.1",
+                   "home/mrosset/.local/share/man/man8/rmt.8"
     ]
 }

@@ -6,6 +6,7 @@
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
+    "BuildTime"    : 0,
     "Date"         : "2016-02-13T01:06:32.745921855-08:00",
     "Size"         : 4228224,
     "SubPackages"  : null,

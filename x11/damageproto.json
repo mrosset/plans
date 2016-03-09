@@ -1,0 +1,26 @@
+{
+    "Name"         : "damageproto",
+    "Version"      : "1.2.1",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/proto/damageproto-1.2.1.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T02:50:51.811494578-08:00",
+    "Size"         : 13411,
+    "SubPackages"  : null,
+    "Depends"      : [], 
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/X11/extensions/damageproto.h",
+                   "home/mrosset/.local/include/X11/extensions/damagewire.h",
+                   "home/mrosset/.local/lib/pkgconfig/damageproto.pc",
+                   "home/mrosset/.local/share/doc/damageproto/damageproto.txt"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "Name"         : "inputproto",
+    "Version"      : "2.3.1",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/proto/inputproto-2.3.1.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T00:39:12.931512693-08:00",
+    "Size"         : 100705,
+    "SubPackages"  : null,
+    "Depends"      : [], 
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/X11/extensions/XI.h",
+                   "home/mrosset/.local/include/X11/extensions/XI2.h",
+                   "home/mrosset/.local/include/X11/extensions/XI2proto.h",
+                   "home/mrosset/.local/include/X11/extensions/XIproto.h",
+                   "home/mrosset/.local/lib/pkgconfig/inputproto.pc"
+    ]
+}
