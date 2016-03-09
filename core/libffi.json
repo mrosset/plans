@@ -7,21 +7,26 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T06:48:03.313140292-08:00",
-    "Size"         : 83874,
+    "Date"         : "2016-03-09T09:44:08.427859644-08:00",
+    "Size"         : 83870,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
-    "Flags"        : null,
-    "Patch"        : null,
+    "Flags"        : [
+                   "--libdir=$PREFIX/lib"
+    ],             
+    "Patch"        : [
+                   "sed -e '/^includesdir/ s/$(libdir).*$/$(includedir)/' -i include/Makefile.in",
+                   "sed -e '/^includedir/ s/=.*$/=@includedir@/' -e 's/^Cflags: -I${includedir}/Cflags:/' -i libffi.pc.in"
+    ],             
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/lib/libffi-3.2.1/include/ffi.h",
-                   "home/mrosset/.local/lib/libffi-3.2.1/include/ffitarget.h",
+                   "home/mrosset/.local/include/ffi.h",
+                   "home/mrosset/.local/include/ffitarget.h",
                    "home/mrosset/.local/lib/pkgconfig/libffi.pc",
                    "home/mrosset/.local/lib64/libffi.la",
                    "home/mrosset/.local/lib64/libffi.so",
