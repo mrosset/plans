@@ -7,31 +7,34 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T09:44:08.427859644-08:00",
-    "Size"         : 83870,
+    "Date"         : "2016-03-09T23:44:40.557349629-08:00",
+    "Size"         : 83852,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
     "Flags"        : [
-                   "--libdir=$PREFIX/lib"
+                   "toolexeclibdir=$PREFIX/lib"
     ],             
     "Patch"        : [
+                   "sed -e 's%-print-multi-os-directory%../lib%' -i configure",
                    "sed -e '/^includesdir/ s/$(libdir).*$/$(includedir)/' -i include/Makefile.in",
                    "sed -e '/^includedir/ s/=.*$/=@includedir@/' -e 's/^Cflags: -I${includedir}/Cflags:/' -i libffi.pc.in"
     ],             
     "Build"        : null,
-    "Package"      : null,
+    "Package"      : [
+                   "make install-strip DESTDIR=$PKGDIR"
+    ],             
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
                    "home/mrosset/.local/include/ffi.h",
                    "home/mrosset/.local/include/ffitarget.h",
+                   "home/mrosset/.local/lib/libffi.la",
+                   "home/mrosset/.local/lib/libffi.so",
+                   "home/mrosset/.local/lib/libffi.so.6",
+                   "home/mrosset/.local/lib/libffi.so.6.0.4",
                    "home/mrosset/.local/lib/pkgconfig/libffi.pc",
-                   "home/mrosset/.local/lib64/libffi.la",
-                   "home/mrosset/.local/lib64/libffi.so",
-                   "home/mrosset/.local/lib64/libffi.so.6",
-                   "home/mrosset/.local/lib64/libffi.so.6.0.4",
                    "home/mrosset/.local/share/info/dir",
                    "home/mrosset/.local/share/info/libffi.info",
                    "home/mrosset/.local/share/man/man3/ffi.3",
