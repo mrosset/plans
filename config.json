@@ -11,13 +11,12 @@
     "Binary"      : "http://localhost:8080/ipfs/QmekHea661gkEPfZwyHHJTsnUUNHhzerfjwj2aJwbKcUKi/repo/master",
     "Flags"       : [
                   "--config-cache",
-                  "--disable-manpages",
+                  "--disable-man",
                   "--disable-multilib",
                   "--disable-nls",
                   "--disable-static",
                   "--disable-werror",
                   "--enable-shared",
-                  "--libdir=$PREFIX/lib",
                   "--libexec=$PREFIX/lib",
                   "--prefix=$PREFIX",
                   "--sysconfdir=$PREFIX/etc",
@@ -25,15 +24,16 @@
                   "-q"
     ],            
     "Env"         : {
-                  "CFLAGS"       : "-pipe -O2 -mtune=generic",
-                  "CONFIG_SHELL" : "/bin/sh",
-                  "CXXFLAGS"     : "-pipe -O2 -mtune=generic",
-                  "LDFLAGS"      : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
-                  "LIBRARY_PATH" : "$PREFIX/lib",
-                  "MAKEFLAGS"    : "-sw",
-                  "MAKEINFO"     : "missing",
-                  "PATH"         : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
-                  "PREFIX"       : "/home/mrosset/.local"
+                  "CFLAGS"          : "-pipe -O2 -mtune=generic",
+                  "CONFIG_SHELL"    : "/bin/sh",
+                  "CXXFLAGS"        : "-pipe -O2 -mtune=generic",
+                  "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib64 -Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+                  "LIBRARY_PATH"    : "$PREFIX/lib",
+                  "MAKEFLAGS"       : "-sw",
+                  "MAKEINFO"        : "missing",
+                  "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
+                  "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
+                  "PREFIX"          : "/home/mrosset/.local"
     },            
     "Remove"      : [
                   "home/mrosset/via/root/share/doc",

@@ -7,16 +7,14 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T00:02:30.221082376-08:00",
-    "Size"         : 581543,
+    "Date"         : "2016-03-10T02:13:22.934187728-08:00",
+    "Size"         : 623789,
     "SubPackages"  : null,
     "Depends"      : [
+                   "cairo",
                    "freetype",
                    "glib",
-                   "glibc",
-                   "icu",
-                   "libgcc",
-                   "libstdc++"
+                   "glibc"
     ],             
     "Flags"        : null,
     "Patch"        : null,
@@ -27,6 +25,7 @@
     "Files"        : [
                    "home/mrosset/.local/bin/hb-ot-shape-closure",
                    "home/mrosset/.local/bin/hb-shape",
+                   "home/mrosset/.local/bin/hb-view",
                    "home/mrosset/.local/include/harfbuzz/hb-blob.h",
                    "home/mrosset/.local/include/harfbuzz/hb-buffer.h",
                    "home/mrosset/.local/include/harfbuzz/hb-common.h",
@@ -35,7 +34,6 @@
                    "home/mrosset/.local/include/harfbuzz/hb-font.h",
                    "home/mrosset/.local/include/harfbuzz/hb-ft.h",
                    "home/mrosset/.local/include/harfbuzz/hb-glib.h",
-                   "home/mrosset/.local/include/harfbuzz/hb-icu.h",
                    "home/mrosset/.local/include/harfbuzz/hb-ot-font.h",
                    "home/mrosset/.local/include/harfbuzz/hb-ot-layout.h",
                    "home/mrosset/.local/include/harfbuzz/hb-ot-shape.h",
@@ -47,15 +45,10 @@
                    "home/mrosset/.local/include/harfbuzz/hb-unicode.h",
                    "home/mrosset/.local/include/harfbuzz/hb-version.h",
                    "home/mrosset/.local/include/harfbuzz/hb.h",
-                   "home/mrosset/.local/lib/libharfbuzz-icu.la",
-                   "home/mrosset/.local/lib/libharfbuzz-icu.so",
-                   "home/mrosset/.local/lib/libharfbuzz-icu.so.0",
-                   "home/mrosset/.local/lib/libharfbuzz-icu.so.0.10200.3",
                    "home/mrosset/.local/lib/libharfbuzz.la",
                    "home/mrosset/.local/lib/libharfbuzz.so",
                    "home/mrosset/.local/lib/libharfbuzz.so.0",
                    "home/mrosset/.local/lib/libharfbuzz.so.0.10200.3",
-                   "home/mrosset/.local/lib/pkgconfig/harfbuzz-icu.pc",
                    "home/mrosset/.local/lib/pkgconfig/harfbuzz.pc"
     ]
 }

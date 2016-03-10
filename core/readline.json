@@ -7,8 +7,8 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T06:24:19.381974562-08:00",
-    "Size"         : 1619243,
+    "Date"         : "2016-03-10T02:24:07.554222519-08:00",
+    "Size"         : 952567,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -28,11 +28,9 @@
                    "home/mrosset/.local/include/readline/rlstdc.h",
                    "home/mrosset/.local/include/readline/rltypedefs.h",
                    "home/mrosset/.local/include/readline/tilde.h",
-                   "home/mrosset/.local/lib/libhistory.a",
                    "home/mrosset/.local/lib/libhistory.so",
                    "home/mrosset/.local/lib/libhistory.so.6",
                    "home/mrosset/.local/lib/libhistory.so.6.3",
-                   "home/mrosset/.local/lib/libreadline.a",
                    "home/mrosset/.local/lib/libreadline.so",
                    "home/mrosset/.local/lib/libreadline.so.6",
                    "home/mrosset/.local/lib/libreadline.so.6.3",
@@ -44,20 +42,6 @@
                    "home/mrosset/.local/share/info/readline.info",
                    "home/mrosset/.local/share/info/rluserman.info",
                    "home/mrosset/.local/share/man/man3/history.3",
-                   "home/mrosset/.local/share/man/man3/readline.3",
-                   "home/mrosset/.local/share/readline/excallback.c",
-                   "home/mrosset/.local/share/readline/fileman.c",
-                   "home/mrosset/.local/share/readline/hist_erasedups.c",
-                   "home/mrosset/.local/share/readline/hist_purgecmd.c",
-                   "home/mrosset/.local/share/readline/histexamp.c",
-                   "home/mrosset/.local/share/readline/manexamp.c",
-                   "home/mrosset/.local/share/readline/rl-callbacktest.c",
-                   "home/mrosset/.local/share/readline/rl-fgets.c",
-                   "home/mrosset/.local/share/readline/rl.c",
-                   "home/mrosset/.local/share/readline/rlcat.c",
-                   "home/mrosset/.local/share/readline/rlevent.c",
-                   "home/mrosset/.local/share/readline/rlptytest.c",
-                   "home/mrosset/.local/share/readline/rltest.c",
-                   "home/mrosset/.local/share/readline/rlversion.c"
+                   "home/mrosset/.local/share/man/man3/readline.3"
     ]
 }

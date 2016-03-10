@@ -7,15 +7,15 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T23:02:32.677295785-08:00",
-    "Size"         : 298186,
+    "Date"         : "2016-03-10T02:19:06.684140481-08:00",
+    "Size"         : 298222,
     "SubPackages"  : null,
     "Depends"      : [
                    "dbus",
                    "glib",
                    "glibc"
     ],             
-    "Flags"        : [], 
+    "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,

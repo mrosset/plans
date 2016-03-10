@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T00:54:40.931869423-08:00",
-    "Size"         : 474065,
+    "Date"         : "2016-03-10T02:07:40.642649414-08:00",
+    "Size"         : 355994,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -39,7 +39,6 @@
                    "home/mrosset/.local/include/X11/extensions/shape.h",
                    "home/mrosset/.local/include/X11/extensions/sync.h",
                    "home/mrosset/.local/include/X11/extensions/xtestext1.h",
-                   "home/mrosset/.local/lib/libXext.a",
                    "home/mrosset/.local/lib/libXext.la",
                    "home/mrosset/.local/lib/libXext.so",
                    "home/mrosset/.local/lib/libXext.so.6",

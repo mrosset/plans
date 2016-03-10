@@ -7,10 +7,11 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T08:33:41.004426553-08:00",
-    "Size"         : 721494,
+    "Date"         : "2016-03-10T02:14:00.549286277-08:00",
+    "Size"         : 721599,
     "SubPackages"  : null,
     "Depends"      : [
+                   "",
                    "bzip2",
                    "cairo",
                    "expat",

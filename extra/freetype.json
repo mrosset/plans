@@ -7,8 +7,8 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-08T23:25:22.541437722-08:00",
-    "Size"         : 2730086,
+    "Date"         : "2016-03-10T02:12:42.161297492-08:00",
+    "Size"         : 1878355,
     "SubPackages"  : null,
     "Depends"      : [
                    "bzip2",
@@ -75,7 +75,6 @@
                    "home/mrosset/.local/include/freetype2/freetype/tttags.h",
                    "home/mrosset/.local/include/freetype2/freetype/ttunpat.h",
                    "home/mrosset/.local/include/freetype2/ft2build.h",
-                   "home/mrosset/.local/lib/libfreetype.a",
                    "home/mrosset/.local/lib/libfreetype.la",
                    "home/mrosset/.local/lib/libfreetype.so",
                    "home/mrosset/.local/lib/libfreetype.so.6",

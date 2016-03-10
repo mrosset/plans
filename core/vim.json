@@ -7,8 +7,8 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : true,
     "BuildTime"    : 1884119052,
-    "Date"         : "2016-03-08T21:46:57.845052857-08:00",
-    "Size"         : 21065766,
+    "Date"         : "2016-03-10T06:40:06.722359857-08:00",
+    "Size"         : 23047010,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -19,9 +19,9 @@
                    "--disable-luainterp",
                    "--disable-multibyte",
                    "--disable-python3interp",
-                   "--disable-pythoninterp",
                    "--disable-rubyinterp",
                    "--enable-cscope",
+                   "--enable-pythoninterp",
                    "--with-features",
                    "--with-features=huge",
                    "--with-x=yes"

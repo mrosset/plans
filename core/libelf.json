@@ -1,0 +1,39 @@
+{
+    "Name"         : "libelf",
+    "Version"      : "0.8.13",
+    "Url"          : "http://www.mr511.de/software/libelf-0.8.13.tar.gza",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-10T01:48:41.738954319-08:00",
+    "Size"         : 338564,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "$SRCDIR/configure --prefix=$PREFIX"
+    ],             
+    "Package"      : [
+                   "make install prefix=$PKGDIR/$PREFIX"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/libelf/elf_repl.h",
+                   "home/mrosset/.local/include/libelf/gelf.h",
+                   "home/mrosset/.local/include/libelf/libelf.h",
+                   "home/mrosset/.local/include/libelf/nlist.h",
+                   "home/mrosset/.local/include/libelf/sys_elf.h",
+                   "home/mrosset/.local/lib/libelf.a",
+                   "home/mrosset/.local/lib/libelf.so",
+                   "home/mrosset/.local/lib/libelf.so.0",
+                   "home/mrosset/.local/lib/libelf.so.0.8.13",
+                   "home/mrosset/.local/lib/pkgconfig/libelf.pc",
+                   "home/mrosset/.local/share/locale/de/LC_MESSAGES/libelf.mo"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "Name"         : "diffstat",
+    "Version"      : "1.61",
+    "Url"          : "http://invisible-island.net/datafiles/release/diffstat.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu-nostrip",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-06T15:43:18.278372988-08:00",
+    "Size"         : 43824,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/via/root/bin/diffstat"
+    ]
+}

@@ -1,14 +1,14 @@
 {
     "Name"         : "expat",
     "Version"      : "2.1.0",
-    "Url"          : "http://downloads.sourceforge.net/sourceforge/expat/expat-2.1.0.tar.gz",
+    "Url"          : "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-08T23:20:03.94796061-08:00",
-    "Size"         : 615887,
+    "Date"         : "2016-03-10T01:53:30.562641188-08:00",
+    "Size"         : 269971,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -23,7 +23,6 @@
                    "home/mrosset/.local/bin/xmlwf",
                    "home/mrosset/.local/include/expat.h",
                    "home/mrosset/.local/include/expat_external.h",
-                   "home/mrosset/.local/lib/libexpat.a",
                    "home/mrosset/.local/lib/libexpat.la",
                    "home/mrosset/.local/lib/libexpat.so",
                    "home/mrosset/.local/lib/libexpat.so.1",

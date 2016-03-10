@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T00:44:36.434685833-08:00",
-    "Size"         : 128937,
+    "Date"         : "2016-03-10T02:08:40.842649743-08:00",
+    "Size"         : 69677,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -24,7 +24,6 @@
     "Remove"       : null,
     "Files"        : [
                    "home/mrosset/.local/include/X11/extensions/Xrender.h",
-                   "home/mrosset/.local/lib/libXrender.a",
                    "home/mrosset/.local/lib/libXrender.la",
                    "home/mrosset/.local/lib/libXrender.so",
                    "home/mrosset/.local/lib/libXrender.so.1",

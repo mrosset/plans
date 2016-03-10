@@ -1,0 +1,31 @@
+{
+    "Name"         : "chrpath",
+    "Version"      : "0.16",
+    "Url"          : "https://alioth.debian.org/frs/download.php/file/3979/chrpath-0.16.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-06T15:46:50.145022398-08:00",
+    "Size"         : 58890,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/via/root/bin/chrpath",
+                   "home/mrosset/via/root/doc/chrpath-0.16/AUTHORS",
+                   "home/mrosset/via/root/doc/chrpath-0.16/COPYING",
+                   "home/mrosset/via/root/doc/chrpath-0.16/ChangeLog",
+                   "home/mrosset/via/root/doc/chrpath-0.16/INSTALL",
+                   "home/mrosset/via/root/doc/chrpath-0.16/NEWS",
+                   "home/mrosset/via/root/doc/chrpath-0.16/README"
+    ]
+}
