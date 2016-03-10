@@ -17,6 +17,7 @@
                   "--disable-static",
                   "--disable-werror",
                   "--enable-shared",
+                  "--libdir=$PREFIX/lib",
                   "--libexec=$PREFIX/lib",
                   "--prefix=$PREFIX",
                   "--sysconfdir=$PREFIX/etc",

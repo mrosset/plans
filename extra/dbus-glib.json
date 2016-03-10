@@ -1,0 +1,41 @@
+{
+    "Name"         : "dbus-glib",
+    "Version"      : "0.106",
+    "Url"          : "http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.106.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T23:10:34.372277045-08:00",
+    "Size"         : 341245,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "dbus",
+                   "expat",
+                   "glib",
+                   "glibc"
+    ],             
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/bin/dbus-binding-tool",
+                   "home/mrosset/.local/etc/bash_completion.d/dbus-bash-completion.sh",
+                   "home/mrosset/.local/include/dbus-1.0/dbus/dbus-glib-bindings.h",
+                   "home/mrosset/.local/include/dbus-1.0/dbus/dbus-glib-lowlevel.h",
+                   "home/mrosset/.local/include/dbus-1.0/dbus/dbus-glib.h",
+                   "home/mrosset/.local/include/dbus-1.0/dbus/dbus-gtype-specialized.h",
+                   "home/mrosset/.local/include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h",
+                   "home/mrosset/.local/lib/dbus-bash-completion-helper",
+                   "home/mrosset/.local/lib/libdbus-glib-1.la",
+                   "home/mrosset/.local/lib/libdbus-glib-1.so",
+                   "home/mrosset/.local/lib/libdbus-glib-1.so.2",
+                   "home/mrosset/.local/lib/libdbus-glib-1.so.2.3.3",
+                   "home/mrosset/.local/lib/pkgconfig/dbus-glib-1.pc",
+                   "home/mrosset/.local/share/man/man1/dbus-binding-tool.1"
+    ]
+}

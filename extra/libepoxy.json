@@ -7,15 +7,29 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Size"         : 0,
+    "Date"         : "2016-03-09T17:53:01.381899442-08:00",
+    "Size"         : 2508751,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "home/mrosset/.local/include/epoxy/egl.h",
+                   "home/mrosset/.local/include/epoxy/egl_generated.h",
+                   "home/mrosset/.local/include/epoxy/gl.h",
+                   "home/mrosset/.local/include/epoxy/gl_generated.h",
+                   "home/mrosset/.local/include/epoxy/glx.h",
+                   "home/mrosset/.local/include/epoxy/glx_generated.h",
+                   "home/mrosset/.local/lib/libepoxy.la",
+                   "home/mrosset/.local/lib/libepoxy.so",
+                   "home/mrosset/.local/lib/libepoxy.so.0",
+                   "home/mrosset/.local/lib/libepoxy.so.0.0.0",
+                   "home/mrosset/.local/lib/pkgconfig/epoxy.pc"
+    ]
 }

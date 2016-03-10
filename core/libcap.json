@@ -7,7 +7,7 @@
     "Inherit"      : "",
     "BuildInStage" : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T06:53:41.799269275-08:00",
+    "Date"         : "2016-03-09T21:28:45.827049585-08:00",
     "Size"         : 335626,
     "SubPackages"  : null,
     "Depends"      : [
@@ -20,22 +20,22 @@
                    "make KERNEL_HEADERS=$PREFIX/include"
     ],             
     "Package"      : [
-                   "make prefix=$PREFIX DESTDIR=$PKGDIR RAISE_SETFCAP=no install"
+                   "make prefix=$PREFIX lib=/lib DESTDIR=$PKGDIR RAISE_SETFCAP=no install"
     ],             
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
                    "home/mrosset/.local/include/sys/capability.h",
-                   "home/mrosset/.local/libcap.a",
-                   "home/mrosset/.local/libcap.so",
-                   "home/mrosset/.local/libcap.so.2",
-                   "home/mrosset/.local/libcap.so.2.24",
-                   "home/mrosset/.local/pkgconfig/libcap.pc",
+                   "home/mrosset/.local/lib/libcap.a",
+                   "home/mrosset/.local/lib/libcap.so",
+                   "home/mrosset/.local/lib/libcap.so.2",
+                   "home/mrosset/.local/lib/libcap.so.2.24",
+                   "home/mrosset/.local/lib/pkgconfig/libcap.pc",
+                   "home/mrosset/.local/lib/security/pam_cap.so",
                    "home/mrosset/.local/sbin/capsh",
                    "home/mrosset/.local/sbin/getcap",
                    "home/mrosset/.local/sbin/getpcaps",
                    "home/mrosset/.local/sbin/setcap",
-                   "home/mrosset/.local/security/pam_cap.so",
                    "home/mrosset/.local/share/man/man1/capsh.1",
                    "home/mrosset/.local/share/man/man3/cap_clear.3",
                    "home/mrosset/.local/share/man/man3/cap_clear_flag.3",

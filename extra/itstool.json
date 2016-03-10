@@ -1,0 +1,30 @@
+{
+    "Name"         : "itstool",
+    "Version"      : "2.0.2",
+    "Url"          : "http://files.itstool.org/itstool/itstool-2.0.2.tar.bz2",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-09T23:15:28.203035091-08:00",
+    "Size"         : 95130,
+    "SubPackages"  : null,
+    "Depends"      : [], 
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/bin/itstool",
+                   "home/mrosset/.local/share/itstool/its/docbook.its",
+                   "home/mrosset/.local/share/itstool/its/docbook5.its",
+                   "home/mrosset/.local/share/itstool/its/its.its",
+                   "home/mrosset/.local/share/itstool/its/mallard.its",
+                   "home/mrosset/.local/share/itstool/its/ttml.its",
+                   "home/mrosset/.local/share/itstool/its/xhtml.its",
+                   "home/mrosset/.local/share/man/man1/itstool.1"
+    ]
+}

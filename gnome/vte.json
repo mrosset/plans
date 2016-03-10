@@ -1,9 +1,9 @@
 {
-    "Name"         : "gtk",
-    "Version"      : "3.18.8",
-    "Url"          : "https://download.gnome.org/sources/gtk+/3.18/gtk+-3.18.8.tar.xz",
+    "Name"         : "vte",
+    "Version"      : "0.42.4",
+    "Url"          : "http://download.gnome.org/sources/vte/0.42/vte-0.42.4.tar.xz",
     "Group"        : "gnome",
-    "StageDir"     : "gtk+-3.18.8",
+    "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,

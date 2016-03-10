@@ -12,9 +12,7 @@
     "SubPackages"  : null,
     "Depends"      : [], 
     "Flags"        : null,
-    "Patch"        : [
-                   "autoreconf -i -f"
-    ],             
+    "Patch"        : [], 
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,
