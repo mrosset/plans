@@ -27,7 +27,7 @@
                   "CFLAGS"          : "-pipe -O2 -mtune=generic",
                   "CONFIG_SHELL"    : "/bin/sh",
                   "CXXFLAGS"        : "-pipe -O2 -mtune=generic",
-                  "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib64 -Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+                  "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
                   "LIBRARY_PATH"    : "$PREFIX/lib",
                   "MAKEFLAGS"       : "-sw",
                   "MAKEINFO"        : "missing",
