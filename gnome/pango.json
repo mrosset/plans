@@ -30,6 +30,7 @@
                    "pixman",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--with-included-modules=basic-fc"
     ],             

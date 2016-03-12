@@ -15,6 +15,7 @@
                    "xz",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--without-python"
     ],             

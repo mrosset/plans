@@ -18,6 +18,7 @@
                    "libpng",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig"
     ],             

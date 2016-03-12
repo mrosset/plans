@@ -14,6 +14,7 @@
                    "glibc",
                    "libxau"
     ],             
+    "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : [
                    "sed -i 's%pthread-stubs%%' configure"

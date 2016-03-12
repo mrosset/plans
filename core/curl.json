@@ -15,6 +15,7 @@
                    "openssl",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--without-librtmp"
     ],             

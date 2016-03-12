@@ -22,6 +22,7 @@
                    "util-linux",
                    "vte3"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-search-provider",
                    "--without-nautilus-extension",

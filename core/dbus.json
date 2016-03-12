@@ -15,6 +15,7 @@
                    "glibc",
                    "libX11"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-doxygen-docs",
                    "--disable-static",

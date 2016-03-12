@@ -45,6 +45,7 @@
                    "util-linux",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-cups",
                    "--disable-wayland-backend",

@@ -11,6 +11,7 @@
     "Size"         : 3451979,
     "SubPackages"  : null,
     "Depends"      : [], 
+    "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [

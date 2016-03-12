@@ -26,6 +26,7 @@
                    "libxshmfence",
                    "nettle"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--with-gallium-drivers=nouveau,svga,swrast"
     ],             

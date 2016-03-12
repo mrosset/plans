@@ -21,6 +21,7 @@
                    "readline",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--with-openssl=$PREFIX",
                    "--with-system-ffi"

@@ -14,6 +14,7 @@
                    "glibc",
                    "ncurses"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-gui",
                    "--disable-luainterp",

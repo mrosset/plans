@@ -17,6 +17,7 @@
                    "xz",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--program-prefix=eu-"
     ],             

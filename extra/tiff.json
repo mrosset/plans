@@ -17,6 +17,7 @@
                    "xz",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,

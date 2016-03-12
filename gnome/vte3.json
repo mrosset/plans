@@ -33,6 +33,7 @@
                    "pixman",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-introspection",
                    "--disable-vala",

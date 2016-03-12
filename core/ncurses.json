@@ -13,6 +13,7 @@
     "Depends"      : [
                    "glibc"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--enable-widec",
                    "--with-shared",

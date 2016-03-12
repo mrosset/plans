@@ -15,6 +15,7 @@
                    "gmp",
                    "mpfr"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--enable-shared",
                    "--with-gmp=$PREFIX"

@@ -14,6 +14,7 @@
                    "glibc-i686",
                    "ncurses"
     ],             
+    "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,

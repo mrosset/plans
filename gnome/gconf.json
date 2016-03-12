@@ -20,6 +20,7 @@
                    "xz",
                    "zlib"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-orbit"
     ],             

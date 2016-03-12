@@ -15,6 +15,7 @@
                    "libgcc",
                    "libstdc++"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--without-x"
     ],             

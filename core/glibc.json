@@ -11,6 +11,7 @@
     "Size"         : 37297649,
     "SubPackages"  : null,
     "Depends"      : [], 
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-profile",
                    "--enable-add-ons",

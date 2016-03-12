@@ -19,6 +19,7 @@
                    "mpc",
                    "mpfr"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-bootstrap",
                    "--disable-libgomp",

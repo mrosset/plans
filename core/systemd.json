@@ -20,6 +20,7 @@
                    "libgpg-error",
                    "util-linux"
     ],             
+    "ManDepends"   : null,
     "Flags"        : [
                    "--disable-doc",
                    "--disable-gtk-doc",

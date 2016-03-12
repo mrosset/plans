@@ -14,6 +14,7 @@
                    "glibc",
                    "glibc-i686"
     ],             
+    "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,
