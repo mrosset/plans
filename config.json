@@ -6,7 +6,7 @@
     "PlansRepo"   : "http://bitbucket.org/strings/plans",
     "Cache"       : "$HOME/via/cache",
     "DB"          : "/home/mrosset/.local/db",
-    "Plans"       : "$HOME/via/plans",
+    "Plans"       : "$GOPATH/src/bitbucket.org/strings/via/plans",
     "Repo"        : "$HOME/publish/repo",
     "Binary"      : "http://localhost:8080/ipfs/QmekHea661gkEPfZwyHHJTsnUUNHhzerfjwj2aJwbKcUKi/repo/master",
     "Flags"       : [
