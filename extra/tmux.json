@@ -1,0 +1,29 @@
+{
+    "Name"         : "tmux",
+    "Version"      : "2.1",
+    "Url"          : "https://github.com/tmux/tmux/releases/download/2.1/tmux-2.1.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-12T07:23:35.9536545-08:00",
+    "Size"         : 553926,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "",
+                   "glibc",
+                   "ncurses"
+    ],             
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/bin/tmux",
+                   "home/mrosset/.local/share/man/man1/tmux.1"
+    ]
+}
