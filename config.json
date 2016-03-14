@@ -24,7 +24,7 @@
                   "-q"
     ],            
     "Env"         : {
-                  "CFLAGS"          : "-pipe -O2 -mtune=generic -fprofile-use=$HOME/profile -fprofile-generate=$HOME/profile/",
+                  "CFLAGS"          : "-pipe -O2 -mtune=generic",
                   "CONFIG_SHELL"    : "/bin/sh",
                   "CXXFLAGS"        : "$CFLAGS",
                   "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
