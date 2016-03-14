@@ -24,9 +24,9 @@
                   "-q"
     ],            
     "Env"         : {
-                  "CFLAGS"          : "-pipe -O2 -mtune=generic",
+                  "CFLAGS"          : "-pipe -O2 -mtune=generic -fprofile-use=$HOME/profile -fprofile-generate=$HOME/profile/",
                   "CONFIG_SHELL"    : "/bin/sh",
-                  "CXXFLAGS"        : "-pipe -O2 -mtune=generic",
+                  "CXXFLAGS"        : "$CFLAGS",
                   "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
                   "LIBRARY_PATH"    : "$PREFIX/lib",
                   "MAKEFLAGS"       : "-sw",
@@ -36,9 +36,9 @@
                   "PREFIX"          : "/home/mrosset/.local"
     },            
     "Remove"      : [
-                  "home/mrosset/via/root/share/doc",
-                  "home/mrosset/via/root/share/info",
-                  "home/mrosset/via/root/share/man"
+                  "home/mrosset/.local/share/doc",
+                  "home/mrosset/.local/share/info",
+                  "home/mrosset/.local/share/man"
     ],            
     "PostInstall" : null
 }

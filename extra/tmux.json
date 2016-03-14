@@ -7,12 +7,13 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-12T07:23:35.9536545-08:00",
-    "Size"         : 553926,
+    "Date"         : "2016-03-14T02:06:13.48819769-07:00",
+    "Size"         : 534232,
     "SubPackages"  : null,
     "Depends"      : [
-                   "",
                    "glibc",
+                   "libevent",
+                   "libutempter",
                    "ncurses"
     ],             
     "ManDepends"   : null,
@@ -23,7 +24,6 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/bin/tmux",
-                   "home/mrosset/.local/share/man/man1/tmux.1"
+                   "home/mrosset/.local/bin/tmux"
     ]
 }

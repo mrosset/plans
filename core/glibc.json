@@ -18,7 +18,8 @@
                    "--enable-kernel=2.6.32",
                    "--with-headers=$PREFIX/include",
                    "--without-cvs",
-                   "--without-gd"
+                   "--without-gd",
+                   "--without-selinux"
     ],             
     "Patch"        : null,
     "Build"        : [

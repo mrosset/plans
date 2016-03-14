@@ -1,0 +1,35 @@
+{
+    "Name"         : "libutempter",
+    "Version"      : "1.1.6",
+    "Url"          : "ftp://ftp.altlinux.org/pub/people/ldv/utempter/libutempter-1.1.6.tar.bz2",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : true,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-14T02:05:54.57998866-07:00",
+    "Size"         : 26000,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "make"
+    ],             
+    "Package"      : [
+                   "make install prefix=$PREFIX DESTDIR=$PKGDIR"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/include/utempter.h",
+                   "home/mrosset/.local/lib/libutempter.a",
+                   "home/mrosset/.local/lib/libutempter.so",
+                   "home/mrosset/.local/lib/libutempter.so.0",
+                   "home/mrosset/.local/lib/libutempter.so.1.1.6",
+                   "home/mrosset/.local/lib/utempter/utempter"
+    ]
+}

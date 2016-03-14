@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 1488985839,
-    "Date"         : "2016-03-12T22:03:12.493077214-08:00",
-    "Size"         : 835502,
+    "Date"         : "2016-03-13T01:28:51.235054456-08:00",
+    "Size"         : 475624,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -24,11 +24,6 @@
     "Remove"       : null,
     "Files"        : [
                    "home/mrosset/.local/bin/make",
-                   "home/mrosset/.local/include/gnumake.h",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/info/make.info",
-                   "home/mrosset/.local/share/info/make.info-1",
-                   "home/mrosset/.local/share/info/make.info-2",
-                   "home/mrosset/.local/share/man/man1/make.1"
+                   "home/mrosset/.local/include/gnumake.h"
     ]
 }

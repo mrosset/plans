@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 1566102924,
-    "Date"         : "2016-03-10T02:25:04.185163821-08:00",
-    "Size"         : 3513163,
+    "Date"         : "2016-03-13T01:41:32.361498999-08:00",
+    "Size"         : 2362632,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -26,20 +26,6 @@
     "Files"        : [
                    "home/mrosset/.local/bin/bash",
                    "home/mrosset/.local/bin/bashbug",
-                   "home/mrosset/.local/bin/sh",
-                   "home/mrosset/.local/share/doc/bash/CHANGES",
-                   "home/mrosset/.local/share/doc/bash/COMPAT",
-                   "home/mrosset/.local/share/doc/bash/FAQ",
-                   "home/mrosset/.local/share/doc/bash/INTRO",
-                   "home/mrosset/.local/share/doc/bash/NEWS",
-                   "home/mrosset/.local/share/doc/bash/POSIX",
-                   "home/mrosset/.local/share/doc/bash/RBASH",
-                   "home/mrosset/.local/share/doc/bash/README",
-                   "home/mrosset/.local/share/doc/bash/bash.html",
-                   "home/mrosset/.local/share/doc/bash/bashref.html",
-                   "home/mrosset/.local/share/info/bash.info",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/man/man1/bash.1",
-                   "home/mrosset/.local/share/man/man1/bashbug.1"
+                   "home/mrosset/.local/bin/sh"
     ]
 }
