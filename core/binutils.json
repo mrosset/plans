@@ -16,8 +16,8 @@
     "ManDepends"   : null,
     "Flags"        : [
                    "--enable-lto",
-                   "--with-lib-path=$PREFIX/lib",
                    "--enable-plugins",
+                   "--with-lib-path=$PREFIX/lib",
                    "--with-sysroot"
     ],             
     "Patch"        : null,

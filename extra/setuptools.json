@@ -1,0 +1,24 @@
+{
+    "Name"         : "setuptools",
+    "Version"      : "20.2.2",
+    "Url"          : "https://pypi.python.org/packages/source/s/setuptools/setuptools-20.2.2.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "BuildInStage" : true,
+    "BuildTime"    : 0,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : [
+                   "python setup.py install --prefix=$PREFIX --root=$PKGDIR --optimize=1"
+    ],             
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}
