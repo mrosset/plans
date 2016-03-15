@@ -36,9 +36,9 @@
                   "PREFIX"          : "/home/mrosset/.local"
     },            
     "Remove"      : [
-                  "home/mrosset/.local/share/doc",
-                  "home/mrosset/.local/share/info",
-                  "home/mrosset/.local/share/man"
+                  "$PREFIX/share/doc",
+                  "$PREFIX/share/info",
+                  "$PREFIX/share/man"
     ],            
     "PostInstall" : null
 }
