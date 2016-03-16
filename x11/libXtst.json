@@ -12,13 +12,17 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
-                   "libX11",
                    "libXext",
                    "libXi",
+                   "libx11",
                    "libxau",
                    "libxcb"
     ],             
-    "ManDepends"   : null,
+    "ManDepends"   : [
+                   "xextproto",
+                   "libXext",
+                   "libXi"
+    ],             
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : null,

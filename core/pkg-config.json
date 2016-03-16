@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-08T22:47:47.913366825-08:00",
-    "Size"         : 138479,
+    "Date"         : "2016-03-16T01:15:19.31934-07:00",
+    "Size"         : 110293,
     "SubPackages"  : null,
     "Depends"      : [
                    "glib",
@@ -23,9 +23,7 @@
     "Remove"       : null,
     "Files"        : [
                    "home/mrosset/.local/bin/pkg-config",
-                   "home/mrosset/.local/bin/x86_64-unknown-linux-gnu-pkg-config",
-                   "home/mrosset/.local/share/aclocal/pkg.m4",
-                   "home/mrosset/.local/share/doc/pkg-config/pkg-config-guide.html",
-                   "home/mrosset/.local/share/man/man1/pkg-config.1"
+                   "home/mrosset/.local/bin/powerpc64le-via-linux-gnu-pkg-config",
+                   "home/mrosset/.local/share/aclocal/pkg.m4"
     ]
 }

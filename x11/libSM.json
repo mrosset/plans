@@ -7,15 +7,10 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T00:53:06.562712058-08:00",
-    "Size"         : 309877,
+    "Date"         : "2016-03-16T00:37:24.286343-07:00",
+    "Size"         : 73829,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "libICE",
-                   "libbsd",
-                   "util-linux"
-    ],             
+    "Depends"      : [], 
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
@@ -29,11 +24,6 @@
                    "home/mrosset/.local/include/X11/SM/SMproto.h",
                    "home/mrosset/.local/lib/libSM.a",
                    "home/mrosset/.local/lib/libSM.la",
-                   "home/mrosset/.local/lib/libSM.so",
-                   "home/mrosset/.local/lib/libSM.so.6",
-                   "home/mrosset/.local/lib/libSM.so.6.0.1",
-                   "home/mrosset/.local/lib/pkgconfig/sm.pc",
-                   "home/mrosset/.local/share/doc/libSM/SMlib.xml",
-                   "home/mrosset/.local/share/doc/libSM/xsmp.xml"
+                   "home/mrosset/.local/lib/pkgconfig/sm.pc"
     ]
 }

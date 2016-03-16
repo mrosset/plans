@@ -7,12 +7,11 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:17:07.4295187-08:00",
-    "Size"         : 341089,
+    "Date"         : "2016-03-15T23:27:35.930245-07:00",
+    "Size"         : 708225,
     "SubPackages"  : null,
     "Depends"      : [
                    "dbus",
-                   "expat",
                    "glib",
                    "glibc"
     ],             
@@ -36,7 +35,6 @@
                    "home/mrosset/.local/lib/libdbus-glib-1.so",
                    "home/mrosset/.local/lib/libdbus-glib-1.so.2",
                    "home/mrosset/.local/lib/libdbus-glib-1.so.2.3.3",
-                   "home/mrosset/.local/lib/pkgconfig/dbus-glib-1.pc",
-                   "home/mrosset/.local/share/man/man1/dbus-binding-tool.1"
+                   "home/mrosset/.local/lib/pkgconfig/dbus-glib-1.pc"
     ]
 }

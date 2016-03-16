@@ -7,13 +7,11 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:15:47.527894824-08:00",
-    "Size"         : 945684,
+    "Date"         : "2016-03-15T23:26:40.304066-07:00",
+    "Size"         : 1250153,
     "SubPackages"  : null,
     "Depends"      : [
-                   "expat",
-                   "glibc",
-                   "libX11"
+                   "glibc"
     ],             
     "ManDepends"   : null,
     "Flags"        : [
@@ -26,9 +24,7 @@
     "Patch"        : null,
     "Build"        : null,
     "Package"      : null,
-    "PostInstall"  : [
-                   "echo stuff"
-    ],             
+    "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
                    "home/mrosset/.local/bin/dbus-cleanup-sockets",
@@ -42,6 +38,7 @@
                    "home/mrosset/.local/bin/dbus-uuidgen",
                    "home/mrosset/.local/etc/dbus-1/session.conf",
                    "home/mrosset/.local/etc/dbus-1/system.conf",
+                   "home/mrosset/.local/etc/rc.d/init.d/messagebus",
                    "home/mrosset/.local/include/dbus-1.0/dbus/dbus-address.h",
                    "home/mrosset/.local/include/dbus-1.0/dbus/dbus-bus.h",
                    "home/mrosset/.local/include/dbus-1.0/dbus/dbus-connection.h",
@@ -67,12 +64,6 @@
                    "home/mrosset/.local/lib/libdbus-1.so.3.14.6",
                    "home/mrosset/.local/lib/pkgconfig/dbus-1.pc",
                    "home/mrosset/.local/share/dbus-1/session.conf",
-                   "home/mrosset/.local/share/dbus-1/system.conf",
-                   "home/mrosset/.local/share/doc/dbus/diagram.png",
-                   "home/mrosset/.local/share/doc/dbus/diagram.svg",
-                   "home/mrosset/.local/share/doc/dbus/examples/GetAllMatchRules.py",
-                   "home/mrosset/.local/share/doc/dbus/examples/example-session-disable-stats.conf",
-                   "home/mrosset/.local/share/doc/dbus/examples/example-system-enable-stats.conf",
-                   "home/mrosset/.local/share/doc/dbus/system-activation.txt"
+                   "home/mrosset/.local/share/dbus-1/system.conf"
     ]
 }

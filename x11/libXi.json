@@ -14,6 +14,7 @@
                    "glibc",
                    "libX11",
                    "libXext",
+                   "libXfixes",
                    "libxau",
                    "libxcb"
     ],             

@@ -7,13 +7,10 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T21:44:56.704149529-08:00",
-    "Size"         : 366366,
+    "Date"         : "2016-03-15T23:29:12.257036-07:00",
+    "Size"         : 221260,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "libbsd"
-    ],             
+    "Depends"      : [], 
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
@@ -28,12 +25,8 @@
                    "home/mrosset/.local/include/X11/ICE/ICEmsg.h",
                    "home/mrosset/.local/include/X11/ICE/ICEproto.h",
                    "home/mrosset/.local/include/X11/ICE/ICEutil.h",
+                   "home/mrosset/.local/lib/libICE.a",
                    "home/mrosset/.local/lib/libICE.la",
-                   "home/mrosset/.local/lib/libICE.so",
-                   "home/mrosset/.local/lib/libICE.so.6",
-                   "home/mrosset/.local/lib/libICE.so.6.3.0",
-                   "home/mrosset/.local/lib/pkgconfig/ice.pc",
-                   "home/mrosset/.local/share/doc/libICE/ICElib.xml",
-                   "home/mrosset/.local/share/doc/libICE/ice.xml"
+                   "home/mrosset/.local/lib/pkgconfig/ice.pc"
     ]
 }

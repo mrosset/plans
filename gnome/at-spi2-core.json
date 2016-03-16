@@ -16,7 +16,6 @@
                    "glibc",
                    "libICE",
                    "libSM",
-                   "libX11",
                    "libXtst",
                    "libbsd",
                    "libffi",

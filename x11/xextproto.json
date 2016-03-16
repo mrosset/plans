@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:04:18.74560598-08:00",
-    "Size"         : 660837,
+    "Date"         : "2016-03-16T00:40:12.750403-07:00",
+    "Size"         : 146864,
     "SubPackages"  : null,
     "Depends"      : [], 
     "ManDepends"   : null,
@@ -52,20 +52,6 @@
                    "home/mrosset/.local/include/X11/extensions/xtestext1const.h",
                    "home/mrosset/.local/include/X11/extensions/xtestext1proto.h",
                    "home/mrosset/.local/include/X11/extensions/xtestproto.h",
-                   "home/mrosset/.local/lib/pkgconfig/xextproto.pc",
-                   "home/mrosset/.local/share/doc/xextproto/appendix.xml",
-                   "home/mrosset/.local/share/doc/xextproto/appgrp.xml",
-                   "home/mrosset/.local/share/doc/xextproto/dbe.xml",
-                   "home/mrosset/.local/share/doc/xextproto/dpms.xml",
-                   "home/mrosset/.local/share/doc/xextproto/evi.xml",
-                   "home/mrosset/.local/share/doc/xextproto/geproto.xml",
-                   "home/mrosset/.local/share/doc/xextproto/lbx.xml",
-                   "home/mrosset/.local/share/doc/xextproto/multibuf.xml",
-                   "home/mrosset/.local/share/doc/xextproto/security.xml",
-                   "home/mrosset/.local/share/doc/xextproto/shape.xml",
-                   "home/mrosset/.local/share/doc/xextproto/shm.xml",
-                   "home/mrosset/.local/share/doc/xextproto/sync.xml",
-                   "home/mrosset/.local/share/doc/xextproto/tog-cup.xml",
-                   "home/mrosset/.local/share/doc/xextproto/xtest.xml"
+                   "home/mrosset/.local/lib/pkgconfig/xextproto.pc"
     ]
 }

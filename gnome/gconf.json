@@ -7,18 +7,15 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T23:12:37.274123385-08:00",
-    "Size"         : 6563394,
+    "Date"         : "2016-03-15T23:28:54.385335-07:00",
+    "Size"         : 7374249,
     "SubPackages"  : null,
     "Depends"      : [
                    "dbus",
                    "dbus-glib",
                    "glib",
                    "glibc",
-                   "libffi",
-                   "libxml2",
-                   "xz",
-                   "zlib"
+                   "libxml2"
     ],             
     "ManDepends"   : null,
     "Flags"        : [
@@ -45,17 +42,15 @@
                    "home/mrosset/.local/include/gconf/2/gconf/gconf-schema.h",
                    "home/mrosset/.local/include/gconf/2/gconf/gconf-value.h",
                    "home/mrosset/.local/include/gconf/2/gconf/gconf.h",
+                   "home/mrosset/.local/lib/GConf/2/libgconfbackend-oldxml.a",
                    "home/mrosset/.local/lib/GConf/2/libgconfbackend-oldxml.la",
-                   "home/mrosset/.local/lib/GConf/2/libgconfbackend-oldxml.so",
+                   "home/mrosset/.local/lib/GConf/2/libgconfbackend-xml.a",
                    "home/mrosset/.local/lib/GConf/2/libgconfbackend-xml.la",
-                   "home/mrosset/.local/lib/GConf/2/libgconfbackend-xml.so",
                    "home/mrosset/.local/lib/gconfd-2",
+                   "home/mrosset/.local/lib/gio/modules/libgsettingsgconfbackend.a",
                    "home/mrosset/.local/lib/gio/modules/libgsettingsgconfbackend.la",
-                   "home/mrosset/.local/lib/gio/modules/libgsettingsgconfbackend.so",
+                   "home/mrosset/.local/lib/libgconf-2.a",
                    "home/mrosset/.local/lib/libgconf-2.la",
-                   "home/mrosset/.local/lib/libgconf-2.so",
-                   "home/mrosset/.local/lib/libgconf-2.so.4",
-                   "home/mrosset/.local/lib/libgconf-2.so.4.1.5",
                    "home/mrosset/.local/lib/pkgconfig/gconf-2.0.pc",
                    "home/mrosset/.local/share/aclocal/gconf-2.m4",
                    "home/mrosset/.local/share/dbus-1/services/org.gnome.GConf.service",
@@ -145,9 +140,6 @@
                    "home/mrosset/.local/share/locale/zh_CN/LC_MESSAGES/GConf2.mo",
                    "home/mrosset/.local/share/locale/zh_HK/LC_MESSAGES/GConf2.mo",
                    "home/mrosset/.local/share/locale/zh_TW/LC_MESSAGES/GConf2.mo",
-                   "home/mrosset/.local/share/man/man1/gconftool-2.1",
-                   "home/mrosset/.local/share/man/man1/gsettings-data-convert.1",
-                   "home/mrosset/.local/share/man/man1/gsettings-schema-convert.1",
                    "home/mrosset/.local/share/sgml/gconf/gconf-1.0.dtd"
     ]
 }

@@ -16,9 +16,13 @@
                    "libxau",
                    "libxcb"
     ],             
-    "ManDepends"   : null,
+    "ManDepends"   : [
+                   "fixesproto"
+    ],             
     "Flags"        : null,
-    "Patch"        : null,
+    "Patch"        : [
+                   "autoreconf -fi"
+    ],             
     "Build"        : null,
     "Package"      : null,
     "PostInstall"  : null,

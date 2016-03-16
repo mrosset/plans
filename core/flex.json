@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T02:54:26.260619727-08:00",
-    "Size"         : 1313790,
+    "Date"         : "2016-03-15T23:31:31.929486-07:00",
+    "Size"         : 364527,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -26,25 +26,7 @@
                    "home/mrosset/.local/include/FlexLexer.h",
                    "home/mrosset/.local/lib/libfl.a",
                    "home/mrosset/.local/lib/libfl.la",
-                   "home/mrosset/.local/lib/libfl.so",
-                   "home/mrosset/.local/lib/libfl.so.2",
-                   "home/mrosset/.local/lib/libfl.so.2.0.0",
                    "home/mrosset/.local/lib/libfl_pic.a",
-                   "home/mrosset/.local/lib/libfl_pic.la",
-                   "home/mrosset/.local/lib/libfl_pic.so",
-                   "home/mrosset/.local/lib/libfl_pic.so.2",
-                   "home/mrosset/.local/lib/libfl_pic.so.2.0.0",
-                   "home/mrosset/.local/share/doc/flex/AUTHORS",
-                   "home/mrosset/.local/share/doc/flex/COPYING",
-                   "home/mrosset/.local/share/doc/flex/NEWS",
-                   "home/mrosset/.local/share/doc/flex/ONEWS",
-                   "home/mrosset/.local/share/doc/flex/README",
-                   "home/mrosset/.local/share/doc/flex/TODO",
-                   "home/mrosset/.local/share/doc/flex/flex.pdf",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/info/flex.info",
-                   "home/mrosset/.local/share/info/flex.info-1",
-                   "home/mrosset/.local/share/info/flex.info-2",
-                   "home/mrosset/.local/share/man/man1/flex.1"
+                   "home/mrosset/.local/lib/libfl_pic.la"
     ]
 }
