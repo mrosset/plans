@@ -7,15 +7,18 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T01:48:41.738954319-08:00",
-    "Size"         : 338564,
+    "Date"         : "2016-03-15T22:25:59.445443329-07:00",
+    "Size"         : 338572,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],             
     "ManDepends"   : null,
     "Flags"        : null,
-    "Patch"        : null,
+    "Patch"        : [
+                   "wget -O config.guess 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'",
+                   "wget -O config.sub 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'"
+    ],             
     "Build"        : [
                    "$SRCDIR/configure --prefix=$PREFIX"
     ],             
