@@ -10,6 +10,7 @@
     "Repo"        : "$HOME/publish/repo",
     "Binary"      : "http://localhost:8080/ipfs/QmekHea661gkEPfZwyHHJTsnUUNHhzerfjwj2aJwbKcUKi/repo/master",
     "Flags"       : [
+                  "--build=x86_64-via-linux-gnu",
                   "--config-cache",
                   "--disable-man",
                   "--disable-multilib",
@@ -24,7 +25,7 @@
                   "-q"
     ],            
     "Env"         : {
-                  "CFLAGS"          : "-pipe -O2 -mtune=generic",
+                  "CFLAGS"          : "-pipe -O2 -mtune=generic -fuse-ld=gold",
                   "CONFIG_SHELL"    : "/bin/sh",
                   "CXXFLAGS"        : "$CFLAGS",
                   "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
