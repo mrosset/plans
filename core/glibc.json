@@ -7,8 +7,8 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-08T17:17:49.124780948-08:00",
-    "Size"         : 37297649,
+    "Date"         : "2016-03-17T18:04:21.362161346-07:00",
+    "Size"         : 37298603,
     "SubPackages"  : null,
     "Depends"      : [], 
     "ManDepends"   : null,
@@ -21,7 +21,9 @@
                    "--without-gd",
                    "--without-selinux"
     ],             
-    "Patch"        : null,
+    "Patch"        : [
+                   "sed -e '143d' -i elf/get-dynamic-info.h"
+    ],             
     "Build"        : [
                    "$SRCDIR/configure $Flags LDFLAGS=",
                    "make"
