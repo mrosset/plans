@@ -1,0 +1,33 @@
+{
+    "Name"         : "sqlite",
+    "Version"      : "3110100",
+    "Url"          : "http://www.sqlite.org/2016/sqlite-src-3110100.zip",
+    "Group"        : "extra",
+    "StageDir"     : "sqlite-src-3110100",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-03-23T19:23:58.667546946-07:00",
+    "Size"         : 2112294,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc"
+    ],             
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "home/mrosset/.local/bin/sqlite3",
+                   "home/mrosset/.local/include/sqlite3.h",
+                   "home/mrosset/.local/include/sqlite3ext.h",
+                   "home/mrosset/.local/lib/libsqlite3.la",
+                   "home/mrosset/.local/lib/libsqlite3.so",
+                   "home/mrosset/.local/lib/libsqlite3.so.0",
+                   "home/mrosset/.local/lib/libsqlite3.so.0.8.6",
+                   "home/mrosset/.local/lib/pkgconfig/sqlite3.pc"
+    ]
+}

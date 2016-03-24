@@ -1,0 +1,22 @@
+{
+    "Name"         : "guix",
+    "Version"      : "0.9.0",
+    "Url"          : "ftp://alpha.gnu.org/gnu/guix/guix-0.9.0.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}
