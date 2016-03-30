@@ -4,7 +4,7 @@
     "OS"          : "linux",
     "Root"        : "/",
     "PlansRepo"   : "http://bitbucket.org/strings/plans",
-    "Cache"       : "$HOME/via/cache",
+    "Cache"       : "$HOME/via_cache",
     "DB"          : "/home/mrosset/via/db",
     "Plans"       : "$GOPATH/src/bitbucket.org/strings/via/plans",
     "Repo"        : "$HOME/publish/repo",
