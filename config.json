@@ -5,7 +5,7 @@
     "Root"        : "/",
     "PlansRepo"   : "http://bitbucket.org/strings/plans",
     "Cache"       : "$HOME/via/cache",
-    "DB"          : "/home/mrosset/.local/db",
+    "DB"          : "/home/mrosset/via/db",
     "Plans"       : "$GOPATH/src/bitbucket.org/strings/via/plans",
     "Repo"        : "$HOME/publish/repo",
     "Binary"      : "http://localhost:8080/ipfs/QmekHea661gkEPfZwyHHJTsnUUNHhzerfjwj2aJwbKcUKi/repo/master",
@@ -25,16 +25,17 @@
                   "-q"
     ],            
     "Env"         : {
-                  "CFLAGS"          : "-pipe -O2 -mtune=generic -fuse-ld=gold",
+                  "CFLAGS"          : "-pipe -O2 -mtune=generic",
                   "CONFIG_SHELL"    : "/bin/sh",
                   "CXXFLAGS"        : "$CFLAGS",
-                  "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+                  "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib",
                   "LIBRARY_PATH"    : "$PREFIX/lib",
-                  "MAKEFLAGS"       : "-sw",
+                  "MAKEFLAGS"       : "-sw -j7",
                   "MAKEINFO"        : "missing",
+                  "OLDFLAGS"        : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
                   "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
                   "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
-                  "PREFIX"          : "/home/mrosset/.local"
+                  "PREFIX"          : "$HOME/via"
     },            
     "Remove"      : [
                   "$PREFIX/share/doc",
