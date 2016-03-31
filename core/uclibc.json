@@ -17,11 +17,11 @@
     "Build"        : [
                    "cp $HOME/uclibc.config .config",
                    "make"
-    ],             
-    "Package"      : [
-                   "make install PREFIX=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Package" : [
+              "make install PREFIX=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

@@ -13,15 +13,15 @@
     "Depends"      : [
                    "glibc",
                    "python"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : [
-                   "python2 setup.py install --prefix=$PREFIX --root=$PKGDIR --optimize=1"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : null,
+    "Package"    : [
+                 "python2 setup.py install --prefix=$PREFIX --root=$PKGDIR --optimize=1"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

@@ -14,15 +14,15 @@
                    "glibc",
                    "libgcc",
                    "libstdc++"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/gperf"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/gperf"
     ]
 }

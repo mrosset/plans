@@ -12,18 +12,18 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/install/bin/cmp",
-                   "home/mrosset/install/bin/diff",
-                   "home/mrosset/install/bin/diff3",
-                   "home/mrosset/install/bin/sdiff"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/install/bin/cmp",
+                  "home/mrosset/install/bin/diff",
+                  "home/mrosset/install/bin/diff3",
+                  "home/mrosset/install/bin/sdiff"
     ]
 }

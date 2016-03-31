@@ -13,20 +13,20 @@
     "Depends"      : [
                    "gdbm",
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : [
-                   "usr/local/via/man"
-    ],             
-    "Files"        : null
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
+                 "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : [
+                  "usr/local/via/man"
+    ],
+    "Files" : null
 }

@@ -12,25 +12,25 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure --prefix=$PREFIX",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/scmp_sys_resolver",
-                   "usr/local/via/include/seccomp.h",
-                   "usr/local/via/lib/libseccomp.so",
-                   "usr/local/via/lib/libseccomp.so.2",
-                   "usr/local/via/lib/libseccomp.so.2.1.1",
-                   "usr/local/via/lib/pkgconfig/libseccomp.pc"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "$SRCDIR/configure --prefix=$PREFIX",
+                 "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/scmp_sys_resolver",
+                  "usr/local/via/include/seccomp.h",
+                  "usr/local/via/lib/libseccomp.so",
+                  "usr/local/via/lib/libseccomp.so.2",
+                  "usr/local/via/lib/libseccomp.so.2.1.1",
+                  "usr/local/via/lib/pkgconfig/libseccomp.pc"
     ]
 }

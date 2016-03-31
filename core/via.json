@@ -12,17 +12,17 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "GOPATH=$SRCDIR go get -u bitbucket.org/strings/via/via"
-    ],             
-    "Package"      : [
-                   "install -m755 -s -D $SRCDIR/bin/via $PKGDIR/$PREFIX/bin/via"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "GOPATH=$SRCDIR go get -u bitbucket.org/strings/via/via"
+    ],
+    "Package" : [
+              "install -m755 -s -D $SRCDIR/bin/via $PKGDIR/$PREFIX/bin/via"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

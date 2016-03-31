@@ -12,40 +12,40 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "--enable-libgdbm-compat"
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : [
-                   "mkdir -p $PKGDIR/$PREFIX/include/gdbm",
-                   "ln -sf ../gdbm.h $PKGDIR/$PREFIX/include/gdbm/gdbm.h",
-                   "ln -sf ../ndbm.h $PKGDIR/$PREFIX/include/gdbm/ndbm.h",
-                   "ln -sf ../dbm.h $PKGDIR/$PREFIX/include/gdbm/dbm.h"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/install/bin/gdbm_dump",
-                   "home/mrosset/install/bin/gdbm_load",
-                   "home/mrosset/install/bin/gdbmtool",
-                   "home/mrosset/install/include/dbm.h",
-                   "home/mrosset/install/include/gdbm/dbm.h",
-                   "home/mrosset/install/include/gdbm/gdbm.h",
-                   "home/mrosset/install/include/gdbm/ndbm.h",
-                   "home/mrosset/install/include/gdbm.h",
-                   "home/mrosset/install/include/ndbm.h",
-                   "home/mrosset/install/lib/libgdbm.a",
-                   "home/mrosset/install/lib/libgdbm.la",
-                   "home/mrosset/install/lib/libgdbm.so",
-                   "home/mrosset/install/lib/libgdbm.so.4",
-                   "home/mrosset/install/lib/libgdbm.so.4.0.0",
-                   "home/mrosset/install/lib/libgdbm_compat.a",
-                   "home/mrosset/install/lib/libgdbm_compat.la",
-                   "home/mrosset/install/lib/libgdbm_compat.so",
-                   "home/mrosset/install/lib/libgdbm_compat.so.4",
-                   "home/mrosset/install/lib/libgdbm_compat.so.4.0.0"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--enable-libgdbm-compat"
+    ],
+    "Patch"   : null,
+    "Build"   : null,
+    "Package" : [
+              "mkdir -p $PKGDIR/$PREFIX/include/gdbm",
+              "ln -sf ../gdbm.h $PKGDIR/$PREFIX/include/gdbm/gdbm.h",
+              "ln -sf ../ndbm.h $PKGDIR/$PREFIX/include/gdbm/ndbm.h",
+              "ln -sf ../dbm.h $PKGDIR/$PREFIX/include/gdbm/dbm.h"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/install/bin/gdbm_dump",
+                  "home/mrosset/install/bin/gdbm_load",
+                  "home/mrosset/install/bin/gdbmtool",
+                  "home/mrosset/install/include/dbm.h",
+                  "home/mrosset/install/include/gdbm/dbm.h",
+                  "home/mrosset/install/include/gdbm/gdbm.h",
+                  "home/mrosset/install/include/gdbm/ndbm.h",
+                  "home/mrosset/install/include/gdbm.h",
+                  "home/mrosset/install/include/ndbm.h",
+                  "home/mrosset/install/lib/libgdbm.a",
+                  "home/mrosset/install/lib/libgdbm.la",
+                  "home/mrosset/install/lib/libgdbm.so",
+                  "home/mrosset/install/lib/libgdbm.so.4",
+                  "home/mrosset/install/lib/libgdbm.so.4.0.0",
+                  "home/mrosset/install/lib/libgdbm_compat.a",
+                  "home/mrosset/install/lib/libgdbm_compat.la",
+                  "home/mrosset/install/lib/libgdbm_compat.so",
+                  "home/mrosset/install/lib/libgdbm_compat.so.4",
+                  "home/mrosset/install/lib/libgdbm_compat.so.4.0.0"
     ]
 }

@@ -14,25 +14,25 @@
                    "glibc",
                    "gmp",
                    "mpfr"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "--enable-shared",
-                   "--with-gmp=$PREFIX"
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/mpc.h",
-                   "home/mrosset/.local/lib/libmpc.a",
-                   "home/mrosset/.local/lib/libmpc.la",
-                   "home/mrosset/.local/lib/libmpc.so",
-                   "home/mrosset/.local/lib/libmpc.so.3",
-                   "home/mrosset/.local/lib/libmpc.so.3.0.0",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/info/mpc.info"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--enable-shared",
+                 "--with-gmp=$PREFIX"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/mpc.h",
+                  "home/mrosset/.local/lib/libmpc.a",
+                  "home/mrosset/.local/lib/libmpc.la",
+                  "home/mrosset/.local/lib/libmpc.so",
+                  "home/mrosset/.local/lib/libmpc.so.3",
+                  "home/mrosset/.local/lib/libmpc.so.3.0.0",
+                  "home/mrosset/.local/share/info/dir",
+                  "home/mrosset/.local/share/info/mpc.info"
     ]
 }

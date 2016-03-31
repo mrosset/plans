@@ -17,11 +17,11 @@
     "Build"        : [
                    "sh -c $SRCDIR/configure $Flags",
                    "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

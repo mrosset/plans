@@ -17,8 +17,8 @@
     "Build"        : null,
     "Package"      : [
                    "python setup.py install --prefix=$PREFIX --root=$PKGDIR --optimize=1"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

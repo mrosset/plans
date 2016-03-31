@@ -10,18 +10,18 @@
     "Date"         : "2014-11-19T05:58:23.815638927-08:00",
     "Size"         : 0,
     "SubPackages"  : null,
-    "Depends"      : [], 
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
                    "$SRCDIR/configure $Flags",
                    "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

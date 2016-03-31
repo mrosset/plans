@@ -7,23 +7,20 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-14T02:06:13.48819769-07:00",
+    "Date"         : "2016-03-30T21:32:58.336542088-07:00",
     "Size"         : 534232,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glibc",
-                   "libevent",
-                   "libutempter",
-                   "ncurses"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/tmux"
+                   "libevent"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/bin/tmux"
     ]
 }

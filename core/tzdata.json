@@ -10,7 +10,7 @@
     "Date"         : "2014-11-29T19:18:54.660660477-08:00",
     "Size"         : 2395807,
     "SubPackages"  : null,
-    "Depends"      : [], 
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
@@ -21,8 +21,8 @@
                    "zic -y ./yearistype -d $PKGDIR/$PREFIX/share/zoneinfo/right -L leapseconds $EXTRA_FLAGS",
                    "zic -y ./yearistype -d $PKGDIR/$PREFIX/share/zoneinfo -p America/New_York",
                    "install -m444 -t $PKGDIR/$PREFIX/share/zoneinfo iso3166.tab zone1970.tab zone.tab"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

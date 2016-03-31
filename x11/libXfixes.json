@@ -15,26 +15,26 @@
                    "libX11",
                    "libxau",
                    "libxcb"
-    ],             
-    "ManDepends"   : [
-                   "fixesproto"
-    ],             
-    "Flags"        : null,
-    "Patch"        : [
-                   "autoreconf -fi"
-    ],             
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/X11/extensions/Xfixes.h",
-                   "home/mrosset/.local/lib/libXfixes.a",
-                   "home/mrosset/.local/lib/libXfixes.la",
-                   "home/mrosset/.local/lib/libXfixes.so",
-                   "home/mrosset/.local/lib/libXfixes.so.3",
-                   "home/mrosset/.local/lib/libXfixes.so.3.1.0",
-                   "home/mrosset/.local/lib/pkgconfig/xfixes.pc",
-                   "home/mrosset/.local/share/man/man3/Xfixes.3"
+    ],
+    "ManDepends" : [
+                 "fixesproto"
+    ],
+    "Flags" : null,
+    "Patch" : [
+            "autoreconf -fi"
+    ],
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/X11/extensions/Xfixes.h",
+                  "home/mrosset/.local/lib/libXfixes.a",
+                  "home/mrosset/.local/lib/libXfixes.la",
+                  "home/mrosset/.local/lib/libXfixes.so",
+                  "home/mrosset/.local/lib/libXfixes.so.3",
+                  "home/mrosset/.local/lib/libXfixes.so.3.1.0",
+                  "home/mrosset/.local/lib/pkgconfig/xfixes.pc",
+                  "home/mrosset/.local/share/man/man3/Xfixes.3"
     ]
 }

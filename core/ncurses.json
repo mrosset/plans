@@ -12,24 +12,24 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "--enable-widec",
-                   "--with-shared",
-                   "--without-cxx-binding",
-                   "--without-gpm"
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : [
-                   "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libncurses.so",
-                   "ln -s ncursesw/ncurses.h $PKGDIR/$PREFIX/include/",
-                   "ln -s ncursesw/term.h $PKGDIR/$PREFIX/include/",
-                   "ln -s ncursesw/panel.h $PKGDIR/$PREFIX/include/",
-                   "ln -s ncursesw/curses.h $PKGDIR/$PREFIX/include/"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--enable-widec",
+                 "--with-shared",
+                 "--without-cxx-binding",
+                 "--without-gpm"
+    ],
+    "Patch"   : null,
+    "Build"   : null,
+    "Package" : [
+              "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libncurses.so",
+              "ln -s ncursesw/ncurses.h $PKGDIR/$PREFIX/include/",
+              "ln -s ncursesw/term.h $PKGDIR/$PREFIX/include/",
+              "ln -s ncursesw/panel.h $PKGDIR/$PREFIX/include/",
+              "ln -s ncursesw/curses.h $PKGDIR/$PREFIX/include/"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

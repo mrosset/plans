@@ -10,7 +10,7 @@
     "Date"         : "2016-03-17T18:04:21.362161346-07:00",
     "Size"         : 37298603,
     "SubPackages"  : null,
-    "Depends"      : [], 
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : [
                    "--disable-profile",
@@ -20,19 +20,19 @@
                    "--without-cvs",
                    "--without-gd",
                    "--without-selinux"
-    ],             
-    "Patch"        : [
-                   "sed -e '143d' -i elf/get-dynamic-info.h"
-    ],             
-    "Build"        : [
-                   "$SRCDIR/configure $Flags LDFLAGS=",
-                   "make"
-    ],             
-    "Package"      : [
-                   "#make install-bootstrap-headers=yes install-headers install_root=$PKGDIR",
-                   "make install install_root=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Patch" : [
+            "sed -e '143d' -i elf/get-dynamic-info.h"
+    ],
+    "Build" : [
+            "$SRCDIR/configure $Flags LDFLAGS=",
+            "make"
+    ],
+    "Package" : [
+              "#make install-bootstrap-headers=yes install-headers install_root=$PKGDIR",
+              "make install install_root=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

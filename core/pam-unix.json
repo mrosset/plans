@@ -12,20 +12,20 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install-strip DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/sed"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags",
+                 "make"
+    ],
+    "Package" : [
+              "make install-strip DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/sed"
     ]
 }

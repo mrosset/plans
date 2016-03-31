@@ -7,36 +7,35 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 4665966173,
-    "Date"         : "2016-03-17T17:46:48.524792264-07:00",
-    "Size"         : 116267,
+    "Date"         : "2016-03-30T19:58:24.72271376-07:00",
+    "Size"         : 116556,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glibc",
                    "zlib"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "CFLAGS=",
-                   "LDFLAGS="
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : [
-                   "mkdir -p $PKGDIR/$PREFIX/lib/ccache",
-                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/gcc",
-                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
-                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
-                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
-                   "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/ccache",
-                   "home/mrosset/.local/lib/ccache/clang",
-                   "home/mrosset/.local/lib/ccache/cpp",
-                   "home/mrosset/.local/lib/ccache/g++",
-                   "home/mrosset/.local/lib/ccache/gcc",
-                   "home/mrosset/.local/lib/ccache/i686-via-linux-gnu-gcc"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "CFLAGS=",
+                 "LDFLAGS="
+    ],
+    "Patch"   : null,
+    "Build"   : null,
+    "Package" : [
+              "mkdir -p $PKGDIR/$PREFIX/lib/ccache",
+              "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/gcc",
+              "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
+              "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
+              "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
+              "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/bin/ccache",
+                  "home/mrosset/via/lib/ccache/clang",
+                  "home/mrosset/via/lib/ccache/cpp",
+                  "home/mrosset/via/lib/ccache/g++",
+                  "home/mrosset/via/lib/ccache/gcc",
+                  "home/mrosset/via/lib/ccache/i686-via-linux-gnu-gcc"
     ]
 }

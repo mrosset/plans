@@ -7,41 +7,39 @@
     "Inherit"      : "",
     "BuildInStage" : true,
     "BuildTime"    : 3901803576,
-    "Date"         : "2016-03-08T19:44:46.350217612-08:00",
-    "Size"         : 359002,
+    "Date"         : "2016-03-30T21:04:57.22983712-07:00",
+    "Size"         : 326186,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
                    "make -f Makefile-libbz2_so",
                    "make bzip2 bzip2recover"
-    ],             
-    "Package"      : [
-                   "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",
-                   "install -m755 bzip2recover bzdiff bzgrep bzmore $PKGDIR/$PREFIX/bin",
-                   "install -m755 bzip2-shared $PKGDIR/$PREFIX/bin/bzip2",
-                   "install -m755 libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib",
-                   "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so",
-                   "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1",
-                   "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1.0",
-                   "install -m644 bzlib.h $PKGDIR/$PREFIX/include"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/bzdiff",
-                   "home/mrosset/.local/bin/bzgrep",
-                   "home/mrosset/.local/bin/bzip2",
-                   "home/mrosset/.local/bin/bzip2recover",
-                   "home/mrosset/.local/bin/bzmore",
-                   "home/mrosset/.local/include/bzlib.h",
-                   "home/mrosset/.local/lib/libbz2.so",
-                   "home/mrosset/.local/lib/libbz2.so.1",
-                   "home/mrosset/.local/lib/libbz2.so.1.0",
-                   "home/mrosset/.local/lib/libbz2.so.1.0.6"
+    ],
+    "Package" : [
+              "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",
+              "install -m755 bzip2recover bzdiff bzgrep bzmore $PKGDIR/$PREFIX/bin",
+              "install -m755 bzip2-shared $PKGDIR/$PREFIX/bin/bzip2",
+              "install -m755 libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib",
+              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so",
+              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1",
+              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1.0",
+              "install -m644 bzlib.h $PKGDIR/$PREFIX/include"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/bin/bzdiff",
+                  "home/mrosset/via/bin/bzgrep",
+                  "home/mrosset/via/bin/bzip2",
+                  "home/mrosset/via/bin/bzip2recover",
+                  "home/mrosset/via/bin/bzmore",
+                  "home/mrosset/via/include/bzlib.h",
+                  "home/mrosset/via/lib/libbz2.so",
+                  "home/mrosset/via/lib/libbz2.so.1",
+                  "home/mrosset/via/lib/libbz2.so.1.0",
+                  "home/mrosset/via/lib/libbz2.so.1.0.6"
     ]
 }

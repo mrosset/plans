@@ -12,25 +12,25 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/epoxy/egl.h",
-                   "home/mrosset/.local/include/epoxy/egl_generated.h",
-                   "home/mrosset/.local/include/epoxy/gl.h",
-                   "home/mrosset/.local/include/epoxy/gl_generated.h",
-                   "home/mrosset/.local/include/epoxy/glx.h",
-                   "home/mrosset/.local/include/epoxy/glx_generated.h",
-                   "home/mrosset/.local/lib/libepoxy.la",
-                   "home/mrosset/.local/lib/libepoxy.so",
-                   "home/mrosset/.local/lib/libepoxy.so.0",
-                   "home/mrosset/.local/lib/libepoxy.so.0.0.0",
-                   "home/mrosset/.local/lib/pkgconfig/epoxy.pc"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/epoxy/egl.h",
+                  "home/mrosset/.local/include/epoxy/egl_generated.h",
+                  "home/mrosset/.local/include/epoxy/gl.h",
+                  "home/mrosset/.local/include/epoxy/gl_generated.h",
+                  "home/mrosset/.local/include/epoxy/glx.h",
+                  "home/mrosset/.local/include/epoxy/glx_generated.h",
+                  "home/mrosset/.local/lib/libepoxy.la",
+                  "home/mrosset/.local/lib/libepoxy.so",
+                  "home/mrosset/.local/lib/libepoxy.so.0",
+                  "home/mrosset/.local/lib/libepoxy.so.0.0.0",
+                  "home/mrosset/.local/lib/pkgconfig/epoxy.pc"
     ]
 }

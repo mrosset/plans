@@ -10,7 +10,7 @@
     "Date"         : "2016-03-15T23:29:12.257036-07:00",
     "Size"         : 221260,
     "SubPackages"  : null,
-    "Depends"      : [], 
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,

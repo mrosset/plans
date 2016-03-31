@@ -12,18 +12,18 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "--without-guile"
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/make",
-                   "home/mrosset/.local/include/gnumake.h"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--without-guile"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/bin/make",
+                  "home/mrosset/.local/include/gnumake.h"
     ]
 }

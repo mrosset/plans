@@ -7,12 +7,10 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T03:24:34.634614517-08:00",
-    "Size"         : 250723,
+    "Date"         : "2016-03-30T20:14:36.04429051-07:00",
+    "Size"         : 206821,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
@@ -21,20 +19,17 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/bin/gpg-error",
-                   "home/mrosset/.local/bin/gpg-error-config",
-                   "home/mrosset/.local/include/gpg-error.h",
-                   "home/mrosset/.local/lib/libgpg-error.la",
-                   "home/mrosset/.local/lib/libgpg-error.so",
-                   "home/mrosset/.local/lib/libgpg-error.so.0",
-                   "home/mrosset/.local/lib/libgpg-error.so.0.17.0",
-                   "home/mrosset/.local/share/aclocal/gpg-error.m4",
-                   "home/mrosset/.local/share/common-lisp/source/gpg-error/gpg-error-codes.lisp",
-                   "home/mrosset/.local/share/common-lisp/source/gpg-error/gpg-error-package.lisp",
-                   "home/mrosset/.local/share/common-lisp/source/gpg-error/gpg-error.asd",
-                   "home/mrosset/.local/share/common-lisp/source/gpg-error/gpg-error.lisp",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/info/gpgrt.info",
-                   "home/mrosset/.local/share/man/man1/gpg-error-config.1"
+                   "home/mrosset/via/bin/gpg-error",
+                   "home/mrosset/via/bin/gpg-error-config",
+                   "home/mrosset/via/include/gpg-error.h",
+                   "home/mrosset/via/lib/libgpg-error.la",
+                   "home/mrosset/via/lib/libgpg-error.so",
+                   "home/mrosset/via/lib/libgpg-error.so.0",
+                   "home/mrosset/via/lib/libgpg-error.so.0.17.0",
+                   "home/mrosset/via/share/aclocal/gpg-error.m4",
+                   "home/mrosset/via/share/common-lisp/source/gpg-error/gpg-error-codes.lisp",
+                   "home/mrosset/via/share/common-lisp/source/gpg-error/gpg-error-package.lisp",
+                   "home/mrosset/via/share/common-lisp/source/gpg-error/gpg-error.asd",
+                   "home/mrosset/via/share/common-lisp/source/gpg-error/gpg-error.lisp"
     ]
 }

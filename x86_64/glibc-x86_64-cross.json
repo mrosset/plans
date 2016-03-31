@@ -10,7 +10,7 @@
     "Date"         : "2016-03-12T08:35:52.369973-08:00",
     "Size"         : 37839851,
     "SubPackages"  : null,
-    "Depends"      : [], 
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : [
                    "--build=x86_64-unknown-linux-gnu",
@@ -27,16 +27,16 @@
                    "CC=x86_64-via-linux-gnu-gcc",
                    "RANLIB=x86_64-via-linux-ranlib",
                    "libc_cv_ssp=no"
-    ],             
-    "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install install_root=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Patch" : null,
+    "Build" : [
+            "$SRCDIR/configure $Flags",
+            "make"
+    ],
+    "Package" : [
+              "make install install_root=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

@@ -12,23 +12,23 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/xmlwf",
-                   "home/mrosset/.local/include/expat.h",
-                   "home/mrosset/.local/include/expat_external.h",
-                   "home/mrosset/.local/lib/libexpat.la",
-                   "home/mrosset/.local/lib/libexpat.so",
-                   "home/mrosset/.local/lib/libexpat.so.1",
-                   "home/mrosset/.local/lib/libexpat.so.1.6.0",
-                   "home/mrosset/.local/lib/pkgconfig/expat.pc",
-                   "home/mrosset/.local/share/man/man1/xmlwf.1"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/bin/xmlwf",
+                  "home/mrosset/.local/include/expat.h",
+                  "home/mrosset/.local/include/expat_external.h",
+                  "home/mrosset/.local/lib/libexpat.la",
+                  "home/mrosset/.local/lib/libexpat.so",
+                  "home/mrosset/.local/lib/libexpat.so.1",
+                  "home/mrosset/.local/lib/libexpat.so.1.6.0",
+                  "home/mrosset/.local/lib/pkgconfig/expat.pc",
+                  "home/mrosset/.local/share/man/man1/xmlwf.1"
     ]
 }

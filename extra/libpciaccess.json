@@ -12,21 +12,21 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/pciaccess.h",
-                   "home/mrosset/.local/lib/libpciaccess.a",
-                   "home/mrosset/.local/lib/libpciaccess.la",
-                   "home/mrosset/.local/lib/libpciaccess.so",
-                   "home/mrosset/.local/lib/libpciaccess.so.0",
-                   "home/mrosset/.local/lib/libpciaccess.so.0.11.1",
-                   "home/mrosset/.local/lib/pkgconfig/pciaccess.pc"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/pciaccess.h",
+                  "home/mrosset/.local/lib/libpciaccess.a",
+                  "home/mrosset/.local/lib/libpciaccess.la",
+                  "home/mrosset/.local/lib/libpciaccess.so",
+                  "home/mrosset/.local/lib/libpciaccess.so.0",
+                  "home/mrosset/.local/lib/libpciaccess.so.0.11.1",
+                  "home/mrosset/.local/lib/pkgconfig/pciaccess.pc"
     ]
 }

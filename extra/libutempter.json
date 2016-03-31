@@ -12,24 +12,24 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "make"
-    ],             
-    "Package"      : [
-                   "make install prefix=$PREFIX DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/utempter.h",
-                   "home/mrosset/.local/lib/libutempter.a",
-                   "home/mrosset/.local/lib/libutempter.so",
-                   "home/mrosset/.local/lib/libutempter.so.0",
-                   "home/mrosset/.local/lib/libutempter.so.1.1.6",
-                   "home/mrosset/.local/lib/utempter/utempter"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "make"
+    ],
+    "Package" : [
+              "make install prefix=$PREFIX DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/utempter.h",
+                  "home/mrosset/.local/lib/libutempter.a",
+                  "home/mrosset/.local/lib/libutempter.so",
+                  "home/mrosset/.local/lib/libutempter.so.0",
+                  "home/mrosset/.local/lib/libutempter.so.1.1.6",
+                  "home/mrosset/.local/lib/utempter/utempter"
     ]
 }

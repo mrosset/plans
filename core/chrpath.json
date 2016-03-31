@@ -12,21 +12,21 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/root/bin/chrpath",
-                   "home/mrosset/via/root/doc/chrpath-0.16/AUTHORS",
-                   "home/mrosset/via/root/doc/chrpath-0.16/COPYING",
-                   "home/mrosset/via/root/doc/chrpath-0.16/ChangeLog",
-                   "home/mrosset/via/root/doc/chrpath-0.16/INSTALL",
-                   "home/mrosset/via/root/doc/chrpath-0.16/NEWS",
-                   "home/mrosset/via/root/doc/chrpath-0.16/README"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/root/bin/chrpath",
+                  "home/mrosset/via/root/doc/chrpath-0.16/AUTHORS",
+                  "home/mrosset/via/root/doc/chrpath-0.16/COPYING",
+                  "home/mrosset/via/root/doc/chrpath-0.16/ChangeLog",
+                  "home/mrosset/via/root/doc/chrpath-0.16/INSTALL",
+                  "home/mrosset/via/root/doc/chrpath-0.16/NEWS",
+                  "home/mrosset/via/root/doc/chrpath-0.16/README"
     ]
 }

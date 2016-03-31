@@ -7,40 +7,32 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T23:48:29.528789383-08:00",
-    "Size"         : 83852,
+    "Date"         : "2016-03-30T19:22:07.209388353-07:00",
+    "Size"         : 50740,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : [
                    "toolexeclibdir=$PREFIX/lib"
-    ],             
-    "Patch"        : [
-                   "sed -e 's%-print-multi-os-directory%../lib%' -i configure",
-                   "sed -e '/^includesdir/ s/$(libdir).*$/$(includedir)/' -i include/Makefile.in",
-                   "sed -e '/^includedir/ s/=.*$/=@includedir@/' -e 's/^Cflags: -I${includedir}/Cflags:/' -i libffi.pc.in"
-    ],             
-    "Build"        : null,
-    "Package"      : [
-                   "make install-strip DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/ffi.h",
-                   "home/mrosset/.local/include/ffitarget.h",
-                   "home/mrosset/.local/lib/libffi.la",
-                   "home/mrosset/.local/lib/libffi.so",
-                   "home/mrosset/.local/lib/libffi.so.6",
-                   "home/mrosset/.local/lib/libffi.so.6.0.4",
-                   "home/mrosset/.local/lib/pkgconfig/libffi.pc",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/info/libffi.info",
-                   "home/mrosset/.local/share/man/man3/ffi.3",
-                   "home/mrosset/.local/share/man/man3/ffi_call.3",
-                   "home/mrosset/.local/share/man/man3/ffi_prep_cif.3",
-                   "home/mrosset/.local/share/man/man3/ffi_prep_cif_var.3"
+    ],
+    "Patch" : [
+            "sed -e 's%-print-multi-os-directory%../lib%' -i configure",
+            "sed -e '/^includesdir/ s/$(libdir).*$/$(includedir)/' -i include/Makefile.in",
+            "sed -e '/^includedir/ s/=.*$/=@includedir@/' -e 's/^Cflags: -I${includedir}/Cflags:/' -i libffi.pc.in"
+    ],
+    "Build"   : null,
+    "Package" : [
+              "make install-strip DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/include/ffi.h",
+                  "home/mrosset/via/include/ffitarget.h",
+                  "home/mrosset/via/lib/libffi.la",
+                  "home/mrosset/via/lib/libffi.so",
+                  "home/mrosset/via/lib/libffi.so.6",
+                  "home/mrosset/via/lib/libffi.so.6.0.4",
+                  "home/mrosset/via/lib/pkgconfig/libffi.pc"
     ]
 }

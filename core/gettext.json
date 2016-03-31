@@ -16,9 +16,9 @@
     "Patch"        : null,
     "Build"        : [
                    "make -j1"
-    ],             
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

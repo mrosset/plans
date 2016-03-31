@@ -7,37 +7,35 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-15T22:25:59.445443329-07:00",
-    "Size"         : 338572,
+    "Date"         : "2016-03-30T19:21:47.728735672-07:00",
+    "Size"         : 355257,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : [
                    "wget -O config.guess 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'",
                    "wget -O config.sub 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'"
-    ],             
-    "Build"        : [
-                   "$SRCDIR/configure --prefix=$PREFIX"
-    ],             
-    "Package"      : [
-                   "make install prefix=$PKGDIR/$PREFIX"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/libelf/elf_repl.h",
-                   "home/mrosset/.local/include/libelf/gelf.h",
-                   "home/mrosset/.local/include/libelf/libelf.h",
-                   "home/mrosset/.local/include/libelf/nlist.h",
-                   "home/mrosset/.local/include/libelf/sys_elf.h",
-                   "home/mrosset/.local/lib/libelf.a",
-                   "home/mrosset/.local/lib/libelf.so",
-                   "home/mrosset/.local/lib/libelf.so.0",
-                   "home/mrosset/.local/lib/libelf.so.0.8.13",
-                   "home/mrosset/.local/lib/pkgconfig/libelf.pc",
-                   "home/mrosset/.local/share/locale/de/LC_MESSAGES/libelf.mo"
+    ],
+    "Build" : [
+            "$SRCDIR/configure --prefix=$PREFIX"
+    ],
+    "Package" : [
+              "make install prefix=$PKGDIR/$PREFIX"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/include/libelf/elf_repl.h",
+                  "home/mrosset/via/include/libelf/gelf.h",
+                  "home/mrosset/via/include/libelf/libelf.h",
+                  "home/mrosset/via/include/libelf/nlist.h",
+                  "home/mrosset/via/include/libelf/sys_elf.h",
+                  "home/mrosset/via/lib/libelf.a",
+                  "home/mrosset/via/lib/libelf.so",
+                  "home/mrosset/via/lib/libelf.so.0",
+                  "home/mrosset/via/lib/libelf.so.0.8.13",
+                  "home/mrosset/via/lib/pkgconfig/libelf.pc",
+                  "home/mrosset/via/share/locale/de/LC_MESSAGES/libelf.mo"
     ]
 }

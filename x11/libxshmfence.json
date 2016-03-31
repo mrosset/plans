@@ -12,21 +12,21 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/X11/xshmfence.h",
-                   "home/mrosset/.local/lib/libxshmfence.a",
-                   "home/mrosset/.local/lib/libxshmfence.la",
-                   "home/mrosset/.local/lib/libxshmfence.so",
-                   "home/mrosset/.local/lib/libxshmfence.so.1",
-                   "home/mrosset/.local/lib/libxshmfence.so.1.0.0",
-                   "home/mrosset/.local/lib/pkgconfig/xshmfence.pc"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/X11/xshmfence.h",
+                  "home/mrosset/.local/lib/libxshmfence.a",
+                  "home/mrosset/.local/lib/libxshmfence.la",
+                  "home/mrosset/.local/lib/libxshmfence.so",
+                  "home/mrosset/.local/lib/libxshmfence.so.1",
+                  "home/mrosset/.local/lib/libxshmfence.so.1.0.0",
+                  "home/mrosset/.local/lib/pkgconfig/xshmfence.pc"
     ]
 }

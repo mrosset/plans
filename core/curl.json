@@ -14,34 +14,34 @@
                    "glibc",
                    "openssl",
                    "zlib"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "--without-librtmp"
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "usr/local/via/bin/curl",
-                   "usr/local/via/bin/curl-config",
-                   "usr/local/via/include/curl/curl.h",
-                   "usr/local/via/include/curl/curlbuild.h",
-                   "usr/local/via/include/curl/curlrules.h",
-                   "usr/local/via/include/curl/curlver.h",
-                   "usr/local/via/include/curl/easy.h",
-                   "usr/local/via/include/curl/mprintf.h",
-                   "usr/local/via/include/curl/multi.h",
-                   "usr/local/via/include/curl/stdcheaders.h",
-                   "usr/local/via/include/curl/typecheck-gcc.h",
-                   "usr/local/via/lib/libcurl.a",
-                   "usr/local/via/lib/libcurl.la",
-                   "usr/local/via/lib/libcurl.so",
-                   "usr/local/via/lib/libcurl.so.4",
-                   "usr/local/via/lib/libcurl.so.4.3.0",
-                   "usr/local/via/lib/pkgconfig/libcurl.pc",
-                   "usr/local/via/share/aclocal/libcurl.m4"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--without-librtmp"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/curl",
+                  "usr/local/via/bin/curl-config",
+                  "usr/local/via/include/curl/curl.h",
+                  "usr/local/via/include/curl/curlbuild.h",
+                  "usr/local/via/include/curl/curlrules.h",
+                  "usr/local/via/include/curl/curlver.h",
+                  "usr/local/via/include/curl/easy.h",
+                  "usr/local/via/include/curl/mprintf.h",
+                  "usr/local/via/include/curl/multi.h",
+                  "usr/local/via/include/curl/stdcheaders.h",
+                  "usr/local/via/include/curl/typecheck-gcc.h",
+                  "usr/local/via/lib/libcurl.a",
+                  "usr/local/via/lib/libcurl.la",
+                  "usr/local/via/lib/libcurl.so",
+                  "usr/local/via/lib/libcurl.so.4",
+                  "usr/local/via/lib/libcurl.so.4.3.0",
+                  "usr/local/via/lib/pkgconfig/libcurl.pc",
+                  "usr/local/via/share/aclocal/libcurl.m4"
     ]
 }

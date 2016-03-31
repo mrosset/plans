@@ -7,32 +7,29 @@
     "Inherit"      : "",
     "BuildInStage" : true,
     "BuildTime"    : 6129663920,
-    "Date"         : "2016-03-08T19:45:02.397147392-08:00",
-    "Size"         : 321707,
+    "Date"         : "2016-03-30T19:22:18.898766176-07:00",
+    "Size"         : 319180,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],             
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
     "Build"        : [
                    "./configure --prefix=$PREFIX",
                    "make"
-    ],             
-    "Package"      : [
-                   "make install DESTDIR=$PKGDIR"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/zconf.h",
-                   "home/mrosset/.local/include/zlib.h",
-                   "home/mrosset/.local/lib/libz.a",
-                   "home/mrosset/.local/lib/libz.so",
-                   "home/mrosset/.local/lib/libz.so.1",
-                   "home/mrosset/.local/lib/libz.so.1.2.8",
-                   "home/mrosset/.local/lib/pkgconfig/zlib.pc",
-                   "home/mrosset/.local/share/man/man3/zlib.3"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/include/zconf.h",
+                  "home/mrosset/via/include/zlib.h",
+                  "home/mrosset/via/lib/libz.a",
+                  "home/mrosset/via/lib/libz.so",
+                  "home/mrosset/via/lib/libz.so.1",
+                  "home/mrosset/via/lib/libz.so.1.2.8",
+                  "home/mrosset/via/lib/pkgconfig/zlib.pc"
     ]
 }

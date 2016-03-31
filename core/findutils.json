@@ -12,22 +12,22 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/install/bin/find",
-                   "home/mrosset/install/bin/locate",
-                   "home/mrosset/install/bin/oldfind",
-                   "home/mrosset/install/bin/updatedb",
-                   "home/mrosset/install/bin/xargs",
-                   "home/mrosset/install/lib/bigram",
-                   "home/mrosset/install/lib/code",
-                   "home/mrosset/install/lib/frcode"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/install/bin/find",
+                  "home/mrosset/install/bin/locate",
+                  "home/mrosset/install/bin/oldfind",
+                  "home/mrosset/install/bin/updatedb",
+                  "home/mrosset/install/bin/xargs",
+                  "home/mrosset/install/lib/bigram",
+                  "home/mrosset/install/lib/code",
+                  "home/mrosset/install/lib/frcode"
     ]
 }

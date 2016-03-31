@@ -12,23 +12,23 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "--disable-static",
-                   "--libdir=$PREFIX/lib/libfakeroot",
-                   "--with-ipc=sysv"
-    ],             
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/install/bin/faked",
-                   "home/mrosset/install/bin/fakeroot",
-                   "home/mrosset/install/lib/libfakeroot/libfakeroot-0.so",
-                   "home/mrosset/install/lib/libfakeroot/libfakeroot.la",
-                   "home/mrosset/install/lib/libfakeroot/libfakeroot.so"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--disable-static",
+                 "--libdir=$PREFIX/lib/libfakeroot",
+                 "--with-ipc=sysv"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/install/bin/faked",
+                  "home/mrosset/install/bin/fakeroot",
+                  "home/mrosset/install/lib/libfakeroot/libfakeroot-0.so",
+                  "home/mrosset/install/lib/libfakeroot/libfakeroot.la",
+                  "home/mrosset/install/lib/libfakeroot/libfakeroot.so"
     ]
 }

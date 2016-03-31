@@ -12,22 +12,22 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/egrep",
-                   "home/mrosset/.local/bin/fgrep",
-                   "home/mrosset/.local/bin/grep",
-                   "home/mrosset/.local/share/info/dir",
-                   "home/mrosset/.local/share/info/grep.info",
-                   "home/mrosset/.local/share/man/man1/egrep.1",
-                   "home/mrosset/.local/share/man/man1/fgrep.1",
-                   "home/mrosset/.local/share/man/man1/grep.1"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/bin/egrep",
+                  "home/mrosset/.local/bin/fgrep",
+                  "home/mrosset/.local/bin/grep",
+                  "home/mrosset/.local/share/info/dir",
+                  "home/mrosset/.local/share/info/grep.info",
+                  "home/mrosset/.local/share/man/man1/egrep.1",
+                  "home/mrosset/.local/share/man/man1/fgrep.1",
+                  "home/mrosset/.local/share/man/man1/grep.1"
     ]
 }

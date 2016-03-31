@@ -16,21 +16,21 @@
                    "libXfixes",
                    "libxau",
                    "libxcb"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/X11/extensions/Xdamage.h",
-                   "home/mrosset/.local/lib/libXdamage.a",
-                   "home/mrosset/.local/lib/libXdamage.la",
-                   "home/mrosset/.local/lib/libXdamage.so",
-                   "home/mrosset/.local/lib/libXdamage.so.1",
-                   "home/mrosset/.local/lib/libXdamage.so.1.1.0",
-                   "home/mrosset/.local/lib/pkgconfig/xdamage.pc"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/include/X11/extensions/Xdamage.h",
+                  "home/mrosset/.local/lib/libXdamage.a",
+                  "home/mrosset/.local/lib/libXdamage.la",
+                  "home/mrosset/.local/lib/libXdamage.so",
+                  "home/mrosset/.local/lib/libXdamage.so.1",
+                  "home/mrosset/.local/lib/libXdamage.so.1.1.0",
+                  "home/mrosset/.local/lib/pkgconfig/xdamage.pc"
     ]
 }

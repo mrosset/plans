@@ -19,11 +19,11 @@
                    "make defconfig",
                    "make menuconfig",
                    "make"
-    ],             
-    "Package"      : [
-                   "make install CONFIG_PREFIX=$PKGDIR/bootstrap"
-    ],             
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : null
+    ],
+    "Package" : [
+              "make install CONFIG_PREFIX=$PKGDIR/bootstrap"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
 }

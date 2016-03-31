@@ -12,21 +12,21 @@
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
-    ],             
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/bin/flex",
-                   "home/mrosset/.local/bin/flex++",
-                   "home/mrosset/.local/include/FlexLexer.h",
-                   "home/mrosset/.local/lib/libfl.a",
-                   "home/mrosset/.local/lib/libfl.la",
-                   "home/mrosset/.local/lib/libfl_pic.a",
-                   "home/mrosset/.local/lib/libfl_pic.la"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/.local/bin/flex",
+                  "home/mrosset/.local/bin/flex++",
+                  "home/mrosset/.local/include/FlexLexer.h",
+                  "home/mrosset/.local/lib/libfl.a",
+                  "home/mrosset/.local/lib/libfl.la",
+                  "home/mrosset/.local/lib/libfl_pic.a",
+                  "home/mrosset/.local/lib/libfl_pic.la"
     ]
 }
