@@ -1,7 +1,8 @@
 {
     "Name"         : "htop",
-    "Version"      : "1.0.3",
-    "Url"          : "http://localhost:8080/ipfs/QmWAmDs9fXtX1La7VRn6uki1Lzk1ZPGPWzytdQY3e1hRni",
+    "Version"      : "2.0.1",
+    "Url"          : "http://hisham.hm/htop/releases/2.0.1/htop-2.0.1.tar.gz",
+
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
