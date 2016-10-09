@@ -29,11 +29,11 @@
           "CPLUS_INCLUDE_PATH" : "$PREFIX/include",
           "CXXFLAGS"           : "$CFLAGS",
           "C_INCLUDE_PATH"     : "$PREFIX/include",
-          "LDFLAGS"            : "-Wl,-rpath -Wl,$PREFIX/lib",
+          "LDFLAGS"            : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"       : "$PREFIX/lib",
           "MAKEFLAGS"          : "-sw -j7",
           "MAKEINFO"           : "missing",
-          "OLDFLAGS"           : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+          "OLDFLAGS"           : "-Wl,-rpath -Wl,$PREFIX/lib",
           "PATH"               : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
           "PKG_CONFIG_PATH"    : "$PREFIX/lib/pkgconfig",
           "PREFIX"             : "$HOME/via"
