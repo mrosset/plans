@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-15T23:31:31.929486-07:00",
-    "Size"         : 364527,
+    "Date"         : "2016-10-11T14:22:37.386219531-07:00",
+    "Size"         : 361489,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -21,12 +21,16 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/bin/flex",
-                  "home/mrosset/.local/bin/flex++",
-                  "home/mrosset/.local/include/FlexLexer.h",
-                  "home/mrosset/.local/lib/libfl.a",
-                  "home/mrosset/.local/lib/libfl.la",
-                  "home/mrosset/.local/lib/libfl_pic.a",
-                  "home/mrosset/.local/lib/libfl_pic.la"
+                  "usr/local/via/bin/flex",
+                  "usr/local/via/bin/flex++",
+                  "usr/local/via/include/FlexLexer.h",
+                  "usr/local/via/lib/libfl.la",
+                  "usr/local/via/lib/libfl.so",
+                  "usr/local/via/lib/libfl.so.2",
+                  "usr/local/via/lib/libfl.so.2.0.0",
+                  "usr/local/via/lib/libfl_pic.la",
+                  "usr/local/via/lib/libfl_pic.so",
+                  "usr/local/via/lib/libfl_pic.so.2",
+                  "usr/local/via/lib/libfl_pic.so.2.0.0"
     ]
 }

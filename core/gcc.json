@@ -7,8 +7,8 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 310961178659,
-    "Date"         : "2016-10-11T10:58:38.09189139-07:00",
-    "Size"         : 81512050,
+    "Date"         : "2016-10-11T14:35:29.404836194-07:00",
+    "Size"         : 85813546,
     "SubPackages"  : [
                    "libgcc",
                    "libstdc++"
@@ -16,8 +16,6 @@
     "Depends" : [
               "glibc",
               "gmp",
-              "libgcc",
-              "libstdc++",
               "mpc",
               "mpfr"
     ],

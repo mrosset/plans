@@ -7,8 +7,8 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 107793761305,
-    "Date"         : "2016-10-11T11:01:01.847395082-07:00",
-    "Size"         : 12616068,
+    "Date"         : "2016-10-11T14:28:53.673059931-07:00",
+    "Size"         : 12615236,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
