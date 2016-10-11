@@ -7,13 +7,15 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-30T19:22:07.209388353-07:00",
-    "Size"         : 50740,
+    "Date"         : "2016-10-11T11:06:29.648603081-07:00",
+    "Size"         : 49873,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : [
-                   "toolexeclibdir=$PREFIX/lib"
+    "Depends"      : [
+                   "glibc"
+    ],
+    "ManDepends" : null,
+    "Flags"      : [
+                 "toolexeclibdir=$PREFIX/lib"
     ],
     "Patch" : [
             "sed -e 's%-print-multi-os-directory%../lib%' -i configure",
@@ -27,12 +29,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/include/ffi.h",
-                  "home/mrosset/via/include/ffitarget.h",
-                  "home/mrosset/via/lib/libffi.la",
-                  "home/mrosset/via/lib/libffi.so",
-                  "home/mrosset/via/lib/libffi.so.6",
-                  "home/mrosset/via/lib/libffi.so.6.0.4",
-                  "home/mrosset/via/lib/pkgconfig/libffi.pc"
+                  "usr/local/via/include/ffi.h",
+                  "usr/local/via/include/ffitarget.h",
+                  "usr/local/via/lib/libffi.la",
+                  "usr/local/via/lib/libffi.so",
+                  "usr/local/via/lib/libffi.so.6",
+                  "usr/local/via/lib/libffi.so.6.0.4",
+                  "usr/local/via/lib/pkgconfig/libffi.pc"
     ]
 }

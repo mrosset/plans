@@ -7,18 +7,20 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 22752465060,
-    "Date"         : "2016-03-30T21:54:18.119821065-07:00",
-    "Size"         : 174544,
+    "Date"         : "2016-10-11T11:05:34.219009082-07:00",
+    "Size"         : 177400,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/bin/m4"
+    "Depends"      : [
+                   "glibc"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/m4"
     ]
 }

@@ -1,14 +1,14 @@
 {
     "Name"         : "sed",
     "Version"      : "4.2.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-4.2.1.tar.gz",
+    "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-$Version.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 11670073958,
-    "Date"         : "2016-03-08T19:49:53.707162486-08:00",
-    "Size"         : 239407,
+    "Date"         : "2016-10-11T11:05:50.047606016-07:00",
+    "Size"         : 148712,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -21,9 +21,6 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/bin/sed",
-                  "home/mrosset/.local/share/info/dir",
-                  "home/mrosset/.local/share/info/sed.info",
-                  "home/mrosset/.local/share/man/man1/sed.1"
+                  "usr/local/via/bin/sed"
     ]
 }

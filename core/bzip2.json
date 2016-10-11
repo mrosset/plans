@@ -7,16 +7,18 @@
     "Inherit"      : "",
     "BuildInStage" : true,
     "BuildTime"    : 3901803576,
-    "Date"         : "2016-03-30T21:04:57.22983712-07:00",
-    "Size"         : 326186,
+    "Date"         : "2016-10-11T11:01:51.065312412-07:00",
+    "Size"         : 357058,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "make -f Makefile-libbz2_so",
-                   "make bzip2 bzip2recover"
+    "Depends"      : [
+                   "glibc"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "make -f Makefile-libbz2_so",
+                 "make bzip2 bzip2recover"
     ],
     "Package" : [
               "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",
@@ -31,15 +33,15 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/bzdiff",
-                  "home/mrosset/via/bin/bzgrep",
-                  "home/mrosset/via/bin/bzip2",
-                  "home/mrosset/via/bin/bzip2recover",
-                  "home/mrosset/via/bin/bzmore",
-                  "home/mrosset/via/include/bzlib.h",
-                  "home/mrosset/via/lib/libbz2.so",
-                  "home/mrosset/via/lib/libbz2.so.1",
-                  "home/mrosset/via/lib/libbz2.so.1.0",
-                  "home/mrosset/via/lib/libbz2.so.1.0.6"
+                  "usr/local/via/bin/bzdiff",
+                  "usr/local/via/bin/bzgrep",
+                  "usr/local/via/bin/bzip2",
+                  "usr/local/via/bin/bzip2recover",
+                  "usr/local/via/bin/bzmore",
+                  "usr/local/via/include/bzlib.h",
+                  "usr/local/via/lib/libbz2.so",
+                  "usr/local/via/lib/libbz2.so.1",
+                  "usr/local/via/lib/libbz2.so.1.0",
+                  "usr/local/via/lib/libbz2.so.1.0.6"
     ]
 }

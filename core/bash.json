@@ -7,22 +7,25 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 1566102924,
-    "Date"         : "2016-03-30T21:42:03.586757835-07:00",
-    "Size"         : 1164212,
+    "Date"         : "2016-10-11T12:09:38.550224214-07:00",
+    "Size"         : 1160590,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : [
-                   "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
+    "Depends"      : [
+                   "glibc",
+                   "ncurses"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : null,
+    "Package"    : [
+                 "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
     ],
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/bash",
-                  "home/mrosset/via/bin/bashbug",
-                  "home/mrosset/via/bin/sh"
+                  "usr/local/via/bin/bash",
+                  "usr/local/via/bin/bashbug",
+                  "usr/local/via/bin/sh"
     ]
 }

@@ -34,7 +34,6 @@
                    "sed",
                    "tar",
                    "util-linux",
-                   "vim",
                    "which",
                    "xz"
     ],

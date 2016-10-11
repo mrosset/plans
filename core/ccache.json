@@ -1,17 +1,17 @@
 {
     "Name"         : "ccache",
     "Version"      : "3.1.7",
-    "Url"          : "http://samba.org/ftp/ccache/ccache-3.1.7.tar.gz",
+    "Url"          : "http://samba.org/ftp/ccache/ccache-$Version.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 4665966173,
-    "Date"         : "2016-03-30T19:58:24.72271376-07:00",
-    "Size"         : 116556,
+    "Date"         : "2016-10-11T10:59:20.882830928-07:00",
+    "Size"         : 206581,
     "SubPackages"  : null,
     "Depends"      : [
-                   "zlib"
+                   "glibc"
     ],
     "ManDepends" : null,
     "Flags"      : [
@@ -31,11 +31,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/ccache",
-                  "home/mrosset/via/lib/ccache/clang",
-                  "home/mrosset/via/lib/ccache/cpp",
-                  "home/mrosset/via/lib/ccache/g++",
-                  "home/mrosset/via/lib/ccache/gcc",
-                  "home/mrosset/via/lib/ccache/i686-via-linux-gnu-gcc"
+                  "usr/local/via/bin/ccache",
+                  "usr/local/via/lib/ccache/clang",
+                  "usr/local/via/lib/ccache/cpp",
+                  "usr/local/via/lib/ccache/g++",
+                  "usr/local/via/lib/ccache/gcc",
+                  "usr/local/via/lib/ccache/i686-via-linux-gnu-gcc"
     ]
 }

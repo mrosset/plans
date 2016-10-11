@@ -7,10 +7,10 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "0001-01-01T00:00:00Z",
+    "Date"         : "2016-10-11T11:05:51.135416656-07:00",
     "Size"         : 0,
     "SubPackages"  : null,
-    "Depends"      : null,
+    "Depends"      : [],
     "ManDepends"   : null,
     "Flags"        : null,
     "Patch"        : null,
@@ -18,5 +18,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : []
 }
