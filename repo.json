@@ -158,7 +158,6 @@
     "gnome/dconf.json",
     "gnome/gconf.json",
     "gnome/gdk-pixbuf.json",
-    "core/git.json",
     "gnome/gnome-terminal.json",
     "gnome/gsettings-desktop-schemas.json",
     "gnome/gtk3.json",

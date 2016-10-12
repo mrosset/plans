@@ -7,11 +7,11 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-02-10T14:04:25.373945262-08:00",
-    "Size"         : 44376,
+    "Date"         : "2016-10-12T01:32:08.447126171-07:00",
+    "Size"         : 51296,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glibc-i686",
+                   "glibc",
                    "ncurses"
     ],
     "ManDepends"  : null,

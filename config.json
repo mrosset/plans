@@ -15,6 +15,7 @@
                 "--disable-man",
                 "--disable-multilib",
                 "--disable-nls",
+                "--disable-static",
                 "--disable-werror",
                 "--enable-shared",
                 "--libexec=$PREFIX/lib",
