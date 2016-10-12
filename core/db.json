@@ -7,8 +7,8 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 122104241660,
-    "Date"         : "2016-10-11T11:06:22.196744511-07:00",
-    "Size"         : 88893021,
+    "Date"         : "2016-10-11T20:44:52.989260366-07:00",
+    "Size"         : 94585832,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -5289,9 +5289,11 @@
             "usr/local/via/docs/upgrading/upgrade_process.html",
             "usr/local/via/include/db.h",
             "usr/local/via/include/db_cxx.h",
+            "usr/local/via/lib/libdb-5.3.a",
             "usr/local/via/lib/libdb-5.3.la",
             "usr/local/via/lib/libdb-5.3.so",
             "usr/local/via/lib/libdb-5.so",
+            "usr/local/via/lib/libdb.a",
             "usr/local/via/lib/libdb.so"
     ]
 }

@@ -7,15 +7,15 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 21101081336,
-    "Date"         : "2016-10-11T14:30:36.410519131-07:00",
-    "Size"         : 32236109,
+    "Date"         : "2016-10-11T20:35:29.503820566-07:00",
+    "Size"         : 47870623,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
     ],
     "ManDepends" : null,
     "Flags"      : [
-                 "--enable-gold",
+                 "--enable-gold=default",
                  "--enable-plugins",
                  "--with-lib-path=$PREFIX/lib",
                  "--with-sysroot"
@@ -51,9 +51,11 @@
                   "usr/local/via/include/plugin-api.h",
                   "usr/local/via/include/symcat.h",
                   "usr/local/via/lib/libbfd-2.27.so",
+                  "usr/local/via/lib/libbfd.a",
                   "usr/local/via/lib/libbfd.la",
                   "usr/local/via/lib/libbfd.so",
                   "usr/local/via/lib/libopcodes-2.27.so",
+                  "usr/local/via/lib/libopcodes.a",
                   "usr/local/via/lib/libopcodes.la",
                   "usr/local/via/lib/libopcodes.so",
                   "usr/local/via/x86_64-via-linux-gnu/bin/ar",

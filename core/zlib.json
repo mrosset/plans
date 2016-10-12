@@ -7,16 +7,18 @@
     "Inherit"      : "",
     "BuildInStage" : true,
     "BuildTime"    : 6129663920,
-    "Date"         : "2016-10-11T17:59:18.134029393-07:00",
-    "Size"         : 221631,
+    "Date"         : "2016-10-11T20:40:53.766166996-07:00",
+    "Size"         : 318121,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "./configure --prefix=$PREFIX",
-                   "make"
+    "Depends"      : [
+                   "glibc"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : null,
+    "Build"      : [
+                 "./configure --prefix=$PREFIX",
+                 "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"
@@ -27,6 +29,9 @@
                   "usr/local/via/include/zconf.h",
                   "usr/local/via/include/zlib.h",
                   "usr/local/via/lib/libz.a",
+                  "usr/local/via/lib/libz.so",
+                  "usr/local/via/lib/libz.so.1",
+                  "usr/local/via/lib/libz.so.1.2.8",
                   "usr/local/via/lib/pkgconfig/zlib.pc"
     ]
 }

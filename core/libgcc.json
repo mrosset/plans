@@ -7,8 +7,8 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-11T19:04:03.788598204-07:00",
-    "Size"         : 7657577,
+    "Date"         : "2016-10-11T20:39:21.332653644-07:00",
+    "Size"         : 7657481,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"

@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-11T11:06:29.648603081-07:00",
-    "Size"         : 49873,
+    "Date"         : "2016-10-11T20:45:29.622661801-07:00",
+    "Size"         : 98401,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -31,6 +31,7 @@
     "Files"       : [
                   "usr/local/via/include/ffi.h",
                   "usr/local/via/include/ffitarget.h",
+                  "usr/local/via/lib/libffi.a",
                   "usr/local/via/lib/libffi.la",
                   "usr/local/via/lib/libffi.so",
                   "usr/local/via/lib/libffi.so.6",

@@ -7,14 +7,15 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : true,
     "BuildTime"    : 5426808360,
-    "Date"         : "2016-10-11T11:09:36.673769434-07:00",
-    "Size"         : 63640436,
+    "Date"         : "2016-10-11T20:52:45.772265051-07:00",
+    "Size"         : 63661248,
     "SubPackages"  : null,
     "Depends"      : [
                    "bzip2",
                    "db",
                    "glibc",
                    "libffi",
+                   "ncurses",
                    "openssl",
                    "readline",
                    "zlib"

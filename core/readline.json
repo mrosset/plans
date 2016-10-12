@@ -7,8 +7,8 @@
     "Inherit"      : "gnu-nostrip",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-11T12:50:35.893144225-07:00",
-    "Size"         : 449031,
+    "Date"         : "2016-10-11T20:50:27.184081196-07:00",
+    "Size"         : 1115707,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -29,11 +29,27 @@
                   "usr/local/via/include/readline/rlstdc.h",
                   "usr/local/via/include/readline/rltypedefs.h",
                   "usr/local/via/include/readline/tilde.h",
+                  "usr/local/via/lib/libhistory.a",
                   "usr/local/via/lib/libhistory.so",
                   "usr/local/via/lib/libhistory.so.6",
                   "usr/local/via/lib/libhistory.so.6.3",
+                  "usr/local/via/lib/libreadline.a",
                   "usr/local/via/lib/libreadline.so",
                   "usr/local/via/lib/libreadline.so.6",
-                  "usr/local/via/lib/libreadline.so.6.3"
+                  "usr/local/via/lib/libreadline.so.6.3",
+                  "usr/local/via/share/readline/excallback.c",
+                  "usr/local/via/share/readline/fileman.c",
+                  "usr/local/via/share/readline/hist_erasedups.c",
+                  "usr/local/via/share/readline/hist_purgecmd.c",
+                  "usr/local/via/share/readline/histexamp.c",
+                  "usr/local/via/share/readline/manexamp.c",
+                  "usr/local/via/share/readline/rl-callbacktest.c",
+                  "usr/local/via/share/readline/rl-fgets.c",
+                  "usr/local/via/share/readline/rl.c",
+                  "usr/local/via/share/readline/rlcat.c",
+                  "usr/local/via/share/readline/rlevent.c",
+                  "usr/local/via/share/readline/rlptytest.c",
+                  "usr/local/via/share/readline/rltest.c",
+                  "usr/local/via/share/readline/rlversion.c"
     ]
 }
