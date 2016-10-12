@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 84050474605,
-    "Date"         : "2016-10-11T11:02:42.415490297-07:00",
-    "Size"         : 5738856,
+    "Date"         : "2016-10-11T15:17:40.507392899-07:00",
+    "Size"         : 5651592,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",

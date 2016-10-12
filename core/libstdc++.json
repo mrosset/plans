@@ -7,8 +7,8 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-11T14:35:28.38826247-07:00",
-    "Size"         : 11406037,
+    "Date"         : "2016-10-11T19:04:06.416471653-07:00",
+    "Size"         : 16066680,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -759,6 +759,7 @@
                   "usr/local/via/include/c++/6.2.0/x86_64-via-linux-gnu/bits/stdtr1c++.h",
                   "usr/local/via/include/c++/6.2.0/x86_64-via-linux-gnu/bits/time_members.h",
                   "usr/local/via/include/c++/6.2.0/x86_64-via-linux-gnu/ext/opt_random.h",
+                  "usr/local/via/lib/libstdc++.a",
                   "usr/local/via/lib/libstdc++.la",
                   "usr/local/via/lib/libstdc++.so",
                   "usr/local/via/lib/libstdc++.so.6",
