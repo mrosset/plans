@@ -7,15 +7,17 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-30T19:21:47.728735672-07:00",
-    "Size"         : 355257,
+    "Date"         : "2016-10-12T19:56:26.440020528-07:00",
+    "Size"         : 335820,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : [
-                   "wget -O config.guess 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'",
-                   "wget -O config.sub 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'"
+    "Depends"      : [
+                   "glibc"
+    ],
+    "ManDepends" : null,
+    "Flags"      : null,
+    "Patch"      : [
+                 "wget -O config.guess 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'",
+                 "wget -O config.sub 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'"
     ],
     "Build" : [
             "$SRCDIR/configure --prefix=$PREFIX"
@@ -26,16 +28,19 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/include/libelf/elf_repl.h",
-                  "home/mrosset/via/include/libelf/gelf.h",
-                  "home/mrosset/via/include/libelf/libelf.h",
-                  "home/mrosset/via/include/libelf/nlist.h",
-                  "home/mrosset/via/include/libelf/sys_elf.h",
-                  "home/mrosset/via/lib/libelf.a",
-                  "home/mrosset/via/lib/libelf.so",
-                  "home/mrosset/via/lib/libelf.so.0",
-                  "home/mrosset/via/lib/libelf.so.0.8.13",
-                  "home/mrosset/via/lib/pkgconfig/libelf.pc",
-                  "home/mrosset/via/share/locale/de/LC_MESSAGES/libelf.mo"
+                  "usr/local/via/include/gelf.h",
+                  "usr/local/via/include/libelf/elf_repl.h",
+                  "usr/local/via/include/libelf/gelf.h",
+                  "usr/local/via/include/libelf/libelf.h",
+                  "usr/local/via/include/libelf/nlist.h",
+                  "usr/local/via/include/libelf/sys_elf.h",
+                  "usr/local/via/include/libelf.h",
+                  "usr/local/via/include/nlist.h",
+                  "usr/local/via/lib/libelf.a",
+                  "usr/local/via/lib/libelf.so",
+                  "usr/local/via/lib/libelf.so.0",
+                  "usr/local/via/lib/libelf.so.0.8.13",
+                  "usr/local/via/lib/pkgconfig/libelf.pc",
+                  "usr/local/via/share/locale/de/LC_MESSAGES/libelf.mo"
     ]
 }
