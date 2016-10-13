@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-02-13T13:07:02.382182022-08:00",
-    "Size"         : 174464,
+    "Date"         : "2016-10-12T16:54:04.301085217-07:00",
+    "Size"         : 214248,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -22,8 +22,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/root/bin/less",
-                  "home/mrosset/via/root/bin/lessecho",
-                  "home/mrosset/via/root/bin/lesskey"
+                  "usr/local/via/bin/less",
+                  "usr/local/via/bin/lessecho",
+                  "usr/local/via/bin/lesskey"
     ]
 }
