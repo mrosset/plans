@@ -3,10 +3,10 @@
     "Arch"      : "x86_64",
     "OS"        : "linux",
     "Root"      : "/",
-    "PlansRepo" : "http://bitbucket.org/strings/plans",
+    "PlansRepo" : "http://github.com/mrosset/plans",
     "Cache"     : "$HOME/via_cache",
     "DB"        : "/usr/local/via/db",
-    "Plans"     : "$GOPATH/src/bitbucket.org/strings/via/plans",
+    "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$HOME/publish/repo",
     "Binary"    : "http://192.168.0.18:8080/repo/master",
     "Flags"     : [
