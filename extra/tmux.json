@@ -7,11 +7,13 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-30T21:32:58.336542088-07:00",
-    "Size"         : 534232,
+    "Date"         : "2016-10-14T17:49:14.378668506-07:00",
+    "Size"         : 535848,
     "SubPackages"  : null,
     "Depends"      : [
-                   "libevent"
+                   "glibc",
+                   "libevent",
+                   "ncurses"
     ],
     "ManDepends"  : null,
     "Flags"       : null,
@@ -21,6 +23,6 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/tmux"
+                  "usr/local/via/bin/tmux"
     ]
 }
