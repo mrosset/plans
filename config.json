@@ -7,7 +7,7 @@
     "Cache"     : "$HOME/via_cache",
     "DB"        : "/usr/local/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
-    "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo",
+    "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo/master",
     "Binary"    : "https://github.com/mrosset/publish/raw/master/repo/master",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",
