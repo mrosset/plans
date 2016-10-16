@@ -8,7 +8,7 @@
     "DB"        : "/usr/local/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$HOME/publish/repo",
-    "Binary"    : "http://192.168.0.18:8080/repo/master",
+    "Binary"    : "https://github.com/mrosset/publish/raw/master/repo/master",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",
                 "--config-cache",
