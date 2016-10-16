@@ -1,14 +1,14 @@
 {
     "Name"         : "libgcc",
-    "Version"      : "5.3.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-5.3.0/gcc-5.3.0.tar.bz2",
+    "Version"      : "6.2.0",
+    "Url"          : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-12T16:49:07.421636829-07:00",
-    "Size"         : 7657481,
+    "Date"         : "2016-10-16T04:22:24.906621425-07:00",
+    "Size"         : 7646764,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -24,7 +24,7 @@
     ],
     "PostInstall" : null,
     "Remove"      : [
-                  "/home/mrosset/via/root/via/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/include/unwind.h"
+                  "$PREFIX/lib/gcc/$CHOST/6.2.0/include/unwind.h"
     ],
     "Files" : [
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/crtbegin.o",
@@ -36,7 +36,6 @@
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/crtprec32.o",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/crtprec64.o",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/crtprec80.o",
-            "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include/unwind.h",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/libgcc.a",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/libgcc_eh.a",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/libgcov.a",

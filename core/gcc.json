@@ -7,8 +7,8 @@
     "Inherit"      : "",
     "BuildInStage" : false,
     "BuildTime"    : 310961178659,
-    "Date"         : "2016-10-12T16:49:10.724755359-07:00",
-    "Size"         : 108191607,
+    "Date"         : "2016-10-16T04:22:26.856053419-07:00",
+    "Size"         : 85963329,
     "SubPackages"  : [
                    "libgcc",
                    "libstdc++"
@@ -62,7 +62,6 @@
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/cc1",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/cc1plus",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/collect2",
-            "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/go1",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include/adxintrin.h",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include/ammintrin.h",
             "usr/local/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include/avx2intrin.h",
