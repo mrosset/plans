@@ -7,7 +7,7 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 8555784973,
-    "Date"         : "2016-10-16T04:01:41.483703671-07:00",
+    "Date"         : "2016-10-17T15:39:35.209652087-07:00",
     "Size"         : 4790924,
     "SubPackages"  : null,
     "Depends"      : [
@@ -30,11 +30,12 @@
     "Build"   : null,
     "Package" : [
               "echo FIXME bash-completions ignore --prefix. removing \u003e /dev/stderr",
+              "rm -rf $PKGDIR/usr/lib",
               "rm -rf $PKGDIR/usr/share"
     ],
     "PostInstall" : null,
     "Remove"      : [
-                  "usr"
+                  "usr/lib"
     ],
     "Files" : [
             "usr/local/via/bin/cal",
