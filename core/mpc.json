@@ -7,18 +7,14 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 1705545903,
-    "Date"         : "2016-10-11T14:26:10.281949981-07:00",
-    "Size"         : 125396,
+    "Date"         : "2016-10-19T00:43:10.578239933-07:00",
+    "Size"         : 102106,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "gmp",
-                   "mpfr"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--enable-shared",
-                 "--with-gmp=$PREFIX"
+    "Depends"      : [],
+    "ManDepends"   : null,
+    "Flags"        : [
+                   "--enable-shared",
+                   "--with-gmp=$PREFIX"
     ],
     "Patch"       : null,
     "Build"       : null,
@@ -27,9 +23,8 @@
     "Remove"      : null,
     "Files"       : [
                   "usr/local/via/include/mpc.h",
-                  "usr/local/via/lib/libmpc.la",
-                  "usr/local/via/lib/libmpc.so",
-                  "usr/local/via/lib/libmpc.so.3",
-                  "usr/local/via/lib/libmpc.so.3.0.0"
+                  "usr/local/via/lib/libmpc.3.dylib",
+                  "usr/local/via/lib/libmpc.dylib",
+                  "usr/local/via/lib/libmpc.la"
     ]
 }

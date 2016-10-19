@@ -7,24 +7,21 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 69211121595,
-    "Date"         : "2016-10-11T14:25:51.850540084-07:00",
-    "Size"         : 616591,
+    "Date"         : "2016-10-19T00:41:41.862608542-07:00",
+    "Size"         : 592111,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/gmp.h",
-                  "usr/local/via/lib/libgmp.la",
-                  "usr/local/via/lib/libgmp.so",
-                  "usr/local/via/lib/libgmp.so.10",
-                  "usr/local/via/lib/libgmp.so.10.3.0"
+    "Depends"      : [],
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/include/gmp.h",
+                   "usr/local/via/lib/libgmp.10.dylib",
+                   "usr/local/via/lib/libgmp.dylib",
+                   "usr/local/via/lib/libgmp.la"
     ]
 }
