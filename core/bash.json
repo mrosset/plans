@@ -7,19 +7,16 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 1566102924,
-    "Date"         : "2016-10-15T23:51:32.616027224-07:00",
-    "Size"         : 1164782,
+    "Date"         : "2016-10-19T00:05:40.103478755-07:00",
+    "Size"         : 1009758,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "ncurses"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : null,
-    "Package"    : [
-                 "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
+    "Depends"      : [],
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : [
+                   "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
     ],
     "PostInstall" : null,
     "Remove"      : null,

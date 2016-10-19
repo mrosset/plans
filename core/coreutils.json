@@ -7,18 +7,15 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 84050474605,
-    "Date"         : "2016-10-11T15:17:40.507392899-07:00",
-    "Size"         : 5651592,
+    "Date"         : "2016-10-19T03:15:59.883058169-07:00",
+    "Size"         : 7439724,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "gmp"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-libcap",
-                 "--disable-xattr",
-                 "--enable-no-install-program=groups"
+    "Depends"      : [],
+    "ManDepends"   : null,
+    "Flags"        : [
+                   "--disable-libcap",
+                   "--disable-xattr",
+                   "--enable-no-install-program=groups"
     ],
     "Patch"       : null,
     "Build"       : null,

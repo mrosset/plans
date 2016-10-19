@@ -7,27 +7,26 @@
     "Inherit"      : "gnu",
     "BuildInStage" : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-02-12T23:12:15.138377732-08:00",
-    "Size"         : 699852,
+    "Date"         : "2016-10-18T23:19:59.545988505-07:00",
+    "Size"         : 817437,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/install/bin/find",
-                  "home/mrosset/install/bin/locate",
-                  "home/mrosset/install/bin/oldfind",
-                  "home/mrosset/install/bin/updatedb",
-                  "home/mrosset/install/bin/xargs",
-                  "home/mrosset/install/lib/bigram",
-                  "home/mrosset/install/lib/code",
-                  "home/mrosset/install/lib/frcode"
+    "Depends"      : [],
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/bin/find",
+                   "usr/local/via/bin/locate",
+                   "usr/local/via/bin/oldfind",
+                   "usr/local/via/bin/updatedb",
+                   "usr/local/via/bin/xargs",
+                   "usr/local/via/lib/bigram",
+                   "usr/local/via/lib/charset.alias",
+                   "usr/local/via/lib/code",
+                   "usr/local/via/lib/frcode"
     ]
 }

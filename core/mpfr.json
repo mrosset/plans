@@ -7,16 +7,13 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 63611046575,
-    "Date"         : "2016-10-11T14:26:05.138544659-07:00",
-    "Size"         : 485984,
+    "Date"         : "2016-10-19T00:42:41.46951371-07:00",
+    "Size"         : 446976,
     "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "gmp"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-gmp=$PREFIX"
+    "Depends"      : [],
+    "ManDepends"   : null,
+    "Flags"        : [
+                   "--with-gmp=$PREFIX"
     ],
     "Patch"       : null,
     "Build"       : null,
@@ -26,9 +23,8 @@
     "Files"       : [
                   "usr/local/via/include/mpf2mpfr.h",
                   "usr/local/via/include/mpfr.h",
-                  "usr/local/via/lib/libmpfr.la",
-                  "usr/local/via/lib/libmpfr.so",
-                  "usr/local/via/lib/libmpfr.so.4",
-                  "usr/local/via/lib/libmpfr.so.4.1.3"
+                  "usr/local/via/lib/libmpfr.4.dylib",
+                  "usr/local/via/lib/libmpfr.dylib",
+                  "usr/local/via/lib/libmpfr.la"
     ]
 }

@@ -14,11 +14,9 @@
                    "glibc",
                    "openssl"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : [
-                 "./autogen.sh"
-    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
     "Build"       : null,
     "Package"     : null,
     "PostInstall" : null,
