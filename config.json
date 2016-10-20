@@ -8,7 +8,7 @@
     "DB"        : "/usr/local/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo",
-    "Binary"    : "https://github.com/mrosset/publish/raw/master/repo/darwin16.0.0",
+    "Binary"    : "https://github.com/mrosset/publish/raw/darwin16.0.0/repo/darwin16.0.0",
     "Flags"     : [
                 "--config-cache",
                 "--disable-man",
