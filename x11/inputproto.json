@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:06:25.294747266-08:00",
-    "Size"         : 100705,
+    "Date"         : "2016-10-20T00:11:24.09031867-07:00",
+    "Size"         : 100699,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -19,10 +19,10 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/include/X11/extensions/XI.h",
-                   "home/mrosset/.local/include/X11/extensions/XI2.h",
-                   "home/mrosset/.local/include/X11/extensions/XI2proto.h",
-                   "home/mrosset/.local/include/X11/extensions/XIproto.h",
-                   "home/mrosset/.local/lib/pkgconfig/inputproto.pc"
+                   "usr/local/via/include/X11/extensions/XI.h",
+                   "usr/local/via/include/X11/extensions/XI2.h",
+                   "usr/local/via/include/X11/extensions/XI2proto.h",
+                   "usr/local/via/include/X11/extensions/XIproto.h",
+                   "usr/local/via/lib/pkgconfig/inputproto.pc"
     ]
 }

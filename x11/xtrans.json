@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:05:05.812416151-08:00",
-    "Size"         : 254275,
+    "Date"         : "2016-10-20T00:11:22.325341582-07:00",
+    "Size"         : 202960,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -19,15 +19,14 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/include/X11/Xtrans/Xtrans.c",
-                   "home/mrosset/.local/include/X11/Xtrans/Xtrans.h",
-                   "home/mrosset/.local/include/X11/Xtrans/Xtransint.h",
-                   "home/mrosset/.local/include/X11/Xtrans/Xtranslcl.c",
-                   "home/mrosset/.local/include/X11/Xtrans/Xtranssock.c",
-                   "home/mrosset/.local/include/X11/Xtrans/Xtransutil.c",
-                   "home/mrosset/.local/include/X11/Xtrans/transport.c",
-                   "home/mrosset/.local/share/aclocal/xtrans.m4",
-                   "home/mrosset/.local/share/doc/xtrans/xtrans.xml",
-                   "home/mrosset/.local/share/pkgconfig/xtrans.pc"
+                   "usr/local/via/include/X11/Xtrans/Xtrans.c",
+                   "usr/local/via/include/X11/Xtrans/Xtrans.h",
+                   "usr/local/via/include/X11/Xtrans/Xtransint.h",
+                   "usr/local/via/include/X11/Xtrans/Xtranslcl.c",
+                   "usr/local/via/include/X11/Xtrans/Xtranssock.c",
+                   "usr/local/via/include/X11/Xtrans/Xtransutil.c",
+                   "usr/local/via/include/X11/Xtrans/transport.c",
+                   "usr/local/via/share/aclocal/xtrans.m4",
+                   "usr/local/via/share/pkgconfig/xtrans.pc"
     ]
 }

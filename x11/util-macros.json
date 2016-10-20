@@ -7,8 +7,8 @@
     "Inherit"      : "gnu",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-16T01:13:12.508616-07:00",
-    "Size"         : 86483,
+    "Date"         : "2016-10-20T00:11:25.464371618-07:00",
+    "Size"         : 86477,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -19,8 +19,8 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/share/aclocal/xorg-macros.m4",
-                   "home/mrosset/.local/share/pkgconfig/xorg-macros.pc",
-                   "home/mrosset/.local/share/util-macros/INSTALL"
+                   "usr/local/via/share/aclocal/xorg-macros.m4",
+                   "usr/local/via/share/pkgconfig/xorg-macros.pc",
+                   "usr/local/via/share/util-macros/INSTALL"
     ]
 }
