@@ -1,9 +1,9 @@
 {
     "Name"         : "gcc-x86_64-cross",
-    "Version"      : "5.3.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-5.3.0/gcc-5.3.0.tar.bz2",
+    "Version"      : "6.2.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-$Version/gcc-$Version.tar.bz2",
     "Group"        : "x86_64",
-    "StageDir"     : "gcc-5.3.0",
+    "StageDir"     : "gcc-6.2.0",
     "Inherit"      : "gnu-x86_64-cross",
     "Oid"          : "",
     "BuildInStage" : false,
