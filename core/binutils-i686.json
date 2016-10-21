@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "binutils-2.26",
     "Inherit"      : "gnu-i686-cross",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-02-10T14:40:19.400383301-08:00",

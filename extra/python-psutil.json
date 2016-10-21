@@ -5,6 +5,7 @@
     "Group"        : "extra",
     "StageDir"     : "psutil-4.0.0",
     "Inherit"      : "",
+    "Oid"          : "F7235D23CF6569FEC92EB94836113D563B2D6808EF8C71CE14E7381E0E699757",
     "BuildInStage" : true,
     "BuildTime"    : 0,
     "Date"         : "2016-10-12T01:52:39.579478721-07:00",

@@ -5,6 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "GConf-3.2.6",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-15T23:28:54.385335-07:00",

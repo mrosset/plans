@@ -5,6 +5,7 @@
     "Group"        : "x86_64",
     "StageDir"     : "glibc-2.22",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-12T08:25:38.540696-08:00",

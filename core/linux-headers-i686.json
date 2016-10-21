@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "linux-3.17",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : true,
     "BuildTime"    : 0,
     "Date"         : "2016-02-09T14:34:03.624486006-08:00",

@@ -5,6 +5,7 @@
     "Group"        : "extra",
     "StageDir"     : "sqlite-src-3140200",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-30T20:39:42.133626484-07:00",

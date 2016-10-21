@@ -5,6 +5,7 @@
     "Group"        : "extra",
     "StageDir"     : "icu",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-08T23:58:25.280500358-08:00",

@@ -5,6 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-09T23:04:26.202365557-08:00",

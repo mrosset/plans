@@ -5,6 +5,7 @@
     "Group"        : "builtin",
     "StageDir"     : "",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2014-11-28T18:54:26.088069823-08:00",

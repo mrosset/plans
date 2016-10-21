@@ -5,6 +5,7 @@
     "Group"        : "groups",
     "StageDir"     : "",
     "Inherit"      : "",
+    "Oid"          : "F2344AC410D7A53C2D07B9F03DA76FC35E94A88E065A9B969D36CACBBFD20FCC",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2014-12-06T15:38:02.919341322-08:00",

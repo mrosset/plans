@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "Python-2.7.11",
     "Inherit"      : "gnu-nostrip",
+    "Oid"          : "6421C42272E00A66F08163FC29023FC176BED62D4686F58DBFFC4C957BEA2B67",
     "BuildInStage" : true,
     "BuildTime"    : 5426808360,
     "Date"         : "2016-10-12T01:38:50.408876012-07:00",

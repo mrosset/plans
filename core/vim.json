@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "vim74",
     "Inherit"      : "gnu-nostrip",
+    "Oid"          : "",
     "BuildInStage" : true,
     "BuildTime"    : 1884119052,
     "Date"         : "2016-03-10T09:05:32.181775284-08:00",

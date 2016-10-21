@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
+    "Oid"          : "ED19CCCF57990F305EE5870E6F1A5053824373E17B6BABA23240D1AFFAAA0FC9",
     "BuildInStage" : false,
     "BuildTime"    : 107793761305,
     "Date"         : "2016-10-12T23:13:01.338569718Z",

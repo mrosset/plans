@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "glibc-2.20",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-02-09T15:24:31.889116394-08:00",

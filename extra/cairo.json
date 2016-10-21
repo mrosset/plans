@@ -5,6 +5,7 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-10T02:11:24.435355779-08:00",

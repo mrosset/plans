@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "linux-4.4.4",
     "Inherit"      : "",
+    "Oid"          : "E0EFE8FD8AB24B0C8D9D751227426D583CBEBA1BB30D1152DC3A98650D415718",
     "BuildInStage" : true,
     "BuildTime"    : 0,
     "Date"         : "2016-10-11T14:18:45.55228924-07:00",

@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : true,
     "BuildTime"    : 0,
     "Date"         : "2014-11-29T19:18:54.660660477-08:00",

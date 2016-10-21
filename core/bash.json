@@ -5,9 +5,10 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
+    "Oid"          : "DCB906859D7AA75796F030B64D7B860968619D50C2C5F1475A264FDDABE1CE05",
     "BuildInStage" : false,
     "BuildTime"    : 1566102924,
-    "Date"         : "2016-10-15T23:51:32.616027224-07:00",
+    "Date"         : "2016-10-20T19:26:32.47160916-07:00",
     "Size"         : 1164782,
     "SubPackages"  : null,
     "Depends"      : [

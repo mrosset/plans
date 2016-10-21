@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "libXau-1.0.8",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-10T01:59:08.42882029-08:00",

@@ -5,6 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "gtk+-3.18.8",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-09T22:02:33.162763744-08:00",

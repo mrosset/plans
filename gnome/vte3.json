@@ -5,6 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "vte-0.42.4",
     "Inherit"      : "gnu",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-03-09T22:16:49.789206877-08:00",

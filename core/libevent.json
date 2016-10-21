@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "libevent-release-2.0.22-stable",
     "Inherit"      : "gnu",
+    "Oid"          : "35E2DB13F0F0A1A4B488C398161A465C20ECB64A493BED6A256EA9E1C8E3EE40",
     "BuildInStage" : false,
     "BuildTime"    : 0,
     "Date"         : "2016-10-14T17:49:04.195005682-07:00",
