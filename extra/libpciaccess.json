@@ -5,11 +5,11 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "6223A5CE2ABEA5A5A9A3C761C43D6FA81442D312EF228CA6C369B02DF31C8E5F",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T02:45:36.485844654-08:00",
-    "Size"         : 105973,
+    "Date"         : "2016-10-20T21:29:31.257716326-07:00",
+    "Size"         : 59411,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -22,12 +22,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/pciaccess.h",
-                  "home/mrosset/.local/lib/libpciaccess.a",
-                  "home/mrosset/.local/lib/libpciaccess.la",
-                  "home/mrosset/.local/lib/libpciaccess.so",
-                  "home/mrosset/.local/lib/libpciaccess.so.0",
-                  "home/mrosset/.local/lib/libpciaccess.so.0.11.1",
-                  "home/mrosset/.local/lib/pkgconfig/pciaccess.pc"
+                  "usr/local/via/include/pciaccess.h",
+                  "usr/local/via/lib/libpciaccess.la",
+                  "usr/local/via/lib/libpciaccess.so",
+                  "usr/local/via/lib/libpciaccess.so.0",
+                  "usr/local/via/lib/libpciaccess.so.0.11.1",
+                  "usr/local/via/lib/pkgconfig/pciaccess.pc"
     ]
 }

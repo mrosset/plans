@@ -5,29 +5,37 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "18DE70DEBC5B912C58F356566DFDAD1F8A0738528C6E2BB0DE4AD184AB488F1A",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-15T23:29:12.257036-07:00",
-    "Size"         : 221260,
+    "Date"         : "2016-10-20T20:52:49.862657336-07:00",
+    "Size"         : 149197,
     "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : null,
-    "Package"      : null,
-    "PostInstall"  : null,
-    "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/.local/include/X11/ICE/ICE.h",
-                   "home/mrosset/.local/include/X11/ICE/ICEconn.h",
-                   "home/mrosset/.local/include/X11/ICE/ICElib.h",
-                   "home/mrosset/.local/include/X11/ICE/ICEmsg.h",
-                   "home/mrosset/.local/include/X11/ICE/ICEproto.h",
-                   "home/mrosset/.local/include/X11/ICE/ICEutil.h",
-                   "home/mrosset/.local/lib/libICE.a",
-                   "home/mrosset/.local/lib/libICE.la",
-                   "home/mrosset/.local/lib/pkgconfig/ice.pc"
+    "Depends"      : [
+                   "glibc"
+    ],
+    "ManDepends" : [
+                 "xtrans",
+                 "xproto",
+                 "pkg-config"
+    ],
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/include/X11/ICE/ICE.h",
+                  "usr/local/via/include/X11/ICE/ICEconn.h",
+                  "usr/local/via/include/X11/ICE/ICElib.h",
+                  "usr/local/via/include/X11/ICE/ICEmsg.h",
+                  "usr/local/via/include/X11/ICE/ICEproto.h",
+                  "usr/local/via/include/X11/ICE/ICEutil.h",
+                  "usr/local/via/lib/libICE.la",
+                  "usr/local/via/lib/libICE.so",
+                  "usr/local/via/lib/libICE.so.6",
+                  "usr/local/via/lib/libICE.so.6.3.0",
+                  "usr/local/via/lib/pkgconfig/ice.pc"
     ]
 }

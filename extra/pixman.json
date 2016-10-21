@@ -5,11 +5,11 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "3AE852BE2AC373E570FDF9F71FACCC11F67709DB1B5EC3B91CC1D532E7607088",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:09:20.639684239-08:00",
-    "Size"         : 723480,
+    "Date"         : "2016-10-20T21:19:12.704916148-07:00",
+    "Size"         : 777540,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -22,12 +22,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/pixman-1/pixman-version.h",
-                  "home/mrosset/.local/include/pixman-1/pixman.h",
-                  "home/mrosset/.local/lib/libpixman-1.la",
-                  "home/mrosset/.local/lib/libpixman-1.so",
-                  "home/mrosset/.local/lib/libpixman-1.so.0",
-                  "home/mrosset/.local/lib/libpixman-1.so.0.34.0",
-                  "home/mrosset/.local/lib/pkgconfig/pixman-1.pc"
+                  "usr/local/via/include/pixman-1/pixman-version.h",
+                  "usr/local/via/include/pixman-1/pixman.h",
+                  "usr/local/via/lib/libpixman-1.la",
+                  "usr/local/via/lib/libpixman-1.so",
+                  "usr/local/via/lib/libpixman-1.so.0",
+                  "usr/local/via/lib/libpixman-1.so.0.34.0",
+                  "usr/local/via/lib/pkgconfig/pixman-1.pc"
     ]
 }

@@ -5,11 +5,11 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "D91157B6E07068230C1162596A3F1CD6E0F829370747F68DAF68DF4315A0EA01",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T01:42:54.659638234-08:00",
-    "Size"         : 27037,
+    "Date"         : "2016-10-20T21:22:54.926010813-07:00",
+    "Size"         : 19268,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -18,7 +18,9 @@
                    "libxau",
                    "libxcb"
     ],
-    "ManDepends"  : null,
+    "ManDepends" : [
+                 "xineramaproto"
+    ],
     "Flags"       : null,
     "Patch"       : null,
     "Build"       : null,
@@ -26,18 +28,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/X11/extensions/Xinerama.h",
-                  "home/mrosset/.local/include/X11/extensions/panoramiXext.h",
-                  "home/mrosset/.local/lib/libXinerama.a",
-                  "home/mrosset/.local/lib/libXinerama.la",
-                  "home/mrosset/.local/lib/libXinerama.so",
-                  "home/mrosset/.local/lib/libXinerama.so.1",
-                  "home/mrosset/.local/lib/libXinerama.so.1.0.0",
-                  "home/mrosset/.local/lib/pkgconfig/xinerama.pc",
-                  "home/mrosset/.local/share/man/man3/Xinerama.3",
-                  "home/mrosset/.local/share/man/man3/XineramaIsActive.3",
-                  "home/mrosset/.local/share/man/man3/XineramaQueryExtension.3",
-                  "home/mrosset/.local/share/man/man3/XineramaQueryScreens.3",
-                  "home/mrosset/.local/share/man/man3/XineramaQueryVersion.3"
+                  "usr/local/via/include/X11/extensions/Xinerama.h",
+                  "usr/local/via/include/X11/extensions/panoramiXext.h",
+                  "usr/local/via/lib/libXinerama.la",
+                  "usr/local/via/lib/libXinerama.so",
+                  "usr/local/via/lib/libXinerama.so.1",
+                  "usr/local/via/lib/libXinerama.so.1.0.0",
+                  "usr/local/via/lib/pkgconfig/xinerama.pc"
     ]
 }

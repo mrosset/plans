@@ -5,14 +5,16 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "126C7E6FC7D78441B70C7B67F3CF1256E6CAC6E72BF7DAC6146AFFD51675449E",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-30T21:44:58.731196339-07:00",
-    "Size"         : 118357,
+    "Date"         : "2016-10-20T20:51:17.780112298-07:00",
+    "Size"         : 123829,
     "SubPackages"  : null,
     "Depends"      : [
-                   "glib"
+                   "glib",
+                   "glibc",
+                   "pcre"
     ],
     "ManDepends"  : null,
     "Flags"       : null,
@@ -22,8 +24,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/pkg-config",
-                  "home/mrosset/via/bin/x86_64-via-linux-gnu-pkg-config",
-                  "home/mrosset/via/share/aclocal/pkg.m4"
+                  "usr/local/via/bin/pkg-config",
+                  "usr/local/via/bin/x86_64-via-linux-gnu-pkg-config",
+                  "usr/local/via/share/aclocal/pkg.m4"
     ]
 }

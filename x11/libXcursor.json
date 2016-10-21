@@ -1,0 +1,37 @@
+{
+    "Name"         : "libXcursor",
+    "Version"      : "1.1.14",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXcursor-1.1.14.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "4A439FCD4973CED39016936800EEB06DC141F81B8CBA58D3768D8F434702CD6A",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-10-20T23:45:59.102939838-07:00",
+    "Size"         : 66228,
+    "SubPackages"  : null,
+    "Depends"      : [
+                   "glibc",
+                   "libX11",
+                   "libXfixes",
+                   "libXrender",
+                   "libxau",
+                   "libxcb"
+    ],
+    "ManDepends"  : null,
+    "Flags"       : null,
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/include/X11/Xcursor/Xcursor.h",
+                  "usr/local/via/lib/libXcursor.la",
+                  "usr/local/via/lib/libXcursor.so",
+                  "usr/local/via/lib/libXcursor.so.1",
+                  "usr/local/via/lib/libXcursor.so.1.0.2",
+                  "usr/local/via/lib/pkgconfig/xcursor.pc"
+    ]
+}

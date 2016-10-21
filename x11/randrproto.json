@@ -5,11 +5,11 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "814B5F7E10AD2B345391DA72208031B5820644CCEE92EC05ACFB9AB25CB7F16E",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T01:41:32.677221419-08:00",
-    "Size"         : 138656,
+    "Date"         : "2016-10-20T21:23:42.392741497-07:00",
+    "Size"         : 33348,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -20,9 +20,8 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/include/X11/extensions/randr.h",
-                   "home/mrosset/.local/include/X11/extensions/randrproto.h",
-                   "home/mrosset/.local/lib/pkgconfig/randrproto.pc",
-                   "home/mrosset/.local/share/doc/randrproto/randrproto.txt"
+                   "usr/local/via/include/X11/extensions/randr.h",
+                   "usr/local/via/include/X11/extensions/randrproto.h",
+                   "usr/local/via/lib/pkgconfig/randrproto.pc"
     ]
 }

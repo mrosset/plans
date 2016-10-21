@@ -5,11 +5,11 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "EA060D3808945B6E5245DD7F4CE1DCFC16C53CEB2FC332D326014F82486B3AAF",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:08:31.522597489-08:00",
-    "Size"         : 58813,
+    "Date"         : "2016-10-20T21:18:59.327569787-07:00",
+    "Size"         : 21298,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -20,9 +20,8 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/include/X11/extensions/render.h",
-                   "home/mrosset/.local/include/X11/extensions/renderproto.h",
-                   "home/mrosset/.local/lib/pkgconfig/renderproto.pc",
-                   "home/mrosset/.local/share/doc/renderproto/renderproto.txt"
+                   "usr/local/via/include/X11/extensions/render.h",
+                   "usr/local/via/include/X11/extensions/renderproto.h",
+                   "usr/local/via/lib/pkgconfig/renderproto.pc"
     ]
 }

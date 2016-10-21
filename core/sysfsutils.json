@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "C1133808CC4D4D89103182CCF1336D5FD7B7375B8A893A2FB5299DECF2AEBAB4",
     "BuildInStage" : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T08:13:28.657240134-08:00",
-    "Size"         : 113740,
+    "Date"         : "2016-10-20T21:32:28.574546264-07:00",
+    "Size"         : 148286,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -22,17 +22,17 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/bin/dlist_test",
-                  "home/mrosset/.local/bin/get_device",
-                  "home/mrosset/.local/bin/get_driver",
-                  "home/mrosset/.local/bin/get_module",
-                  "home/mrosset/.local/bin/systool",
-                  "home/mrosset/.local/include/sysfs/dlist.h",
-                  "home/mrosset/.local/include/sysfs/libsysfs.h",
-                  "home/mrosset/.local/lib/libsysfs.la",
-                  "home/mrosset/.local/lib/libsysfs.so",
-                  "home/mrosset/.local/lib/libsysfs.so.2",
-                  "home/mrosset/.local/lib/libsysfs.so.2.0.1",
-                  "home/mrosset/.local/man/man1/systool.1"
+                  "usr/local/via/bin/dlist_test",
+                  "usr/local/via/bin/get_device",
+                  "usr/local/via/bin/get_driver",
+                  "usr/local/via/bin/get_module",
+                  "usr/local/via/bin/systool",
+                  "usr/local/via/include/sysfs/dlist.h",
+                  "usr/local/via/include/sysfs/libsysfs.h",
+                  "usr/local/via/lib/libsysfs.la",
+                  "usr/local/via/lib/libsysfs.so",
+                  "usr/local/via/lib/libsysfs.so.2",
+                  "usr/local/via/lib/libsysfs.so.2.0.1",
+                  "usr/local/via/man/man1/systool.1"
     ]
 }

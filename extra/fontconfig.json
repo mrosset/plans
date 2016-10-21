@@ -5,16 +5,22 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "5D6F8576030797C39377257CD7FC7B962B7D640B064958A46893139014848925",
+    "Oid"          : "61D7A453115558768BC212119A46F52C77A822604FDCEDCFF7CB46B267FE5FB4",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T00:10:03.326198829-07:00",
-    "Size"         : 521004,
+    "Date"         : "2016-10-20T23:32:10.574910945-07:00",
+    "Size"         : 521311,
     "SubPackages"  : null,
     "Depends"      : [
+                   "bzip2",
                    "expat",
                    "freetype",
-                   "glibc"
+                   "glib",
+                   "glibc",
+                   "harfbuzz",
+                   "libpng",
+                   "pcre",
+                   "zlib"
     ],
     "ManDepends" : null,
     "Flags"      : [

@@ -5,11 +5,11 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "F36116D4F4164EFDE92AF66FA48D8470912FA06D5AC659318746EAE18582C788",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T01:42:49.230610735-08:00",
-    "Size"         : 5938,
+    "Date"         : "2016-10-20T21:22:52.489451673-07:00",
+    "Size"         : 5932,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -20,7 +20,7 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/include/X11/extensions/panoramiXproto.h",
-                   "home/mrosset/.local/lib/pkgconfig/xineramaproto.pc"
+                   "usr/local/via/include/X11/extensions/panoramiXproto.h",
+                   "usr/local/via/lib/pkgconfig/xineramaproto.pc"
     ]
 }

@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "libXau-1.0.8",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "4638213AA10DD0C1D708B1F451B1BFD2EB00FFA447009B312E29FA1DCF63FDA8",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-10T01:59:08.42882029-08:00",
-    "Size"         : 21379,
+    "Date"         : "2016-10-20T20:53:06.424952323-07:00",
+    "Size"         : 22611,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc"
@@ -22,20 +22,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/X11/Xauth.h",
-                  "home/mrosset/.local/lib/libXau.la",
-                  "home/mrosset/.local/lib/libXau.so",
-                  "home/mrosset/.local/lib/libXau.so.6",
-                  "home/mrosset/.local/lib/libXau.so.6.0.0",
-                  "home/mrosset/.local/lib/pkgconfig/xau.pc",
-                  "home/mrosset/.local/share/man/man3/Xau.3",
-                  "home/mrosset/.local/share/man/man3/XauDisposeAuth.3",
-                  "home/mrosset/.local/share/man/man3/XauFileName.3",
-                  "home/mrosset/.local/share/man/man3/XauGetAuthByAddr.3",
-                  "home/mrosset/.local/share/man/man3/XauGetBestAuthByAddr.3",
-                  "home/mrosset/.local/share/man/man3/XauLockAuth.3",
-                  "home/mrosset/.local/share/man/man3/XauReadAuth.3",
-                  "home/mrosset/.local/share/man/man3/XauUnlockAuth.3",
-                  "home/mrosset/.local/share/man/man3/XauWriteAuth.3"
+                  "usr/local/via/include/X11/Xauth.h",
+                  "usr/local/via/lib/libXau.la",
+                  "usr/local/via/lib/libXau.so",
+                  "usr/local/via/lib/libXau.so.6",
+                  "usr/local/via/lib/libXau.so.6.0.0",
+                  "usr/local/via/lib/pkgconfig/xau.pc"
     ]
 }

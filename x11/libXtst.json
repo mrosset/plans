@@ -5,24 +5,23 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "F3F63D21DEB3B4614840D6CA571A31FD67781518AA21926A78AFF33110E33B00",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T21:44:10.461447181-08:00",
-    "Size"         : 113229,
+    "Date"         : "2016-10-20T21:13:41.608497142-07:00",
+    "Size"         : 36939,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
+                   "libX11",
                    "libXext",
                    "libXi",
-                   "libx11",
                    "libxau",
                    "libxcb"
     ],
     "ManDepends" : [
-                 "xextproto",
-                 "libXext",
-                 "libXi"
+                 "recordproto",
+                 "xextproto"
     ],
     "Flags"       : null,
     "Patch"       : null,
@@ -31,25 +30,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/X11/extensions/XTest.h",
-                  "home/mrosset/.local/include/X11/extensions/record.h",
-                  "home/mrosset/.local/lib/libXtst.la",
-                  "home/mrosset/.local/lib/libXtst.so",
-                  "home/mrosset/.local/lib/libXtst.so.6",
-                  "home/mrosset/.local/lib/libXtst.so.6.1.0",
-                  "home/mrosset/.local/lib/pkgconfig/xtst.pc",
-                  "home/mrosset/.local/share/doc/libXtst/recordlib.xml",
-                  "home/mrosset/.local/share/doc/libXtst/xtestlib.xml",
-                  "home/mrosset/.local/share/man/man3/XTestCompareCurrentCursorWithWindow.3",
-                  "home/mrosset/.local/share/man/man3/XTestCompareCursorWithWindow.3",
-                  "home/mrosset/.local/share/man/man3/XTestDiscard.3",
-                  "home/mrosset/.local/share/man/man3/XTestFakeButtonEvent.3",
-                  "home/mrosset/.local/share/man/man3/XTestFakeKeyEvent.3",
-                  "home/mrosset/.local/share/man/man3/XTestFakeMotionEvent.3",
-                  "home/mrosset/.local/share/man/man3/XTestFakeRelativeMotionEvent.3",
-                  "home/mrosset/.local/share/man/man3/XTestGrabControl.3",
-                  "home/mrosset/.local/share/man/man3/XTestQueryExtension.3",
-                  "home/mrosset/.local/share/man/man3/XTestSetGContextOfGC.3",
-                  "home/mrosset/.local/share/man/man3/XTestSetVisualIDOfVisual.3"
+                  "usr/local/via/include/X11/extensions/XTest.h",
+                  "usr/local/via/include/X11/extensions/record.h",
+                  "usr/local/via/lib/libXtst.la",
+                  "usr/local/via/lib/libXtst.so",
+                  "usr/local/via/lib/libXtst.so.6",
+                  "usr/local/via/lib/libXtst.so.6.1.0",
+                  "usr/local/via/lib/pkgconfig/xtst.pc"
     ]
 }

@@ -5,15 +5,14 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "ED90A5A87B7FD2760CF7326FEBC38DD64E7F2BBFB03DC234B7FC69CE94FE1BC6",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T01:39:20.738668429-08:00",
-    "Size"         : 58803,
+    "Date"         : "2016-10-20T21:11:32.532981828-07:00",
+    "Size"         : 35846,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
-                   "libX11",
                    "libxau",
                    "libxcb"
     ],
@@ -29,13 +28,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/X11/extensions/Xfixes.h",
-                  "home/mrosset/.local/lib/libXfixes.a",
-                  "home/mrosset/.local/lib/libXfixes.la",
-                  "home/mrosset/.local/lib/libXfixes.so",
-                  "home/mrosset/.local/lib/libXfixes.so.3",
-                  "home/mrosset/.local/lib/libXfixes.so.3.1.0",
-                  "home/mrosset/.local/lib/pkgconfig/xfixes.pc",
-                  "home/mrosset/.local/share/man/man3/Xfixes.3"
+                  "usr/local/via/include/X11/extensions/Xfixes.h",
+                  "usr/local/via/lib/libXfixes.la",
+                  "usr/local/via/lib/libXfixes.so",
+                  "usr/local/via/lib/libXfixes.so.3",
+                  "usr/local/via/lib/libXfixes.so.3.1.0",
+                  "usr/local/via/lib/pkgconfig/xfixes.pc"
     ]
 }

@@ -5,11 +5,11 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "C111084BF7350E43BE82030E8B11E1DF2619E04296B6D5F21A2BBA7B755A4320",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T02:39:16.16103432-08:00",
-    "Size"         : 105720,
+    "Date"         : "2016-10-20T21:29:56.079371843-07:00",
+    "Size"         : 105714,
     "SubPackages"  : null,
     "Depends"      : [],
     "ManDepends"   : null,
@@ -20,11 +20,11 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "home/mrosset/.local/include/GL/glxint.h",
-                   "home/mrosset/.local/include/GL/glxmd.h",
-                   "home/mrosset/.local/include/GL/glxproto.h",
-                   "home/mrosset/.local/include/GL/glxtokens.h",
-                   "home/mrosset/.local/include/GL/internal/glcore.h",
-                   "home/mrosset/.local/lib/pkgconfig/glproto.pc"
+                   "usr/local/via/include/GL/glxint.h",
+                   "usr/local/via/include/GL/glxmd.h",
+                   "usr/local/via/include/GL/glxproto.h",
+                   "usr/local/via/include/GL/glxtokens.h",
+                   "usr/local/via/include/GL/internal/glcore.h",
+                   "usr/local/via/lib/pkgconfig/glproto.pc"
     ]
 }

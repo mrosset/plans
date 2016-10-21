@@ -5,11 +5,11 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "30EB28C8396378CA6F6BDBFFFD1C268B66ECC6E647DB49BEEF2CA9075FCA4DD4",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-03-09T02:51:00.312673984-08:00",
-    "Size"         : 19718,
+    "Date"         : "2016-10-20T21:22:04.643803976-07:00",
+    "Size"         : 16560,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
@@ -18,7 +18,9 @@
                    "libxau",
                    "libxcb"
     ],
-    "ManDepends"  : null,
+    "ManDepends" : [
+                 "damageproto"
+    ],
     "Flags"       : null,
     "Patch"       : null,
     "Build"       : null,
@@ -26,12 +28,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/.local/include/X11/extensions/Xdamage.h",
-                  "home/mrosset/.local/lib/libXdamage.a",
-                  "home/mrosset/.local/lib/libXdamage.la",
-                  "home/mrosset/.local/lib/libXdamage.so",
-                  "home/mrosset/.local/lib/libXdamage.so.1",
-                  "home/mrosset/.local/lib/libXdamage.so.1.1.0",
-                  "home/mrosset/.local/lib/pkgconfig/xdamage.pc"
+                  "usr/local/via/include/X11/extensions/Xdamage.h",
+                  "usr/local/via/lib/libXdamage.la",
+                  "usr/local/via/lib/libXdamage.so",
+                  "usr/local/via/lib/libXdamage.so.1",
+                  "usr/local/via/lib/libXdamage.so.1.1.0",
+                  "usr/local/via/lib/pkgconfig/xdamage.pc"
     ]
 }
