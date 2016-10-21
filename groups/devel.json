@@ -33,6 +33,7 @@
                    "make",
                    "mpc",
                    "mpfr",
+                   "pkg-config",
                    "sed",
                    "tar",
                    "util-linux",
