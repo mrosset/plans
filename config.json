@@ -9,7 +9,7 @@
     "DB"        : "/usr/local/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo",
-    "Binary"    : "https://github.com/mrosset/publish/raw/linux-x86_64/repo",
+    "Binary"    : "https://bitbucket.org/strings/publish/raw/linux-x86_64/repo",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",
                 "--config-cache",

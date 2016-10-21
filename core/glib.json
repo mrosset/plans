@@ -21,7 +21,6 @@
     "ManDepends" : null,
     "Flags"      : [
                  "--with-pcre=internal"
-
     ],
     "Patch"       : null,
     "Build"       : null,

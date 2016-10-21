@@ -157,6 +157,7 @@
     "extra/tiff.json",
     "extra/tmux.json",
     "extra/xmlto.json",
+    "gnome/ORBit2.json",
     "gnome/at-spi2-atk.json",
     "gnome/at-spi2-core.json",
     "gnome/atk.json",
