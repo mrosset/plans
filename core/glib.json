@@ -5,22 +5,24 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "7C315A8138E51779CE84E8BE33DF1B471FD8564F389ADDFD8594E99E719A5CE1",
+    "Oid"          : "DCE125ADC8FB0FCFF1AB015B134A0B1631D96598E4BC457DC5FF0DBB7711028D",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-19T23:45:54.982355597-07:00",
-    "Size"         : 14672571,
+    "Date"         : "2016-10-21T04:04:09.474238219-07:00",
+    "Size"         : 14878420,
     "SubPackages"  : null,
     "Depends"      : [
                    "elfutils",
                    "glibc",
                    "libffi",
-                   "pcre",
                    "util-linux",
                    "zlib"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--with-pcre=internal"
+
+    ],
     "Patch"       : null,
     "Build"       : null,
     "Package"     : null,

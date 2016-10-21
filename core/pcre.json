@@ -5,19 +5,22 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "AE2182BC45A3DABEBEBC03445FA9DAB62801DBFDCFCE5F802F9D30E9ADA50FB1",
+    "Oid"          : "E55759BD44D7BF2DFF3B786990FAB43B4E377E0349962F7B130A4DD355F37C79",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-12T20:02:05.978447182-07:00",
-    "Size"         : 359030,
+    "Date"         : "2016-10-21T03:43:51.456515128-07:00",
+    "Size"         : 408967,
     "SubPackages"  : null,
     "Depends"      : [
                    "glibc",
                    "libgcc",
                    "libstdc++"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
+    "ManDepends" : null,
+    "Flags"      : [
+                 "--enable-unicode-propertie",
+                 "--enable-utf"
+    ],
     "Patch"       : null,
     "Build"       : null,
     "Package"     : null,

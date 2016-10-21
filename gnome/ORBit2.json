@@ -1,0 +1,23 @@
+{
+    "Name"         : "ORBit2",
+    "Version"      : "2.14.19",
+    "Url"          : "http://ftp.gnome.org/pub/gnome/sources/ORBit2/2.14/ORBit2-$Version.tar.bz2",
+    "Group"        : "gnome",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "0001-01-01T00:00:00Z",
+    "Size"         : 0,
+    "SubPackages"  : null,
+    "Depends"      : null,
+    "ManDepends"   : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : null
+}
