@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T21:21:53.871802169-07:00",
     "Size"         : 3590775,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "fontconfig",
                    "freetype",
                    "glib",
@@ -24,21 +24,7 @@
                    "pixman",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "fontconfig",
-                  "freetype",
-                  "glib",
-                  "glibc",
-                  "libX11",
-                  "libXext",
-                  "libXrender",
-                  "libpng",
-                  "libxcb",
-                  "pixman",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

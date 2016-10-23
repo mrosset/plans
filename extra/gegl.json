@@ -11,7 +11,7 @@
     "Date"         : "2016-03-09T09:59:13.219817619-08:00",
     "Size"         : 11153063,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "",
                    "babl",
                    "cairo",
@@ -26,23 +26,7 @@
                    "pango",
                    "tiff"
     ],
-    "AutoDepends" : [
-                  "",
-                  "babl",
-                  "cairo",
-                  "gdk-pixbuf",
-                  "glib",
-                  "glibc",
-                  "jasper",
-                  "json-glib",
-                  "libffi",
-                  "libjpeg-turbo",
-                  "libpng",
-                  "pango",
-                  "tiff"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

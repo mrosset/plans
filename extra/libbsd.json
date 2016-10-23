@@ -11,14 +11,10 @@
     "Date"         : "2016-10-20T21:13:06.127714719-07:00",
     "Size"         : 205019,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "glibc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

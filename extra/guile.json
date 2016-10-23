@@ -11,22 +11,14 @@
     "Date"         : "2016-03-30T22:00:48.668128432-07:00",
     "Size"         : 12230079,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "gmp",
                    "libatomic_ops",
                    "libffi",
                    "libtool",
                    "libunistring"
     ],
-    "AutoDepends" : [
-                  "gmp",
-                  "libatomic_ops",
-                  "libffi",
-                  "libtool",
-                  "libunistring"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-error-on-warning",

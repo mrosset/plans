@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T22:58:52.928823795-07:00",
     "Size"         : 38409733,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "at-spi2-atk",
                    "at-spi2-core",
                    "atk",
@@ -46,46 +46,8 @@
                    "util-linux",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "at-spi2-atk",
-                  "at-spi2-core",
-                  "atk",
-                  "bzip2",
-                  "cairo",
-                  "dbus",
-                  "expat",
-                  "fontconfig",
-                  "freetype",
-                  "gdk-pixbuf",
-                  "glib",
-                  "glibc",
-                  "harfbuzz",
-                  "libICE",
-                  "libSM",
-                  "libX11",
-                  "libXdamage",
-                  "libXext",
-                  "libXfixes",
-                  "libXi",
-                  "libXinerama",
-                  "libXrandr",
-                  "libXrender",
-                  "libepoxy",
-                  "libffi",
-                  "libpng",
-                  "libxau",
-                  "libxcb",
-                  "pango",
-                  "pcre",
-                  "pixman",
-                  "util-linux",
-                  "zlib"
-    ],
     "ManualDepends" : [
                     "pango"
-    ],
-    "ManDepends" : [
-                 "pango"
     ],
     "BuildDepends" : null,
     "Flags"        : [

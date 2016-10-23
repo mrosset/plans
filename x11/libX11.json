@@ -11,27 +11,16 @@
     "Date"         : "2016-10-20T21:10:50.541477306-07:00",
     "Size"         : 2941191,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libxcb"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libxcb"
-    ],
     "ManualDepends" : [
-                    "xtrans",
                     "inputproto",
+                    "kbproto",
                     "util-macros",
                     "xproto",
-                    "kbproto"
-    ],
-    "ManDepends" : [
-                 "xtrans",
-                 "inputproto",
-                 "util-macros",
-                 "xproto",
-                 "kbproto"
+                    "xtrans"
     ],
     "BuildDepends" : null,
     "Flags"        : [

@@ -11,10 +11,8 @@
     "Date"          : "2016-03-12T08:25:38.540696-08:00",
     "Size"          : 2282042,
     "SubPackages"   : null,
-    "Depends"       : [],
     "AutoDepends"   : [],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-profile",

@@ -11,20 +11,13 @@
     "Date"         : "2016-10-21T08:18:27.520453557-07:00",
     "Size"         : 20582303,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "curl",
                    "expat",
                    "glibc",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "curl",
-                  "expat",
-                  "glibc",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-curl=$PREFIX",

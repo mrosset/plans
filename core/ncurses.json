@@ -11,14 +11,10 @@
     "Date"         : "2016-10-12T23:13:01.338569718Z",
     "Size"         : 12619020,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "glibc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--enable-widec",

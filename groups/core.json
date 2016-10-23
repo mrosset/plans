@@ -11,19 +11,12 @@
     "Date"          : "2016-10-21T11:05:03.806540435-07:00",
     "Size"          : 0,
     "SubPackages"   : null,
-    "Depends"       : [],
     "AutoDepends"   : [],
     "ManualDepends" : [
                     "bash",
                     "coreutils",
                     "git",
                     "grep"
-    ],
-    "ManDepends" : [
-                 "bash",
-                 "coreutils",
-                 "git",
-                 "grep"
     ],
     "BuildDepends" : null,
     "Flags"        : null,

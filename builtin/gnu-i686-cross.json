@@ -11,10 +11,8 @@
     "Date"          : "2014-11-28T18:54:26.088069823-08:00",
     "Size"          : 1162966,
     "SubPackages"   : null,
-    "Depends"       : null,
     "AutoDepends"   : null,
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--target=x86_64-via-linux-gnu"

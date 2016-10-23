@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T23:11:23.385687545-07:00",
     "Size"         : 602282,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glib",
                    "glibc",
                    "libffi",
@@ -23,20 +23,7 @@
                    "xz",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "glib",
-                  "glibc",
-                  "libffi",
-                  "libjpeg-turbo",
-                  "libpng",
-                  "pcre",
-                  "tiff",
-                  "util-linux",
-                  "xz",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

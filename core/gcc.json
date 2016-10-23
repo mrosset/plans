@@ -14,12 +14,6 @@
                    "libgcc",
                    "libstdc++"
     ],
-    "Depends" : [
-              "glibc",
-              "gmp",
-              "mpc",
-              "mpfr"
-    ],
     "AutoDepends" : [
                   "glibc",
                   "gmp",
@@ -27,7 +21,6 @@
                   "mpfr"
     ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-bootstrap",

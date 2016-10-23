@@ -11,18 +11,12 @@
     "Date"         : "2016-03-30T21:21:37.254123898-07:00",
     "Size"         : 53067443,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "bzip2",
                    "libgcrypt",
                    "sqlite"
     ],
-    "AutoDepends" : [
-                  "bzip2",
-                  "libgcrypt",
-                  "sqlite"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-store-dir=$PREFIX/gnu",

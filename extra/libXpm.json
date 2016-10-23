@@ -11,20 +11,13 @@
     "Date"         : "2016-10-20T23:07:21.817446894-07:00",
     "Size"         : 130547,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libX11",
                    "libxau",
                    "libxcb"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libX11",
-                  "libxau",
-                  "libxcb"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

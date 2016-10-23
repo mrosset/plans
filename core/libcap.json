@@ -11,19 +11,12 @@
     "Date"         : "2016-10-20T22:26:24.869436691-07:00",
     "Size"         : 283094,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "attr",
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "attr",
-                  "glibc"
-    ],
     "ManualDepends" : [
                     "pam"
-    ],
-    "ManDepends" : [
-                 "pam"
     ],
     "BuildDepends" : null,
     "Flags"        : null,

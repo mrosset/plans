@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T21:15:01.552959755-07:00",
     "Size"         : 250399,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "at-spi2-core",
                    "atk",
                    "dbus",
@@ -26,23 +26,7 @@
                    "pcre",
                    "util-linux"
     ],
-    "AutoDepends" : [
-                  "at-spi2-core",
-                  "atk",
-                  "dbus",
-                  "glib",
-                  "glibc",
-                  "libICE",
-                  "libSM",
-                  "libX11",
-                  "libffi",
-                  "libxau",
-                  "libxcb",
-                  "pcre",
-                  "util-linux"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

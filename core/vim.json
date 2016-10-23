@@ -11,16 +11,11 @@
     "Date"         : "2016-03-10T09:05:32.181775284-08:00",
     "Size"         : 23065582,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "ncurses"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "ncurses"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-gui",

@@ -11,14 +11,10 @@
     "Date"         : "2016-10-20T21:17:29.916159387-07:00",
     "Size"         : 1201372,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "glibc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-jpeg8"

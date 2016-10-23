@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T23:49:55.526975705-07:00",
     "Size"         : 122236,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "bzip2",
                    "expat",
                    "fontconfig",
@@ -27,24 +27,7 @@
                    "pcre",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "bzip2",
-                  "expat",
-                  "fontconfig",
-                  "freetype",
-                  "glib",
-                  "glibc",
-                  "harfbuzz",
-                  "libX11",
-                  "libXrender",
-                  "libpng",
-                  "libxau",
-                  "libxcb",
-                  "pcre",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

@@ -11,10 +11,8 @@
     "Date"          : "2016-03-12T08:35:52.369973-08:00",
     "Size"          : 37839851,
     "SubPackages"   : null,
-    "Depends"       : [],
     "AutoDepends"   : [],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--build=x86_64-unknown-linux-gnu",

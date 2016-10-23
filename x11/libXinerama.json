@@ -11,25 +11,15 @@
     "Date"         : "2016-10-20T21:22:54.926010813-07:00",
     "Size"         : 19268,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libX11",
                    "libXext",
                    "libxau",
                    "libxcb"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libX11",
-                  "libXext",
-                  "libxau",
-                  "libxcb"
-    ],
     "ManualDepends" : [
                     "xineramaproto"
-    ],
-    "ManDepends" : [
-                 "xineramaproto"
     ],
     "BuildDepends" : null,
     "Flags"        : null,

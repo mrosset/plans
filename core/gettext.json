@@ -11,7 +11,7 @@
     "Date"         : "2016-10-21T03:35:46.855947784-07:00",
     "Size"         : 5083564,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "acl",
                    "attr",
                    "glib",
@@ -24,21 +24,7 @@
                    "xz",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "acl",
-                  "attr",
-                  "glib",
-                  "glibc",
-                  "libgcc",
-                  "libstdc++",
-                  "libxml2",
-                  "ncurses",
-                  "pcre",
-                  "xz",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

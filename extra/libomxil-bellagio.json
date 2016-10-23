@@ -11,14 +11,10 @@
     "Date"         : "2016-03-09T08:27:00.239552773-08:00",
     "Size"         : 586924,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "glibc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-egl-platforms=drm,x11"

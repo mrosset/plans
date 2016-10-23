@@ -11,18 +11,12 @@
     "Date"         : "2016-10-21T03:43:51.456515128-07:00",
     "Size"         : 408967,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libgcc",
                    "libstdc++"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libgcc",
-                  "libstdc++"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--enable-unicode-propertie",

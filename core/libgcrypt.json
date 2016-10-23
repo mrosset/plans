@@ -11,16 +11,11 @@
     "Date"         : "2016-10-20T22:25:11.205160855-07:00",
     "Size"         : 1117724,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libgpg-error"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libgpg-error"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

@@ -11,14 +11,10 @@
     "Date"         : "2016-03-30T19:55:19.202109226-07:00",
     "Size"         : 728995,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "libatomic_ops"
     ],
-    "AutoDepends" : [
-                  "libatomic_ops"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

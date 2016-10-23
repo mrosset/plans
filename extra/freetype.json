@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T21:21:30.612441778-07:00",
     "Size"         : 1880071,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "bzip2",
                    "glib",
                    "glibc",
@@ -20,17 +20,7 @@
                    "pcre",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "bzip2",
-                  "glib",
-                  "glibc",
-                  "harfbuzz",
-                  "libpng",
-                  "pcre",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

@@ -11,22 +11,14 @@
     "Date"         : "2016-10-21T04:04:09.474238219-07:00",
     "Size"         : 14878420,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "elfutils",
                    "glibc",
                    "libffi",
                    "util-linux",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "elfutils",
-                  "glibc",
-                  "libffi",
-                  "util-linux",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-pcre=internal"

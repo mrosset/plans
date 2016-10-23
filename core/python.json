@@ -11,7 +11,7 @@
     "Date"         : "2016-10-12T01:38:50.408876012-07:00",
     "Size"         : 63831876,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "bzip2",
                    "db",
                    "gdbm",
@@ -22,19 +22,7 @@
                    "readline",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "bzip2",
-                  "db",
-                  "gdbm",
-                  "glibc",
-                  "libffi",
-                  "ncurses",
-                  "openssl",
-                  "readline",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-openssl=$PREFIX",

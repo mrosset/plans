@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T22:29:32.133663717-07:00",
     "Size"         : 34543017,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "acl",
                    "attr",
                    "curl",
@@ -23,23 +23,8 @@
                    "libidn",
                    "util-linux"
     ],
-    "AutoDepends" : [
-                  "acl",
-                  "attr",
-                  "curl",
-                  "elfutils",
-                  "glibc",
-                  "libcap",
-                  "libgcrypt",
-                  "libgpg-error",
-                  "libidn",
-                  "util-linux"
-    ],
     "ManualDepends" : [
                     "pam"
-    ],
-    "ManDepends" : [
-                 "pam"
     ],
     "BuildDepends" : null,
     "Flags"        : [

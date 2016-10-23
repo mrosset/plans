@@ -11,7 +11,7 @@
     "Date"         : "2016-10-21T02:04:27.358464997-07:00",
     "Size"         : 101707660,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "acl",
                    "cairo",
                    "gdk-pixbuf",
@@ -30,46 +30,16 @@
                    "tiff",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "acl",
-                  "cairo",
-                  "gdk-pixbuf",
-                  "glib",
-                  "glibc",
-                  "gtk3",
-                  "libICE",
-                  "libSM",
-                  "libX11",
-                  "libXfixes",
-                  "libXpm",
-                  "libjpeg-turbo",
-                  "libpng",
-                  "libxcb",
-                  "ncurses",
-                  "tiff",
-                  "zlib"
-    ],
     "ManualDepends" : [
-                    "renderproto",
+                    "damageproto",
+                    "fixesproto",
+                    "inputproto",
                     "kbproto",
+                    "randrproto",
+                    "renderproto",
                     "xextproto",
                     "xineramaproto",
-                    "inputproto",
-                    "fixesproto",
-                    "randrproto",
-                    "xproto",
-                    "damageproto"
-    ],
-    "ManDepends" : [
-                 "renderproto",
-                 "kbproto",
-                 "xextproto",
-                 "xineramaproto",
-                 "inputproto",
-                 "fixesproto",
-                 "randrproto",
-                 "xproto",
-                 "damageproto"
+                    "xproto"
     ],
     "BuildDepends" : null,
     "Flags"        : [

@@ -11,22 +11,14 @@
     "Date"         : "2016-10-19T23:45:11.878339619-07:00",
     "Size"         : 3241359,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "bzip2",
                    "glibc",
                    "libstdc++",
                    "xz",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "bzip2",
-                  "glibc",
-                  "libstdc++",
-                  "xz",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--program-prefix=eu-"

@@ -11,7 +11,7 @@
     "Date"         : "2016-10-21T01:47:16.716091998-07:00",
     "Size"         : 521025,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "bzip2",
                    "expat",
                    "freetype",
@@ -20,17 +20,7 @@
                    "libpng",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "bzip2",
-                  "expat",
-                  "freetype",
-                  "glibc",
-                  "harfbuzz",
-                  "libpng",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig"

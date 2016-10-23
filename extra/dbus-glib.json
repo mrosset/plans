@@ -11,20 +11,13 @@
     "Date"         : "2016-10-21T03:05:14.1550816-07:00",
     "Size"         : 408874,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "dbus",
                    "expat",
                    "glib",
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "dbus",
-                  "expat",
-                  "glib",
-                  "glibc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

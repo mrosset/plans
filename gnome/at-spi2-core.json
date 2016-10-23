@@ -11,7 +11,7 @@
     "Date"         : "2016-10-20T21:14:57.126045623-07:00",
     "Size"         : 541716,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "dbus",
                    "glib",
                    "glibc",
@@ -28,28 +28,8 @@
                    "util-linux",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "dbus",
-                  "glib",
-                  "glibc",
-                  "libICE",
-                  "libSM",
-                  "libX11",
-                  "libXext",
-                  "libXi",
-                  "libXtst",
-                  "libffi",
-                  "libxau",
-                  "libxcb",
-                  "pcre",
-                  "util-linux",
-                  "zlib"
-    ],
     "ManualDepends" : [
                     "intltool"
-    ],
-    "ManDepends" : [
-                 "intltool"
     ],
     "BuildDepends" : null,
     "Flags"        : null,

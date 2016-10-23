@@ -11,21 +11,13 @@
     "Date"         : "2016-10-20T20:52:49.862657336-07:00",
     "Size"         : 149197,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "glibc"
-    ],
     "ManualDepends" : [
-                    "xtrans",
+                    "pkg-config",
                     "xproto",
-                    "pkg-config"
-    ],
-    "ManDepends" : [
-                 "xtrans",
-                 "xproto",
-                 "pkg-config"
+                    "xtrans"
     ],
     "BuildDepends" : null,
     "Flags"        : null,

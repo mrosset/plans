@@ -11,7 +11,7 @@
     "Date"         : "2016-10-21T23:31:15.192077334-07:00",
     "Size"         : 6604158,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "atk",
                    "dconf",
                    "gconf",
@@ -23,27 +23,10 @@
                    "util-linux",
                    "vte3"
     ],
-    "AutoDepends" : [
-                  "atk",
-                  "dconf",
-                  "gconf",
-                  "glib",
-                  "glibc",
-                  "gtk3",
-                  "libX11",
-                  "pango",
-                  "util-linux",
-                  "vte3"
-    ],
     "ManualDepends" : [
+                    "gsettings-desktop-schemas",
                     "itstool",
-                    "vala",
-                    "gsettings-desktop-schemas"
-    ],
-    "ManDepends" : [
-                 "itstool",
-                 "vala",
-                 "gsettings-desktop-schemas"
+                    "vala"
     ],
     "BuildDepends" : null,
     "Flags"        : [

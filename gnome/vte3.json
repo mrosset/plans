@@ -11,7 +11,7 @@
     "Date"         : "2016-10-21T04:07:57.7256545-07:00",
     "Size"         : 669592,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "atk",
                    "bzip2",
                    "cairo",
@@ -36,33 +36,7 @@
                    "util-linux",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "atk",
-                  "bzip2",
-                  "cairo",
-                  "expat",
-                  "fontconfig",
-                  "freetype",
-                  "gdk-pixbuf",
-                  "glib",
-                  "glibc",
-                  "gtk3",
-                  "harfbuzz",
-                  "libX11",
-                  "libXext",
-                  "libXrender",
-                  "libffi",
-                  "libpng",
-                  "libxau",
-                  "libxcb",
-                  "pango",
-                  "pcre",
-                  "pixman",
-                  "util-linux",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-introspection",

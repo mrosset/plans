@@ -11,21 +11,13 @@
     "Date"         : "2016-10-20T21:29:41.778158666-07:00",
     "Size"         : 786722,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libpciaccess"
-    ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libpciaccess"
     ],
     "ManualDepends" : [
                     "libpciaccess",
                     "libpthread-stubs"
-    ],
-    "ManDepends" : [
-                 "libpciaccess",
-                 "libpthread-stubs"
     ],
     "BuildDepends" : null,
     "Flags"        : null,

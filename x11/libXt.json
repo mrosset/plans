@@ -11,7 +11,7 @@
     "Date"         : "2016-10-21T01:34:08.587689499-07:00",
     "Size"         : 735747,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libICE",
                    "libSM",
@@ -20,17 +20,7 @@
                    "libxcb",
                    "util-linux"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libICE",
-                  "libSM",
-                  "libX11",
-                  "libxau",
-                  "libxcb",
-                  "util-linux"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

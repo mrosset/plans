@@ -11,14 +11,10 @@
     "Date"         : "2012-08-12T11:28:42.518916Z",
     "Size"         : 3439695,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "gmp"
     ],
-    "AutoDepends" : [
-                  "gmp"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

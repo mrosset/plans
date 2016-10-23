@@ -11,10 +11,8 @@
     "Date"          : "2016-03-12T09:21:47.502460418-08:00",
     "Size"          : 0,
     "SubPackages"   : null,
-    "Depends"       : [],
     "AutoDepends"   : [],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-lib-path=$PREFIX/lib",

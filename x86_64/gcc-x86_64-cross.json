@@ -13,14 +13,10 @@
     "SubPackages"  : [
                    "libgcc"
     ],
-    "Depends" : [
-              "libgcc"
-    ],
     "AutoDepends" : [
                   "libgcc"
     ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-bootstrap",

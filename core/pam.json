@@ -11,14 +11,10 @@
     "Date"         : "2016-10-12T20:04:05.194988504-07:00",
     "Size"         : 975225,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc"
     ],
-    "AutoDepends" : [
-                  "glibc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-db",

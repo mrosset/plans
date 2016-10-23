@@ -11,16 +11,11 @@
     "Date"         : "2012-08-12T11:23:04.209381Z",
     "Size"         : 0,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "gcc",
                    "gmp"
     ],
-    "AutoDepends" : [
-                  "gcc",
-                  "gmp"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,

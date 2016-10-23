@@ -11,22 +11,14 @@
     "Date"         : "2016-10-21T00:23:16.507547199-07:00",
     "Size"         : 101033258,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "acl",
                    "dbus",
                    "glibc",
                    "ncurses",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "acl",
-                  "dbus",
-                  "glibc",
-                  "ncurses",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-sound=no",

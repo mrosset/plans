@@ -11,20 +11,13 @@
     "Date"         : "2016-10-17T15:39:35.209652087-07:00",
     "Size"         : 4790924,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "python",
                    "readline",
                    "zlib"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "python",
-                  "readline",
-                  "zlib"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : [
                     "--disable-kill",

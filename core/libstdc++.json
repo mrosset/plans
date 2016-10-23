@@ -11,16 +11,11 @@
     "Date"         : "2016-10-16T04:22:26.456215413-07:00",
     "Size"         : 11453509,
     "SubPackages"  : null,
-    "Depends"      : [
+    "AutoDepends"  : [
                    "glibc",
                    "libgcc"
     ],
-    "AutoDepends" : [
-                  "glibc",
-                  "libgcc"
-    ],
     "ManualDepends" : null,
-    "ManDepends"    : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,
