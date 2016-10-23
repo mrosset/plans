@@ -67,7 +67,7 @@
                     "home/mrosset/.local/include/freetype2/freetype/ftttdrv.h",
                     "home/mrosset/.local/include/freetype2/freetype/fttypes.h",
                     "home/mrosset/.local/include/freetype2/freetype/ftwinfnt.h",
- 
+                    "home/mrosset/.local/include/freetype2/freetype/t1tables.h",
                     "home/mrosset/.local/include/freetype2/freetype/ttnameid.h",
                     "home/mrosset/.local/include/freetype2/freetype/tttables.h",
                     "home/mrosset/.local/include/freetype2/freetype/tttags.h",
