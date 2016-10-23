@@ -14,12 +14,17 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-db",
-                 "--disable-nis",
-                 "--enable-read-both-confs",
-                 "--includedir=$PREFIX/include/security"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-db",
+                    "--disable-nis",
+                    "--enable-read-both-confs",
+                    "--includedir=$PREFIX/include/security"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -23,11 +23,27 @@
                    "xz",
                    "zlib"
     ],
+    "AutoDepends" : [
+                  "dbus",
+                  "dbus-glib",
+                  "glib",
+                  "glibc",
+                  "libffi",
+                  "libxml2",
+                  "pcre",
+                  "util-linux",
+                  "xz",
+                  "zlib"
+    ],
+    "ManualDepends" : [
+                    "intltool"
+    ],
     "ManDepends" : [
                  "intltool"
     ],
-    "Flags" : [
-            "--disable-orbit"
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--disable-orbit"
     ],
     "Patch"       : null,
     "Build"       : null,

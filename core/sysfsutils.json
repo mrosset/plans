@@ -14,25 +14,30 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/dlist_test",
-                  "usr/local/via/bin/get_device",
-                  "usr/local/via/bin/get_driver",
-                  "usr/local/via/bin/get_module",
-                  "usr/local/via/bin/systool",
-                  "usr/local/via/include/sysfs/dlist.h",
-                  "usr/local/via/include/sysfs/libsysfs.h",
-                  "usr/local/via/lib/libsysfs.la",
-                  "usr/local/via/lib/libsysfs.so",
-                  "usr/local/via/lib/libsysfs.so.2",
-                  "usr/local/via/lib/libsysfs.so.2.0.1",
-                  "usr/local/via/man/man1/systool.1"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/dlist_test",
+                    "usr/local/via/bin/get_device",
+                    "usr/local/via/bin/get_driver",
+                    "usr/local/via/bin/get_module",
+                    "usr/local/via/bin/systool",
+                    "usr/local/via/include/sysfs/dlist.h",
+                    "usr/local/via/include/sysfs/libsysfs.h",
+                    "usr/local/via/lib/libsysfs.la",
+                    "usr/local/via/lib/libsysfs.so",
+                    "usr/local/via/lib/libsysfs.so.2",
+                    "usr/local/via/lib/libsysfs.so.2.0.1",
+                    "usr/local/via/man/man1/systool.1"
     ]
 }

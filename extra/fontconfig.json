@@ -20,9 +20,20 @@
                    "libpng",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig"
+    "AutoDepends" : [
+                  "bzip2",
+                  "expat",
+                  "freetype",
+                  "glibc",
+                  "harfbuzz",
+                  "libpng",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -14,17 +14,22 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/cmp",
-                  "usr/local/via/bin/diff",
-                  "usr/local/via/bin/diff3",
-                  "usr/local/via/bin/sdiff"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/cmp",
+                    "usr/local/via/bin/diff",
+                    "usr/local/via/bin/diff3",
+                    "usr/local/via/bin/sdiff"
     ]
 }

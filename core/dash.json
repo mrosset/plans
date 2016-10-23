@@ -14,12 +14,17 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : null
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : null
 }

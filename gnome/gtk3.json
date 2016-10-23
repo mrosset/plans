@@ -46,14 +46,53 @@
                    "util-linux",
                    "zlib"
     ],
+    "AutoDepends" : [
+                  "at-spi2-atk",
+                  "at-spi2-core",
+                  "atk",
+                  "bzip2",
+                  "cairo",
+                  "dbus",
+                  "expat",
+                  "fontconfig",
+                  "freetype",
+                  "gdk-pixbuf",
+                  "glib",
+                  "glibc",
+                  "harfbuzz",
+                  "libICE",
+                  "libSM",
+                  "libX11",
+                  "libXdamage",
+                  "libXext",
+                  "libXfixes",
+                  "libXi",
+                  "libXinerama",
+                  "libXrandr",
+                  "libXrender",
+                  "libepoxy",
+                  "libffi",
+                  "libpng",
+                  "libxau",
+                  "libxcb",
+                  "pango",
+                  "pcre",
+                  "pixman",
+                  "util-linux",
+                  "zlib"
+    ],
+    "ManualDepends" : [
+                    "pango"
+    ],
     "ManDepends" : [
                  "pango"
     ],
-    "Flags" : [
-            "--disable-cups",
-            "--disable-wayland-backend",
-            "--enable-broadway-backend",
-            "--enable-x11-backend"
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--disable-cups",
+                   "--disable-wayland-backend",
+                   "--enable-broadway-backend",
+                   "--enable-x11-backend"
     ],
     "Patch"       : null,
     "Build"       : null,

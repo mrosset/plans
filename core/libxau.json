@@ -14,19 +14,24 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/Xauth.h",
-                  "usr/local/via/lib/libXau.la",
-                  "usr/local/via/lib/libXau.so",
-                  "usr/local/via/lib/libXau.so.6",
-                  "usr/local/via/lib/libXau.so.6.0.0",
-                  "usr/local/via/lib/pkgconfig/xau.pc"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/Xauth.h",
+                    "usr/local/via/lib/libXau.la",
+                    "usr/local/via/lib/libXau.so",
+                    "usr/local/via/lib/libXau.so.6",
+                    "usr/local/via/lib/libXau.so.6.0.0",
+                    "usr/local/via/lib/pkgconfig/xau.pc"
     ]
 }

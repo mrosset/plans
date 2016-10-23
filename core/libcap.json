@@ -15,13 +15,21 @@
                    "attr",
                    "glibc"
     ],
+    "AutoDepends" : [
+                  "attr",
+                  "glibc"
+    ],
+    "ManualDepends" : [
+                    "pam"
+    ],
     "ManDepends" : [
                  "pam"
     ],
-    "Flags" : null,
-    "Patch" : null,
-    "Build" : [
-            "make KERNEL_HEADERS=$PREFIX/include"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : [
+                   "make KERNEL_HEADERS=$PREFIX/include"
     ],
     "Package" : [
               "make prefix=$PREFIX lib=/lib DESTDIR=$PKGDIR RAISE_SETFCAP=no install"

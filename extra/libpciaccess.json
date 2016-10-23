@@ -14,19 +14,24 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/pciaccess.h",
-                  "usr/local/via/lib/libpciaccess.la",
-                  "usr/local/via/lib/libpciaccess.so",
-                  "usr/local/via/lib/libpciaccess.so.0",
-                  "usr/local/via/lib/libpciaccess.so.0.11.1",
-                  "usr/local/via/lib/pkgconfig/pciaccess.pc"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/pciaccess.h",
+                    "usr/local/via/lib/libpciaccess.la",
+                    "usr/local/via/lib/libpciaccess.so",
+                    "usr/local/via/lib/libpciaccess.so.0",
+                    "usr/local/via/lib/libpciaccess.so.0.11.1",
+                    "usr/local/via/lib/pkgconfig/pciaccess.pc"
     ]
 }

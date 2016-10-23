@@ -14,12 +14,17 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--enable-gold=default",
-                 "--enable-plugins",
-                 "--with-lib-path=$PREFIX/lib",
-                 "--with-sysroot"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--enable-gold=default",
+                    "--enable-plugins",
+                    "--with-lib-path=$PREFIX/lib",
+                    "--with-sysroot"
     ],
     "Patch"       : null,
     "Build"       : null,

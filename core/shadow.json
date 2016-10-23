@@ -14,13 +14,18 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : null,
-    "Package"    : [
-                 "mv $PKGDIR/$PREFIX/sbin/* $PKGDIR/$PREFIX/bin/",
-                 "rmdir $PKGDIR/$PREFIX/sbin"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "mv $PKGDIR/$PREFIX/sbin/* $PKGDIR/$PREFIX/bin/",
+                    "rmdir $PKGDIR/$PREFIX/sbin"
     ],
     "PostInstall" : null,
     "Remove"      : null,

@@ -17,19 +17,27 @@
                    "mpc",
                    "mpfr"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-bootstrap",
-                 "--disable-libgomp",
-                 "--disable-libmudflap",
-                 "--disable-libquadmath",
-                 "--disable-libssp",
-                 "--disable-plugin",
-                 "--disable-shared",
-                 "--enable-languages=c",
-                 "--enable-linker-build-id",
-                 "--with-newlib",
-                 "--without-headers"
+    "AutoDepends" : [
+                  "glibc",
+                  "gmp",
+                  "mpc",
+                  "mpfr"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-bootstrap",
+                    "--disable-libgomp",
+                    "--disable-libmudflap",
+                    "--disable-libquadmath",
+                    "--disable-libssp",
+                    "--disable-plugin",
+                    "--disable-shared",
+                    "--enable-languages=c",
+                    "--enable-linker-build-id",
+                    "--with-newlib",
+                    "--without-headers"
     ],
     "Patch" : null,
     "Build" : [

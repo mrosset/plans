@@ -14,12 +14,17 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--enable-widec",
-                 "--with-shared",
-                 "--without-cxx-binding",
-                 "--without-gpm"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--enable-widec",
+                    "--with-shared",
+                    "--without-cxx-binding",
+                    "--without-gpm"
     ],
     "Patch"   : null,
     "Build"   : null,

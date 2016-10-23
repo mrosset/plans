@@ -17,20 +17,28 @@
                    "libxau",
                    "libxcb"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/cxpm",
-                  "usr/local/via/include/X11/xpm.h",
-                  "usr/local/via/lib/libXpm.la",
-                  "usr/local/via/lib/libXpm.so",
-                  "usr/local/via/lib/libXpm.so.4",
-                  "usr/local/via/lib/libXpm.so.4.11.0",
-                  "usr/local/via/lib/pkgconfig/xpm.pc"
+    "AutoDepends" : [
+                  "glibc",
+                  "libX11",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/cxpm",
+                    "usr/local/via/include/X11/xpm.h",
+                    "usr/local/via/lib/libXpm.la",
+                    "usr/local/via/lib/libXpm.so",
+                    "usr/local/via/lib/libXpm.so.4",
+                    "usr/local/via/lib/libXpm.so.4.11.0",
+                    "usr/local/via/lib/pkgconfig/xpm.pc"
     ]
 }

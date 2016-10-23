@@ -22,10 +22,23 @@
                    "readline",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-openssl=$PREFIX",
-                 "--with-system-ffi"
+    "AutoDepends" : [
+                  "bzip2",
+                  "db",
+                  "gdbm",
+                  "glibc",
+                  "libffi",
+                  "ncurses",
+                  "openssl",
+                  "readline",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-openssl=$PREFIX",
+                    "--with-system-ffi"
     ],
     "Patch"       : null,
     "Build"       : null,

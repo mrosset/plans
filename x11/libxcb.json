@@ -15,12 +15,20 @@
                    "glibc",
                    "libxau"
     ],
+    "AutoDepends" : [
+                  "glibc",
+                  "libxau"
+    ],
+    "ManualDepends" : [
+                    "xcb-proto"
+    ],
     "ManDepends" : [
                  "xcb-proto"
     ],
-    "Flags" : null,
-    "Patch" : [
-            "sed -i 's%pthread-stubs%%' configure"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : [
+                   "sed -i 's%pthread-stubs%%' configure"
     ],
     "Build"       : null,
     "Package"     : null,

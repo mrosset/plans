@@ -14,27 +14,32 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/gunzip",
-                  "usr/local/via/bin/gzexe",
-                  "usr/local/via/bin/gzip",
-                  "usr/local/via/bin/uncompress",
-                  "usr/local/via/bin/zcat",
-                  "usr/local/via/bin/zcmp",
-                  "usr/local/via/bin/zdiff",
-                  "usr/local/via/bin/zegrep",
-                  "usr/local/via/bin/zfgrep",
-                  "usr/local/via/bin/zforce",
-                  "usr/local/via/bin/zgrep",
-                  "usr/local/via/bin/zless",
-                  "usr/local/via/bin/zmore",
-                  "usr/local/via/bin/znew"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/gunzip",
+                    "usr/local/via/bin/gzexe",
+                    "usr/local/via/bin/gzip",
+                    "usr/local/via/bin/uncompress",
+                    "usr/local/via/bin/zcat",
+                    "usr/local/via/bin/zcmp",
+                    "usr/local/via/bin/zdiff",
+                    "usr/local/via/bin/zegrep",
+                    "usr/local/via/bin/zfgrep",
+                    "usr/local/via/bin/zforce",
+                    "usr/local/via/bin/zgrep",
+                    "usr/local/via/bin/zless",
+                    "usr/local/via/bin/zmore",
+                    "usr/local/via/bin/znew"
     ]
 }

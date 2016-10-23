@@ -14,11 +14,16 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-static",
-                 "--libdir=$PREFIX/lib/libfakeroot",
-                 "--with-ipc=sysv"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-static",
+                    "--libdir=$PREFIX/lib/libfakeroot",
+                    "--with-ipc=sysv"
     ],
     "Patch"       : null,
     "Build"       : null,

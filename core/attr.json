@@ -14,11 +14,16 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/configure $Flags"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/configure $Flags"
     ],
     "Package" : [
               "make -j1 install install-dev install-lib DIST_ROOT=$PKGDIR"

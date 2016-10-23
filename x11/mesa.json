@@ -27,9 +27,27 @@
                    "libxshmfence",
                    "nettle"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-gallium-drivers=nouveau,svga,swrast"
+    "AutoDepends" : [
+                  "expat",
+                  "glibc",
+                  "libX11",
+                  "libXdamage",
+                  "libXext",
+                  "libXfixes",
+                  "libdrm",
+                  "libgcc",
+                  "libpciaccess",
+                  "libstdc++",
+                  "libxau",
+                  "libxcb",
+                  "libxshmfence",
+                  "nettle"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-gallium-drivers=nouveau,svga,swrast"
     ],
     "Patch"       : null,
     "Build"       : null,

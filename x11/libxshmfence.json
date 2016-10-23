@@ -14,19 +14,24 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/xshmfence.h",
-                  "usr/local/via/lib/libxshmfence.la",
-                  "usr/local/via/lib/libxshmfence.so",
-                  "usr/local/via/lib/libxshmfence.so.1",
-                  "usr/local/via/lib/libxshmfence.so.1.0.0",
-                  "usr/local/via/lib/pkgconfig/xshmfence.pc"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/xshmfence.h",
+                    "usr/local/via/lib/libxshmfence.la",
+                    "usr/local/via/lib/libxshmfence.so",
+                    "usr/local/via/lib/libxshmfence.so.1",
+                    "usr/local/via/lib/libxshmfence.so.1.0.0",
+                    "usr/local/via/lib/pkgconfig/xshmfence.pc"
     ]
 }

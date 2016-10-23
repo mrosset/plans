@@ -16,13 +16,20 @@
                    "glibc",
                    "libX11"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-doxygen-docs",
-                 "--disable-static",
-                 "--disable-systemd",
-                 "--disable-xml-docs",
-                 "--without-systemdsystemunitdir"
+    "AutoDepends" : [
+                  "expat",
+                  "glibc",
+                  "libX11"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-doxygen-docs",
+                    "--disable-static",
+                    "--disable-systemd",
+                    "--disable-xml-docs",
+                    "--without-systemdsystemunitdir"
     ],
     "Patch"       : null,
     "Build"       : null,

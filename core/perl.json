@@ -15,12 +15,18 @@
                    "gdbm",
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
-                 "make"
+    "AutoDepends" : [
+                  "gdbm",
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "./Configure -es -Dprefix=$PREFIX  -Dnoextensions=GDBM_File",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

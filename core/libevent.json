@@ -15,10 +15,16 @@
                    "glibc",
                    "openssl"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : [
-                 "./autogen.sh"
+    "AutoDepends" : [
+                  "glibc",
+                  "openssl"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "./autogen.sh"
     ],
     "Build"       : null,
     "Package"     : null,

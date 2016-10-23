@@ -23,23 +23,39 @@
                    "libidn",
                    "util-linux"
     ],
+    "AutoDepends" : [
+                  "acl",
+                  "attr",
+                  "curl",
+                  "elfutils",
+                  "glibc",
+                  "libcap",
+                  "libgcrypt",
+                  "libgpg-error",
+                  "libidn",
+                  "util-linux"
+    ],
+    "ManualDepends" : [
+                    "pam"
+    ],
     "ManDepends" : [
                  "pam"
     ],
-    "Flags" : [
-            "--disable-doc",
-            "--disable-gtk-doc",
-            "--disable-gudev",
-            "--disable-ima",
-            "--disable-kmod",
-            "--disable-libcryptsetup",
-            "--disable-pam",
-            "--disable-xz",
-            "--with-rootlibdir=$PREFIX/lib",
-            "--with-rootprefix=$PREFIX",
-            "MOUNT_CFLAGS=-I$PREFIX/include/libmount",
-            "MOUNT_LIBS=-lmount",
-            "cc_cv_CFLAGS__flto=no"
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--disable-doc",
+                   "--disable-gtk-doc",
+                   "--disable-gudev",
+                   "--disable-ima",
+                   "--disable-kmod",
+                   "--disable-libcryptsetup",
+                   "--disable-pam",
+                   "--disable-xz",
+                   "--with-rootlibdir=$PREFIX/lib",
+                   "--with-rootprefix=$PREFIX",
+                   "MOUNT_CFLAGS=-I$PREFIX/include/libmount",
+                   "MOUNT_LIBS=-lmount",
+                   "cc_cv_CFLAGS__flto=no"
     ],
     "Patch" : null,
     "Build" : [

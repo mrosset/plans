@@ -19,21 +19,33 @@
                    "libxau",
                    "libxcb"
     ],
+    "AutoDepends" : [
+                  "glibc",
+                  "libX11",
+                  "libXext",
+                  "libXrender",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : [
+                    "randrproto"
+    ],
     "ManDepends" : [
                  "randrproto"
     ],
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/extensions/Xrandr.h",
-                  "usr/local/via/lib/libXrandr.la",
-                  "usr/local/via/lib/libXrandr.so",
-                  "usr/local/via/lib/libXrandr.so.2",
-                  "usr/local/via/lib/libXrandr.so.2.2.0",
-                  "usr/local/via/lib/pkgconfig/xrandr.pc"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/include/X11/extensions/Xrandr.h",
+                   "usr/local/via/lib/libXrandr.la",
+                   "usr/local/via/lib/libXrandr.so",
+                   "usr/local/via/lib/libXrandr.so.2",
+                   "usr/local/via/lib/libXrandr.so.2.2.0",
+                   "usr/local/via/lib/pkgconfig/xrandr.pc"
     ]
 }

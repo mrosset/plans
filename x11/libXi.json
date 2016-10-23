@@ -17,20 +17,28 @@
                    "libxau",
                    "libxcb"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/extensions/XInput.h",
-                  "usr/local/via/include/X11/extensions/XInput2.h",
-                  "usr/local/via/lib/libXi.la",
-                  "usr/local/via/lib/libXi.so",
-                  "usr/local/via/lib/libXi.so.6",
-                  "usr/local/via/lib/libXi.so.6.1.0",
-                  "usr/local/via/lib/pkgconfig/xi.pc"
+    "AutoDepends" : [
+                  "glibc",
+                  "libXext",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/extensions/XInput.h",
+                    "usr/local/via/include/X11/extensions/XInput2.h",
+                    "usr/local/via/lib/libXi.la",
+                    "usr/local/via/lib/libXi.so",
+                    "usr/local/via/lib/libXi.so.6",
+                    "usr/local/via/lib/libXi.so.6.1.0",
+                    "usr/local/via/lib/pkgconfig/xi.pc"
     ]
 }

@@ -14,20 +14,25 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/pixman-1/pixman-version.h",
-                  "usr/local/via/include/pixman-1/pixman.h",
-                  "usr/local/via/lib/libpixman-1.la",
-                  "usr/local/via/lib/libpixman-1.so",
-                  "usr/local/via/lib/libpixman-1.so.0",
-                  "usr/local/via/lib/libpixman-1.so.0.34.0",
-                  "usr/local/via/lib/pkgconfig/pixman-1.pc"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/pixman-1/pixman-version.h",
+                    "usr/local/via/include/pixman-1/pixman.h",
+                    "usr/local/via/lib/libpixman-1.la",
+                    "usr/local/via/lib/libpixman-1.so",
+                    "usr/local/via/lib/libpixman-1.so.0",
+                    "usr/local/via/lib/libpixman-1.so.0.34.0",
+                    "usr/local/via/lib/pkgconfig/pixman-1.pc"
     ]
 }

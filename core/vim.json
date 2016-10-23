@@ -15,18 +15,24 @@
                    "glibc",
                    "ncurses"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-gui",
-                 "--disable-luainterp",
-                 "--disable-multibyte",
-                 "--disable-python3interp",
-                 "--disable-rubyinterp",
-                 "--enable-cscope",
-                 "--enable-pythoninterp",
-                 "--with-features",
-                 "--with-features=huge",
-                 "--with-x=yes"
+    "AutoDepends" : [
+                  "glibc",
+                  "ncurses"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-gui",
+                    "--disable-luainterp",
+                    "--disable-multibyte",
+                    "--disable-python3interp",
+                    "--disable-rubyinterp",
+                    "--enable-cscope",
+                    "--enable-pythoninterp",
+                    "--with-features",
+                    "--with-features=huge",
+                    "--with-x=yes"
     ],
     "Patch"   : null,
     "Build"   : null,

@@ -14,12 +14,17 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags",
-                 "make"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags",
+                    "make"
     ],
     "Package" : [
               "make install-strip DESTDIR=$PKGDIR"

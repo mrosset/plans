@@ -14,14 +14,19 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : null,
-    "Package"    : [
-                 "make install-strip-target-libgcc DESTDIR=$PKGDIR",
-                 "mv $PKGDIR/$PREFIX/lib64/* $PKGDIR/$PREFIX/lib",
-                 "rmdir $PKGDIR/$PREFIX/lib64"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "make install-strip-target-libgcc DESTDIR=$PKGDIR",
+                    "mv $PKGDIR/$PREFIX/lib64/* $PKGDIR/$PREFIX/lib",
+                    "rmdir $PKGDIR/$PREFIX/lib64"
     ],
     "PostInstall" : null,
     "Remove"      : [

@@ -14,9 +14,14 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--enable-libgdbm-compat"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--enable-libgdbm-compat"
     ],
     "Patch"   : null,
     "Build"   : null,

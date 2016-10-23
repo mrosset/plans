@@ -19,19 +19,29 @@
                    "libxau",
                    "libxcb"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/Xcursor/Xcursor.h",
-                  "usr/local/via/lib/libXcursor.la",
-                  "usr/local/via/lib/libXcursor.so",
-                  "usr/local/via/lib/libXcursor.so.1",
-                  "usr/local/via/lib/libXcursor.so.1.0.2",
-                  "usr/local/via/lib/pkgconfig/xcursor.pc"
+    "AutoDepends" : [
+                  "glibc",
+                  "libX11",
+                  "libXfixes",
+                  "libXrender",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/Xcursor/Xcursor.h",
+                    "usr/local/via/lib/libXcursor.la",
+                    "usr/local/via/lib/libXcursor.so",
+                    "usr/local/via/lib/libXcursor.so.1",
+                    "usr/local/via/lib/libXcursor.so.1.0.2",
+                    "usr/local/via/lib/pkgconfig/xcursor.pc"
     ]
 }

@@ -27,20 +27,38 @@
                    "pcre",
                    "zlib"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/Xft/Xft.h",
-                  "usr/local/via/include/X11/Xft/XftCompat.h",
-                  "usr/local/via/lib/libXft.la",
-                  "usr/local/via/lib/libXft.so",
-                  "usr/local/via/lib/libXft.so.2",
-                  "usr/local/via/lib/libXft.so.2.3.2",
-                  "usr/local/via/lib/pkgconfig/xft.pc"
+    "AutoDepends" : [
+                  "bzip2",
+                  "expat",
+                  "fontconfig",
+                  "freetype",
+                  "glib",
+                  "glibc",
+                  "harfbuzz",
+                  "libX11",
+                  "libXrender",
+                  "libpng",
+                  "libxau",
+                  "libxcb",
+                  "pcre",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/Xft/Xft.h",
+                    "usr/local/via/include/X11/Xft/XftCompat.h",
+                    "usr/local/via/lib/libXft.la",
+                    "usr/local/via/lib/libXft.so",
+                    "usr/local/via/lib/libXft.so.2",
+                    "usr/local/via/lib/libXft.so.2.3.2",
+                    "usr/local/via/lib/pkgconfig/xft.pc"
     ]
 }

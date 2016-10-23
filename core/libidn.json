@@ -14,28 +14,33 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/idn",
-                  "usr/local/via/include/idn-free.h",
-                  "usr/local/via/include/idn-int.h",
-                  "usr/local/via/include/idna.h",
-                  "usr/local/via/include/pr29.h",
-                  "usr/local/via/include/punycode.h",
-                  "usr/local/via/include/stringprep.h",
-                  "usr/local/via/include/tld.h",
-                  "usr/local/via/lib/libidn.la",
-                  "usr/local/via/lib/libidn.so",
-                  "usr/local/via/lib/libidn.so.11",
-                  "usr/local/via/lib/libidn.so.11.6.12",
-                  "usr/local/via/lib/pkgconfig/libidn.pc",
-                  "usr/local/via/share/emacs/site-lisp/idna.el",
-                  "usr/local/via/share/emacs/site-lisp/punycode.el"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/idn",
+                    "usr/local/via/include/idn-free.h",
+                    "usr/local/via/include/idn-int.h",
+                    "usr/local/via/include/idna.h",
+                    "usr/local/via/include/pr29.h",
+                    "usr/local/via/include/punycode.h",
+                    "usr/local/via/include/stringprep.h",
+                    "usr/local/via/include/tld.h",
+                    "usr/local/via/lib/libidn.la",
+                    "usr/local/via/lib/libidn.so",
+                    "usr/local/via/lib/libidn.so.11",
+                    "usr/local/via/lib/libidn.so.11.6.12",
+                    "usr/local/via/lib/pkgconfig/libidn.pc",
+                    "usr/local/via/share/emacs/site-lisp/idna.el",
+                    "usr/local/via/share/emacs/site-lisp/punycode.el"
     ]
 }

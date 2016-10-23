@@ -14,13 +14,18 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/config shared --prefix=$PREFIX --libdir=lib",
-                 "make -j1 depend",
-                 "make -j1"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/config shared --prefix=$PREFIX --libdir=lib",
+                    "make -j1 depend",
+                    "make -j1"
     ],
     "Package" : [
               "make -j1 INSTALL_PREFIX=$PKGDIR install"

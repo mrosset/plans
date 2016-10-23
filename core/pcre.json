@@ -16,10 +16,17 @@
                    "libgcc",
                    "libstdc++"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--enable-unicode-propertie",
-                 "--enable-utf"
+    "AutoDepends" : [
+                  "glibc",
+                  "libgcc",
+                  "libstdc++"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--enable-unicode-propertie",
+                    "--enable-utf"
     ],
     "Patch"       : null,
     "Build"       : null,

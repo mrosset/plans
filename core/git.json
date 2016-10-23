@@ -17,13 +17,21 @@
                    "glibc",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-curl=$PREFIX",
-                 "--with-zlib=$PREFIX",
-                 "--without-openssl",
-                 "ac_cv_fread_reads_directories=yes",
-                 "ac_cv_snprintf_returns_bogus=no"
+    "AutoDepends" : [
+                  "curl",
+                  "expat",
+                  "glibc",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-curl=$PREFIX",
+                    "--with-zlib=$PREFIX",
+                    "--without-openssl",
+                    "ac_cv_fread_reads_directories=yes",
+                    "ac_cv_snprintf_returns_bogus=no"
     ],
     "Patch" : null,
     "Build" : [

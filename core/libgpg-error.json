@@ -14,25 +14,30 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/gpg-error",
-                  "usr/local/via/bin/gpg-error-config",
-                  "usr/local/via/include/gpg-error.h",
-                  "usr/local/via/lib/libgpg-error.la",
-                  "usr/local/via/lib/libgpg-error.so",
-                  "usr/local/via/lib/libgpg-error.so.0",
-                  "usr/local/via/lib/libgpg-error.so.0.17.0",
-                  "usr/local/via/share/aclocal/gpg-error.m4",
-                  "usr/local/via/share/common-lisp/source/gpg-error/gpg-error-codes.lisp",
-                  "usr/local/via/share/common-lisp/source/gpg-error/gpg-error-package.lisp",
-                  "usr/local/via/share/common-lisp/source/gpg-error/gpg-error.asd",
-                  "usr/local/via/share/common-lisp/source/gpg-error/gpg-error.lisp"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/gpg-error",
+                    "usr/local/via/bin/gpg-error-config",
+                    "usr/local/via/include/gpg-error.h",
+                    "usr/local/via/lib/libgpg-error.la",
+                    "usr/local/via/lib/libgpg-error.so",
+                    "usr/local/via/lib/libgpg-error.so.0",
+                    "usr/local/via/lib/libgpg-error.so.0.17.0",
+                    "usr/local/via/share/aclocal/gpg-error.m4",
+                    "usr/local/via/share/common-lisp/source/gpg-error/gpg-error-codes.lisp",
+                    "usr/local/via/share/common-lisp/source/gpg-error/gpg-error-package.lisp",
+                    "usr/local/via/share/common-lisp/source/gpg-error/gpg-error.asd",
+                    "usr/local/via/share/common-lisp/source/gpg-error/gpg-error.lisp"
     ]
 }

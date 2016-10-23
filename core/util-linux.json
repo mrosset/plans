@@ -17,15 +17,23 @@
                    "readline",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-kill",
-                 "--disable-more",
-                 "--disable-uuidd",
-                 "--disable-wall",
-                 "--without-ncurses",
-                 "--without-systemd",
-                 "--without-udev"
+    "AutoDepends" : [
+                  "glibc",
+                  "python",
+                  "readline",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-kill",
+                    "--disable-more",
+                    "--disable-uuidd",
+                    "--disable-wall",
+                    "--without-ncurses",
+                    "--without-systemd",
+                    "--without-udev"
     ],
     "Patch"   : null,
     "Build"   : null,

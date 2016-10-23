@@ -14,24 +14,29 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/flex",
-                  "usr/local/via/bin/flex++",
-                  "usr/local/via/include/FlexLexer.h",
-                  "usr/local/via/lib/libfl.la",
-                  "usr/local/via/lib/libfl.so",
-                  "usr/local/via/lib/libfl.so.2",
-                  "usr/local/via/lib/libfl.so.2.0.0",
-                  "usr/local/via/lib/libfl_pic.la",
-                  "usr/local/via/lib/libfl_pic.so",
-                  "usr/local/via/lib/libfl_pic.so.2",
-                  "usr/local/via/lib/libfl_pic.so.2.0.0"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/flex",
+                    "usr/local/via/bin/flex++",
+                    "usr/local/via/include/FlexLexer.h",
+                    "usr/local/via/lib/libfl.la",
+                    "usr/local/via/lib/libfl.so",
+                    "usr/local/via/lib/libfl.so.2",
+                    "usr/local/via/lib/libfl.so.2.0.0",
+                    "usr/local/via/lib/libfl_pic.la",
+                    "usr/local/via/lib/libfl_pic.so",
+                    "usr/local/via/lib/libfl_pic.so.2",
+                    "usr/local/via/lib/libfl_pic.so.2.0.0"
     ]
 }

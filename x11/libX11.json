@@ -15,6 +15,17 @@
                    "glibc",
                    "libxcb"
     ],
+    "AutoDepends" : [
+                  "glibc",
+                  "libxcb"
+    ],
+    "ManualDepends" : [
+                    "xtrans",
+                    "inputproto",
+                    "util-macros",
+                    "xproto",
+                    "kbproto"
+    ],
     "ManDepends" : [
                  "xtrans",
                  "inputproto",
@@ -22,8 +33,9 @@
                  "xproto",
                  "kbproto"
     ],
-    "Flags" : [
-            "--disable-xf86bigfont"
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--disable-xf86bigfont"
     ],
     "Patch"       : null,
     "Build"       : null,

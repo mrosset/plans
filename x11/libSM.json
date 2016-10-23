@@ -15,21 +15,27 @@
                    "glibc",
                    "util-linux"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/SM/SM.h",
-                  "usr/local/via/include/X11/SM/SMlib.h",
-                  "usr/local/via/include/X11/SM/SMproto.h",
-                  "usr/local/via/lib/libSM.la",
-                  "usr/local/via/lib/libSM.so",
-                  "usr/local/via/lib/libSM.so.6",
-                  "usr/local/via/lib/libSM.so.6.0.1",
-                  "usr/local/via/lib/pkgconfig/sm.pc"
+    "AutoDepends" : [
+                  "glibc",
+                  "util-linux"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/SM/SM.h",
+                    "usr/local/via/include/X11/SM/SMlib.h",
+                    "usr/local/via/include/X11/SM/SMproto.h",
+                    "usr/local/via/lib/libSM.la",
+                    "usr/local/via/lib/libSM.so",
+                    "usr/local/via/lib/libSM.so.6",
+                    "usr/local/via/lib/libSM.so.6.0.1",
+                    "usr/local/via/lib/pkgconfig/sm.pc"
     ]
 }

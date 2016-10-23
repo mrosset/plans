@@ -18,21 +18,32 @@
                    "libxau",
                    "libxcb"
     ],
+    "AutoDepends" : [
+                  "glibc",
+                  "libX11",
+                  "libXfixes",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : [
+                    "damageproto"
+    ],
     "ManDepends" : [
                  "damageproto"
     ],
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/extensions/Xdamage.h",
-                  "usr/local/via/lib/libXdamage.la",
-                  "usr/local/via/lib/libXdamage.so",
-                  "usr/local/via/lib/libXdamage.so.1",
-                  "usr/local/via/lib/libXdamage.so.1.1.0",
-                  "usr/local/via/lib/pkgconfig/xdamage.pc"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/include/X11/extensions/Xdamage.h",
+                   "usr/local/via/lib/libXdamage.la",
+                   "usr/local/via/lib/libXdamage.so",
+                   "usr/local/via/lib/libXdamage.so.1",
+                   "usr/local/via/lib/libXdamage.so.1.1.0",
+                   "usr/local/via/lib/pkgconfig/xdamage.pc"
     ]
 }

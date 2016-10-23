@@ -15,13 +15,19 @@
                    "attr",
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/configure $Flags",
-                 "make reconfigure",
-                 "make"
+    "AutoDepends" : [
+                  "attr",
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/configure $Flags",
+                    "make reconfigure",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

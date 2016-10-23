@@ -17,10 +17,18 @@
                    "openssl",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--without-librtmp",
-                 "--without-libssh2"
+    "AutoDepends" : [
+                  "glibc",
+                  "libidn",
+                  "openssl",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--without-librtmp",
+                    "--without-libssh2"
     ],
     "Patch"       : null,
     "Build"       : null,

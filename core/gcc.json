@@ -20,16 +20,24 @@
               "mpc",
               "mpfr"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-bootstrap",
-                 "--disable-libgomp",
-                 "--disable-libmudflap",
-                 "--disable-libquadmath",
-                 "--disable-libssp",
-                 "--enable-languages=c,c++",
-                 "--enable-linker-build-id",
-                 "--with-native-system-header-dir=$PREFIX/include"
+    "AutoDepends" : [
+                  "glibc",
+                  "gmp",
+                  "mpc",
+                  "mpfr"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-bootstrap",
+                    "--disable-libgomp",
+                    "--disable-libmudflap",
+                    "--disable-libquadmath",
+                    "--disable-libssp",
+                    "--enable-languages=c,c++",
+                    "--enable-linker-build-id",
+                    "--with-native-system-header-dir=$PREFIX/include"
     ],
     "Patch" : null,
     "Build" : [

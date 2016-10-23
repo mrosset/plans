@@ -18,9 +18,18 @@
                    "util-linux",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-pcre=internal"
+    "AutoDepends" : [
+                  "elfutils",
+                  "glibc",
+                  "libffi",
+                  "util-linux",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-pcre=internal"
     ],
     "Patch"       : null,
     "Build"       : null,

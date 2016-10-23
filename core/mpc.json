@@ -16,10 +16,17 @@
                    "gmp",
                    "mpfr"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--enable-shared",
-                 "--with-gmp=$PREFIX"
+    "AutoDepends" : [
+                  "glibc",
+                  "gmp",
+                  "mpfr"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--enable-shared",
+                    "--with-gmp=$PREFIX"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -14,9 +14,14 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "toolexeclibdir=$PREFIX/lib"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "toolexeclibdir=$PREFIX/lib"
     ],
     "Patch" : [
             "sed -e 's%-print-multi-os-directory%../lib%' -i configure",

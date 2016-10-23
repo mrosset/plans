@@ -14,12 +14,17 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "make -f Makefile-libbz2_so",
-                 "make bzip2 bzip2recover"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "make -f Makefile-libbz2_so",
+                    "make bzip2 bzip2recover"
     ],
     "Package" : [
               "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",

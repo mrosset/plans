@@ -15,17 +15,23 @@
                    "glibc",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : null,
-    "Package"    : [
-                 "mkdir -p $PKGDIR/$PREFIX/lib/ccache",
-                 "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/gcc",
-                 "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
-                 "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
-                 "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
-                 "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
+    "AutoDepends" : [
+                  "glibc",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "mkdir -p $PKGDIR/$PREFIX/lib/ccache",
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/gcc",
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
     ],
     "PostInstall" : null,
     "Remove"      : null,

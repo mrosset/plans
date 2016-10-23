@@ -15,16 +15,22 @@
                    "glibc",
                    "ncurses"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/htop",
-                  "usr/local/via/share/applications/htop.desktop",
-                  "usr/local/via/share/pixmaps/htop.png"
+    "AutoDepends" : [
+                  "glibc",
+                  "ncurses"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/htop",
+                    "usr/local/via/share/applications/htop.desktop",
+                    "usr/local/via/share/pixmaps/htop.png"
     ]
 }

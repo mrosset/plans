@@ -16,12 +16,21 @@
                    "libxau",
                    "libxcb"
     ],
+    "AutoDepends" : [
+                  "glibc",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : [
+                    "fixesproto"
+    ],
     "ManDepends" : [
                  "fixesproto"
     ],
-    "Flags" : null,
-    "Patch" : [
-            "autoreconf -fi"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : [
+                   "autoreconf -fi"
     ],
     "Build"       : null,
     "Package"     : null,

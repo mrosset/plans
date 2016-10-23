@@ -15,14 +15,20 @@
                    "glibc",
                    "libgcc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : null,
-    "Package"    : [
-                 "make install-strip-target-libgo DESTDIR=$PKGDIR",
-                 "rmdir $PKGDIR/$PREFIX/lib",
-                 "mv $PKGDIR/$PREFIX/lib64 $PKGDIR/$PREFIX/lib"
+    "AutoDepends" : [
+                  "glibc",
+                  "libgcc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "make install-strip-target-libgo DESTDIR=$PKGDIR",
+                    "rmdir $PKGDIR/$PREFIX/lib",
+                    "mv $PKGDIR/$PREFIX/lib64 $PKGDIR/$PREFIX/lib"
     ],
     "PostInstall" : null,
     "Remove"      : null,

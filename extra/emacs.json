@@ -30,6 +30,36 @@
                    "tiff",
                    "zlib"
     ],
+    "AutoDepends" : [
+                  "acl",
+                  "cairo",
+                  "gdk-pixbuf",
+                  "glib",
+                  "glibc",
+                  "gtk3",
+                  "libICE",
+                  "libSM",
+                  "libX11",
+                  "libXfixes",
+                  "libXpm",
+                  "libjpeg-turbo",
+                  "libpng",
+                  "libxcb",
+                  "ncurses",
+                  "tiff",
+                  "zlib"
+    ],
+    "ManualDepends" : [
+                    "renderproto",
+                    "kbproto",
+                    "xextproto",
+                    "xineramaproto",
+                    "inputproto",
+                    "fixesproto",
+                    "randrproto",
+                    "xproto",
+                    "damageproto"
+    ],
     "ManDepends" : [
                  "renderproto",
                  "kbproto",
@@ -41,16 +71,17 @@
                  "xproto",
                  "damageproto"
     ],
-    "Flags" : [
-            "--with-gif=no",
-            "--with-sound=no",
-            "--with-x-toolkit=gtk3",
-            "--with-xft",
-            "--without-atspi",
-            "--without-dbus",
-            "--without-gnutls",
-            "--without-xft",
-            "--without-xml2"
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--with-gif=no",
+                   "--with-sound=no",
+                   "--with-x-toolkit=gtk3",
+                   "--with-xft",
+                   "--without-atspi",
+                   "--without-dbus",
+                   "--without-gnutls",
+                   "--without-xft",
+                   "--without-xml2"
     ],
     "Patch"       : null,
     "Build"       : null,

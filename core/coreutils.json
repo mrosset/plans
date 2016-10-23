@@ -15,11 +15,17 @@
                    "glibc",
                    "gmp"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-libcap",
-                 "--disable-xattr",
-                 "--enable-no-install-program=groups"
+    "AutoDepends" : [
+                  "glibc",
+                  "gmp"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-libcap",
+                    "--disable-xattr",
+                    "--enable-no-install-program=groups"
     ],
     "Patch"       : null,
     "Build"       : null,

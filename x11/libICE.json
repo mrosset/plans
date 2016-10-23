@@ -14,28 +14,37 @@
     "Depends"      : [
                    "glibc"
     ],
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : [
+                    "xtrans",
+                    "xproto",
+                    "pkg-config"
+    ],
     "ManDepends" : [
                  "xtrans",
                  "xproto",
                  "pkg-config"
     ],
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/ICE/ICE.h",
-                  "usr/local/via/include/X11/ICE/ICEconn.h",
-                  "usr/local/via/include/X11/ICE/ICElib.h",
-                  "usr/local/via/include/X11/ICE/ICEmsg.h",
-                  "usr/local/via/include/X11/ICE/ICEproto.h",
-                  "usr/local/via/include/X11/ICE/ICEutil.h",
-                  "usr/local/via/lib/libICE.la",
-                  "usr/local/via/lib/libICE.so",
-                  "usr/local/via/lib/libICE.so.6",
-                  "usr/local/via/lib/libICE.so.6.3.0",
-                  "usr/local/via/lib/pkgconfig/ice.pc"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/include/X11/ICE/ICE.h",
+                   "usr/local/via/include/X11/ICE/ICEconn.h",
+                   "usr/local/via/include/X11/ICE/ICElib.h",
+                   "usr/local/via/include/X11/ICE/ICEmsg.h",
+                   "usr/local/via/include/X11/ICE/ICEproto.h",
+                   "usr/local/via/include/X11/ICE/ICEutil.h",
+                   "usr/local/via/lib/libICE.la",
+                   "usr/local/via/lib/libICE.so",
+                   "usr/local/via/lib/libICE.so.6",
+                   "usr/local/via/lib/libICE.so.6.3.0",
+                   "usr/local/via/lib/pkgconfig/ice.pc"
     ]
 }

@@ -14,24 +14,29 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/epoxy/egl.h",
-                  "usr/local/via/include/epoxy/egl_generated.h",
-                  "usr/local/via/include/epoxy/gl.h",
-                  "usr/local/via/include/epoxy/gl_generated.h",
-                  "usr/local/via/include/epoxy/glx.h",
-                  "usr/local/via/include/epoxy/glx_generated.h",
-                  "usr/local/via/lib/libepoxy.la",
-                  "usr/local/via/lib/libepoxy.so",
-                  "usr/local/via/lib/libepoxy.so.0",
-                  "usr/local/via/lib/libepoxy.so.0.0.0",
-                  "usr/local/via/lib/pkgconfig/epoxy.pc"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/epoxy/egl.h",
+                    "usr/local/via/include/epoxy/egl_generated.h",
+                    "usr/local/via/include/epoxy/gl.h",
+                    "usr/local/via/include/epoxy/gl_generated.h",
+                    "usr/local/via/include/epoxy/glx.h",
+                    "usr/local/via/include/epoxy/glx_generated.h",
+                    "usr/local/via/lib/libepoxy.la",
+                    "usr/local/via/lib/libepoxy.so",
+                    "usr/local/via/lib/libepoxy.so.0",
+                    "usr/local/via/lib/libepoxy.so.0.0.0",
+                    "usr/local/via/lib/pkgconfig/epoxy.pc"
     ]
 }

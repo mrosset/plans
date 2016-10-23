@@ -14,11 +14,16 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "GOPATH=$SRCDIR go get -u bitbucket.org/strings/via/via"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "GOPATH=$SRCDIR go get -u bitbucket.org/strings/via/via"
     ],
     "Package" : [
               "install -m755 -s -D $SRCDIR/bin/via $PKGDIR/$PREFIX/bin/via"

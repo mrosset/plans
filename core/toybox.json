@@ -14,13 +14,18 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "#sed -i 's|python|python2|g' scripts/config2help.py",
-                 "make defconfig",
-                 "make"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "#sed -i 's|python|python2|g' scripts/config2help.py",
+                    "make defconfig",
+                    "make"
     ],
     "Package" : [
               "make install PREFIX=$PKGDIR/$PREFIX/tools"

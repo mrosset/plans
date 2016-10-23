@@ -18,9 +18,18 @@
                    "xz",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--program-prefix=eu-"
+    "AutoDepends" : [
+                  "bzip2",
+                  "glibc",
+                  "libstdc++",
+                  "xz",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--program-prefix=eu-"
     ],
     "Patch"       : null,
     "Build"       : null,

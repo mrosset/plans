@@ -15,9 +15,15 @@
                    "glibc",
                    "gmp"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-gmp=$PREFIX"
+    "AutoDepends" : [
+                  "glibc",
+                  "gmp"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-gmp=$PREFIX"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -18,10 +18,19 @@
                    "libtool",
                    "libunistring"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-error-on-warning",
-                 "--with-libunistring-prefix=$PREFIX/include"
+    "AutoDepends" : [
+                  "gmp",
+                  "libatomic_ops",
+                  "libffi",
+                  "libtool",
+                  "libunistring"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-error-on-warning",
+                    "--with-libunistring-prefix=$PREFIX/include"
     ],
     "Patch"       : null,
     "Build"       : null,

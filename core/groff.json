@@ -16,9 +16,16 @@
                    "libgcc",
                    "libstdc++"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--without-x"
+    "AutoDepends" : [
+                  "glibc",
+                  "libgcc",
+                  "libstdc++"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--without-x"
     ],
     "Patch"       : null,
     "Build"       : null,

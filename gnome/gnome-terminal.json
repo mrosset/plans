@@ -23,15 +23,33 @@
                    "util-linux",
                    "vte3"
     ],
+    "AutoDepends" : [
+                  "atk",
+                  "dconf",
+                  "gconf",
+                  "glib",
+                  "glibc",
+                  "gtk3",
+                  "libX11",
+                  "pango",
+                  "util-linux",
+                  "vte3"
+    ],
+    "ManualDepends" : [
+                    "itstool",
+                    "vala",
+                    "gsettings-desktop-schemas"
+    ],
     "ManDepends" : [
                  "itstool",
                  "vala",
                  "gsettings-desktop-schemas"
     ],
-    "Flags" : [
-            "--disable-search-provider",
-            "--without-nautilus-extension",
-            "--without-vala"
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--disable-search-provider",
+                   "--without-nautilus-extension",
+                   "--without-vala"
     ],
     "Patch"       : null,
     "Build"       : null,

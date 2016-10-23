@@ -16,9 +16,16 @@
                    "xz",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--without-python"
+    "AutoDepends" : [
+                  "glibc",
+                  "xz",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--without-python"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -14,12 +14,17 @@
     "Depends"      : [
                    "gmp"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/configure $Flags",
-                 "make"
+    "AutoDepends" : [
+                  "gmp"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/configure $Flags",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

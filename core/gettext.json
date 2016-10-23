@@ -24,11 +24,26 @@
                    "xz",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "make -j1"
+    "AutoDepends" : [
+                  "acl",
+                  "attr",
+                  "glib",
+                  "glibc",
+                  "libgcc",
+                  "libstdc++",
+                  "libxml2",
+                  "ncurses",
+                  "pcre",
+                  "xz",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "make -j1"
     ],
     "Package"     : null,
     "PostInstall" : null,

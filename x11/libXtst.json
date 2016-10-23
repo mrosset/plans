@@ -19,23 +19,36 @@
                    "libxau",
                    "libxcb"
     ],
+    "AutoDepends" : [
+                  "glibc",
+                  "libX11",
+                  "libXext",
+                  "libXi",
+                  "libxau",
+                  "libxcb"
+    ],
+    "ManualDepends" : [
+                    "recordproto",
+                    "xextproto"
+    ],
     "ManDepends" : [
                  "recordproto",
                  "xextproto"
     ],
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/X11/extensions/XTest.h",
-                  "usr/local/via/include/X11/extensions/record.h",
-                  "usr/local/via/lib/libXtst.la",
-                  "usr/local/via/lib/libXtst.so",
-                  "usr/local/via/lib/libXtst.so.6",
-                  "usr/local/via/lib/libXtst.so.6.1.0",
-                  "usr/local/via/lib/pkgconfig/xtst.pc"
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "usr/local/via/include/X11/extensions/XTest.h",
+                   "usr/local/via/include/X11/extensions/record.h",
+                   "usr/local/via/lib/libXtst.la",
+                   "usr/local/via/lib/libXtst.so",
+                   "usr/local/via/lib/libXtst.so.6",
+                   "usr/local/via/lib/libXtst.so.6.1.0",
+                   "usr/local/via/lib/pkgconfig/xtst.pc"
     ]
 }

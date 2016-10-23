@@ -14,9 +14,14 @@
     "Depends"      : [
                    "glibc"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-egl-platforms=drm,x11"
+    "AutoDepends" : [
+                  "glibc"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-egl-platforms=drm,x11"
     ],
     "Patch"       : null,
     "Build"       : null,

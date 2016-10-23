@@ -18,15 +18,24 @@
                    "libXinerama",
                    "libXrandr"
     ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/.local/bin/xinput",
-                  "home/mrosset/.local/share/man/man1/xinput.1"
+    "AutoDepends" : [
+                  "glibc",
+                  "libX11",
+                  "libXi",
+                  "libXinerama",
+                  "libXrandr"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "home/mrosset/.local/bin/xinput",
+                    "home/mrosset/.local/share/man/man1/xinput.1"
     ]
 }

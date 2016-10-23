@@ -15,12 +15,18 @@
                    "glibc",
                    "ncurses"
     ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : null,
-    "Package"    : [
-                 "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
+    "AutoDepends" : [
+                  "glibc",
+                  "ncurses"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
     ],
     "PostInstall" : null,
     "Remove"      : null,

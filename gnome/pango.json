@@ -31,9 +31,31 @@
                    "pixman",
                    "zlib"
     ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-included-modules=basic-fc"
+    "AutoDepends" : [
+                  "bzip2",
+                  "cairo",
+                  "expat",
+                  "fontconfig",
+                  "freetype",
+                  "glib",
+                  "glibc",
+                  "harfbuzz",
+                  "libX11",
+                  "libXext",
+                  "libXrender",
+                  "libffi",
+                  "libpng",
+                  "libxau",
+                  "libxcb",
+                  "pcre",
+                  "pixman",
+                  "zlib"
+    ],
+    "ManualDepends" : null,
+    "ManDepends"    : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-included-modules=basic-fc"
     ],
     "Patch"       : null,
     "Build"       : null,
