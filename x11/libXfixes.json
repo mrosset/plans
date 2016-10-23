@@ -1,27 +1,22 @@
 {
-    "Name"         : "libXfixes",
-    "Version"      : "5.0.1",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXfixes-5.0.1.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-09T01:39:20.738668429-08:00",
-    "Size"         : 58803,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "libX11",
-                   "libxau",
-                   "libxcb"
-    ],
-    "ManDepends" : [
-                 "fixesproto"
-    ],
-    "Flags" : null,
-    "Patch" : [
-            "autoreconf -fi"
+    "Name"          : "libXfixes",
+    "Version"       : "5.0.1",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXfixes-5.0.1.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-09T01:39:20.738668429-08:00",
+    "Size"          : 58803,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "autoreconf -fi"
     ],
     "Build"       : null,
     "Package"     : null,

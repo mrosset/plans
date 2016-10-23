@@ -1,24 +1,22 @@
 {
-    "Name"         : "guix",
-    "Version"      : "0.10.0",
-    "Url"          : "ftp://alpha.gnu.org/gnu/guix/guix-0.10.0.tar.gz",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-30T21:21:37.254123898-07:00",
-    "Size"         : 53067443,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "bzip2",
-                   "libgcrypt",
-                   "sqlite"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-store-dir=$PREFIX/gnu",
-                 "GUILE_AUTO_COMPILE=0"
+    "Name"          : "guix",
+    "Version"       : "0.10.0",
+    "Url"           : "ftp://alpha.gnu.org/gnu/guix/guix-0.10.0.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-30T21:21:37.254123898-07:00",
+    "Size"          : 53067443,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-store-dir=$PREFIX/gnu",
+                    "GUILE_AUTO_COMPILE=0"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -1,23 +1,22 @@
 {
-    "Name"         : "libxcb",
-    "Version"      : "1.11",
-    "Url"          : "http://xcb.freedesktop.org//dist/libxcb-1.11.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:03:38.45543092-08:00",
-    "Size"         : 4394602,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "libxau"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : [
-                 "sed -i 's%pthread-stubs%%' configure"
+    "Name"          : "libxcb",
+    "Version"       : "1.11",
+    "Url"           : "http://xcb.freedesktop.org//dist/libxcb-1.11.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-10T02:03:38.45543092-08:00",
+    "Size"          : 4394602,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "sed -i 's%pthread-stubs%%' configure"
     ],
     "Build"       : null,
     "Package"     : null,

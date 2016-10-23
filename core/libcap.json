@@ -1,24 +1,23 @@
 {
-    "Name"         : "libcap",
-    "Version"      : "2.24",
-    "Url"          : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-10T19:02:18.387439861-08:00",
-    "Size"         : 335626,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "attr",
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "make KERNEL_HEADERS=$PREFIX/include"
+    "Name"          : "libcap",
+    "Version"       : "2.24",
+    "Url"           : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : true,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-10T19:02:18.387439861-08:00",
+    "Size"          : 335626,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "make KERNEL_HEADERS=$PREFIX/include"
     ],
     "Package" : [
               "make prefix=$PREFIX lib=/lib DESTDIR=$PKGDIR RAISE_SETFCAP=no install"

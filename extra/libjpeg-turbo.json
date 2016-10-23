@@ -1,21 +1,21 @@
 {
-    "Name"         : "libjpeg-turbo",
-    "Version"      : "1.4.2",
-    "Url"          : "http://downloads.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-09T02:20:09.022618116-08:00",
-    "Size"         : 2543438,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--with-jpeg8"
+    "Name"          : "libjpeg-turbo",
+    "Version"       : "1.4.2",
+    "Url"           : "http://downloads.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-09T02:20:09.022618116-08:00",
+    "Size"          : 2543438,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-jpeg8"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -1,24 +1,24 @@
 {
-    "Name"         : "bzip2",
-    "Version"      : "1.0.6",
-    "Url"          : "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "BuildTime"    : 3901803576,
-    "Date"         : "2016-10-11T20:27:36.79360695-07:00",
-    "Size"         : 355954,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "make -f Makefile-libbz2_so",
-                 "make bzip2 bzip2recover"
+    "Name"          : "bzip2",
+    "Version"       : "1.0.6",
+    "Url"           : "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : true,
+    "BuildTime"     : 3901803576,
+    "Date"          : "2016-10-11T20:27:36.79360695-07:00",
+    "Size"          : 355954,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "make -f Makefile-libbz2_so",
+                    "make bzip2 bzip2recover"
     ],
     "Package" : [
               "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",

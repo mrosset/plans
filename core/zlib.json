@@ -1,24 +1,24 @@
 {
-    "Name"         : "zlib",
-    "Version"      : "1.2.8",
-    "Url"          : "http://zlib.net/current/zlib-1.2.8.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "BuildTime"    : 6129663920,
-    "Date"         : "2016-10-11T20:40:53.766166996-07:00",
-    "Size"         : 318121,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "./configure --prefix=$PREFIX",
-                 "make"
+    "Name"          : "zlib",
+    "Version"       : "1.2.8",
+    "Url"           : "http://zlib.net/current/zlib-1.2.8.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : true,
+    "BuildTime"     : 6129663920,
+    "Date"          : "2016-10-11T20:40:53.766166996-07:00",
+    "Size"          : 318121,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "./configure --prefix=$PREFIX",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

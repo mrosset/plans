@@ -1,24 +1,24 @@
 {
-    "Name"         : "db",
-    "Version"      : "5.3.28",
-    "Url"          : "http://download.oracle.com/berkeley-db/db-5.3.28.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : false,
-    "BuildTime"    : 122104241660,
-    "Date"         : "2016-10-11T20:44:52.989260366-07:00",
-    "Size"         : 94585832,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/dist/configure $Flags",
-                 "make"
+    "Name"          : "db",
+    "Version"       : "5.3.28",
+    "Url"           : "http://download.oracle.com/berkeley-db/db-5.3.28.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 122104241660,
+    "Date"          : "2016-10-11T20:44:52.989260366-07:00",
+    "Size"          : 94585832,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/dist/configure $Flags",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

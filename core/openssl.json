@@ -1,25 +1,25 @@
 {
-    "Name"         : "openssl",
-    "Version"      : "1.0.2g",
-    "Url"          : "https://www.openssl.org/source/openssl-1.0.2g.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-12T13:13:36.66099514-07:00",
-    "Size"         : 14481301,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/config shared --prefix=$PREFIX --libdir=lib",
-                 "make -j1 depend",
-                 "make -j1"
+    "Name"          : "openssl",
+    "Version"       : "1.0.2g",
+    "Url"           : "https://www.openssl.org/source/openssl-1.0.2g.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : true,
+    "BuildTime"     : 0,
+    "Date"          : "2016-10-12T13:13:36.66099514-07:00",
+    "Size"          : 14481301,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/config shared --prefix=$PREFIX --libdir=lib",
+                    "make -j1 depend",
+                    "make -j1"
     ],
     "Package" : [
               "make -j1 INSTALL_PREFIX=$PKGDIR install"
