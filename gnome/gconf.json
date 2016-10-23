@@ -1,25 +1,21 @@
 {
-    "Name"         : "gconf",
-    "Version"      : "3.2.6",
-    "Url"          : "http://ftp.gnome.org/pub/gnome/sources/GConf/3.2/GConf-3.2.6.tar.xz",
-    "Group"        : "gnome",
-    "StageDir"     : "GConf-3.2.6",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-15T23:28:54.385335-07:00",
-    "Size"         : 7374249,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "dbus",
-                   "dbus-glib",
-                   "glib",
-                   "glibc",
-                   "libxml2"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-orbit"
+    "Name"          : "gconf",
+    "Version"       : "3.2.6",
+    "Url"           : "http://ftp.gnome.org/pub/gnome/sources/GConf/3.2/GConf-3.2.6.tar.xz",
+    "Group"         : "gnome",
+    "StageDir"      : "GConf-3.2.6",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-15T23:28:54.385335-07:00",
+    "Size"          : 7374249,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-orbit"
     ],
     "Patch"       : null,
     "Build"       : null,

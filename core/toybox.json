@@ -1,25 +1,25 @@
 {
-    "Name"         : "toybox",
-    "Version"      : "0.5.1",
-    "Url"          : "http://landley.net/toybox/downloads/toybox-0.5.1.tar.bz2",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "BuildTime"    : 0,
-    "Date"         : "2014-12-08T10:38:08.907939404-08:00",
-    "Size"         : 187271,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "#sed -i 's|python|python2|g' scripts/config2help.py",
-                 "make defconfig",
-                 "make"
+    "Name"          : "toybox",
+    "Version"       : "0.5.1",
+    "Url"           : "http://landley.net/toybox/downloads/toybox-0.5.1.tar.bz2",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : true,
+    "BuildTime"     : 0,
+    "Date"          : "2014-12-08T10:38:08.907939404-08:00",
+    "Size"          : 187271,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "#sed -i 's|python|python2|g' scripts/config2help.py",
+                    "make defconfig",
+                    "make"
     ],
     "Package" : [
               "make install PREFIX=$PKGDIR/$PREFIX/tools"

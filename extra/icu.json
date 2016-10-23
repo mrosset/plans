@@ -1,26 +1,24 @@
 {
-    "Name"         : "icu",
-    "Version"      : "56_1",
-    "Url"          : "http://download.icu-project.org/files/icu4c/56.1/icu4c-56_1-src.tgz",
-    "Group"        : "extra",
-    "StageDir"     : "icu",
-    "Inherit"      : "",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-08T23:58:25.280500358-08:00",
-    "Size"         : 36109925,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "libgcc",
-                   "libstdc++"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/source/configure $Flags",
-                 "make"
+    "Name"          : "icu",
+    "Version"       : "56_1",
+    "Url"           : "http://download.icu-project.org/files/icu4c/56.1/icu4c-56_1-src.tgz",
+    "Group"         : "extra",
+    "StageDir"      : "icu",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-08T23:58:25.280500358-08:00",
+    "Size"          : 36109925,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/source/configure $Flags",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

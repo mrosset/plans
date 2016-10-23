@@ -5,6 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
+    "Oid"          : "",
     "BuildInStage" : false,
     "BuildTime"    : 310961178659,
     "Date"         : "2016-10-19T02:28:50.427318738-07:00",
@@ -13,16 +14,17 @@
                    "libgcc",
                    "libstdc++"
     ],
-    "Depends"    : [],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--disable-bootstrap",
-                 "--disable-libgomp",
-                 "--disable-libmudflap",
-                 "--disable-libquadmath",
-                 "--disable-libssp",
-                 "--enable-languages=c,c++",
-                 "--enable-linker-build-id"
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-bootstrap",
+                    "--disable-libgomp",
+                    "--disable-libmudflap",
+                    "--disable-libquadmath",
+                    "--disable-libssp",
+                    "--enable-languages=c,c++",
+                    "--enable-linker-build-id"
     ],
     "Patch" : null,
     "Build" : [

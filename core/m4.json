@@ -1,26 +1,26 @@
 {
-    "Name"         : "m4",
-    "Version"      : "1.4.17",
-    "Url"          : "http://mirrors.kernel.org/gnu/m4/m4-1.4.17.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 22752465060,
-    "Date"         : "2016-10-11T20:41:57.126662507-07:00",
-    "Size"         : 176112,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/m4"
+    "Name"          : "m4",
+    "Version"       : "1.4.17",
+    "Url"           : "http://mirrors.kernel.org/gnu/m4/m4-1.4.17.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 22752465060,
+    "Date"          : "2016-10-11T20:41:57.126662507-07:00",
+    "Size"          : 176112,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/m4"
     ]
 }

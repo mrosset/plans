@@ -1,23 +1,21 @@
 {
-    "Name"         : "groff",
-    "Version"      : "1.22.3",
-    "Url"          : "http://mirrors.kernel.org/gnu/groff/groff-1.22.3.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu-nostrip",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-02-08T10:21:38.580197128-08:00",
-    "Size"         : 9302739,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc",
-                   "libgcc",
-                   "libstdc++"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "--without-x"
+    "Name"          : "groff",
+    "Version"       : "1.22.3",
+    "Url"           : "http://mirrors.kernel.org/gnu/groff/groff-1.22.3.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu-nostrip",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-02-08T10:21:38.580197128-08:00",
+    "Size"          : 9302739,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--without-x"
     ],
     "Patch"       : null,
     "Build"       : null,

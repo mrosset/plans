@@ -1,23 +1,23 @@
 {
-    "Name"         : "libelf",
-    "Version"      : "0.8.13",
-    "Url"          : "http://www.mr511.de/software/libelf-0.8.13.tar.gza",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-12T19:56:26.440020528-07:00",
-    "Size"         : 335820,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : [
-                 "wget -O config.guess 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'",
-                 "wget -O config.sub 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'"
+    "Name"          : "libelf",
+    "Version"       : "0.8.13",
+    "Url"           : "http://www.mr511.de/software/libelf-0.8.13.tar.gza",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-10-12T19:56:26.440020528-07:00",
+    "Size"          : 335820,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "wget -O config.guess 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'",
+                    "wget -O config.sub 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'"
     ],
     "Build" : [
             "$SRCDIR/configure --prefix=$PREFIX"

@@ -1,27 +1,27 @@
 {
-    "Name"         : "tar",
-    "Version"      : "1.28",
-    "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-11T20:43:59.514163095-07:00",
-    "Size"         : 482776,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends"  : null,
-    "Flags"       : null,
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/tar",
-                  "usr/local/via/lib/rmt"
+    "Name"          : "tar",
+    "Version"       : "1.28",
+    "Url"           : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-10-11T20:43:59.514163095-07:00",
+    "Size"          : 482776,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/bin/tar",
+                    "usr/local/via/lib/rmt"
     ]
 }

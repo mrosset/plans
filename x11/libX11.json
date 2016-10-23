@@ -1,25 +1,21 @@
 {
-    "Name"         : "libX11",
-    "Version"      : "1.6.3",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libX11-1.6.3.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-16T00:55:19.712977-07:00",
-    "Size"         : 3826002,
-    "SubPackages"  : null,
-    "Depends"      : [],
-    "ManDepends"   : [
-                   "xtrans",
-                   "inputproto",
-                   "util-macros",
-                   "xproto",
-                   "kbproto"
-    ],
-    "Flags" : [
-            "--disable-xf86bigfont"
+    "Name"          : "libX11",
+    "Version"       : "1.6.3",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libX11-1.6.3.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-16T00:55:19.712977-07:00",
+    "Size"          : 3826002,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-xf86bigfont"
     ],
     "Patch"       : null,
     "Build"       : null,

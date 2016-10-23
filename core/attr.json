@@ -1,23 +1,23 @@
 {
-    "Name"         : "attr",
-    "Version"      : "2.4.46",
-    "Url"          : "http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : true,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-09T06:49:44.564692658-08:00",
-    "Size"         : 345755,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "glibc"
-    ],
-    "ManDepends" : null,
-    "Flags"      : null,
-    "Patch"      : null,
-    "Build"      : [
-                 "$SRCDIR/configure $Flags"
+    "Name"          : "attr",
+    "Version"       : "2.4.46",
+    "Url"           : "http://download.savannah.gnu.org/releases/attr/attr-2.4.46.src.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : true,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-09T06:49:44.564692658-08:00",
+    "Size"          : 345755,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/configure $Flags"
     ],
     "Package" : [
               "make -j1 install install-dev install-lib DIST_ROOT=$PKGDIR"

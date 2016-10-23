@@ -1,22 +1,24 @@
 {
-    "Name"         : "isl",
-    "Version"      : "0.10",
-    "Url"          : "http://www.kotnet.org/~skimo/isl/isl-0.10.tar.bz2",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "0001-01-01T00:00:00Z",
-    "Size"         : 0,
-    "SubPackages"  : null,
-    "Depends"      : null,
-    "ManDepends"   : null,
-    "Flags"        : null,
-    "Patch"        : null,
-    "Build"        : [
-                   "$SRCDIR/configure $Flags",
-                   "make"
+    "Name"          : "isl",
+    "Version"       : "0.10",
+    "Url"           : "http://www.kotnet.org/~skimo/isl/isl-0.10.tar.bz2",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "0001-01-01T00:00:00Z",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "$SRCDIR/configure $Flags",
+                    "make"
     ],
     "Package" : [
               "make install DESTDIR=$PKGDIR"

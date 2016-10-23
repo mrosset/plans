@@ -1,26 +1,21 @@
 {
-    "Name"         : "fontconfig",
-    "Version"      : "2.11.1",
-    "Url"          : "http://www.fontconfig.org/release/fontconfig-2.11.1.tar.bz2",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-10T02:13:17.267953463-08:00",
-    "Size"         : 1929866,
-    "SubPackages"  : null,
-    "Depends"      : [
-                   "bzip2",
-                   "expat",
-                   "freetype",
-                   "glibc",
-                   "libpng",
-                   "zlib"
-    ],
-    "ManDepends" : null,
-    "Flags"      : [
-                 "PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig"
+    "Name"          : "fontconfig",
+    "Version"       : "2.11.1",
+    "Url"           : "http://www.fontconfig.org/release/fontconfig-2.11.1.tar.bz2",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-03-10T02:13:17.267953463-08:00",
+    "Size"          : 1929866,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig"
     ],
     "Patch"       : null,
     "Build"       : null,
