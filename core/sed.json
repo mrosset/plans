@@ -1,15 +1,15 @@
 {
     "Name"         : "sed",
-    "Version"      : "4.2.1",
+    "Version"      : "4.2.2",
     "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-$Version.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "5EDE31CDA30ED7DAC504DBB8F4248F3EEA2AD1B135C847C0201BA630D6DECAFE",
+    "Oid"          : "FAA414743F2AD2739775D0A1F8EA04B5053CC3F8DF6D4210F28F2628D1006A8D",
     "BuildInStage" : false,
     "BuildTime"    : 11670073958,
-    "Date"         : "2016-10-22T22:25:24.371076914-07:00",
-    "Size"         : 147416,
+    "Date"         : "2016-10-25T08:38:42.619253181-07:00",
+    "Size"         : 82544,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
