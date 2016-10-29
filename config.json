@@ -31,7 +31,7 @@
           "CXXFLAGS"            : "$CFLAGS",
           "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"        : "$PREFIX/lib",
-          "MAKEFLAGS"           : "-sw -j",
+          "MAKEFLAGS"           : "-sw",
           "MAKEINFO"            : "missing",
           "OCPLUS_INCLUDE_PATH" : "$PREFIX/include",
           "OC_INCLUDE_PATH"     : "$PREFIX/include",
