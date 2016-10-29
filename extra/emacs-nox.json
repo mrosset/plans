@@ -22,7 +22,6 @@
     "BuildDepends"  : null,
     "Flags"         : [
                     "--with-sound=no",
-                    "--without-",
                     "--without-gnutls",
                     "--without-x",
                     "--without-xml2"

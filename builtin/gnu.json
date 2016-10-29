@@ -21,7 +21,7 @@
                     "make"
     ],
     "Package" : [
-              "make install DESTDIR=$PKGDIR"
+              "make install-strip DESTDIR=$PKGDIR"
     ],
     "PostInstall" : null,
     "Remove"      : null,
