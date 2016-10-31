@@ -1,5 +1,5 @@
 {
-    "Branch"    : "linux-x86_64",
+    "Branch"    : "master",
     "Identity"  : "test user \u003ctest@test.com\u003e",
     "Arch"      : "x86_64",
     "OS"        : "linux",
@@ -20,6 +20,7 @@
                 "--disable-static",
                 "--disable-werror",
                 "--enable-shared",
+                "--host=x86_64-via-linux-gnu",
                 "--libexec=$PREFIX/lib",
                 "--prefix=$PREFIX",
                 "--sysconfdir=$PREFIX/etc",
