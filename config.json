@@ -1,5 +1,5 @@
 {
-    "Branch"    : "master",
+    "Branch"    : "linux-x86_64",
     "Identity"  : "test user \u003ctest@test.com\u003e",
     "Arch"      : "x86_64",
     "OS"        : "linux",
