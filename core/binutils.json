@@ -1,7 +1,7 @@
 {
     "Name"         : "binutils",
     "Version"      : "2.27",
-    "Url"          : "http://mirrors.kernel.org/gnu/binutils/binutils-$Version.tar.gz",
+    "Url"          : "http://mirrors.kernel.org/gnu/binutils/binutils-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

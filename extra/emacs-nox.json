@@ -1,7 +1,7 @@
 {
     "Name"         : "emacs-nox",
     "Version"      : "25.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/emacs/emacs-$Version.tar.xz",
+    "Url"          : "http://mirrors.kernel.org/gnu/emacs/emacs-{{.Version}}.tar.xz",
     "Group"        : "extra",
     "StageDir"     : "emacs-25.1",
     "Inherit"      : "gnu",

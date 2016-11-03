@@ -1,7 +1,7 @@
 {
     "Name"         : "pkg-config",
     "Version"      : "0.29.1",
-    "Url"          : "http://pkgconfig.freedesktop.org/releases/pkg-config-$Version.tar.gz",
+    "Url"          : "http://pkgconfig.freedesktop.org/releases/pkg-config-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

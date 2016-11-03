@@ -1,7 +1,7 @@
 {
     "Name"         : "systemd",
     "Version"      : "229",
-    "Url"          : "http://anduin.linuxfromscratch.org/sources/other/systemd/systemd-$Version.tar.xz",
+    "Url"          : "http://anduin.linuxfromscratch.org/sources/other/systemd/systemd-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

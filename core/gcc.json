@@ -1,7 +1,7 @@
 {
     "Name"         : "gcc",
     "Version"      : "6.2.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-$Version/gcc-$Version.tar.bz2",
+    "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-{{.Version}}/gcc-{{.Version}}.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",

@@ -1,7 +1,7 @@
 {
     "Name"         : "ccache",
     "Version"      : "3.1.7",
-    "Url"          : "http://samba.org/ftp/ccache/ccache-$Version.tar.gz",
+    "Url"          : "http://samba.org/ftp/ccache/ccache-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
