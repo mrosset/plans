@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "2F6B6B2C3A499202E30663052AFBB2265714EF7CF6645F018252345AE0769B30",
+    "Oid"          : "2C1106F37E75A47BFBB681650D62627B7E468867030B75B575BF8C700B7D8C83",
     "BuildInStage" : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-12T13:13:36.66099514-07:00",
-    "Size"         : 14481301,
+    "Date"         : "2016-11-09T08:58:48.052674086-08:00",
+    "Size"         : 14334032,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

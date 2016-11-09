@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "0FD8490D691395A488741BDDE5737C09FDEED6CA35567F30683E53CD3BCCA5F5",
+    "Oid"          : "3D609A026435277BDBAAF2F64F88C354D26B33695B68AF0D6C2837E1D9FCD4F9",
     "BuildInStage" : false,
     "BuildTime"    : 9494663451,
-    "Date"         : "2016-10-21T00:59:29.952800194-07:00",
-    "Size"         : 4461428,
+    "Date"         : "2016-11-09T08:53:05.280916724-08:00",
+    "Size"         : 4673402,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -26,10 +26,8 @@
     "Files"         : [
                     "usr/local/via/bin/file",
                     "usr/local/via/include/magic.h",
+                    "usr/local/via/lib/libmagic.a",
                     "usr/local/via/lib/libmagic.la",
-                    "usr/local/via/lib/libmagic.so",
-                    "usr/local/via/lib/libmagic.so.1",
-                    "usr/local/via/lib/libmagic.so.1.0.0",
                     "usr/local/via/share/misc/magic.mgc"
     ]
 }

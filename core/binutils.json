@@ -5,14 +5,16 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "3AEA17A3F70A39797AFF1F27907E3E90EDB96712718289265D92766F3D095D22",
+    "Oid"          : "229515F0C47F7E19DA38E30DA9C7D271287B282B703E6D5BD598EB9EC6D55B8A",
     "BuildInStage" : false,
     "BuildTime"    : 21101081336,
-    "Date"         : "2016-10-12T14:14:57.299618507-07:00",
-    "Size"         : 45166829,
+    "Date"         : "2016-11-09T07:41:36.034466065-08:00",
+    "Size"         : 29356117,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc"
+                   "glibc",
+                   "libgcc",
+                   "libstdc++"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,

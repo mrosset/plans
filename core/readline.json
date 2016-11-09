@@ -5,10 +5,10 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "DA896733ECD15F714AB652A8D8E1FE27DDC9DE6115CD5AB59552861417934CBD",
+    "Oid"          : "E654CC6B2E392CDBC26A9DE06BE938A8CC15E6809BBB31289D02EA609B55D1B6",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-12T15:21:20.38877352-07:00",
+    "Date"         : "2016-11-09T09:38:51.919280473-08:00",
     "Size"         : 452279,
     "SubPackages"  : null,
     "AutoDepends"  : [
