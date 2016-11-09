@@ -1,15 +1,15 @@
 {
     "Name"         : "curl",
-    "Version"      : "7.39.0",
-    "Url"          : "http://curl.haxx.se/download/curl-7.39.0.tar.bz2",
+    "Version"      : "7.51.0",
+    "Url"          : "https://curl.haxx.se/download/curl-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "A31A521426532E23E18B03D03CE948693336D30EB90F4800AED139ED78D224EE",
+    "Oid"          : "ACE993C188729948120FFAA425D1E9539B08982B9F1DE8216F80E013EEFF5B06",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-09T08:56:28.745875211-08:00",
-    "Size"         : 698270,
+    "Date"         : "2016-11-09T14:26:10.613322205-08:00",
+    "Size"         : 782389,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -19,6 +19,7 @@
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
+                    "--with-nghttp2",
                     "--without-librtmp",
                     "--without-libssh2"
     ],
@@ -42,7 +43,7 @@
                   "usr/local/via/lib/libcurl.la",
                   "usr/local/via/lib/libcurl.so",
                   "usr/local/via/lib/libcurl.so.4",
-                  "usr/local/via/lib/libcurl.so.4.3.0",
+                  "usr/local/via/lib/libcurl.so.4.4.0",
                   "usr/local/via/lib/pkgconfig/libcurl.pc",
                   "usr/local/via/share/aclocal/libcurl.m4"
     ]
