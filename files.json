@@ -19888,16 +19888,6 @@
              "usr/local/via/lib/pkgconfig/nettle.pc"
     ],
     "newlib"  : null,
-    "nghttp2" : [
-              "usr/local/via/include/nghttp2/nghttp2.h",
-              "usr/local/via/include/nghttp2/nghttp2ver.h",
-              "usr/local/via/lib/libnghttp2.la",
-              "usr/local/via/lib/libnghttp2.so",
-              "usr/local/via/lib/libnghttp2.so.14",
-              "usr/local/via/lib/libnghttp2.so.14.10.1",
-              "usr/local/via/lib/pkgconfig/libnghttp2.pc",
-              "usr/local/via/share/nghttp2/fetch-ocsp-response"
-    ],
     "openssh" : [
               "usr/local/via/bin/scp",
               "usr/local/via/bin/sftp",
