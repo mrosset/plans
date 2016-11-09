@@ -1,15 +1,15 @@
 {
     "Name"         : "git",
-    "Version"      : "2.10.0",
+    "Version"      : "2.10.2",
     "Url"          : "https://www.kernel.org/pub/software/scm/git/git-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "691E9F23E338B6788175467E566D5D4E781A16C6301930C6CD028A9CC9D886AA",
+    "Oid"          : "F17C20E7FE75AA8DC04A5A36CB0191A4C773A91F1EF7EEC4AB6B8CBBB9B63316",
     "BuildInStage" : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-21T08:18:27.520453557-07:00",
-    "Size"         : 20582303,
+    "Date"         : "2016-11-09T15:56:11.879421494-08:00",
+    "Size"         : 20675356,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "curl",
@@ -20,15 +20,13 @@
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
-                    "--with-curl=$PREFIX",
-                    "--with-zlib=$PREFIX",
                     "--without-openssl",
                     "ac_cv_fread_reads_directories=yes",
                     "ac_cv_snprintf_returns_bogus=no"
     ],
     "Patch" : null,
     "Build" : [
-            "$SRCDIR/configure $Flags --with-curl=$PREFIX",
+            "$SRCDIR/configure $Flags",
             "make strip NO_INSTALL_HARDLINKS=1"
     ],
     "Package" : [
