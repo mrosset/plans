@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "CA14C2E5CED0E69C526A17A2AC56EADC8FA9FA462A5581F7880E86D1B114EC60",
+    "Oid"          : "8F29CF0D16D760943EE830C96F933F056E0C7ECB364468A90D620DFFCE4D0D16",
     "BuildInStage" : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-02-12T23:12:15.138377732-08:00",
-    "Size"         : 699852,
+    "Date"         : "2016-11-08T10:49:29.191854102-08:00",
+    "Size"         : 696834,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -23,13 +23,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/install/bin/find",
-                    "home/mrosset/install/bin/locate",
-                    "home/mrosset/install/bin/oldfind",
-                    "home/mrosset/install/bin/updatedb",
-                    "home/mrosset/install/bin/xargs",
-                    "home/mrosset/install/lib/bigram",
-                    "home/mrosset/install/lib/code",
-                    "home/mrosset/install/lib/frcode"
+                    "usr/local/via/bin/find",
+                    "usr/local/via/bin/locate",
+                    "usr/local/via/bin/oldfind",
+                    "usr/local/via/bin/updatedb",
+                    "usr/local/via/bin/xargs",
+                    "usr/local/via/lib/bigram",
+                    "usr/local/via/lib/code",
+                    "usr/local/via/lib/frcode"
     ]
 }

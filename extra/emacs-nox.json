@@ -5,14 +5,13 @@
     "Group"        : "extra",
     "StageDir"     : "emacs-25.1",
     "Inherit"      : "gnu",
-    "Oid"          : "B5606E95BB733EEC2145EEE23E46C9C07DCBA4B61D1797C7C7904386205A30D6",
+    "Oid"          : "872459DEB1B9685D9C948486A5481AB8CE158C93EDCA286B61EFF34C7AC1C14C",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-06T14:55:04.883276372-08:00",
+    "Date"         : "2016-11-08T10:44:01.118267017-08:00",
     "Size"         : 100661642,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "acl",
                    "glibc",
                    "ncurses",
                    "zlib"
