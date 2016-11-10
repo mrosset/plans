@@ -1,0 +1,39 @@
+{
+    "Name"         : "nghttp2",
+    "Version"      : "1.14",
+    "Url"          : "https://github.com/nghttp2/nghttp2/archive/v1.14.x.zip",
+    "Group"        : "core",
+    "StageDir"     : "nghttp2-1.14.x",
+    "Inherit"      : "gnu",
+    "Oid"          : "4075365BF51978410ED92E4729D9747D6D5A949C3CFF58BB47BCEE467FB0F0B0",
+    "BuildInStage" : false,
+    "BuildTime"    : 1488985839,
+    "Date"         : "2016-11-09T16:19:52.807875374-08:00",
+    "Size"         : 345289,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--disable-python-bindings"
+    ],
+    "Patch" : [
+            "autoreconf -i"
+    ],
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/include/nghttp2/nghttp2.h",
+                  "usr/local/via/include/nghttp2/nghttp2ver.h",
+                  "usr/local/via/lib/libnghttp2.la",
+                  "usr/local/via/lib/libnghttp2.so",
+                  "usr/local/via/lib/libnghttp2.so.14",
+                  "usr/local/via/lib/libnghttp2.so.14.10.1",
+                  "usr/local/via/lib/pkgconfig/libnghttp2.pc",
+                  "usr/local/via/share/nghttp2/fetch-ocsp-response"
+    ]
+}
