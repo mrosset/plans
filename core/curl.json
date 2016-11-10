@@ -5,14 +5,15 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "30775E39A3E2B9F9EFAB21F9A629D87701D41C2A2757DE4DF5DC7CF9A2E49F14",
+    "Oid"          : "103734C17CC20E150D6C8A5EBB5488B3F24D3B30ECD3620372ACF1578E38DC6E",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-09T15:53:56.937494171-08:00",
-    "Size"         : 729093,
+    "Date"         : "2016-11-09T16:20:58.241174398-08:00",
+    "Size"         : 749997,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
+                   "nghttp2",
                    "openssl",
                    "zlib"
     ],

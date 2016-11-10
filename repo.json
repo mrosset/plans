@@ -82,6 +82,7 @@
     "core/ncurses.json",
     "core/nettle.json",
     "core/newlib.json",
+    "core/nghttp2.json",
     "core/openssh.json",
     "core/openssl.json",
     "core/pam-unix.json",
