@@ -1,19 +1,17 @@
 {
-    "Name"         : "gmp",
-    "Version"      : "6.1.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-6.1.0.tar.bz2",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "215F4E600B034B85A2838CC247D099BB13F6A81A5E9571199D5DF343C0D94639",
-    "BuildInStage" : false,
-    "BuildTime"    : 69211121595,
-    "Date"         : "2016-11-09T08:51:59.819939054-08:00",
-    "Size"         : 569439,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "gmp",
+    "Version"       : "6.1.0",
+    "Url"           : "http://mirrors.kernel.org/gnu/gmp/gmp-6.1.0.tar.bz2",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "8DAABAEB53C6315DB02DFEB8900112A46257973512335F5B8062CA97D0980571",
+    "BuildInStage"  : false,
+    "BuildTime"     : 69211121595,
+    "Date"          : "2017-09-09T21:45:15.702734317+02:00",
+    "Size"          : 569016,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,10 +21,10 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/gmp.h",
-                    "usr/local/via/lib/libgmp.la",
-                    "usr/local/via/lib/libgmp.so",
-                    "usr/local/via/lib/libgmp.so.10",
-                    "usr/local/via/lib/libgmp.so.10.3.0"
+                    "home/mrosset/via/include/gmp.h",
+                    "home/mrosset/via/lib/libgmp.la",
+                    "home/mrosset/via/lib/libgmp.so",
+                    "home/mrosset/via/lib/libgmp.so.10",
+                    "home/mrosset/via/lib/libgmp.so.10.3.0"
     ]
 }

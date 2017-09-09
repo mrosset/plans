@@ -1,19 +1,17 @@
 {
-    "Name"         : "grep",
-    "Version"      : "2.21",
-    "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "E2BC1B5981C26BE9D4F74B20508633380E2FA92D7AFC5D38A5991F5F98DB0FBA",
-    "BuildInStage" : false,
-    "BuildTime"    : 24151209794,
-    "Date"         : "2016-11-09T09:27:43.464740167-08:00",
-    "Size"         : 138924,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "grep",
+    "Version"       : "2.21",
+    "Url"           : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "5D7930EF00B51F3790AD2691D4F643B1E944932E362D1981F857E5735457B016",
+    "BuildInStage"  : false,
+    "BuildTime"     : 24151209794,
+    "Date"          : "2017-09-09T22:04:32.616828903+02:00",
+    "Size"          : 138844,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,8 +21,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/egrep",
-                    "usr/local/via/bin/fgrep",
-                    "usr/local/via/bin/grep"
+                    "home/mrosset/via/bin/egrep",
+                    "home/mrosset/via/bin/fgrep",
+                    "home/mrosset/via/bin/grep"
     ]
 }

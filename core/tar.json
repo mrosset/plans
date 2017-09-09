@@ -1,19 +1,17 @@
 {
-    "Name"         : "tar",
-    "Version"      : "1.28",
-    "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "C1B33AD856D2B4695776613575D3E35039307076C660EA350A7F134A7C42D92C",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-11-09T10:05:10.602351095-08:00",
-    "Size"         : 415296,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "tar",
+    "Version"       : "1.28",
+    "Url"           : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "1E6489D161AC6F9532C4898536E402D91BAB81C99A4D3CD5ACE91258920CF0CE",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2017-09-09T22:07:40.428646077+02:00",
+    "Size"          : 419256,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,7 +21,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/tar",
-                    "usr/local/via/lib/rmt"
+                    "home/mrosset/via/bin/tar",
+                    "home/mrosset/via/lib/rmt"
     ]
 }

@@ -1,19 +1,17 @@
 {
-    "Name"         : "libffi",
-    "Version"      : "3.2.1",
-    "Url"          : "http://www.mirrorservice.org/sites/sourceware.org/pub/libffi/libffi-3.2.1.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "7F2096845B584F238FFC04CEED4F6D34E1B1C85E991E8FC0C426606C5484BB76",
-    "BuildInStage" : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-11-09T09:37:46.524727447-08:00",
-    "Size"         : 50145,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libffi",
+    "Version"       : "3.2.1",
+    "Url"           : "http://www.mirrorservice.org/sites/sourceware.org/pub/libffi/libffi-3.2.1.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "E3CFAA6276C56168B5CA919E587FC3EA96B60561F1405235D30512A9100BD0A9",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2017-09-09T21:05:34.612225275+02:00",
+    "Size"          : 49879,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -31,12 +29,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "usr/local/via/include/ffi.h",
-                  "usr/local/via/include/ffitarget.h",
-                  "usr/local/via/lib/libffi.la",
-                  "usr/local/via/lib/libffi.so",
-                  "usr/local/via/lib/libffi.so.6",
-                  "usr/local/via/lib/libffi.so.6.0.4",
-                  "usr/local/via/lib/pkgconfig/libffi.pc"
+                  "home/mrosset/via/include/ffi.h",
+                  "home/mrosset/via/include/ffitarget.h",
+                  "home/mrosset/via/lib/libffi.la",
+                  "home/mrosset/via/lib/libffi.so",
+                  "home/mrosset/via/lib/libffi.so.6",
+                  "home/mrosset/via/lib/libffi.so.6.0.4",
+                  "home/mrosset/via/lib/pkgconfig/libffi.pc"
     ]
 }

@@ -1,20 +1,17 @@
 {
-    "Name"         : "bash",
-    "Version"      : "4.3",
-    "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.3.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "B40E80B0C03435A74AFA06B5722FDFAF3CE209D6201DF6733ACB40EF37E47B24",
-    "BuildInStage" : false,
-    "BuildTime"    : 1566102924,
-    "Date"         : "2016-11-09T07:49:10.89184516-08:00",
-    "Size"         : 1019971,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "ncurses"
-    ],
+    "Name"          : "bash",
+    "Version"       : "4.3",
+    "Url"           : "http://mirrors.kernel.org/gnu/bash/bash-4.3.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "B02CB8AEA8EBC4724216B02C362DDD4EA3BE48EA94258D5A927A7285EC0F8C77",
+    "BuildInStage"  : false,
+    "BuildTime"     : 1566102924,
+    "Date"          : "2017-09-09T22:00:09.439393843+02:00",
+    "Size"          : 1036283,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -26,8 +23,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "usr/local/via/bin/bash",
-                  "usr/local/via/bin/bashbug",
-                  "usr/local/via/bin/sh"
+                  "home/mrosset/via/bin/bash",
+                  "home/mrosset/via/bin/bashbug",
+                  "home/mrosset/via/bin/sh"
     ]
 }

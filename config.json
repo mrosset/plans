@@ -5,8 +5,8 @@
     "OS"        : "linux",
     "Root"      : "/",
     "PlansRepo" : "http://github.com/mrosset/plans",
-    "Cache"     : "$HOME/via_cache",
-    "DB"        : "/usr/local/via/db",
+    "Cache"     : "$HOME/.cache/via",
+    "DB"        : "/home/mrosset/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish",
     "Binary"    : "https://bitbucket.org/strings/publish/raw/linux-x86_64/repo",
@@ -28,19 +28,19 @@
                 "-q"
     ],
     "Env" : {
-          "CFLAGS"              : "-pipe -O2 -mtune=generic",
+          "CFLAGS"              : "-pipe -O2 -mtune=generic -fPIC",
           "CHOST"               : "x86_64-via-linux-gnu",
+          "CPPFLAGS"            : "$CFLAGS -P",
           "CXXFLAGS"            : "$CFLAGS",
-          "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"        : "$PREFIX/lib",
-          "MAKEFLAGS"           : "-sw -j8",
+          "MAKEFLAGS"           : "-sw -j16",
           "MAKEINFO"            : "missing",
           "OCPLUS_INCLUDE_PATH" : "$PREFIX/include",
           "OC_INCLUDE_PATH"     : "$PREFIX/include",
           "OLDFLAGS"            : "-Wl,-rpath -Wl,$PREFIX/lib",
           "PATH"                : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
           "PKG_CONFIG_PATH"     : "$PREFIX/lib/pkgconfig",
-          "PREFIX"              : "/usr/local/via"
+          "PREFIX"              : "/home/mrosset/via"
     },
     "Remove" : [
              "$PREFIX/share/doc",

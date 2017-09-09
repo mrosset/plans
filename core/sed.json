@@ -1,19 +1,17 @@
 {
-    "Name"         : "sed",
-    "Version"      : "4.2.2",
-    "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "3BEF97C5D9AD97F6F135756C8C3002FF79BF65F94D93783C8F3D240C6ED0EA7A",
-    "BuildInStage" : false,
-    "BuildTime"    : 11670073958,
-    "Date"         : "2016-11-09T10:04:37.01258173-08:00",
-    "Size"         : 69384,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "sed",
+    "Version"       : "4.2.2",
+    "Url"           : "http://mirrors.kernel.org/gnu/sed/sed-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "4DB1B9BF28773EE89B8D49827FDE16EF0A2A7A4A6772880B47CC6D6B7A905A4D",
+    "BuildInStage"  : false,
+    "BuildTime"     : 11670073958,
+    "Date"          : "2017-09-09T22:06:39.005711548+02:00",
+    "Size"          : 69344,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,6 +21,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/sed"
+                    "home/mrosset/via/bin/sed"
     ]
 }

@@ -1,19 +1,17 @@
 {
-    "Name"         : "make",
-    "Version"      : "4.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "9F31FFBA3BD5054F65921EC87BEBD2C46D31EFE3B234A0C89CE33B4E8827C431",
-    "BuildInStage" : false,
-    "BuildTime"    : 1488985839,
-    "Date"         : "2016-11-09T10:05:45.088302903-08:00",
-    "Size"         : 202240,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "make",
+    "Version"       : "4.1",
+    "Url"           : "http://mirrors.kernel.org/gnu/make/make-4.1.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "BC4C09848D81BEDE76F494BADC2D3067D206C98F5E54967CF94F9B5F41A59E1A",
+    "BuildInStage"  : false,
+    "BuildTime"     : 1488985839,
+    "Date"          : "2017-09-09T22:06:05.330568151+02:00",
+    "Size"          : 206216,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -25,7 +23,7 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "usr/local/via/bin/make",
-                  "usr/local/via/include/gnumake.h"
+                  "home/mrosset/via/bin/make",
+                  "home/mrosset/via/include/gnumake.h"
     ]
 }

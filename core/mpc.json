@@ -5,14 +5,13 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "EDF82BC5D8D6FBF16FD6DDD1960330FDF9075A0C3CB43B01B57978AB63BE239A",
+    "Oid"          : "BD4378A0E505C0A87267AF18954981ECD88881EFB32AA45373A5BF5C7FE8EE39",
     "BuildInStage" : false,
     "BuildTime"    : 1705545903,
-    "Date"         : "2016-11-09T08:54:08.676258968-08:00",
-    "Size"         : 111724,
+    "Date"         : "2017-09-09T21:49:52.81507947+02:00",
+    "Size"         : 111488,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc",
                    "gmp",
                    "mpfr"
     ],
@@ -28,10 +27,10 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "usr/local/via/include/mpc.h",
-                  "usr/local/via/lib/libmpc.la",
-                  "usr/local/via/lib/libmpc.so",
-                  "usr/local/via/lib/libmpc.so.3",
-                  "usr/local/via/lib/libmpc.so.3.0.0"
+                  "home/mrosset/via/include/mpc.h",
+                  "home/mrosset/via/lib/libmpc.la",
+                  "home/mrosset/via/lib/libmpc.so",
+                  "home/mrosset/via/lib/libmpc.so.3",
+                  "home/mrosset/via/lib/libmpc.so.3.0.0"
     ]
 }

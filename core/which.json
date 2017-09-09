@@ -1,19 +1,17 @@
 {
-    "Name"         : "which",
-    "Version"      : "2.20",
-    "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "112A45FE1A38A184C33582558BBA14C69F98A6268F953A61AE0B19F06442DE42",
-    "BuildInStage" : false,
-    "BuildTime"    : 3243860436,
-    "Date"         : "2016-11-09T10:05:20.127013902-08:00",
-    "Size"         : 23176,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "which",
+    "Version"       : "2.20",
+    "Url"           : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "53449AA0867137E61E9AB330D5956FB39EF1B308D15680622B27122AF97E8EB1",
+    "BuildInStage"  : false,
+    "BuildTime"     : 3243860436,
+    "Date"          : "2017-09-09T22:14:06.241120394+02:00",
+    "Size"          : 23440,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,6 +21,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/which"
+                    "home/mrosset/via/bin/which"
     ]
 }
