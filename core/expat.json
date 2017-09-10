@@ -5,11 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "110BC85086F94DD76F9D90FDE0D1BC7BE1F2FB3EC0A3073024A0F8A3C2A02AB2",
+    "Oid"          : "F4C464975076D8AF477B30CD8C97E125AFD540692353EEEABF32F10AD0FF494C",
     "BuildInStage" : false,
+    "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-09T09:26:24.814378448-08:00",
-    "Size"         : 276346,
+    "Date"         : "2017-09-10T01:36:38.097598586-07:00",
+    "Size"         : 297360,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -23,13 +24,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/xmlwf",
-                    "usr/local/via/include/expat.h",
-                    "usr/local/via/include/expat_external.h",
-                    "usr/local/via/lib/libexpat.la",
-                    "usr/local/via/lib/libexpat.so",
-                    "usr/local/via/lib/libexpat.so.1",
-                    "usr/local/via/lib/libexpat.so.1.6.0",
-                    "usr/local/via/lib/pkgconfig/expat.pc"
+                    "home/mrosset/via/bin/xmlwf",
+                    "home/mrosset/via/include/expat.h",
+                    "home/mrosset/via/include/expat_external.h",
+                    "home/mrosset/via/lib/libexpat.la",
+                    "home/mrosset/via/lib/libexpat.so",
+                    "home/mrosset/via/lib/libexpat.so.1",
+                    "home/mrosset/via/lib/libexpat.so.1.6.0",
+                    "home/mrosset/via/lib/pkgconfig/expat.pc"
     ]
 }

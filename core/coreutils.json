@@ -5,21 +5,25 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "3B41E0719742D286AC252672E5AA748185071562933F6E7A5B6971B5538BA741",
+    "Oid"          : "C8DB251E34D62935892F92DD8AB2EA83B5CEB3AEF570CA08A38D45BBB0A897EC",
     "BuildInStage" : false,
+    "IsRebuilt"    : true,
     "BuildTime"    : 84050474605,
-    "Date"         : "2017-09-09T22:02:52.151522276+02:00",
-    "Size"         : 4608024,
+    "Date"         : "2017-09-10T11:22:30.845233965-07:00",
+    "Size"         : 4639408,
     "SubPackages"  : null,
     "AutoDepends"  : [
+                   "glibc",
                    "gmp"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
+                    "--disable-acl",
                     "--disable-libcap",
                     "--disable-xattr",
-                    "--enable-no-install-program=groups"
+                    "--enable-no-install-program=groups",
+                    "--without-selinux"
     ],
     "Patch"       : null,
     "Build"       : null,

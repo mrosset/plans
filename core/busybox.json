@@ -7,6 +7,7 @@
     "Inherit"       : "",
     "Oid"           : "",
     "BuildInStage"  : true,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
     "Date"          : "2012-08-10T03:33:21.541466Z",
     "Size"          : 2549326,

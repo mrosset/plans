@@ -5,13 +5,15 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "B754FEBA8F5937B420B9D4DD14B369F3A11A2F2EA5DE2B0AECF84254A31261DB",
+    "Oid"          : "92592F8BA63AD135B9C47DEE7656B5A5021220E53F50B8499B4691B2D81063DE",
     "BuildInStage" : false,
+    "IsRebuilt"    : true,
     "BuildTime"    : 9494663451,
-    "Date"         : "2017-09-09T22:03:23.178425585+02:00",
-    "Size"         : 5132707,
+    "Date"         : "2017-09-10T11:22:35.656663631-07:00",
+    "Size"         : 5128579,
     "SubPackages"  : null,
     "AutoDepends"  : [
+                   "glibc",
                    "zlib"
     ],
     "ManualDepends" : null,

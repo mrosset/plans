@@ -7,6 +7,7 @@
     "Inherit"       : "",
     "Oid"           : "04A6F3199FEEC3A616E26702F16D96C8B737ACE28083E07A0865090366A40125",
     "BuildInStage"  : false,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
     "Date"          : "2017-09-10T00:20:21.402251546+02:00",
     "Size"          : 37773991,

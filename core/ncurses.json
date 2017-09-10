@@ -5,11 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "9B6064BFA20D989DD2C0BB5AF2A693BA747B0E0245C59487A3EFC1CB09D7ECBF",
+    "Oid"          : "FB14BEADD35A8F3153E01212A4681F10218EDC444B98EB52CA9082978EEFBC61",
     "BuildInStage" : false,
+    "IsRebuilt"    : false,
     "BuildTime"    : 107793761305,
-    "Date"         : "2017-09-10T00:48:18.224255786+02:00",
-    "Size"         : 12617413,
+    "Date"         : "2017-09-10T01:55:28.997710543-07:00",
+    "Size"         : 12617693,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -21,6 +22,7 @@
                     "--with-shared",
                     "--without-ada",
                     "--without-cxx-binding",
+                    "--without-dbus",
                     "--without-gpm"
     ],
     "Patch"   : null,
@@ -28,7 +30,7 @@
     "Package" : [
               "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libncurses.so",
               "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libtinfo.so",
-              "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libtinfo.so.5",
+              "ln -s libncursesw.so $PKGDIR/$PREFIX/lib/libtinfo.so.6",
               "ln -s ncursesw/ncurses.h $PKGDIR/$PREFIX/include/",
               "ln -s ncursesw/term.h $PKGDIR/$PREFIX/include/",
               "ln -s ncursesw/panel.h $PKGDIR/$PREFIX/include/",
@@ -87,7 +89,7 @@
                   "home/mrosset/via/lib/libpanelw.so.6.0",
                   "home/mrosset/via/lib/libpanelw_g.a",
                   "home/mrosset/via/lib/libtinfo.so",
-                  "home/mrosset/via/lib/libtinfo.so.5",
+                  "home/mrosset/via/lib/libtinfo.so.6",
                   "home/mrosset/via/lib/terminfo",
                   "home/mrosset/via/share/tabset/std",
                   "home/mrosset/via/share/tabset/stdcrt",

@@ -115,7 +115,7 @@
     "core/xz.json",
     "core/zlib.json",
     "devel/nasm.json",
-    "extra/emacs-nox.json",
+    "extra/emacs.json",
     "groups/core.json",
     "groups/devel.json"
 ]

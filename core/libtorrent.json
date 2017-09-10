@@ -7,6 +7,7 @@
     "Inherit"       : "",
     "Oid"           : "",
     "BuildInStage"  : false,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
     "Date"          : "0001-01-01T00:00:00Z",
     "Size"          : 0,

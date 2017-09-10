@@ -5,11 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "5ECB26A078AE25A193BDB8C1CE685A549B400ACCDDC63AA7309435230911302A",
+    "Oid"          : "B6FA96B2CD51519364CB5F77FAAC93D148C297986C459899C7E62CF42D2B0682",
     "BuildInStage" : false,
+    "IsRebuilt"    : true,
     "BuildTime"    : 310961178659,
-    "Date"         : "2017-09-10T00:23:08.129985825+02:00",
-    "Size"         : 85839786,
+    "Date"         : "2017-09-10T11:26:14.611797713-07:00",
+    "Size"         : 81512569,
     "SubPackages"  : [
                    "libgcc",
                    "libstdc++"
@@ -17,6 +18,8 @@
     "AutoDepends" : [
                   "glibc",
                   "gmp",
+                  "libgcc",
+                  "libstdc++",
                   "mpc",
                   "mpfr"
     ],
@@ -29,7 +32,8 @@
                     "--disable-libquadmath",
                     "--disable-libssp",
                     "--enable-languages=c,c++",
-                    "--enable-linker-build-id"
+                    "--enable-linker-build-id",
+                    "--with-native-system-header-dir=$PREFIX/include"
     ],
     "Patch" : null,
     "Build" : [
@@ -136,9 +140,6 @@
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include/xsavesintrin.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include/xtestintrin.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/README",
-            "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/X11/Xw32defs.h",
-            "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/boost/predef/os/linux.h",
-            "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/boost/predef/os/unix.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/limits.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/linux/a.out.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/6.2.0/include-fixed/syslimits.h",

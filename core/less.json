@@ -5,11 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "275F8DBD340423DE0E215540B157862760BDF0AC7083E6A81CD6840FCF929315",
+    "Oid"          : "D778B8A380EAED676AF0C2A4620DCB8AEDD8295DE6E474826365D393A6670CE4",
     "BuildInStage" : false,
+    "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-09T07:50:50.421618529-08:00",
-    "Size"         : 180152,
+    "Date"         : "2017-09-10T10:49:58.693866396-07:00",
+    "Size"         : 179744,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -24,8 +25,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/less",
-                    "usr/local/via/bin/lessecho",
-                    "usr/local/via/bin/lesskey"
+                    "home/mrosset/via/bin/less",
+                    "home/mrosset/via/bin/lessecho",
+                    "home/mrosset/via/bin/lesskey"
     ]
 }

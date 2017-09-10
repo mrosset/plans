@@ -7,6 +7,7 @@
     "Inherit"       : "gnu",
     "Oid"           : "4DB1B9BF28773EE89B8D49827FDE16EF0A2A7A4A6772880B47CC6D6B7A905A4D",
     "BuildInStage"  : false,
+    "IsRebuilt"     : false,
     "BuildTime"     : 11670073958,
     "Date"          : "2017-09-09T22:06:39.005711548+02:00",
     "Size"          : 69344,
@@ -16,11 +17,14 @@
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,
-    "Build"         : null,
-    "Package"       : null,
-    "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/bin/sed"
+    "Build"         : [
+                    "--without-selinux",
+                    "--disable-acl"
+    ],
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/bin/sed"
     ]
 }
