@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "E654CC6B2E392CDBC26A9DE06BE938A8CC15E6809BBB31289D02EA609B55D1B6",
+    "Oid"          : "81FFEEDDF021BD41B7834FCC66D128C4C2BF4E9D30DC40BBFCBDBF23A79FB72B",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-09T09:38:51.919280473-08:00",
-    "Size"         : 452279,
+    "Date"         : "2017-09-10T00:35:16.22099056+02:00",
+    "Size"         : 449031,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -23,19 +23,19 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/readline/chardefs.h",
-                    "usr/local/via/include/readline/history.h",
-                    "usr/local/via/include/readline/keymaps.h",
-                    "usr/local/via/include/readline/readline.h",
-                    "usr/local/via/include/readline/rlconf.h",
-                    "usr/local/via/include/readline/rlstdc.h",
-                    "usr/local/via/include/readline/rltypedefs.h",
-                    "usr/local/via/include/readline/tilde.h",
-                    "usr/local/via/lib/libhistory.so",
-                    "usr/local/via/lib/libhistory.so.6",
-                    "usr/local/via/lib/libhistory.so.6.3",
-                    "usr/local/via/lib/libreadline.so",
-                    "usr/local/via/lib/libreadline.so.6",
-                    "usr/local/via/lib/libreadline.so.6.3"
+                    "home/mrosset/via/include/readline/chardefs.h",
+                    "home/mrosset/via/include/readline/history.h",
+                    "home/mrosset/via/include/readline/keymaps.h",
+                    "home/mrosset/via/include/readline/readline.h",
+                    "home/mrosset/via/include/readline/rlconf.h",
+                    "home/mrosset/via/include/readline/rlstdc.h",
+                    "home/mrosset/via/include/readline/rltypedefs.h",
+                    "home/mrosset/via/include/readline/tilde.h",
+                    "home/mrosset/via/lib/libhistory.so",
+                    "home/mrosset/via/lib/libhistory.so.6",
+                    "home/mrosset/via/lib/libhistory.so.6.3",
+                    "home/mrosset/via/lib/libreadline.so",
+                    "home/mrosset/via/lib/libreadline.so.6",
+                    "home/mrosset/via/lib/libreadline.so.6.3"
     ]
 }

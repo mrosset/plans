@@ -5,16 +5,17 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "623546D9C38E75E8FE9C97B70245E32FBC9D53FFB1499EC2DD2D212EE3BEDD36",
+    "Oid"          : "5ECB26A078AE25A193BDB8C1CE685A549B400ACCDDC63AA7309435230911302A",
     "BuildInStage" : false,
     "BuildTime"    : 310961178659,
-    "Date"         : "2017-09-09T21:37:33.946437855+02:00",
-    "Size"         : 83818066,
+    "Date"         : "2017-09-10T00:23:08.129985825+02:00",
+    "Size"         : 85839786,
     "SubPackages"  : [
                    "libgcc",
                    "libstdc++"
     ],
     "AutoDepends" : [
+                  "glibc",
                   "gmp",
                   "mpc",
                   "mpfr"

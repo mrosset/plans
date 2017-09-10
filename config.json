@@ -28,10 +28,11 @@
                 "-q"
     ],
     "Env" : {
-          "CFLAGS"              : "-pipe -O2 -mtune=generic -fPIC",
+          "CFLAGS"              : "-pipe -O2 -mtune=generic",
           "CHOST"               : "x86_64-via-linux-gnu",
           "CPPFLAGS"            : "$CFLAGS -P",
           "CXXFLAGS"            : "$CFLAGS",
+          "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"        : "$PREFIX/lib",
           "MAKEFLAGS"           : "-sw -j16",
           "MAKEINFO"            : "missing",

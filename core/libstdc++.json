@@ -5,13 +5,14 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "D7F35B5BC3D1152D7B086F1CDEBE42FFE3CCCDCEABC758383FE8B2774EE5F00F",
+    "Oid"          : "FA3BCCFD673557CC3ADB99760C9D4081ECE747CC31E4DAAC866E44F5741A0DD0",
     "BuildInStage" : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-09-09T21:37:33.427176344+02:00",
+    "Date"         : "2017-09-10T00:23:07.636006369+02:00",
     "Size"         : 11406020,
     "SubPackages"  : null,
     "AutoDepends"  : [
+                   "glibc",
                    "libgcc"
     ],
     "ManualDepends" : null,

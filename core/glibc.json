@@ -5,11 +5,11 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Oid"           : "62AA1A34B97EB3059B62474FBA8115B710451594EA2BA14BF3B843B9DAC59B68",
+    "Oid"           : "04A6F3199FEEC3A616E26702F16D96C8B737ACE28083E07A0865090366A40125",
     "BuildInStage"  : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-09-09T21:53:26.509032686+02:00",
-    "Size"          : 37642469,
+    "Date"          : "2017-09-10T00:20:21.402251546+02:00",
+    "Size"          : 37773991,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -24,7 +24,7 @@
                     "--without-selinux"
     ],
     "Patch" : [
-            "sed -e '142d' -i elf/get-dynamic-info.h"
+            "sed -e '142,143d' -i elf/get-dynamic-info.h"
     ],
     "Build" : [
             "$SRCDIR/configure $Flags LDFLAGS=",
