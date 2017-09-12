@@ -5,12 +5,13 @@
     "OS"        : "linux",
     "Root"      : "/",
     "PlansRepo" : "http://github.com/mrosset/plans",
+    "Linker"    : "/tmp/via/lib/linker",
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/home/mrosset/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish",
-    "Binary"    : "https://bitbucket.org/strings/publish/raw/linux-x86_64/repo",
-    "Prefix"    : "",
+    "Binary"    : "https://bitbucket.org/strings/publish/raw/{{.Branch}}/repo",
+    "Prefix"    : "/home/mrosset/via",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",
                 "--config-cache",
@@ -21,27 +22,25 @@
                 "--disable-werror",
                 "--enable-shared",
                 "--host=x86_64-via-linux-gnu",
-                "--libexec=$PREFIX/lib",
+                "--libexec={{.Prefix}}/lib",
                 "--prefix=$PREFIX",
-                "--sysconfdir=$PREFIX/etc",
-                "--without-manpages",
-                "-q"
+                "--sysconfdir={{.Prefix}}/etc",
+                "--without-manpages"
     ],
     "Env" : {
           "CFLAGS"              : "-pipe -O2 -mtune=generic",
           "CHOST"               : "x86_64-via-linux-gnu",
           "CPPFLAGS"            : "$CFLAGS -P",
           "CXXFLAGS"            : "$CFLAGS",
-          "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+          "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,{{.Linker}}",
           "LIBRARY_PATH"        : "$PREFIX/lib",
           "MAKEFLAGS"           : "-sw -j16",
-          "MAKEINFO"            : "missing",
           "OCPLUS_INCLUDE_PATH" : "$PREFIX/include",
           "OC_INCLUDE_PATH"     : "$PREFIX/include",
           "OLDFLAGS"            : "-Wl,-rpath -Wl,$PREFIX/lib",
           "PATH"                : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin",
           "PKG_CONFIG_PATH"     : "$PREFIX/lib/pkgconfig",
-          "PREFIX"              : "/home/mrosset/via"
+          "PREFIX"              : "{{.Prefix}}"
     },
     "Remove" : [
              "$PREFIX/share/doc",
