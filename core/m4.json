@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "4FA73B66B9C2699F7BFBCE71B18291138095DE7B4F14B240AFD298D1AF34A3E2",
+    "Oid"          : "896B8A8F8B093C2C2CF6A8DBE259486124AEA50774DE590BDFA86D545665357F",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 22752465060,
-    "Date"         : "2017-09-12T13:12:41.570555832-07:00",
-    "Size"         : 150616,
+    "Date"         : "2017-09-12T21:34:39.094669254-07:00",
+    "Size"         : 150576,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,6 +24,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/m4"
+                    "via/bin/m4"
     ]
 }

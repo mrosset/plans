@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "99C7228E6064033C66004762ABBB2778514BC649E6FFB7251CD13C329694A3BC",
+    "Oid"          : "8162696632E44AB5FF22C0C6333807F579AB8794E873337CD79154F6BF1E80C2",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 3901803576,
-    "Date"         : "2017-09-12T13:01:17.353352432-07:00",
-    "Size"         : 357314,
+    "Date"         : "2017-09-12T21:28:33.777515923-07:00",
+    "Size"         : 356786,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -36,15 +36,15 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/bzdiff",
-                  "home/mrosset/via/bin/bzgrep",
-                  "home/mrosset/via/bin/bzip2",
-                  "home/mrosset/via/bin/bzip2recover",
-                  "home/mrosset/via/bin/bzmore",
-                  "home/mrosset/via/include/bzlib.h",
-                  "home/mrosset/via/lib/libbz2.so",
-                  "home/mrosset/via/lib/libbz2.so.1",
-                  "home/mrosset/via/lib/libbz2.so.1.0",
-                  "home/mrosset/via/lib/libbz2.so.1.0.6"
+                  "via/bin/bzdiff",
+                  "via/bin/bzgrep",
+                  "via/bin/bzip2",
+                  "via/bin/bzip2recover",
+                  "via/bin/bzmore",
+                  "via/include/bzlib.h",
+                  "via/lib/libbz2.so",
+                  "via/lib/libbz2.so.1",
+                  "via/lib/libbz2.so.1.0",
+                  "via/lib/libbz2.so.1.0.6"
     ]
 }

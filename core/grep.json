@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "2959DC0E4D5F32FA4026FDD2A6DE12E355948F2944F65BF1A3F781330F2633C2",
+    "Oid"          : "3FBE75219EC3F09118AE58B9528804EE7C41C4030ED2D386D71C39093C614EB9",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 24151209794,
-    "Date"         : "2017-09-12T13:10:17.434907288-07:00",
-    "Size"         : 138764,
+    "Date"         : "2017-09-12T21:33:52.709667915-07:00",
+    "Size"         : 138724,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,8 +24,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/egrep",
-                    "home/mrosset/via/bin/fgrep",
-                    "home/mrosset/via/bin/grep"
+                    "via/bin/egrep",
+                    "via/bin/fgrep",
+                    "via/bin/grep"
     ]
 }

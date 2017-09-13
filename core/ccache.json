@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "2AC411C4F68297F2E81348C9DE5A4E41D3DAAABAA33AB5E77CD38B0F0E7B977F",
+    "Oid"          : "36A2AA306E05BC0132B2E1E28E69021A78D1C0AB348996D1F05C8A596282A777",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 4665966173,
-    "Date"         : "2017-09-12T13:01:19.433304333-07:00",
-    "Size"         : 96588,
+    "Date"         : "2017-09-12T21:28:35.624520888-07:00",
+    "Size"         : 96699,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -32,11 +32,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/ccache",
-                  "home/mrosset/via/lib/ccache/clang",
-                  "home/mrosset/via/lib/ccache/cpp",
-                  "home/mrosset/via/lib/ccache/g++",
-                  "home/mrosset/via/lib/ccache/gcc",
-                  "home/mrosset/via/lib/ccache/i686-via-linux-gnu-gcc"
+                  "via/bin/ccache",
+                  "via/lib/ccache/clang",
+                  "via/lib/ccache/cpp",
+                  "via/lib/ccache/g++",
+                  "via/lib/ccache/gcc",
+                  "via/lib/ccache/i686-via-linux-gnu-gcc"
     ]
 }

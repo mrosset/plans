@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "6246E08CBCE5ADA7DC31EC08F7D4D8605E02465B81C83323986A4ED5AF2C6AB3",
+    "Oid"          : "36B4CCA6405AB011E1CB82A6FB01C23C132DABAA301AD29FE0CA6FD9C90DC869",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 1488985839,
-    "Date"         : "2017-09-12T13:12:47.228116664-07:00",
-    "Size"         : 198016,
+    "Date"         : "2017-09-12T21:34:43.292275951-07:00",
+    "Size"         : 197976,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -26,7 +26,7 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/make",
-                  "home/mrosset/via/include/gnumake.h"
+                  "via/bin/make",
+                  "via/include/gnumake.h"
     ]
 }

@@ -26,8 +26,6 @@
                     "gmp",
                     "grep",
                     "gzip",
-                    "libgcc",
-                    "libstdc++",
                     "linux-headers",
                     "m4",
                     "make",
