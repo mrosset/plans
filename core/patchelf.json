@@ -1,0 +1,31 @@
+{
+    "Name"         : "patchelf",
+    "Version"      : "0.9",
+    "Url"          : "https://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "6096D140FDB7DFC293F840CBF6CCEF01BC2C5D150FFCC2734BB9B4108D549B6C",
+    "BuildInStage" : false,
+    "IsRebuilt"    : false,
+    "BuildTime"    : 0,
+    "Date"         : "2017-09-13T17:04:43.625703769-07:00",
+    "Size"         : 105040,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libgcc",
+                   "libstdc++"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "via/bin/patchelf"
+    ]
+}

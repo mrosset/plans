@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "9B9D1BCD4D0C1997988680561791077460F199D5C6F52B23739DDA2C89556868",
+    "Oid"          : "A0F1258938E79A4FFFCD03183A3F5EFF014A9583D196A2CA25DA661F33C0517F",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 3901803576,
-    "Date"         : "2017-09-13T15:51:17.882230866-07:00",
-    "Size"         : 356794,
+    "Date"         : "2017-09-13T17:02:13.153408418-07:00",
+    "Size"         : 1436388,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -20,31 +20,42 @@
     "Flags"         : null,
     "Patch"         : null,
     "Build"         : [
-                    "make -f Makefile-libbz2_so",
-                    "make bzip2 bzip2recover"
+                    "make -f Makefile-libbz2_so"
     ],
     "Package" : [
-              "install -dm755 $PKGDIR/$PREFIX/{bin,lib,include,share/man/man1}",
-              "install -m755 bzip2recover bzdiff bzgrep bzmore $PKGDIR/$PREFIX/bin",
-              "install -m755 bzip2-shared $PKGDIR/$PREFIX/bin/bzip2",
+              "make install PREFIX=$PKGDIR/$PREFIX",
               "install -m755 libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib",
               "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so",
               "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1",
-              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1.0",
-              "install -m644 bzlib.h $PKGDIR/$PREFIX/include"
+              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1.0"
     ],
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
+                  "via/bin/bunzip2",
+                  "via/bin/bzcat",
+                  "via/bin/bzcmp",
                   "via/bin/bzdiff",
+                  "via/bin/bzegrep",
+                  "via/bin/bzfgrep",
                   "via/bin/bzgrep",
                   "via/bin/bzip2",
                   "via/bin/bzip2recover",
+                  "via/bin/bzless",
                   "via/bin/bzmore",
                   "via/include/bzlib.h",
+                  "via/lib/libbz2.a",
                   "via/lib/libbz2.so",
                   "via/lib/libbz2.so.1",
                   "via/lib/libbz2.so.1.0",
-                  "via/lib/libbz2.so.1.0.6"
+                  "via/lib/libbz2.so.1.0.6",
+                  "via/man/man1/bzcmp.1",
+                  "via/man/man1/bzdiff.1",
+                  "via/man/man1/bzegrep.1",
+                  "via/man/man1/bzfgrep.1",
+                  "via/man/man1/bzgrep.1",
+                  "via/man/man1/bzip2.1",
+                  "via/man/man1/bzless.1",
+                  "via/man/man1/bzmore.1"
     ]
 }
