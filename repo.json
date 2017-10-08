@@ -87,6 +87,7 @@
     "core/openssl.json",
     "core/pam-unix.json",
     "core/pam.json",
+    "core/patchelf.json",
     "core/pcre.json",
     "core/perl.json",
     "core/pkg-config.json",

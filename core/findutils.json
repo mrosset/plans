@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "8F29CF0D16D760943EE830C96F933F056E0C7ECB364468A90D620DFFCE4D0D16",
+    "Oid"          : "C486F09F65390B065DAA4C8531215672A35D7C4CC6C3162DACD088D376A244CC",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-08T10:49:29.191854102-08:00",
-    "Size"         : 696834,
+    "Date"         : "2017-10-08T05:43:15.499930136-07:00",
+    "Size"         : 691292,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,13 +24,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/find",
-                    "usr/local/via/bin/locate",
-                    "usr/local/via/bin/oldfind",
-                    "usr/local/via/bin/updatedb",
-                    "usr/local/via/bin/xargs",
-                    "usr/local/via/lib/bigram",
-                    "usr/local/via/lib/code",
-                    "usr/local/via/lib/frcode"
+                    "via/bin/find",
+                    "via/bin/locate",
+                    "via/bin/oldfind",
+                    "via/bin/updatedb",
+                    "via/bin/xargs",
+                    "via/lib/bigram",
+                    "via/lib/code",
+                    "via/lib/frcode"
     ]
 }

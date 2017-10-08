@@ -1,16 +1,16 @@
 {
     "Name"         : "strace",
-    "Version"      : "4.9",
-    "Url"          : "http://downloads.sourceforge.net/4.9/strace-4.9.tar.xz",
+    "Version"      : "4.19",
+    "Url"          : "https://downloads.sourceforge.net/project/strace/strace/{{.Version}}/strace-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "",
+    "Oid"          : "9D9A6D8F78849B043940794077A7CE4B2AC68FA8E43F77EEDABD6874561C3007",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2014-11-28T23:36:05.755424476-08:00",
-    "Size"         : 476885,
+    "Date"         : "2017-10-08T06:13:02.678794276-07:00",
+    "Size"         : 787351,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -23,5 +23,9 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "via/bin/strace",
+                    "via/bin/strace-graph",
+                    "via/bin/strace-log-merge"
+    ]
 }
