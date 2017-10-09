@@ -29856,6 +29856,9 @@
            "via/include/zconf.h",
            "via/include/zlib.h",
            "via/lib/libz.a",
+           "via/lib/libz.so",
+           "via/lib/libz.so.1",
+           "via/lib/libz.so.1.2.11",
            "via/lib/pkgconfig/zlib.pc"
     ]
 }
