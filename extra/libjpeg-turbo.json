@@ -1,0 +1,48 @@
+{
+    "Name"         : "libjpeg-turbo",
+    "Version"      : "1.4.2",
+    "Url"          : "http://downloads.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "6654BABBF34965105FF92876E199974C82FD1621CFD8D58E7689A4D21AD0D98E",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-10-20T21:17:29.916159387-07:00",
+    "Size"         : 1201372,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-jpeg8"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/cjpeg",
+                  "usr/local/via/bin/djpeg",
+                  "usr/local/via/bin/jpegtran",
+                  "usr/local/via/bin/rdjpgcom",
+                  "usr/local/via/bin/tjbench",
+                  "usr/local/via/bin/wrjpgcom",
+                  "usr/local/via/include/jconfig.h",
+                  "usr/local/via/include/jerror.h",
+                  "usr/local/via/include/jmorecfg.h",
+                  "usr/local/via/include/jpeglib.h",
+                  "usr/local/via/include/turbojpeg.h",
+                  "usr/local/via/lib/libjpeg.la",
+                  "usr/local/via/lib/libjpeg.so",
+                  "usr/local/via/lib/libjpeg.so.8",
+                  "usr/local/via/lib/libjpeg.so.8.0.2",
+                  "usr/local/via/lib/libturbojpeg.la",
+                  "usr/local/via/lib/libturbojpeg.so",
+                  "usr/local/via/lib/libturbojpeg.so.0",
+                  "usr/local/via/lib/libturbojpeg.so.0.1.0"
+    ]
+}

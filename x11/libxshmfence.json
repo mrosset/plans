@@ -1,0 +1,33 @@
+{
+    "Name"         : "libxshmfence",
+    "Version"      : "1.2",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libxshmfence-1.2.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "99CFBCB424AAC93EC294B16626E192813B06250393BA307996E385394150DBE8",
+    "BuildInStage" : false,
+    "BuildTime"    : 0,
+    "Date"         : "2016-10-20T21:29:44.554747083-07:00",
+    "Size"         : 15390,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/xshmfence.h",
+                    "usr/local/via/lib/libxshmfence.la",
+                    "usr/local/via/lib/libxshmfence.so",
+                    "usr/local/via/lib/libxshmfence.so.1",
+                    "usr/local/via/lib/libxshmfence.so.1.0.0",
+                    "usr/local/via/lib/pkgconfig/xshmfence.pc"
+    ]
+}

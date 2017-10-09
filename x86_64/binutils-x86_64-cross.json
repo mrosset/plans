@@ -1,0 +1,27 @@
+{
+    "Name"          : "binutils-x86_64-cross",
+    "Version"       : "2.26",
+    "Url"           : "http://mirrors.kernel.org/gnu/binutils/binutils-2.26.tar.gz",
+    "Group"         : "x86_64",
+    "StageDir"      : "binutils-2.26",
+    "Inherit"       : "gnu-x86_64-cross",
+    "Oid"           : "",
+    "BuildInStage"  : false,
+    "BuildTime"     : 21101081336,
+    "Date"          : "2016-03-12T09:21:47.502460418-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--with-lib-path=$PREFIX/lib",
+                    "--with-sysroot"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : []
+}

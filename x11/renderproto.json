@@ -1,0 +1,28 @@
+{
+    "Name"          : "renderproto",
+    "Version"       : "0.11.1",
+    "Url"           : "http://xorg.freedesktop.org/releases/individual/proto/renderproto-0.11.1.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "EA060D3808945B6E5245DD7F4CE1DCFC16C53CEB2FC332D326014F82486B3AAF",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-10-20T21:18:59.327569787-07:00",
+    "Size"          : 21298,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/X11/extensions/render.h",
+                    "usr/local/via/include/X11/extensions/renderproto.h",
+                    "usr/local/via/lib/pkgconfig/renderproto.pc"
+    ]
+}

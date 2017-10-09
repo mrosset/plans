@@ -1,0 +1,31 @@
+{
+    "Name"          : "glproto",
+    "Version"       : "1.4.17",
+    "Url"           : "http://xorg.freedesktop.org/releases/individual/proto/glproto-1.4.17.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "C111084BF7350E43BE82030E8B11E1DF2619E04296B6D5F21A2BBA7B755A4320",
+    "BuildInStage"  : false,
+    "BuildTime"     : 0,
+    "Date"          : "2016-10-20T21:29:56.079371843-07:00",
+    "Size"          : 105714,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "usr/local/via/include/GL/glxint.h",
+                    "usr/local/via/include/GL/glxmd.h",
+                    "usr/local/via/include/GL/glxproto.h",
+                    "usr/local/via/include/GL/glxtokens.h",
+                    "usr/local/via/include/GL/internal/glcore.h",
+                    "usr/local/via/lib/pkgconfig/glproto.pc"
+    ]
+}
