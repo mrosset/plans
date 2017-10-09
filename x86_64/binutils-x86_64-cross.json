@@ -7,6 +7,7 @@
     "Inherit"       : "gnu-x86_64-cross",
     "Oid"           : "",
     "BuildInStage"  : false,
+    "IsRebuilt"     : false,
     "BuildTime"     : 21101081336,
     "Date"          : "2016-03-12T09:21:47.502460418-08:00",
     "Size"          : 0,

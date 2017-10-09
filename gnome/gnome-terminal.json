@@ -7,6 +7,7 @@
     "Inherit"      : "gnu",
     "Oid"          : "A285F86B33BC1494023BD84BAC0C104CA321DDB00E66B62DB1D59C48F98516A7",
     "BuildInStage" : false,
+    "IsRebuilt"    : false,
     "BuildTime"    : 0,
     "Date"         : "2016-10-21T23:31:15.192077334-07:00",
     "Size"         : 6604158,

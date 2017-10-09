@@ -5,11 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "5A5FF127D333C6434079588E7DC2B8A5886D734113856D7453B93BEAE30BD76E",
+    "Oid"           : "071BB8FAA0528C2CEFCFABFC79B15453A9E5996652841198DFECA21B78AB51C7",
     "BuildInStage"  : false,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-10-20T21:22:01.257271929-07:00",
-    "Size"          : 5820,
+    "Date"          : "2017-10-08T23:36:58.622952359-07:00",
+    "Size"          : 5810,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -21,8 +22,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/X11/extensions/damageproto.h",
-                    "usr/local/via/include/X11/extensions/damagewire.h",
-                    "usr/local/via/lib/pkgconfig/damageproto.pc"
+                    "via/include/X11/extensions/damageproto.h",
+                    "via/include/X11/extensions/damagewire.h",
+                    "via/lib/pkgconfig/damageproto.pc"
     ]
 }

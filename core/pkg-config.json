@@ -18,15 +18,17 @@
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
-    "Flags"         : null,
-    "Patch"         : null,
-    "Build"         : null,
-    "Package"       : null,
-    "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : [
-                    "usr/local/via/bin/pkg-config",
-                    "usr/local/via/bin/x86_64-via-linux-gnu-pkg-config",
-                    "usr/local/via/share/aclocal/pkg.m4"
+    "Flags"         : [
+                    "--with-internal-glib"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "usr/local/via/bin/pkg-config",
+                  "usr/local/via/bin/x86_64-via-linux-gnu-pkg-config",
+                  "usr/local/via/share/aclocal/pkg.m4"
     ]
 }

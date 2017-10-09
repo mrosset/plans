@@ -5,11 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "36F41F9599569C756D3B3FDDA902130A1B95B6A9CBE23FBEF335B5DD5F4061F8",
+    "Oid"           : "F8CEFA08FD1EFBA3D90128D687465EA09E2E1A97033247DAA639E8E915C3EE54",
     "BuildInStage"  : false,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-10-20T21:11:24.007948902-07:00",
-    "Size"          : 19051,
+    "Date"          : "2017-10-08T23:45:03.772076999-07:00",
+    "Size"          : 19041,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -21,8 +22,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/X11/extensions/xfixesproto.h",
-                    "usr/local/via/include/X11/extensions/xfixeswire.h",
-                    "usr/local/via/lib/pkgconfig/fixesproto.pc"
+                    "via/include/X11/extensions/xfixesproto.h",
+                    "via/include/X11/extensions/xfixeswire.h",
+                    "via/lib/pkgconfig/fixesproto.pc"
     ]
 }
