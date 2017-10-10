@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "FCA1104F81807CDF31B1AF135653E090AC4FCC5DEC3A8D3BBB95B0A2B63D3A1A",
+    "Oid"          : "1E377BBC21392B19B896BE7867E153DCBD5952485CC5A1745CEC4BC3C2757D99",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-13T03:07:10.203516159-07:00",
-    "Size"         : 4272177,
+    "Date"         : "2017-10-10T07:23:34.503917588-07:00",
+    "Size"         : 4226927,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -24,22 +24,24 @@
     "Build"         : null,
     "Package"       : null,
     "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : [
-                    "usr/local/via/bin/scp",
-                    "usr/local/via/bin/sftp",
-                    "usr/local/via/bin/slogin",
-                    "usr/local/via/bin/ssh",
-                    "usr/local/via/bin/ssh-add",
-                    "usr/local/via/bin/ssh-agent",
-                    "usr/local/via/bin/ssh-keygen",
-                    "usr/local/via/bin/ssh-keyscan",
-                    "usr/local/via/etc/moduli",
-                    "usr/local/via/etc/ssh_config",
-                    "usr/local/via/etc/sshd_config",
-                    "usr/local/via/lib/sftp-server",
-                    "usr/local/via/lib/ssh-keysign",
-                    "usr/local/via/lib/ssh-pkcs11-helper",
-                    "usr/local/via/sbin/sshd"
+    "Remove"        : [
+                    "/var"
+    ],
+    "Files" : [
+            "via/bin/scp",
+            "via/bin/sftp",
+            "via/bin/slogin",
+            "via/bin/ssh",
+            "via/bin/ssh-add",
+            "via/bin/ssh-agent",
+            "via/bin/ssh-keygen",
+            "via/bin/ssh-keyscan",
+            "via/bin/sshd",
+            "via/etc/moduli",
+            "via/etc/ssh_config",
+            "via/etc/sshd_config",
+            "via/lib/sftp-server",
+            "via/lib/ssh-keysign",
+            "via/lib/ssh-pkcs11-helper"
     ]
 }
