@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "30EB28C8396378CA6F6BDBFFFD1C268B66ECC6E647DB49BEEF2CA9075FCA4DD4",
+    "Oid"          : "DD10A3A00ABA9D8BDE713BB95FAFBD5F44FC3F07D21E41F6540D7D055FDE73A3",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T21:22:04.643803976-07:00",
-    "Size"         : 16560,
+    "Date"         : "2017-10-09T01:27:21.374525519-07:00",
+    "Size"         : 13930,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -30,11 +30,11 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/include/X11/extensions/Xdamage.h",
-                   "usr/local/via/lib/libXdamage.la",
-                   "usr/local/via/lib/libXdamage.so",
-                   "usr/local/via/lib/libXdamage.so.1",
-                   "usr/local/via/lib/libXdamage.so.1.1.0",
-                   "usr/local/via/lib/pkgconfig/xdamage.pc"
+                   "via/include/X11/extensions/Xdamage.h",
+                   "via/lib/libXdamage.la",
+                   "via/lib/libXdamage.so",
+                   "via/lib/libXdamage.so.1",
+                   "via/lib/libXdamage.so.1.1.0",
+                   "via/lib/pkgconfig/xdamage.pc"
     ]
 }

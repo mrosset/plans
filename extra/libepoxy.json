@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "7206C71C9D5BFB4325745505683758B044C554CFF1AAE56FBB3BD441F802734F",
+    "Oid"          : "BA25FB600DD27F607CB283779C93A7945718D922A11A89B8D2D50E5CEFEB5843",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T22:53:39.114600277-07:00",
-    "Size"         : 3042821,
+    "Date"         : "2017-10-09T01:36:58.111949803-07:00",
+    "Size"         : 2514345,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,16 +24,16 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/epoxy/egl.h",
-                    "usr/local/via/include/epoxy/egl_generated.h",
-                    "usr/local/via/include/epoxy/gl.h",
-                    "usr/local/via/include/epoxy/gl_generated.h",
-                    "usr/local/via/include/epoxy/glx.h",
-                    "usr/local/via/include/epoxy/glx_generated.h",
-                    "usr/local/via/lib/libepoxy.la",
-                    "usr/local/via/lib/libepoxy.so",
-                    "usr/local/via/lib/libepoxy.so.0",
-                    "usr/local/via/lib/libepoxy.so.0.0.0",
-                    "usr/local/via/lib/pkgconfig/epoxy.pc"
+                    "via/include/epoxy/egl.h",
+                    "via/include/epoxy/egl_generated.h",
+                    "via/include/epoxy/gl.h",
+                    "via/include/epoxy/gl_generated.h",
+                    "via/include/epoxy/glx.h",
+                    "via/include/epoxy/glx_generated.h",
+                    "via/lib/libepoxy.la",
+                    "via/lib/libepoxy.so",
+                    "via/lib/libepoxy.so.0",
+                    "via/lib/libepoxy.so.0.0.0",
+                    "via/lib/pkgconfig/epoxy.pc"
     ]
 }

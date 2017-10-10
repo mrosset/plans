@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "libXau-1.0.8",
     "Inherit"      : "gnu",
-    "Oid"          : "4638213AA10DD0C1D708B1F451B1BFD2EB00FFA447009B312E29FA1DCF63FDA8",
+    "Oid"          : "5AA5FB38B989AF043B67AFC452E06EB1EAE58DBCE53FEAA7ED00094F3CE92A5A",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T20:53:06.424952323-07:00",
-    "Size"         : 22611,
+    "Date"         : "2017-10-08T23:51:57.18649282-07:00",
+    "Size"         : 19527,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,11 +24,11 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/X11/Xauth.h",
-                    "usr/local/via/lib/libXau.la",
-                    "usr/local/via/lib/libXau.so",
-                    "usr/local/via/lib/libXau.so.6",
-                    "usr/local/via/lib/libXau.so.6.0.0",
-                    "usr/local/via/lib/pkgconfig/xau.pc"
+                    "via/include/X11/Xauth.h",
+                    "via/lib/libXau.la",
+                    "via/lib/libXau.so",
+                    "via/lib/libXau.so.6",
+                    "via/lib/libXau.so.6.0.0",
+                    "via/lib/pkgconfig/xau.pc"
     ]
 }

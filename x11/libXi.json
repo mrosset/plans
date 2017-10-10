@@ -5,34 +5,37 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "8BA650D509D042633553C0D291FAD27508BB0B5B792DD7D7750675931B1EF6C0",
+    "Oid"          : "B1DA191B329D239E776A1AEAEF895770E8254A7EFCD184FE16BB0392B45B465C",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T21:11:37.401817012-07:00",
-    "Size"         : 129145,
+    "Date"         : "2017-10-09T00:31:41.109902832-07:00",
+    "Size"         : 119995,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
+                   "libX11",
                    "libXext",
                    "libxau",
                    "libxcb"
     ],
-    "ManualDepends" : null,
-    "BuildDepends"  : null,
-    "Flags"         : null,
-    "Patch"         : null,
-    "Build"         : null,
-    "Package"       : null,
-    "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : [
-                    "usr/local/via/include/X11/extensions/XInput.h",
-                    "usr/local/via/include/X11/extensions/XInput2.h",
-                    "usr/local/via/lib/libXi.la",
-                    "usr/local/via/lib/libXi.so",
-                    "usr/local/via/lib/libXi.so.6",
-                    "usr/local/via/lib/libXi.so.6.1.0",
-                    "usr/local/via/lib/pkgconfig/xi.pc"
+    "ManualDepends" : [
+                    "libXfixes"
+    ],
+    "BuildDepends" : null,
+    "Flags"        : null,
+    "Patch"        : null,
+    "Build"        : null,
+    "Package"      : null,
+    "PostInstall"  : null,
+    "Remove"       : null,
+    "Files"        : [
+                   "via/include/X11/extensions/XInput.h",
+                   "via/include/X11/extensions/XInput2.h",
+                   "via/lib/libXi.la",
+                   "via/lib/libXi.so",
+                   "via/lib/libXi.so.6",
+                   "via/lib/libXi.so.6.1.0",
+                   "via/lib/pkgconfig/xi.pc"
     ]
 }

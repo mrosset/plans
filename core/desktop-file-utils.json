@@ -1,0 +1,35 @@
+{
+    "Name"         : "desktop-file-utils",
+    "Version"      : "0.23",
+    "Url"          : "http://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "74DA281324FB80782DF55DFD3E18556967531E663BF9D0CD8EA399A8F2359D3B",
+    "BuildInStage" : false,
+    "IsRebuilt"    : false,
+    "BuildTime"    : 0,
+    "Date"         : "2017-10-09T07:52:29.186382761-07:00",
+    "Size"         : 173475,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glib",
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "via/bin/desktop-file-edit",
+                    "via/bin/desktop-file-install",
+                    "via/bin/desktop-file-validate",
+                    "via/bin/update-desktop-database",
+                    "via/share/emacs/site-lisp/desktop-entry-mode.el",
+                    "via/share/emacs/site-lisp/desktop-entry-mode.elc"
+    ]
+}

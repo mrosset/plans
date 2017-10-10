@@ -1,16 +1,16 @@
 {
     "Name"         : "findutils",
-    "Version"      : "4.4.2",
-    "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-4.4.2.tar.gz",
+    "Version"      : "4.6.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "15B8B29B39A7DE1C73B162EAF3BBAD5D7802395CA477C798D67A2B8B4C9F6EF7",
+    "Oid"          : "C0999CD4DCA5D88BCAD7E1BE475481F9A2D34D4F0D9148C5E22BA9DC11F3CA69",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-08T09:51:45.256942135-07:00",
-    "Size"         : 687500,
+    "Date"         : "2017-10-09T09:00:25.179422949-07:00",
+    "Size"         : 417786,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -26,7 +26,6 @@
     "Files"         : [
                     "via/bin/find",
                     "via/bin/locate",
-                    "via/bin/oldfind",
                     "via/bin/updatedb",
                     "via/bin/xargs",
                     "via/lib/bigram",

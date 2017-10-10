@@ -5,12 +5,12 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "4105DC886E82FF6FF5B326C5A1AD70446A342BBCBA58A3AC8E11C95B9C9CB7FC",
+    "Oid"          : "295EA0A1B1BFFFD65D1DD1E12D9165A63F5E420E95474EF4CC88E1BD290512C5",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T21:15:01.552959755-07:00",
-    "Size"         : 250399,
+    "Date"         : "2017-10-09T00:52:17.696180548-07:00",
+    "Size"         : 203693,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "at-spi2-core",
@@ -24,7 +24,6 @@
                    "libffi",
                    "libxau",
                    "libxcb",
-                   "pcre",
                    "util-linux"
     ],
     "ManualDepends" : null,
@@ -36,14 +35,14 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/at-spi2-atk/2.0/atk-bridge.h",
-                    "usr/local/via/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop",
-                    "usr/local/via/lib/gtk-2.0/modules/libatk-bridge.la",
-                    "usr/local/via/lib/gtk-2.0/modules/libatk-bridge.so",
-                    "usr/local/via/lib/libatk-bridge-2.0.la",
-                    "usr/local/via/lib/libatk-bridge-2.0.so",
-                    "usr/local/via/lib/libatk-bridge-2.0.so.0",
-                    "usr/local/via/lib/libatk-bridge-2.0.so.0.0.0",
-                    "usr/local/via/lib/pkgconfig/atk-bridge-2.0.pc"
+                    "via/include/at-spi2-atk/2.0/atk-bridge.h",
+                    "via/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop",
+                    "via/lib/gtk-2.0/modules/libatk-bridge.la",
+                    "via/lib/gtk-2.0/modules/libatk-bridge.so",
+                    "via/lib/libatk-bridge-2.0.la",
+                    "via/lib/libatk-bridge-2.0.so",
+                    "via/lib/libatk-bridge-2.0.so.0",
+                    "via/lib/libatk-bridge-2.0.so.0.0.0",
+                    "via/lib/pkgconfig/atk-bridge-2.0.pc"
     ]
 }

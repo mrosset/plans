@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "5E3665B6D94C72BFF4FE63C80C6B1C962500A2C273EC72077E3F867EC068E4E5",
+    "Oid"          : "31A629E9DB8AFCFD63022A84CDB6FA004EF107CDB79AEE25DDA36DDFC786CDFC",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T23:49:55.526975705-07:00",
-    "Size"         : 122236,
+    "Date"         : "2017-10-10T04:16:03.149112641-07:00",
+    "Size"         : 108662,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "bzip2",
@@ -37,12 +37,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/X11/Xft/Xft.h",
-                    "usr/local/via/include/X11/Xft/XftCompat.h",
-                    "usr/local/via/lib/libXft.la",
-                    "usr/local/via/lib/libXft.so",
-                    "usr/local/via/lib/libXft.so.2",
-                    "usr/local/via/lib/libXft.so.2.3.2",
-                    "usr/local/via/lib/pkgconfig/xft.pc"
+                    "via/include/X11/Xft/Xft.h",
+                    "via/include/X11/Xft/XftCompat.h",
+                    "via/lib/libXft.la",
+                    "via/lib/libXft.so",
+                    "via/lib/libXft.so.2",
+                    "via/lib/libXft.so.2.3.2",
+                    "via/lib/pkgconfig/xft.pc"
     ]
 }

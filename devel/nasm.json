@@ -4,12 +4,12 @@
     "Url"           : "http://www.nasm.us/pub/nasm/releasebuilds/2.11.08/nasm-2.11.08.tar.xz",
     "Group"         : "devel",
     "StageDir"      : "",
-    "Inherit"       : "gnu-nostrip",
-    "Oid"           : "",
+    "Inherit"       : "",
+    "Oid"           : "31B144E83C0BE6B95304254BC2E8F9A6B0947A2541B3B38F0218ACAA2B78677B",
     "BuildInStage"  : true,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-03-09T07:39:53.451396288-08:00",
+    "Date"          : "2017-10-09T01:57:34.322660356-07:00",
     "Size"          : 0,
     "SubPackages"   : null,
     "AutoDepends"   : [],
@@ -17,9 +17,14 @@
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,
-    "Build"         : null,
-    "Package"       : null,
-    "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : []
+    "Build"         : [
+                    "$SRCDIR/configure $Flags",
+                    "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : []
 }

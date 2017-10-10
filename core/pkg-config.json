@@ -1,19 +1,18 @@
 {
     "Name"         : "pkg-config",
-    "Version"      : "0.29.1",
+    "Version"      : "0.29.2",
     "Url"          : "http://pkgconfig.freedesktop.org/releases/pkg-config-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "3E8788160A5D8DD8BB9704C2A8F9C63DD742BCCA077D30FEE1F4F48DCD4E7F09",
+    "Oid"          : "08B7A0D32F3C7204DDFC6BA6245EB940E8B5DF08D880BCDE43277A283714E9EC",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-11-09T10:04:16.317264874-08:00",
-    "Size"         : 106313,
+    "Date"         : "2017-10-09T09:45:58.842001254-07:00",
+    "Size"         : 1125367,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glib",
                    "glibc"
     ],
     "ManualDepends" : null,
@@ -27,8 +26,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "usr/local/via/bin/pkg-config",
-                  "usr/local/via/bin/x86_64-via-linux-gnu-pkg-config",
-                  "usr/local/via/share/aclocal/pkg.m4"
+                  "via/bin/pkg-config",
+                  "via/bin/x86_64-via-linux-gnu-pkg-config",
+                  "via/share/aclocal/pkg.m4"
     ]
 }

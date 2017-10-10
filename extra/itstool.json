@@ -5,12 +5,12 @@
     "Group"         : "extra",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "7CFB54FBECA7CFF85C6600BAE6F93C3270EB18ED80E9B3FEBD35576C1F972C4A",
+    "Oid"           : "C0F0DA099ABF4AC3880FA179072442185669EB04D5B12E616DA074AC30EA9BD6",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-03-09T23:15:28.203035091-08:00",
-    "Size"          : 95130,
+    "Date"          : "2017-10-09T13:38:28.008550751-07:00",
+    "Size"          : 92001,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,13 +22,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/.local/bin/itstool",
-                    "home/mrosset/.local/share/itstool/its/docbook.its",
-                    "home/mrosset/.local/share/itstool/its/docbook5.its",
-                    "home/mrosset/.local/share/itstool/its/its.its",
-                    "home/mrosset/.local/share/itstool/its/mallard.its",
-                    "home/mrosset/.local/share/itstool/its/ttml.its",
-                    "home/mrosset/.local/share/itstool/its/xhtml.its",
-                    "home/mrosset/.local/share/man/man1/itstool.1"
+                    "via/bin/itstool",
+                    "via/share/itstool/its/docbook.its",
+                    "via/share/itstool/its/docbook5.its",
+                    "via/share/itstool/its/its.its",
+                    "via/share/itstool/its/mallard.its",
+                    "via/share/itstool/its/ttml.its",
+                    "via/share/itstool/its/xhtml.its"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "6223A5CE2ABEA5A5A9A3C761C43D6FA81442D312EF228CA6C369B02DF31C8E5F",
+    "Oid"          : "8FC7C518DCECEB0059488EB4237EF6B8798CC3673139A574762AE534AEC2873D",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T21:29:31.257716326-07:00",
-    "Size"         : 59411,
+    "Date"         : "2017-10-09T01:29:56.547495671-07:00",
+    "Size"         : 51607,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,11 +24,11 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/pciaccess.h",
-                    "usr/local/via/lib/libpciaccess.la",
-                    "usr/local/via/lib/libpciaccess.so",
-                    "usr/local/via/lib/libpciaccess.so.0",
-                    "usr/local/via/lib/libpciaccess.so.0.11.1",
-                    "usr/local/via/lib/pkgconfig/pciaccess.pc"
+                    "via/include/pciaccess.h",
+                    "via/lib/libpciaccess.la",
+                    "via/lib/libpciaccess.so",
+                    "via/lib/libpciaccess.so.0",
+                    "via/lib/libpciaccess.so.0.11.1",
+                    "via/lib/pkgconfig/pciaccess.pc"
     ]
 }

@@ -1,16 +1,16 @@
 {
     "Name"         : "bison",
-    "Version"      : "3.0.2",
-    "Url"          : "http://mirrors.kernel.org/gnu/bison/bison-3.0.2.tar.gz",
+    "Version"      : "3.0.4",
+    "Url"          : "http://mirrors.kernel.org/gnu/bison/bison-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "92A3246C12E600C10508B33A616FBD1135A2CE16DFAF44BA8D1A32F197C6CCC2",
+    "Oid"          : "F0039F0AC3BF18F29B2624FE5F600EDE7D998C77D3C1F81CD64E50AE2A88A719",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 38185337865,
-    "Date"         : "2017-10-08T07:26:58.602763865-07:00",
-    "Size"         : 919606,
+    "Date"         : "2017-10-09T08:51:03.116116966-07:00",
+    "Size"         : 922155,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

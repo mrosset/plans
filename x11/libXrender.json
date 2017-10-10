@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "8BDC616993BA1614064811DCEB7CACD79263FDF965D709451E9110BAD22B00CB",
+    "Oid"          : "339559246B3A20F95ADC142D00E32B9E83A2766E20FC0CA444EC0267B165CA07",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T21:19:01.879639452-07:00",
-    "Size"         : 59231,
+    "Date"         : "2017-10-09T01:15:20.482278507-07:00",
+    "Size"         : 53539,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -29,11 +29,11 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "usr/local/via/include/X11/extensions/Xrender.h",
-                   "usr/local/via/lib/libXrender.la",
-                   "usr/local/via/lib/libXrender.so",
-                   "usr/local/via/lib/libXrender.so.1",
-                   "usr/local/via/lib/libXrender.so.1.3.0",
-                   "usr/local/via/lib/pkgconfig/xrender.pc"
+                   "via/include/X11/extensions/Xrender.h",
+                   "via/lib/libXrender.la",
+                   "via/lib/libXrender.so",
+                   "via/lib/libXrender.so.1",
+                   "via/lib/libXrender.so.1.3.0",
+                   "via/lib/pkgconfig/xrender.pc"
     ]
 }

@@ -24,6 +24,7 @@
                 "--host=x86_64-via-linux-gnu",
                 "--libexec={{.Prefix}}/lib",
                 "--prefix=$PREFIX",
+                "--sbindir={{.Prefix}}/bin",
                 "--sysconfdir={{.Prefix}}/etc",
                 "--without-manpages"
     ],
@@ -34,10 +35,10 @@
           "CXXFLAGS"            : "$CFLAGS",
           "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"        : "$PREFIX/lib",
-          "MAKEFLAGS"           : "-sw -j16",
+          "MAKEFLAGS"           : "-sw -j8",
           "OCPLUS_INCLUDE_PATH" : "$PREFIX/include",
           "OC_INCLUDE_PATH"     : "$PREFIX/include",
-          "PATH"                : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:{{.Root}}/$PREFIX/bin",
+          "PATH"                : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin",
           "PKG_CONFIG_PATH"     : "$PREFIX/lib/pkgconfig",
           "PREFIX"              : "{{.Prefix}}"
     },

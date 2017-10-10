@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "CE834DE2027DF3F0B7D490D9AFC1B68EF282DEEA22F0D15BF11788C35DF141DA",
+    "Oid"           : "D128994A8F6BC27061E0A179EF03175282688C718D4A95EA2118E0089FF0558F",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-10-20T20:54:20.554393729-07:00",
-    "Size"          : 86477,
+    "Date"          : "2017-10-08T23:58:52.89647386-07:00",
+    "Size"          : 86467,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,8 +22,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/share/aclocal/xorg-macros.m4",
-                    "usr/local/via/share/pkgconfig/xorg-macros.pc",
-                    "usr/local/via/share/util-macros/INSTALL"
+                    "via/share/aclocal/xorg-macros.m4",
+                    "via/share/pkgconfig/xorg-macros.pc",
+                    "via/share/util-macros/INSTALL"
     ]
 }

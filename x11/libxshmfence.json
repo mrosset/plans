@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "99CFBCB424AAC93EC294B16626E192813B06250393BA307996E385394150DBE8",
+    "Oid"          : "1F3B11FB13959E88B3311C899E45A6B532E19B8A29677468E8A8855F23A0DB2B",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T21:29:44.554747083-07:00",
-    "Size"         : 15390,
+    "Date"         : "2017-10-09T01:30:13.267184697-07:00",
+    "Size"         : 9128,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,11 +24,11 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/X11/xshmfence.h",
-                    "usr/local/via/lib/libxshmfence.la",
-                    "usr/local/via/lib/libxshmfence.so",
-                    "usr/local/via/lib/libxshmfence.so.1",
-                    "usr/local/via/lib/libxshmfence.so.1.0.0",
-                    "usr/local/via/lib/pkgconfig/xshmfence.pc"
+                    "via/include/X11/xshmfence.h",
+                    "via/lib/libxshmfence.la",
+                    "via/lib/libxshmfence.so",
+                    "via/lib/libxshmfence.so.1",
+                    "via/lib/libxshmfence.so.1.0.0",
+                    "via/lib/pkgconfig/xshmfence.pc"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "C111084BF7350E43BE82030E8B11E1DF2619E04296B6D5F21A2BBA7B755A4320",
+    "Oid"           : "E6D53D9AF9412D0D47CEBD339F0B4B75474F51D0A632A6B8A33AE2D02CCD4881",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-10-20T21:29:56.079371843-07:00",
-    "Size"          : 105714,
+    "Date"          : "2017-10-09T01:27:56.226253301-07:00",
+    "Size"          : 105704,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,11 +22,11 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/GL/glxint.h",
-                    "usr/local/via/include/GL/glxmd.h",
-                    "usr/local/via/include/GL/glxproto.h",
-                    "usr/local/via/include/GL/glxtokens.h",
-                    "usr/local/via/include/GL/internal/glcore.h",
-                    "usr/local/via/lib/pkgconfig/glproto.pc"
+                    "via/include/GL/glxint.h",
+                    "via/include/GL/glxmd.h",
+                    "via/include/GL/glxproto.h",
+                    "via/include/GL/glxtokens.h",
+                    "via/include/GL/internal/glcore.h",
+                    "via/lib/pkgconfig/glproto.pc"
     ]
 }

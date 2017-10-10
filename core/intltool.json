@@ -5,12 +5,12 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "69FE7B92D5A32108746A0760A16C8E0949CE35E6C5492E5347B0BFDA3D4BF301",
+    "Oid"           : "23659B67D80C33B819AD61757C394B4A062000FAD7BCEFE96F2DE8938F0BCCA9",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-10-20T21:14:51.798120523-07:00",
-    "Size"          : 138744,
+    "Date"          : "2017-10-09T00:52:02.797000275-07:00",
+    "Size"          : 138758,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,12 +22,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/intltool-extract",
-                    "usr/local/via/bin/intltool-merge",
-                    "usr/local/via/bin/intltool-prepare",
-                    "usr/local/via/bin/intltool-update",
-                    "usr/local/via/bin/intltoolize",
-                    "usr/local/via/share/aclocal/intltool.m4",
-                    "usr/local/via/share/intltool/Makefile.in.in"
+                    "via/bin/intltool-extract",
+                    "via/bin/intltool-merge",
+                    "via/bin/intltool-prepare",
+                    "via/bin/intltool-update",
+                    "via/bin/intltoolize",
+                    "via/share/aclocal/intltool.m4",
+                    "via/share/intltool/Makefile.in.in"
     ]
 }

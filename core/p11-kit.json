@@ -1,0 +1,48 @@
+{
+    "Name"         : "p11-kit",
+    "Version"      : "0.23.2",
+    "Url"          : "https://p11-glue.freedesktop.org/releases/p11-kit-0.23.2.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Oid"          : "2EE5C45F964CC43380913AD6110864B86A0C9BB822353680D8A9911127FFF4B7",
+    "BuildInStage" : false,
+    "IsRebuilt"    : false,
+    "BuildTime"    : 0,
+    "Date"         : "2017-10-09T07:38:14.831388368-07:00",
+    "Size"         : 526440,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libffi"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--without-libtasn1"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "via/bin/p11-kit",
+                  "via/etc/pkcs11/pkcs11.conf.example",
+                  "via/include/p11-kit-1/p11-kit/deprecated.h",
+                  "via/include/p11-kit-1/p11-kit/iter.h",
+                  "via/include/p11-kit-1/p11-kit/p11-kit.h",
+                  "via/include/p11-kit-1/p11-kit/pin.h",
+                  "via/include/p11-kit-1/p11-kit/pkcs11.h",
+                  "via/include/p11-kit-1/p11-kit/pkcs11x.h",
+                  "via/include/p11-kit-1/p11-kit/remote.h",
+                  "via/include/p11-kit-1/p11-kit/uri.h",
+                  "via/lib/libp11-kit.la",
+                  "via/lib/libp11-kit.so",
+                  "via/lib/libp11-kit.so.0",
+                  "via/lib/libp11-kit.so.0.1.0",
+                  "via/lib/p11-kit/p11-kit-remote",
+                  "via/lib/p11-kit-proxy.so",
+                  "via/lib/pkgconfig/p11-kit-1.pc"
+    ]
+}
