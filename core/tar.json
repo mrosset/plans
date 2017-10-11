@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "E8E6F9A5CCE5B2131730884CF26935600225E89DB592D083498595B8C7B9B83E",
+    "Oid"          : "FAD786AECF9E2480B6BB1DF3D0F5EE00D42E1B28CCED2C2C986AECC2B960EF69",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-08T07:34:28.770848269-07:00",
-    "Size"         : 410760,
+    "Date"         : "2017-10-11T05:08:48.593484799-07:00",
+    "Size"         : 410808,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,7 +24,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/bin/tar",
-                    "via/lib/rmt"
+                    "tmp/via/bin/tar",
+                    "tmp/via/lib/rmt"
     ]
 }

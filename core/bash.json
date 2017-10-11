@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "487A99AD824CA75C6912B7CEA37A3842F05F4A8FBCB48A6BC901311E555F0E54",
+    "Oid"          : "896BCCB5BE59F037D884664455C12FE710D14E4FC8178BCE7B4F99B5C90DEBA0",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 1566102924,
-    "Date"         : "2017-10-08T07:26:10.16828807-07:00",
-    "Size"         : 1015669,
+    "Date"         : "2017-10-11T03:55:22.467186539-07:00",
+    "Size"         : 1015701,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -27,8 +27,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "via/bin/bash",
-                  "via/bin/bashbug",
-                  "via/bin/sh"
+                  "tmp/via/bin/bash",
+                  "tmp/via/bin/bashbug",
+                  "tmp/via/bin/sh"
     ]
 }

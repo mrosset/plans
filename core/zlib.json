@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "F59816B15E09A9EA1035F8A18A1827C10F5E7033859C7700AD186AEF40A64B51",
+    "Oid"          : "E318E9031476E47694843CA5B8E6C4DF6EB5E57F6ECA99068012FC6D30462DDB",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 6129663920,
-    "Date"         : "2017-10-08T09:49:54.93040464-07:00",
-    "Size"         : 336448,
+    "Date"         : "2017-10-11T01:37:17.656739804-07:00",
+    "Size"         : 336452,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -29,12 +29,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "via/include/zconf.h",
-                  "via/include/zlib.h",
-                  "via/lib/libz.a",
-                  "via/lib/libz.so",
-                  "via/lib/libz.so.1",
-                  "via/lib/libz.so.1.2.11",
-                  "via/lib/pkgconfig/zlib.pc"
+                  "tmp/via/include/zconf.h",
+                  "tmp/via/include/zlib.h",
+                  "tmp/via/lib/libz.a",
+                  "tmp/via/lib/libz.so",
+                  "tmp/via/lib/libz.so.1",
+                  "tmp/via/lib/libz.so.1.2.11",
+                  "tmp/via/lib/pkgconfig/zlib.pc"
     ]
 }
