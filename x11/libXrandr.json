@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "1117CD0484CD07500F116C4CC311ADAB7387E53A4E4C7FBA5AAD956EB793C090",
+    "Oid"          : "8B9C90955A8A8FC355FBEAFBC418B2B57A1391C617B37E64AD047C9238EE8677",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T01:27:27.366338574-07:00",
-    "Size"         : 61766,
+    "Date"         : "2017-10-11T08:55:33.754401646-07:00",
+    "Size"         : 57630,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -31,11 +31,11 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "via/include/X11/extensions/Xrandr.h",
-                   "via/lib/libXrandr.la",
-                   "via/lib/libXrandr.so",
-                   "via/lib/libXrandr.so.2",
-                   "via/lib/libXrandr.so.2.2.0",
-                   "via/lib/pkgconfig/xrandr.pc"
+                   "tmp/via/include/X11/extensions/Xrandr.h",
+                   "tmp/via/lib/libXrandr.la",
+                   "tmp/via/lib/libXrandr.so",
+                   "tmp/via/lib/libXrandr.so.2",
+                   "tmp/via/lib/libXrandr.so.2.2.0",
+                   "tmp/via/lib/pkgconfig/xrandr.pc"
     ]
 }

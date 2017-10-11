@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "96681C6E64A5AA3C49B7D017E74FDD8A69535138EBC5EF850A26D96BFF1B92D6",
+    "Oid"          : "889CCC013DDEB88403F6F62CFA14AEF4EA743FCACADBBBCE216BE336F7D58A20",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T00:31:47.269022654-07:00",
-    "Size"         : 32427,
+    "Date"         : "2017-10-11T08:43:37.362640331-07:00",
+    "Size"         : 32387,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -32,12 +32,12 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "via/include/X11/extensions/XTest.h",
-                   "via/include/X11/extensions/record.h",
-                   "via/lib/libXtst.la",
-                   "via/lib/libXtst.so",
-                   "via/lib/libXtst.so.6",
-                   "via/lib/libXtst.so.6.1.0",
-                   "via/lib/pkgconfig/xtst.pc"
+                   "tmp/via/include/X11/extensions/XTest.h",
+                   "tmp/via/include/X11/extensions/record.h",
+                   "tmp/via/lib/libXtst.la",
+                   "tmp/via/lib/libXtst.so",
+                   "tmp/via/lib/libXtst.so.6",
+                   "tmp/via/lib/libXtst.so.6.1.0",
+                   "tmp/via/lib/pkgconfig/xtst.pc"
     ]
 }

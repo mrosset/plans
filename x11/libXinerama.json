@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "393D2C3765A4339C71F235B50335D4D37079C2D58DC5092CFA1C69BA630C2845",
+    "Oid"          : "3F797121017F8AFD6277A73BCCCF7C7A2C316599C14C901450A81B52B94FAD9E",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T01:27:24.464046827-07:00",
-    "Size"         : 16598,
+    "Date"         : "2017-10-11T08:55:28.18560359-07:00",
+    "Size"         : 16554,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -30,12 +30,12 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "via/include/X11/extensions/Xinerama.h",
-                   "via/include/X11/extensions/panoramiXext.h",
-                   "via/lib/libXinerama.la",
-                   "via/lib/libXinerama.so",
-                   "via/lib/libXinerama.so.1",
-                   "via/lib/libXinerama.so.1.0.0",
-                   "via/lib/pkgconfig/xinerama.pc"
+                   "tmp/via/include/X11/extensions/Xinerama.h",
+                   "tmp/via/include/X11/extensions/panoramiXext.h",
+                   "tmp/via/lib/libXinerama.la",
+                   "tmp/via/lib/libXinerama.so",
+                   "tmp/via/lib/libXinerama.so.1",
+                   "tmp/via/lib/libXinerama.so.1.0.0",
+                   "tmp/via/lib/pkgconfig/xinerama.pc"
     ]
 }

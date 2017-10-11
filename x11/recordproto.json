@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "13209D56EB631960FA48624C290D15058884CCB1782E2BD22B3220B648C37095",
+    "Oid"           : "C8D1E9FF7ABCFBB6C1C5EE700F99AA0A4D9C821F1FF562BA6003C2F8307B4EEC",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-09T00:31:44.222072221-07:00",
-    "Size"          : 10409,
+    "Date"          : "2017-10-11T08:43:33.291122492-07:00",
+    "Size"          : 10413,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,9 +22,9 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/include/X11/extensions/recordconst.h",
-                    "via/include/X11/extensions/recordproto.h",
-                    "via/include/X11/extensions/recordstr.h",
-                    "via/lib/pkgconfig/recordproto.pc"
+                    "tmp/via/include/X11/extensions/recordconst.h",
+                    "tmp/via/include/X11/extensions/recordproto.h",
+                    "tmp/via/include/X11/extensions/recordstr.h",
+                    "tmp/via/lib/pkgconfig/recordproto.pc"
     ]
 }

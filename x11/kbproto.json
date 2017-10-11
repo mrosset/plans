@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "401DF33B4F327EB1E61F2F5F7EB5A81592F70F8C7CBFEAF27EBC1975DA44B635",
+    "Oid"           : "AF2D0B6B966DDEEF0B8BA0313041CAE19325B24DE652E4214992E08F0DB34369",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-08T23:45:07.307866684-07:00",
-    "Size"          : 122797,
+    "Date"          : "2017-10-11T08:34:48.393871663-07:00",
+    "Size"          : 122801,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,11 +22,11 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/include/X11/extensions/XKB.h",
-                    "via/include/X11/extensions/XKBgeom.h",
-                    "via/include/X11/extensions/XKBproto.h",
-                    "via/include/X11/extensions/XKBsrv.h",
-                    "via/include/X11/extensions/XKBstr.h",
-                    "via/lib/pkgconfig/kbproto.pc"
+                    "tmp/via/include/X11/extensions/XKB.h",
+                    "tmp/via/include/X11/extensions/XKBgeom.h",
+                    "tmp/via/include/X11/extensions/XKBproto.h",
+                    "tmp/via/include/X11/extensions/XKBsrv.h",
+                    "tmp/via/include/X11/extensions/XKBstr.h",
+                    "tmp/via/lib/pkgconfig/kbproto.pc"
     ]
 }

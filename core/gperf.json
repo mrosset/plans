@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "67749105C628D6AE7088F115B75AA936297EFC70FA73668E3813FB948ED4B846",
+    "Oid"          : "2F156327630532305125BFE5A0969816E1D56EBB367FB511DBC26BAB887FAE3D",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T06:52:47.873494374-07:00",
-    "Size"         : 99896,
+    "Date"         : "2017-10-11T08:00:52.119115925-07:00",
+    "Size"         : 99944,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -26,6 +26,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/bin/gperf"
+                    "tmp/via/bin/gperf"
     ]
 }

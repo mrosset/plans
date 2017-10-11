@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "931198A67944B337EF57A9EEBFC64F93E5FE9A2FCD235D06A1BB2DED7E804E33",
+    "Oid"          : "6506AFA2908B0080DBCDA36368E840FB65D399A23D9C39DAA5B525261152C403",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T01:15:29.847033811-07:00",
-    "Size"         : 722312,
+    "Date"         : "2017-10-11T08:38:12.149041506-07:00",
+    "Size"         : 718136,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,12 +24,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/include/pixman-1/pixman-version.h",
-                    "via/include/pixman-1/pixman.h",
-                    "via/lib/libpixman-1.la",
-                    "via/lib/libpixman-1.so",
-                    "via/lib/libpixman-1.so.0",
-                    "via/lib/libpixman-1.so.0.34.0",
-                    "via/lib/pkgconfig/pixman-1.pc"
+                    "tmp/via/include/pixman-1/pixman-version.h",
+                    "tmp/via/include/pixman-1/pixman.h",
+                    "tmp/via/lib/libpixman-1.la",
+                    "tmp/via/lib/libpixman-1.so",
+                    "tmp/via/lib/libpixman-1.so.0",
+                    "tmp/via/lib/libpixman-1.so.0.34.0",
+                    "tmp/via/lib/pkgconfig/pixman-1.pc"
     ]
 }

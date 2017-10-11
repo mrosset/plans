@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "7BB3126E85F96D7D9D03848641539A30F75A035459AC4B4842F4CDAEA7ED5B80",
+    "Oid"           : "4C7E6781C385B80BCC6BF6829F45E06B3AB9F16E4C96D6B4DC6735068881183B",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-08T23:45:09.027545204-07:00",
-    "Size"          : 33338,
+    "Date"          : "2017-10-11T08:55:29.953878554-07:00",
+    "Size"          : 33342,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,8 +22,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/include/X11/extensions/randr.h",
-                    "via/include/X11/extensions/randrproto.h",
-                    "via/lib/pkgconfig/randrproto.pc"
+                    "tmp/via/include/X11/extensions/randr.h",
+                    "tmp/via/include/X11/extensions/randrproto.h",
+                    "tmp/via/lib/pkgconfig/randrproto.pc"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "090DC8567AB4E9FAA581C94CDA4C52BBA1646C7F0ECCAF5A3D4397438EDCF6E8",
+    "Oid"          : "64C9B59EA9E1E3E1661BEBBD962D896329B0642C9FB01D4099CA8D082894F2EC",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T00:29:11.327832193-07:00",
-    "Size"         : 135617,
+    "Date"         : "2017-10-11T08:43:15.31072837-07:00",
+    "Size"         : 135561,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -28,16 +28,16 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "via/include/X11/ICE/ICE.h",
-                   "via/include/X11/ICE/ICEconn.h",
-                   "via/include/X11/ICE/ICElib.h",
-                   "via/include/X11/ICE/ICEmsg.h",
-                   "via/include/X11/ICE/ICEproto.h",
-                   "via/include/X11/ICE/ICEutil.h",
-                   "via/lib/libICE.la",
-                   "via/lib/libICE.so",
-                   "via/lib/libICE.so.6",
-                   "via/lib/libICE.so.6.3.0",
-                   "via/lib/pkgconfig/ice.pc"
+                   "tmp/via/include/X11/ICE/ICE.h",
+                   "tmp/via/include/X11/ICE/ICEconn.h",
+                   "tmp/via/include/X11/ICE/ICElib.h",
+                   "tmp/via/include/X11/ICE/ICEmsg.h",
+                   "tmp/via/include/X11/ICE/ICEproto.h",
+                   "tmp/via/include/X11/ICE/ICEutil.h",
+                   "tmp/via/lib/libICE.la",
+                   "tmp/via/lib/libICE.so",
+                   "tmp/via/lib/libICE.so.6",
+                   "tmp/via/lib/libICE.so.6.3.0",
+                   "tmp/via/lib/pkgconfig/ice.pc"
     ]
 }

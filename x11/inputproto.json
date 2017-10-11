@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "380CE9CA69550955CD1AC844C0E29FF839DBE520AB0D2A529A6625BC0A2426FF",
+    "Oid"           : "66B87B57058AEC064C02147274037C416AC210F4F79E2E90B8570D532FFAC076",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-08T23:45:05.527292298-07:00",
-    "Size"          : 100689,
+    "Date"          : "2017-10-11T08:34:46.563182787-07:00",
+    "Size"          : 100693,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,10 +22,10 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/include/X11/extensions/XI.h",
-                    "via/include/X11/extensions/XI2.h",
-                    "via/include/X11/extensions/XI2proto.h",
-                    "via/include/X11/extensions/XIproto.h",
-                    "via/lib/pkgconfig/inputproto.pc"
+                    "tmp/via/include/X11/extensions/XI.h",
+                    "tmp/via/include/X11/extensions/XI2.h",
+                    "tmp/via/include/X11/extensions/XI2proto.h",
+                    "tmp/via/include/X11/extensions/XIproto.h",
+                    "tmp/via/lib/pkgconfig/inputproto.pc"
     ]
 }

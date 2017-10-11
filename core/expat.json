@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "F279EA25129BD309D1C5B828A22EA526B12CB312AA4CF706138486BD1C446CDB",
+    "Oid"          : "36E3D159F12E445EC31141ECE1645DF2F9C2C9BA8CE401D3F340CD802A8D3AC3",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T00:13:59.213538794-07:00",
-    "Size"         : 277334,
+    "Date"         : "2017-10-11T07:48:35.46824994-07:00",
+    "Size"         : 301622,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,13 +24,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/bin/xmlwf",
-                    "via/include/expat.h",
-                    "via/include/expat_external.h",
-                    "via/lib/libexpat.la",
-                    "via/lib/libexpat.so",
-                    "via/lib/libexpat.so.1",
-                    "via/lib/libexpat.so.1.6.0",
-                    "via/lib/pkgconfig/expat.pc"
+                    "tmp/via/bin/xmlwf",
+                    "tmp/via/include/expat.h",
+                    "tmp/via/include/expat_external.h",
+                    "tmp/via/lib/libexpat.la",
+                    "tmp/via/lib/libexpat.so",
+                    "tmp/via/lib/libexpat.so.1",
+                    "tmp/via/lib/libexpat.so.1.6.0",
+                    "tmp/via/lib/pkgconfig/expat.pc"
     ]
 }

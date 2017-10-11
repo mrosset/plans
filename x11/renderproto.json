@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "712A9E3FAE54091AA8F0078A00CEA817697550D162395DA9533D6BE315A5D0F7",
+    "Oid"           : "56D697DEBF2F51BBFFAA42DC4333150B1842E37654AD5FB8634FC22BEAB76C74",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-08T23:45:11.131653299-07:00",
-    "Size"          : 21288,
+    "Date"          : "2017-10-11T08:37:57.342760252-07:00",
+    "Size"          : 21292,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,8 +22,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/include/X11/extensions/render.h",
-                    "via/include/X11/extensions/renderproto.h",
-                    "via/lib/pkgconfig/renderproto.pc"
+                    "tmp/via/include/X11/extensions/render.h",
+                    "tmp/via/include/X11/extensions/renderproto.h",
+                    "tmp/via/lib/pkgconfig/renderproto.pc"
     ]
 }

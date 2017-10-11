@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "34D66563A233C930BB9679F1F8C4BB52A4220F8D121EA1008602A60DF61AEC59",
+    "Oid"           : "13A1CC99D489F635D2AB9744DE1C09FA986D3881B2291786106FDA0F79D23EA4",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-09T01:29:59.666620662-07:00",
-    "Size"          : 169,
+    "Date"          : "2017-10-11T08:56:04.824452499-07:00",
+    "Size"          : 173,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,6 +22,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/lib/pkgconfig/pthread-stubs.pc"
+                    "tmp/via/lib/pkgconfig/pthread-stubs.pc"
     ]
 }
