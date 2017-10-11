@@ -90,6 +90,7 @@
     "core/nettle.json",
     "core/newlib.json",
     "core/nghttp2.json",
+    "core/node.json",
     "core/openssh.json",
     "core/openssl.json",
     "core/p11-kit.json",
