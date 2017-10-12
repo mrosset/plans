@@ -16,7 +16,7 @@
                    "glibc"
     ],
     "ManualDepends" : null,
-    "BuildDepends"  : null,
+    "BuildDepends"  : ["perl"],
     "Flags"         : [
                     "--enable-plugins",
                     "--with-lib-path=$PREFIX/lib",
