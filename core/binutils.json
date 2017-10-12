@@ -16,11 +16,13 @@
                    "glibc"
     ],
     "ManualDepends" : null,
-    "BuildDepends"  : ["perl"],
-    "Flags"         : [
-                    "--enable-plugins",
-                    "--with-lib-path=$PREFIX/lib",
-                    "--with-sysroot"
+    "BuildDepends"  : [
+                    "perl"
+    ],
+    "Flags" : [
+            "--enable-plugins",
+            "--with-lib-path=$PREFIX/lib",
+            "--with-sysroot"
     ],
     "Patch"       : null,
     "Build"       : null,

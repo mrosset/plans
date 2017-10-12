@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "6684A848C788CF8FF186192FA90E014EC4A5F9EE84DBEA7CB6130E7BB857151B",
+    "Oid"          : "C83D44147A4415BE347B0DB5DFBCB37FF338A414008721173A19E98B1887E1DB",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T07:41:36.803924987-07:00",
-    "Size"         : 444537,
+    "Date"         : "2017-10-12T01:38:24.194590316-07:00",
+    "Size"         : 444489,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -28,7 +28,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/bin/wget",
-                    "via/etc/wgetrc"
+                    "tmp/via/bin/wget",
+                    "tmp/via/etc/wgetrc"
     ]
 }
