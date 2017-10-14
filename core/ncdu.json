@@ -1,21 +1,18 @@
 {
-    "Name"         : "ncdu",
-    "Version"      : "1.8",
-    "Url"          : "http://dev.yorhel.nl/download/ncdu-1.8.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "CF511E0335C47BC788FDA86090895CA51A043125A9953FD38F26BCF3B93ACDC1",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-14T17:15:02.178853982-07:00",
-    "Size"         : 51272,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "ncurses"
-    ],
+    "Name"          : "ncdu",
+    "Version"       : "1.8",
+    "Url"           : "http://dev.yorhel.nl/download/ncdu-1.8.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "D56B1B6B0D454111AB2AC04F2EBCE969C127AFD3CC2BD58CAEC41EB08720F6D6",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2017-10-13T07:16:00.7584725-07:00",
+    "Size"          : 46610,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -25,6 +22,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/ncdu"
+                    "via\\bin\\ncdu.exe",
+                    "via\\share\\man\\man1\\ncdu.1"
     ]
 }

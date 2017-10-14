@@ -1,20 +1,18 @@
 {
-    "Name"         : "sed",
-    "Version"      : "4.4",
-    "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-{{.Version}}.tar.xz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "5FBD1487053BAC6B598D60CE860D48C52122ABA1951172B06EBD40E01CE96B20",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 11670073958,
-    "Date"         : "2017-10-11T08:22:44.210480173-07:00",
-    "Size"         : 101480,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "sed",
+    "Version"       : "4.4",
+    "Url"           : "http://mirrors.kernel.org/gnu/sed/sed-{{.Version}}.tar.xz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "FA4EA087D72AEFD8281818DE814421E9B3C38828572931C21D061FEE87DEED33",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 11670073958,
+    "Date"          : "2017-10-13T21:36:04.8039358-07:00",
+    "Size"          : 362896,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -27,6 +25,10 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "tmp/via/bin/sed"
+                  "via\\bin\\sed.exe",
+                  "via\\lib\\charset.alias",
+                  "via\\share\\info\\dir",
+                  "via\\share\\info\\sed.info",
+                  "via\\share\\man\\man1\\sed.1"
     ]
 }

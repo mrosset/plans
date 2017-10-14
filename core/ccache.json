@@ -1,42 +1,37 @@
 {
-    "Name"         : "ccache",
-    "Version"      : "3.1.7",
-    "Url"          : "http://samba.org/ftp/ccache/ccache-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu-nostrip",
-    "Oid"          : "D4D291EC5E109FF0E8A1F2999D112C02E337CDCDED5DEDB9555B5B4E527A3256",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 4665966173,
-    "Date"         : "2017-10-11T08:14:45.465441726-07:00",
-    "Size"         : 96607,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "zlib"
-    ],
+    "Name"          : "ccache",
+    "Version"       : "3.1.7",
+    "Url"           : "http://samba.org/ftp/ccache/ccache-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu-nostrip",
+    "Oid"           : "6E233600BF8F4C60D0DC5D7414264B78FC280E62680679A8F41FD352DBB54DBA",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 4665966173,
+    "Date"          : "2017-10-13T07:13:44.9597274-07:00",
+    "Size"          : 380237,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,
     "Build"         : null,
-    "Package"       : [
-                    "mkdir -p $PKGDIR/$PREFIX/lib/ccache",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/gcc",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
+    "Package"       : null,
+    "PostInstall"   : [
+                    "mkdir -p /c/$PREFIX/lib/ccache",
+                    "ln -fs /c/$PREFIX/bin/ccache.exe /c/$PREFIX/lib/ccache/gcc.exe",
+                    "ln -fs /c/$PREFIX/bin/ccache /c/$PREFIX/lib/ccache/clang.exe",
+                    "ln -fs /c/$PREFIX/bin/ccache /c/$PREFIX/lib/ccache/g++.exe",
+                    "ln -fs /c/$PREFIX/bin/ccache /c/$PREFIX/lib/ccache/cpp.exe",
+                    "ln -fs /c/$PREFIX/bin/ccache /c/$PREFIX/lib/ccache/x86_64-pc-msys-gcc.exe",
+                    "ln -fs /c/$PREFIX/bin/ccache /c/$PREFIX/lib/ccache/x86_64-pc-msys-c++.exe",
+                    "ln -fs /c/$PREFIX/bin/ccache /c/$PREFIX/lib/ccache/x86-64-via-linux-gnu-gcc.exe"
     ],
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "tmp/via/bin/ccache",
-                  "tmp/via/lib/ccache/clang",
-                  "tmp/via/lib/ccache/cpp",
-                  "tmp/via/lib/ccache/g++",
-                  "tmp/via/lib/ccache/gcc",
-                  "tmp/via/lib/ccache/i686-via-linux-gnu-gcc"
+    "Remove" : null,
+    "Files"  : [
+             "via\\bin\\ccache.exe",
+             "via\\share\\man\\man1\\ccache.1"
     ]
 }

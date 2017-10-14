@@ -1,23 +1,22 @@
 {
-    "Name"         : "make",
-    "Version"      : "4.2.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/make/make-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "F204EAB06C5E37E7D23E465D00247FB19027EA3A6DD0D85E39A190E196AF74FD",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 1488985839,
-    "Date"         : "2017-10-11T08:21:36.879518284-07:00",
-    "Size"         : 201952,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "make",
+    "Version"       : "4.2.1",
+    "Url"           : "http://mirrors.kernel.org/gnu/make/make-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "59844B60FC38B80ED97FFE1A0F28390BCFEA059D146C5A19291E84C1605D179D",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 1488985839,
+    "Date"          : "2017-10-13T15:31:09.7714805-07:00",
+    "Size"          : 816815,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
+                    "--build=x86_64-pc-msys",
                     "--without-guile"
     ],
     "Patch"       : null,
@@ -26,7 +25,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "tmp/via/bin/make",
-                  "tmp/via/include/gnumake.h"
+                  "via\\bin\\make.exe",
+                  "via\\include\\gnumake.h",
+                  "via\\share\\info\\dir",
+                  "via\\share\\info\\make.info",
+                  "via\\share\\info\\make.info-1",
+                  "via\\share\\info\\make.info-2",
+                  "via\\share\\man\\man1\\make.1"
     ]
 }

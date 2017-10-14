@@ -1,34 +1,48 @@
 {
-    "Name"         : "bash",
-    "Version"      : "4.3",
-    "Url"          : "http://mirrors.kernel.org/gnu/bash/bash-4.3.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Oid"          : "AEAA406F64C310F8CF12653C8F87CAE155CB3B9D252542C074A95D94F28DE8C1",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 1566102924,
-    "Date"         : "2017-10-11T08:07:32.401732452-07:00",
-    "Size"         : 1015653,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "ncurses"
-    ],
+    "Name"          : "bash",
+    "Version"       : "4.4",
+    "Url"           : "http://mirrors.kernel.org/gnu/bash/bash-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Oid"           : "6AD677AE7DC5F308E46BDB34C9F2E4BA0FEC18E10996DD6B6DF56D6E8E004EAE",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 1566102924,
+    "Date"          : "2017-10-14T00:10:22.883949-07:00",
+    "Size"          : 3263196,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
-    "Flags"         : null,
-    "Patch"         : null,
-    "Build"         : null,
-    "Package"       : [
-                    "ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
+    "Flags"         : [
+                    "--enable-readline",
+                    "--with-installed-readline"
     ],
-    "PostInstall" : null,
+    "Patch"   : null,
+    "Build"   : null,
+    "Package" : [
+              "#ln -s $PREFIX/bin/bash $PKGDIR/$PREFIX/bin/sh"
+    ],
+    "PostInstall" : [],
     "Remove"      : null,
     "Files"       : [
-                  "tmp/via/bin/bash",
-                  "tmp/via/bin/bashbug",
-                  "tmp/via/bin/sh"
+                  "via\\bin\\bash.exe",
+                  "via\\bin\\bashbug",
+                  "via\\share\\doc\\bash\\CHANGES",
+                  "via\\share\\doc\\bash\\COMPAT",
+                  "via\\share\\doc\\bash\\FAQ",
+                  "via\\share\\doc\\bash\\INTRO",
+                  "via\\share\\doc\\bash\\NEWS",
+                  "via\\share\\doc\\bash\\POSIX",
+                  "via\\share\\doc\\bash\\RBASH",
+                  "via\\share\\doc\\bash\\README",
+                  "via\\share\\doc\\bash\\bash.html",
+                  "via\\share\\doc\\bash\\bashref.html",
+                  "via\\share\\info\\bash.info",
+                  "via\\share\\info\\dir",
+                  "via\\share\\man\\man1\\bash.1",
+                  "via\\share\\man\\man1\\bash_builtins.1",
+                  "via\\share\\man\\man1\\bashbug.1"
     ]
 }
