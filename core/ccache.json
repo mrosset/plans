@@ -1,16 +1,16 @@
 {
     "Name"         : "ccache",
-    "Version"      : "3.1.7",
+    "Version"      : "3.3.4",
     "Url"          : "http://samba.org/ftp/ccache/ccache-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "D4D291EC5E109FF0E8A1F2999D112C02E337CDCDED5DEDB9555B5B4E527A3256",
+    "Oid"          : "BC92E3E46343164A93927C9AD9B13C4520EA0AADC327F5A168B2D37C2F70FA96",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 4665966173,
-    "Date"         : "2017-10-11T08:14:45.465441726-07:00",
-    "Size"         : 96607,
+    "Date"         : "2017-10-16T01:25:30.91049362-07:00",
+    "Size"         : 137442,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -27,7 +27,8 @@
                     "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/clang",
                     "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
                     "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/i686-via-linux-gnu-gcc"
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/x86_64-via-linux-gnu-g++",
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/x86_64-via-linux-gnu-gcc"
     ],
     "PostInstall" : null,
     "Remove"      : null,
@@ -37,6 +38,7 @@
                   "tmp/via/lib/ccache/cpp",
                   "tmp/via/lib/ccache/g++",
                   "tmp/via/lib/ccache/gcc",
-                  "tmp/via/lib/ccache/i686-via-linux-gnu-gcc"
+                  "tmp/via/lib/ccache/x86_64-via-linux-gnu-g++",
+                  "tmp/via/lib/ccache/x86_64-via-linux-gnu-gcc"
     ]
 }

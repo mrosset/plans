@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "F22C84F5EB31D620B0CD1265934604D18070E21BFBC3857B9470A1BFF3D8F06D",
+    "Oid"          : "898FCCA5685D0021834D517F2D323B530DF0C57ED9DF258EB6308E677052FE28",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 2005725228,
-    "Date"         : "2017-10-11T08:23:38.613091488-07:00",
-    "Size"         : 439982,
+    "Date"         : "2017-10-16T01:43:11.784361701-07:00",
+    "Size"         : 731483,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -62,6 +62,7 @@
                     "tmp/via/include/lzma/version.h",
                     "tmp/via/include/lzma/vli.h",
                     "tmp/via/include/lzma.h",
+                    "tmp/via/lib/liblzma.a",
                     "tmp/via/lib/liblzma.la",
                     "tmp/via/lib/liblzma.so",
                     "tmp/via/lib/liblzma.so.5",

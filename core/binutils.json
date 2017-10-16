@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "9712051EBB2840BF521B0ED354EEF1252255B4BAA6D677F0FAC528D2187C8EAE",
+    "Oid"          : "7F924D215BAFE39D5E996B6EDD6FBA27711474857590D5B2005626F30BCB5C39",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 21101081336,
-    "Date"         : "2017-10-11T08:08:01.480018695-07:00",
-    "Size"         : 12872313,
+    "Date"         : "2017-10-16T01:25:03.793468846-07:00",
+    "Size"         : 34118497,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -20,6 +20,7 @@
                     "perl"
     ],
     "Flags" : [
+            "--enable-gold=default",
             "--enable-plugins",
             "--with-lib-path=$PREFIX/lib",
             "--with-sysroot"
@@ -34,10 +35,12 @@
                   "tmp/via/bin/ar",
                   "tmp/via/bin/as",
                   "tmp/via/bin/c++filt",
+                  "tmp/via/bin/dwp",
                   "tmp/via/bin/elfedit",
                   "tmp/via/bin/gprof",
                   "tmp/via/bin/ld",
                   "tmp/via/bin/ld.bfd",
+                  "tmp/via/bin/ld.gold",
                   "tmp/via/bin/nm",
                   "tmp/via/bin/objcopy",
                   "tmp/via/bin/objdump",
@@ -62,6 +65,7 @@
                   "tmp/via/x86_64-via-linux-gnu/bin/as",
                   "tmp/via/x86_64-via-linux-gnu/bin/ld",
                   "tmp/via/x86_64-via-linux-gnu/bin/ld.bfd",
+                  "tmp/via/x86_64-via-linux-gnu/bin/ld.gold",
                   "tmp/via/x86_64-via-linux-gnu/bin/nm",
                   "tmp/via/x86_64-via-linux-gnu/bin/objcopy",
                   "tmp/via/x86_64-via-linux-gnu/bin/objdump",

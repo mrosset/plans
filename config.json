@@ -15,32 +15,25 @@
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",
                 "--config-cache",
-                "--disable-man",
                 "--disable-multilib",
                 "--disable-nls",
-                "--disable-static",
-                "--disable-werror",
                 "--enable-shared",
                 "--host=x86_64-via-linux-gnu",
                 "--libexec={{.Prefix}}/lib",
                 "--prefix=$PREFIX",
                 "--sbindir={{.Prefix}}/bin",
                 "--sysconfdir={{.Prefix}}/etc",
-                "--without-manpages"
+                "-q"
     ],
     "Env" : {
-          "CFLAGS"              : "-pipe -O2 -mtune=generic",
-          "CHOST"               : "x86_64-via-linux-gnu",
-          "CPPFLAGS"            : "$CFLAGS -P",
-          "CXXFLAGS"            : "$CFLAGS",
-          "LDFLAGS"             : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
-          "LIBRARY_PATH"        : "$PREFIX/lib",
-          "MAKEFLAGS"           : "-sw -j8",
-          "OCPLUS_INCLUDE_PATH" : "$PREFIX/include",
-          "OC_INCLUDE_PATH"     : "$PREFIX/include",
-          "PATH"                : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin",
-          "PKG_CONFIG_PATH"     : "$PREFIX/lib/pkgconfig",
-          "PREFIX"              : "{{.Prefix}}"
+          "CFLAGS"          : "-pipe -O2 -mtune=generic",
+          "CONFIG_SITE"     : "",
+          "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+          "LIBRARY_PATH"    : "$PREFIX/lib",
+          "MAKEFLAGS"       : "-sw -j8",
+          "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin",
+          "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
+          "PREFIX"          : "{{.Prefix}}"
     },
     "Remove" : [
              "$PREFIX/share/doc",

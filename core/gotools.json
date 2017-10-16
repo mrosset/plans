@@ -1,0 +1,34 @@
+{
+    "Name"         : "gotools",
+    "Version"      : "7.2.0",
+    "Url"          : "",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "Oid"          : "11DDBDE0E3FAA280985055AAB52BBF73774F3310DEE722949140C5F28D3416DF",
+    "BuildInStage" : false,
+    "IsRebuilt"    : false,
+    "BuildTime"    : 0,
+    "Date"         : "2017-10-16T01:39:00.817203632-07:00",
+    "Size"         : 1406200,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libgo"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "make install-strip-gotools DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "tmp/via/bin/go",
+                  "tmp/via/bin/gofmt",
+                  "tmp/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/cgo"
+    ]
+}

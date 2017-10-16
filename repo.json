@@ -49,6 +49,7 @@
     "core/gmp.json",
     "core/gnutls.json",
     "core/gobject-introspection.json",
+    "core/gotools.json",
     "core/gperf.json",
     "core/grep.json",
     "core/groff.json",

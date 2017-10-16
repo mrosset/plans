@@ -1,16 +1,16 @@
 {
     "Name"         : "libgcc",
-    "Version"      : "6.2.0",
+    "Version"      : "7.2.0",
     "Url"          : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Oid"          : "761D25AA71D96F5DA0581212C169DD841B22D4B979AF5739BF31FE67C5D48A06",
+    "Oid"          : "EABCE5D58A7E4BCBFFDD6BC9520058E84D53E89706E9E44F3CEBD293123C17F1",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:20:05.917636099-07:00",
-    "Size"         : 7752930,
+    "Date"         : "2017-10-16T01:39:01.117433338-07:00",
+    "Size"         : 7734058,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

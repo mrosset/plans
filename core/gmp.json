@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "9B6256142CFB81A901F9EDC0844C063BB99E082E9284DCAA3D77877261DDC173",
+    "Oid"          : "4D1D4AFE24C050AC63C767E9FCF4C8014AF2A007EDCE7A46D83A5DE9D4F23662",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 69211121595,
-    "Date"         : "2017-10-11T08:20:36.447638986-07:00",
-    "Size"         : 564809,
+    "Date"         : "2017-10-16T01:39:35.072150693-07:00",
+    "Size"         : 1828207,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -25,6 +25,7 @@
     "Remove"        : null,
     "Files"         : [
                     "tmp/via/include/gmp.h",
+                    "tmp/via/lib/libgmp.a",
                     "tmp/via/lib/libgmp.la",
                     "tmp/via/lib/libgmp.so",
                     "tmp/via/lib/libgmp.so.10",

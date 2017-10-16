@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "97FFFB8F7F67AE7C8AED5DE8C8128524D4A3863552F646B8CE70C728E9CD9189",
+    "Oid"          : "DECF642EAB5F343274D0590D91BFE0ADF0DF8CE6370092C756075B0E53F12F7F",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 24151209794,
-    "Date"         : "2017-10-11T08:20:49.359377786-07:00",
-    "Size"         : 138652,
+    "Date"         : "2017-10-16T01:39:49.998398933-07:00",
+    "Size"         : 138852,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
