@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "64C9B59EA9E1E3E1661BEBBD962D896329B0642C9FB01D4099CA8D082894F2EC",
+    "Oid"          : "045EBDF3EB70408F100B678BC6DECAB95A52CFB760659CC24B50E20FF2EF455C",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:43:15.31072837-07:00",
-    "Size"         : 135561,
+    "Date"         : "2017-10-16T12:46:30.237254009-07:00",
+    "Size"         : 294847,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -34,6 +34,7 @@
                    "tmp/via/include/X11/ICE/ICEmsg.h",
                    "tmp/via/include/X11/ICE/ICEproto.h",
                    "tmp/via/include/X11/ICE/ICEutil.h",
+                   "tmp/via/lib/libICE.a",
                    "tmp/via/lib/libICE.la",
                    "tmp/via/lib/libICE.so",
                    "tmp/via/lib/libICE.so.6",

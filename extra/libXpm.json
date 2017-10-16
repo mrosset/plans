@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "B36848BAA8141DA15E26ACE9231490050AE1375E03E7C24E638FE14C429B7666",
+    "Oid"          : "34FFAA9D1DEA8ED5A8C66E4D183ABAD90E4AF0870C8E8A697C7902E19414C911",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T09:04:30.401697767-07:00",
-    "Size"         : 117431,
+    "Date"         : "2017-10-16T12:55:21.220416026-07:00",
+    "Size"         : 240147,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -29,6 +29,7 @@
     "Files"         : [
                     "tmp/via/bin/cxpm",
                     "tmp/via/include/X11/xpm.h",
+                    "tmp/via/lib/libXpm.a",
                     "tmp/via/lib/libXpm.la",
                     "tmp/via/lib/libXpm.so",
                     "tmp/via/lib/libXpm.so.4",

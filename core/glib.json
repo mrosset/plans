@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "515A1A80EE6FADEB430C26B041CC1E7F6C48EDB3690B4D5FFF506DEFCAB8FD72",
+    "Oid"          : "367DE05AA4A3ABF97588015BDD4EFEE40E013DA68C768016250681BC637FEC60",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:34:44.100414812-07:00",
-    "Size"         : 14215343,
+    "Date"         : "2017-10-16T12:38:06.557034192-07:00",
+    "Size"         : 14238951,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -18,13 +18,13 @@
                    "pcre",
                    "zlib"
     ],
-    "ManualDepends" : [
-                    "gettext"
+    "ManualDepends" : null,
+    "BuildDepends"  : [
+                    "python"
     ],
-    "BuildDepends" : null,
-    "Flags"        : [
-                   "--disable-libmount",
-                   "--with-pcre=system"
+    "Flags" : [
+            "--disable-libmount",
+            "--with-pcre=system"
     ],
     "Patch"       : null,
     "Build"       : null,

@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "96FDCF93AF062EBD012A3BA29C876B51AE9F2BA48E5AF44DB1203628A760724B",
+    "Oid"          : "C07E3D03FAA348D4FF773F6D13D1596BABA59F9BCCEE1968135AC391209ACF0C",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:27:16.257313918-07:00",
-    "Size"         : 49797,
+    "Date"         : "2017-10-16T12:29:09.137385954-07:00",
+    "Size"         : 98685,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -34,6 +34,7 @@
     "Files"       : [
                   "tmp/via/include/ffi.h",
                   "tmp/via/include/ffitarget.h",
+                  "tmp/via/lib/libffi.a",
                   "tmp/via/lib/libffi.la",
                   "tmp/via/lib/libffi.so",
                   "tmp/via/lib/libffi.so.6",

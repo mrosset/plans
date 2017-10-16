@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "32BFB5824C679856A5D636780D382761B5CC5598C941414FB5C3D611D3D00448",
+    "Oid"          : "0110F2A7B420CC852346851F0A5D8F0D8A8BB0B06093744849840A86D2C302D0",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:43:30.524643173-07:00",
-    "Size"         : 119959,
+    "Date"         : "2017-10-16T12:46:47.689541569-07:00",
+    "Size"         : 278484,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -32,6 +32,7 @@
     "Files"        : [
                    "tmp/via/include/X11/extensions/XInput.h",
                    "tmp/via/include/X11/extensions/XInput2.h",
+                   "tmp/via/lib/libXi.a",
                    "tmp/via/lib/libXi.la",
                    "tmp/via/lib/libXi.so",
                    "tmp/via/lib/libXi.so.6",

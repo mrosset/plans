@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "9A4A223CA8941469246AC42ED12E3552A229F095EFB3A6CD20CEDB5797532C18",
+    "Oid"          : "BFDBF985ADD69F13BF377B6B12F50CDC6A07F20A2573380BD760227ABC49F9E7",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T09:04:25.727348607-07:00",
-    "Size"         : 108599,
+    "Date"         : "2017-10-16T12:55:15.649365489-07:00",
+    "Size"         : 239443,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "bzip2",
@@ -35,6 +35,7 @@
     "Files"         : [
                     "tmp/via/include/X11/Xft/Xft.h",
                     "tmp/via/include/X11/Xft/XftCompat.h",
+                    "tmp/via/lib/libXft.a",
                     "tmp/via/lib/libXft.la",
                     "tmp/via/lib/libXft.so",
                     "tmp/via/lib/libXft.so.2",

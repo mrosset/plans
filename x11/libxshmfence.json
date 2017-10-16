@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "E19AC7DA056DC513C7FFD769BACFDE5232FBEAE64A6A486FC44DCE09E9096563",
+    "Oid"          : "D79A90038D5CB3D1F5D5928C5E067437279E58BDE462083B07B1D2624CF8C8C3",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:56:19.685521974-07:00",
-    "Size"         : 9068,
+    "Date"         : "2017-10-16T12:48:05.014346084-07:00",
+    "Size"         : 18188,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -25,6 +25,7 @@
     "Remove"        : null,
     "Files"         : [
                     "tmp/via/include/X11/xshmfence.h",
+                    "tmp/via/lib/libxshmfence.a",
                     "tmp/via/lib/libxshmfence.la",
                     "tmp/via/lib/libxshmfence.so",
                     "tmp/via/lib/libxshmfence.so.1",

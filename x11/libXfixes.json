@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "256212BF1E165400CE166FA9B76CBF4F518CDE47839488CADAE90B82834366F6",
+    "Oid"          : "9EBE9E44E19B4CAB96D61B61D048E5F5F21E7F3CE45CCDB769C3AFF0A0C84851",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-11T08:43:24.807674288-07:00",
-    "Size"         : 31427,
+    "Date"         : "2017-10-16T12:46:40.946067866-07:00",
+    "Size"         : 57506,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -30,6 +30,7 @@
     "Remove"       : null,
     "Files"        : [
                    "tmp/via/include/X11/extensions/Xfixes.h",
+                   "tmp/via/lib/libXfixes.a",
                    "tmp/via/lib/libXfixes.la",
                    "tmp/via/lib/libXfixes.so",
                    "tmp/via/lib/libXfixes.so.3",
