@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "nghttp2-1.14.x",
     "Inherit"      : "gnu",
-    "Oid"          : "4075365BF51978410ED92E4729D9747D6D5A949C3CFF58BB47BCEE467FB0F0B0",
+    "Cid"          : "",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 1488985839,

@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "pam_unix2-2.9.1",
     "Inherit"      : "",
-    "Oid"          : "",
+    "Cid"          : "",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

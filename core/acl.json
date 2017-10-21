@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Oid"          : "279771512C9E712A5C2ACF9F1D6B4346A1EEF08D75645C06BE0A87FBD89CF126",
+    "Cid"          : "",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "2FA8C734D8B9FD667F2E2873B2C0BEBF25064B46809C7410F9326CA9845B00BE",
+    "Cid"          : "QmcDYLi6szQepJkqLnW5DQzXNcdE2UGFGskjmjJScyeCB6",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

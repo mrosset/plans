@@ -5,7 +5,7 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Oid"           : "86FDDDDB58545B0D46CA7EF6B78CE99570F526CB22CBC0DCAD859B6EE415E532",
+    "Cid"           : "QmcyiYFMZBRhJUeGnCv5S9JUE9Mr4sVbpdokixD46Y3wgW",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,

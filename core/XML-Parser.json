@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "XML-Parser-2.44",
     "Inherit"      : "",
-    "Oid"          : "B7191D0F1B358B81729CC9D9093C5E1C72D6D4595C648C782529F67A83DE97AF",
+    "Cid"          : "QmP9FmAJY5zXVCsB82L7Uc6XjAQipHS7XoYJYygf2EuH1j",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

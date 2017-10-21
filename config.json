@@ -10,7 +10,7 @@
     "DB"        : "/tmp/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish",
-    "Binary"    : "https://gitlab.com/mike.rosset/publish/raw/{{.Branch}}/repo",
+    "Binary"    : "http://172.17.0.1:8080/ipfs/",
     "Prefix"    : "/tmp/via",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",

@@ -5,7 +5,7 @@
     "Group"         : "extra",
     "StageDir"      : "Glances-2.5.1",
     "Inherit"       : "",
-    "Oid"           : "3C6DC7177A2899C9943EF095AE233553423C832EA8E83B5DCE7F72FA2C57DCD5",
+    "Cid"           : "",
     "BuildInStage"  : true,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,

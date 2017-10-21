@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "gcc-5.3.0",
     "Inherit"      : "gnu-i686-cross",
-    "Oid"          : "",
+    "Cid"          : "",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

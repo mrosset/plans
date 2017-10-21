@@ -5,7 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Oid"          : "A3B073E186A06A3FA349E427851A39FD6615A51FE31A8EDC0BB6F8E77621ED35",
+    "Cid"          : "QmRt1NxQwH5CgToWcjLFMEvvUVx1te7BaUNe7FxE34PRGc",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

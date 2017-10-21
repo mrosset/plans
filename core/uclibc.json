@@ -5,7 +5,7 @@
     "Group"         : "core",
     "StageDir"      : "uClibc-0.9.33.2",
     "Inherit"       : "",
-    "Oid"           : "",
+    "Cid"           : "",
     "BuildInStage"  : true,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,

@@ -5,7 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "gtk+-3.18.8",
     "Inherit"      : "gnu",
-    "Oid"          : "882E800B0C2EF68CC87DCE467D438DDF9D3D8A23365FB5EA510422BD6F3A8537",
+    "Cid"          : "QmPDVaRZkThpZRwq98cFo2SD9YeAzkrs6fhbAdBEBr8qgL",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

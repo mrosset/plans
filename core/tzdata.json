@@ -5,7 +5,7 @@
     "Group"         : "core",
     "StageDir"      : "glibc-2.26",
     "Inherit"       : "",
-    "Oid"           : "27004B556C6651301E9A9E2FE8BB1EF3D00CB40EBD2C4558D66E39CCD043FF42",
+    "Cid"           : "QmP5QisgTUqc8NDTv6xa9XqgjcVvTJYPxZYi2nZWxWAwp7",
     "BuildInStage"  : true,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,

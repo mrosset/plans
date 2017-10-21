@@ -5,7 +5,7 @@
     "Group"         : "x86_64",
     "StageDir"      : "linux-3.17",
     "Inherit"       : "",
-    "Oid"           : "",
+    "Cid"           : "",
     "BuildInStage"  : true,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,

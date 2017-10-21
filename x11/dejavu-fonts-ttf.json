@@ -5,7 +5,7 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Oid"           : "201B055E97A5889502DD8C4E7935C138957D4F607E80BE685B710C0A8B817C6C",
+    "Cid"           : "",
     "BuildInStage"  : true,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,

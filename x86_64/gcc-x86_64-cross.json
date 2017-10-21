@@ -5,7 +5,7 @@
     "Group"        : "x86_64",
     "StageDir"     : "gcc-6.2.0",
     "Inherit"      : "gnu-x86_64-cross",
-    "Oid"          : "",
+    "Cid"          : "",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

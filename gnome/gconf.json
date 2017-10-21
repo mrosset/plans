@@ -5,7 +5,7 @@
     "Group"        : "gnome",
     "StageDir"     : "GConf-3.2.6",
     "Inherit"      : "gnu",
-    "Oid"          : "7C632F8F40DE63A6370B000CC7C69CF18C3857D80EF52FD1710CD87FC67BBA4D",
+    "Cid"          : "QmePoHeUTDu4e9rcTSVXqPL8shoKoNRQzt6ct5ghuXHKjc",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,

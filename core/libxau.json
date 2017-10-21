@@ -5,7 +5,7 @@
     "Group"        : "core",
     "StageDir"     : "libXau-1.0.8",
     "Inherit"      : "gnu",
-    "Oid"          : "7DE5FF1FB5097C76E25C243941821D9BA0EC631C8B8ED779E760CC725316B26D",
+    "Cid"          : "QmTiCf1noaBTzprhTARKCUqeyPrfxV9vkHbSgd7Ngp2GCD",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
