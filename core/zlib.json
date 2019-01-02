@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "Qmdzt2V1PziP5VZLSQp8qwk4myhGcCzVDFagyoF8taPC7x",
+    "Cid"          : "QmPg4fuj2NonitRRoQEU5FGC1mfjNzQy4pUA16Aqt8phbA",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 6129663920,
-    "Date"         : "2017-10-11T01:37:17.656739804-07:00",
-    "Size"         : 336452,
+    "Date"         : "2019-01-01T14:20:23.378728795-08:00",
+    "Size"         : 348405,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -29,12 +29,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "tmp/via/include/zconf.h",
-                  "tmp/via/include/zlib.h",
-                  "tmp/via/lib/libz.a",
-                  "tmp/via/lib/libz.so",
-                  "tmp/via/lib/libz.so.1",
-                  "tmp/via/lib/libz.so.1.2.11",
-                  "tmp/via/lib/pkgconfig/zlib.pc"
+                  "home/mrosset/via/include/zconf.h",
+                  "home/mrosset/via/include/zlib.h",
+                  "home/mrosset/via/lib/libz.a",
+                  "home/mrosset/via/lib/libz.so",
+                  "home/mrosset/via/lib/libz.so.1",
+                  "home/mrosset/via/lib/libz.so.1.2.11",
+                  "home/mrosset/via/lib/pkgconfig/zlib.pc"
     ]
 }

@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmbG3gjuQqZi3z9GabqBf76vfxvRRPUsrrtuwyS9iaFcVU",
+    "Cid"          : "QmX51Meitapo3TqvnDCaBy4wcqfCaQAoUDNDjJA9vkaL8b",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T01:39:00.817203632-07:00",
+    "Date"         : "2019-01-01T13:48:27.291380045-08:00",
     "Size"         : 1406200,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -27,8 +27,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "tmp/via/bin/go",
-                  "tmp/via/bin/gofmt",
-                  "tmp/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/cgo"
+                  "home/mrosset/via/bin/go",
+                  "home/mrosset/via/bin/gofmt",
+                  "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/cgo"
     ]
 }
