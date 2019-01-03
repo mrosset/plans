@@ -10,7 +10,7 @@
     "DB"        : "/home/mrosset/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish",
-    "Binary"    : "http://172.17.0.1:8080/ipfs/",
+    "Binary"    : "http://127.0.0.1:8080/ipfs/",
     "Prefix"    : "/home/mrosset/via",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",
