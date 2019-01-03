@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "QmdWZbgU1jBPD8ysuENwoXAJCRG8Vy45KGqbgneN8CK6Vt",
+    "Cid"           : "QmQHAAJ8h4DzUaKTea9mwHRQUK36UqDctZzrnVZJtYyet2",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-16T12:48:09.154190671-07:00",
-    "Size"          : 4655,
+    "Date"          : "2019-01-02T23:14:40.330464198-08:00",
+    "Size"          : 4664,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,7 +22,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/X11/extensions/dri3proto.h",
-                    "tmp/via/lib/pkgconfig/dri3proto.pc"
+                    "home/mrosset/via/include/X11/extensions/dri3proto.h",
+                    "home/mrosset/via/lib/pkgconfig/dri3proto.pc"
     ]
 }

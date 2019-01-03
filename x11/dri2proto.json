@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "QmWE3uD9zBSycx4DkezwKPistCFeuA3bWNhMqDGdhEz3Wp",
+    "Cid"           : "QmaaENjRwQuvBNKu1tqKCUWMyoSwThBdD5y4xTPcZBjoR9",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-16T12:48:07.578163114-07:00",
-    "Size"          : 11542,
+    "Date"          : "2019-01-02T23:14:38.593798293-08:00",
+    "Size"          : 11551,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,8 +22,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/X11/extensions/dri2proto.h",
-                    "tmp/via/include/X11/extensions/dri2tokens.h",
-                    "tmp/via/lib/pkgconfig/dri2proto.pc"
+                    "home/mrosset/via/include/X11/extensions/dri2proto.h",
+                    "home/mrosset/via/include/X11/extensions/dri2tokens.h",
+                    "home/mrosset/via/lib/pkgconfig/dri2proto.pc"
     ]
 }

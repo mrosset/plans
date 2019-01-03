@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmPvLTKafDTUKRKgLKcrfHKGVnJ3T99zv14Nzue36ggcQM",
+    "Cid"          : "QmXQE5W5uLMjnS5yHgFyf26f8H6f7QShU8GW3gZhFtEct6",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:46:54.56731363-07:00",
-    "Size"         : 58310,
+    "Date"         : "2019-01-02T23:10:55.617602995-08:00",
+    "Size"         : 58382,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -32,13 +32,13 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "tmp/via/include/X11/extensions/XTest.h",
-                   "tmp/via/include/X11/extensions/record.h",
-                   "tmp/via/lib/libXtst.a",
-                   "tmp/via/lib/libXtst.la",
-                   "tmp/via/lib/libXtst.so",
-                   "tmp/via/lib/libXtst.so.6",
-                   "tmp/via/lib/libXtst.so.6.1.0",
-                   "tmp/via/lib/pkgconfig/xtst.pc"
+                   "home/mrosset/via/include/X11/extensions/XTest.h",
+                   "home/mrosset/via/include/X11/extensions/record.h",
+                   "home/mrosset/via/lib/libXtst.a",
+                   "home/mrosset/via/lib/libXtst.la",
+                   "home/mrosset/via/lib/libXtst.so",
+                   "home/mrosset/via/lib/libXtst.so.6",
+                   "home/mrosset/via/lib/libXtst.so.6.1.0",
+                   "home/mrosset/via/lib/pkgconfig/xtst.pc"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmQ4a2wiZozZygVJpGtJZPkAgmjCbrwEHqtsq17G8RVsUf",
+    "Cid"          : "QmUdbXFP17UnnsTY35MwfCMEdWKT64APq8Pd1XASXJBAgj",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:48:05.014346084-07:00",
-    "Size"         : 18188,
+    "Date"         : "2019-01-02T23:14:35.622600024-08:00",
+    "Size"         : 18215,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,12 +24,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/X11/xshmfence.h",
-                    "tmp/via/lib/libxshmfence.a",
-                    "tmp/via/lib/libxshmfence.la",
-                    "tmp/via/lib/libxshmfence.so",
-                    "tmp/via/lib/libxshmfence.so.1",
-                    "tmp/via/lib/libxshmfence.so.1.0.0",
-                    "tmp/via/lib/pkgconfig/xshmfence.pc"
+                    "home/mrosset/via/include/X11/xshmfence.h",
+                    "home/mrosset/via/lib/libxshmfence.a",
+                    "home/mrosset/via/lib/libxshmfence.la",
+                    "home/mrosset/via/lib/libxshmfence.so",
+                    "home/mrosset/via/lib/libxshmfence.so.1",
+                    "home/mrosset/via/lib/libxshmfence.so.1.0.0",
+                    "home/mrosset/via/lib/pkgconfig/xshmfence.pc"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmccityCDqJct48W8bnszuSY1jyvSgQNNTTmDKKs9rxpnp",
+    "Cid"          : "QmQsF8cSNkJSb2cbxkvfbq2pZnpSjBN8T7NNFeK6rb2gDj",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:46:34.58694235-07:00",
-    "Size"         : 97950,
+    "Date"         : "2019-01-02T23:10:40.121495267-08:00",
+    "Size"         : 97995,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -26,14 +26,14 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/X11/SM/SM.h",
-                    "tmp/via/include/X11/SM/SMlib.h",
-                    "tmp/via/include/X11/SM/SMproto.h",
-                    "tmp/via/lib/libSM.a",
-                    "tmp/via/lib/libSM.la",
-                    "tmp/via/lib/libSM.so",
-                    "tmp/via/lib/libSM.so.6",
-                    "tmp/via/lib/libSM.so.6.0.1",
-                    "tmp/via/lib/pkgconfig/sm.pc"
+                    "home/mrosset/via/include/X11/SM/SM.h",
+                    "home/mrosset/via/include/X11/SM/SMlib.h",
+                    "home/mrosset/via/include/X11/SM/SMproto.h",
+                    "home/mrosset/via/lib/libSM.a",
+                    "home/mrosset/via/lib/libSM.la",
+                    "home/mrosset/via/lib/libSM.so",
+                    "home/mrosset/via/lib/libSM.so.6",
+                    "home/mrosset/via/lib/libSM.so.6.0.1",
+                    "home/mrosset/via/lib/pkgconfig/sm.pc"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmVdi4CygLrfNDuZriGRcV8W392SADD8HbkeeQZ1m5wnuA",
+    "Cid"          : "QmakybUExUDEMgNE55Rn4Qdm3xjGJNKNv1BnTNx5hiKSJc",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:28:52.24627474-07:00",
-    "Size"         : 353296,
+    "Date"         : "2019-01-02T22:33:24.01419174-08:00",
+    "Size"         : 103096,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -26,6 +26,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/bin/gperf"
+                    "home/mrosset/via/bin/gperf"
     ]
 }

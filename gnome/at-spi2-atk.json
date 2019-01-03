@@ -5,12 +5,12 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmcW3cEgSZF2mLAVMFGt74tuKy9f518BFAnhi23WBTCUqo",
+    "Cid"          : "QmQuiqZg64MyJjD1XcVRdknXSsLYAceGGRDAjsceuhhLcc",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:47:12.822219946-07:00",
-    "Size"         : 204269,
+    "Date"         : "2019-01-02T23:13:47.985238948-08:00",
+    "Size"         : 204575,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "at-spi2-core",
@@ -36,14 +36,14 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/at-spi2-atk/2.0/atk-bridge.h",
-                    "tmp/via/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop",
-                    "tmp/via/lib/gtk-2.0/modules/libatk-bridge.la",
-                    "tmp/via/lib/gtk-2.0/modules/libatk-bridge.so",
-                    "tmp/via/lib/libatk-bridge-2.0.la",
-                    "tmp/via/lib/libatk-bridge-2.0.so",
-                    "tmp/via/lib/libatk-bridge-2.0.so.0",
-                    "tmp/via/lib/libatk-bridge-2.0.so.0.0.0",
-                    "tmp/via/lib/pkgconfig/atk-bridge-2.0.pc"
+                    "home/mrosset/via/include/at-spi2-atk/2.0/atk-bridge.h",
+                    "home/mrosset/via/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop",
+                    "home/mrosset/via/lib/gtk-2.0/modules/libatk-bridge.la",
+                    "home/mrosset/via/lib/gtk-2.0/modules/libatk-bridge.so",
+                    "home/mrosset/via/lib/libatk-bridge-2.0.la",
+                    "home/mrosset/via/lib/libatk-bridge-2.0.so",
+                    "home/mrosset/via/lib/libatk-bridge-2.0.so.0",
+                    "home/mrosset/via/lib/libatk-bridge-2.0.so.0.0.0",
+                    "home/mrosset/via/lib/pkgconfig/atk-bridge-2.0.pc"
     ]
 }

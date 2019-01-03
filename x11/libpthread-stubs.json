@@ -5,12 +5,12 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "QmZZsXfpcvZmjynNoGVk3fCkyCHMAm3xqxc3mTeiD4z42H",
+    "Cid"           : "QmWkijS3Qojb6tcCNcQ9o87Gz8i5TkuimYap8XvPk3Msa4",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-16T12:47:49.830557332-07:00",
-    "Size"          : 173,
+    "Date"          : "2019-01-02T23:14:21.904205669-08:00",
+    "Size"          : 182,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : null,
@@ -22,6 +22,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/lib/pkgconfig/pthread-stubs.pc"
+                    "home/mrosset/via/lib/pkgconfig/pthread-stubs.pc"
     ]
 }

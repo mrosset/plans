@@ -5,20 +5,22 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmU92DwQd2DarhVc9Lge4xZ1KeWfB5vhZoe39f7xG4NqEL",
+    "Cid"          : "QmQyMcVr18nsAUXEwYv6gPH881hQP2hjsgvTiH1gULZtdx",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:44:01.542871379-07:00",
-    "Size"         : 2166117,
+    "Date"         : "2019-01-02T23:05:46.858477814-08:00",
+    "Size"         : 2166135,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
     ],
     "ManualDepends" : null,
-    "BuildDepends"  : null,
-    "Flags"         : [
-                    "--with-jpeg8"
+    "BuildDepends"  : [
+                    "nasm"
+    ],
+    "Flags" : [
+            "--with-jpeg8"
     ],
     "Patch"       : null,
     "Build"       : null,
@@ -26,26 +28,26 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "tmp/via/bin/cjpeg",
-                  "tmp/via/bin/djpeg",
-                  "tmp/via/bin/jpegtran",
-                  "tmp/via/bin/rdjpgcom",
-                  "tmp/via/bin/tjbench",
-                  "tmp/via/bin/wrjpgcom",
-                  "tmp/via/include/jconfig.h",
-                  "tmp/via/include/jerror.h",
-                  "tmp/via/include/jmorecfg.h",
-                  "tmp/via/include/jpeglib.h",
-                  "tmp/via/include/turbojpeg.h",
-                  "tmp/via/lib/libjpeg.a",
-                  "tmp/via/lib/libjpeg.la",
-                  "tmp/via/lib/libjpeg.so",
-                  "tmp/via/lib/libjpeg.so.8",
-                  "tmp/via/lib/libjpeg.so.8.0.2",
-                  "tmp/via/lib/libturbojpeg.a",
-                  "tmp/via/lib/libturbojpeg.la",
-                  "tmp/via/lib/libturbojpeg.so",
-                  "tmp/via/lib/libturbojpeg.so.0",
-                  "tmp/via/lib/libturbojpeg.so.0.1.0"
+                  "home/mrosset/via/bin/cjpeg",
+                  "home/mrosset/via/bin/djpeg",
+                  "home/mrosset/via/bin/jpegtran",
+                  "home/mrosset/via/bin/rdjpgcom",
+                  "home/mrosset/via/bin/tjbench",
+                  "home/mrosset/via/bin/wrjpgcom",
+                  "home/mrosset/via/include/jconfig.h",
+                  "home/mrosset/via/include/jerror.h",
+                  "home/mrosset/via/include/jmorecfg.h",
+                  "home/mrosset/via/include/jpeglib.h",
+                  "home/mrosset/via/include/turbojpeg.h",
+                  "home/mrosset/via/lib/libjpeg.a",
+                  "home/mrosset/via/lib/libjpeg.la",
+                  "home/mrosset/via/lib/libjpeg.so",
+                  "home/mrosset/via/lib/libjpeg.so.8",
+                  "home/mrosset/via/lib/libjpeg.so.8.0.2",
+                  "home/mrosset/via/lib/libturbojpeg.a",
+                  "home/mrosset/via/lib/libturbojpeg.la",
+                  "home/mrosset/via/lib/libturbojpeg.so",
+                  "home/mrosset/via/lib/libturbojpeg.so.0",
+                  "home/mrosset/via/lib/libturbojpeg.so.0.1.0"
     ]
 }

@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYt1w6pDCX9Kjz3MMqLv1FYCjq6x8rPUpTDt7dRK9DBCw",
+    "Cid"          : "QmSsfkHYVRWZT4MCVT5CTA4Qt4DXcbThvVEgHYgAoHby1U",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:41:21.496694042-07:00",
-    "Size"         : 1596893,
+    "Date"         : "2019-01-02T22:53:12.582313214-08:00",
+    "Size"         : 1596911,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,13 +24,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/pixman-1/pixman-version.h",
-                    "tmp/via/include/pixman-1/pixman.h",
-                    "tmp/via/lib/libpixman-1.a",
-                    "tmp/via/lib/libpixman-1.la",
-                    "tmp/via/lib/libpixman-1.so",
-                    "tmp/via/lib/libpixman-1.so.0",
-                    "tmp/via/lib/libpixman-1.so.0.34.0",
-                    "tmp/via/lib/pkgconfig/pixman-1.pc"
+                    "home/mrosset/via/include/pixman-1/pixman-version.h",
+                    "home/mrosset/via/include/pixman-1/pixman.h",
+                    "home/mrosset/via/lib/libpixman-1.a",
+                    "home/mrosset/via/lib/libpixman-1.la",
+                    "home/mrosset/via/lib/libpixman-1.so",
+                    "home/mrosset/via/lib/libpixman-1.so.0",
+                    "home/mrosset/via/lib/libpixman-1.so.0.34.0",
+                    "home/mrosset/via/lib/pkgconfig/pixman-1.pc"
     ]
 }

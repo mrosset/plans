@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmVJHAdmvBJnnUpRUcv8VjyequKRR2cihkYDwjhvysm8op",
+    "Cid"          : "QmPp8oTKoKPC5gNcr96pwz9Zip8BMFtp2mqFvqeMnof3x7",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:47:36.585136456-07:00",
-    "Size"         : 23749,
+    "Date"         : "2019-01-02T23:14:09.783741479-08:00",
+    "Size"         : 23812,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -30,13 +30,13 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "tmp/via/include/X11/extensions/Xinerama.h",
-                   "tmp/via/include/X11/extensions/panoramiXext.h",
-                   "tmp/via/lib/libXinerama.a",
-                   "tmp/via/lib/libXinerama.la",
-                   "tmp/via/lib/libXinerama.so",
-                   "tmp/via/lib/libXinerama.so.1",
-                   "tmp/via/lib/libXinerama.so.1.0.0",
-                   "tmp/via/lib/pkgconfig/xinerama.pc"
+                   "home/mrosset/via/include/X11/extensions/Xinerama.h",
+                   "home/mrosset/via/include/X11/extensions/panoramiXext.h",
+                   "home/mrosset/via/lib/libXinerama.a",
+                   "home/mrosset/via/lib/libXinerama.la",
+                   "home/mrosset/via/lib/libXinerama.so",
+                   "home/mrosset/via/lib/libXinerama.so.1",
+                   "home/mrosset/via/lib/libXinerama.so.1.0.0",
+                   "home/mrosset/via/lib/pkgconfig/xinerama.pc"
     ]
 }

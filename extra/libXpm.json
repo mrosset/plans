@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmX8Uy3EXDumEzwHjGZnJtFQdmMmAHYWQqck4dnpJYmUk6",
+    "Cid"          : "QmUtMLdumVY5VALsen2FsTQExKXEe2DDyFK9xG1rqWZkNp",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:55:21.220416026-07:00",
-    "Size"         : 240147,
+    "Date"         : "2019-01-02T23:21:46.932164741-08:00",
+    "Size"         : 240201,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -27,13 +27,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/bin/cxpm",
-                    "tmp/via/include/X11/xpm.h",
-                    "tmp/via/lib/libXpm.a",
-                    "tmp/via/lib/libXpm.la",
-                    "tmp/via/lib/libXpm.so",
-                    "tmp/via/lib/libXpm.so.4",
-                    "tmp/via/lib/libXpm.so.4.11.0",
-                    "tmp/via/lib/pkgconfig/xpm.pc"
+                    "home/mrosset/via/bin/cxpm",
+                    "home/mrosset/via/include/X11/xpm.h",
+                    "home/mrosset/via/lib/libXpm.a",
+                    "home/mrosset/via/lib/libXpm.la",
+                    "home/mrosset/via/lib/libXpm.so",
+                    "home/mrosset/via/lib/libXpm.so.4",
+                    "home/mrosset/via/lib/libXpm.so.4.11.0",
+                    "home/mrosset/via/lib/pkgconfig/xpm.pc"
     ]
 }

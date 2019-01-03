@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmPRKwa7bzoHYLEcZb8tF8WXqZuqzzqx52i6PxY9j1AVzK",
+    "Cid"          : "QmZRdc76vJGW4rE4rGFJSkoNVBYcWpL5Bm4gAAg93hBVaE",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:55:15.649365489-07:00",
-    "Size"         : 239443,
+    "Date"         : "2019-01-02T23:21:42.121582714-08:00",
+    "Size"         : 239533,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "bzip2",
@@ -33,13 +33,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/include/X11/Xft/Xft.h",
-                    "tmp/via/include/X11/Xft/XftCompat.h",
-                    "tmp/via/lib/libXft.a",
-                    "tmp/via/lib/libXft.la",
-                    "tmp/via/lib/libXft.so",
-                    "tmp/via/lib/libXft.so.2",
-                    "tmp/via/lib/libXft.so.2.3.2",
-                    "tmp/via/lib/pkgconfig/xft.pc"
+                    "home/mrosset/via/include/X11/Xft/Xft.h",
+                    "home/mrosset/via/include/X11/Xft/XftCompat.h",
+                    "home/mrosset/via/lib/libXft.a",
+                    "home/mrosset/via/lib/libXft.la",
+                    "home/mrosset/via/lib/libXft.so",
+                    "home/mrosset/via/lib/libXft.so.2",
+                    "home/mrosset/via/lib/libXft.so.2.3.2",
+                    "home/mrosset/via/lib/pkgconfig/xft.pc"
     ]
 }

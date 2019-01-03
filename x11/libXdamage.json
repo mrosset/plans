@@ -5,12 +5,12 @@
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "Qmdh3Yvo6xgamobvH6BJq4THKfC58j8QBmTFJZSvvcVecc",
+    "Cid"          : "QmbGZ4W7hpriz8dbP6KvAHBmDyEPg28JpF2t2T6mESkj21",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-16T12:47:31.041793914-07:00",
-    "Size"         : 20922,
+    "Date"         : "2019-01-02T23:14:05.341119794-08:00",
+    "Size"         : 20985,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -30,12 +30,12 @@
     "PostInstall"  : null,
     "Remove"       : null,
     "Files"        : [
-                   "tmp/via/include/X11/extensions/Xdamage.h",
-                   "tmp/via/lib/libXdamage.a",
-                   "tmp/via/lib/libXdamage.la",
-                   "tmp/via/lib/libXdamage.so",
-                   "tmp/via/lib/libXdamage.so.1",
-                   "tmp/via/lib/libXdamage.so.1.1.0",
-                   "tmp/via/lib/pkgconfig/xdamage.pc"
+                   "home/mrosset/via/include/X11/extensions/Xdamage.h",
+                   "home/mrosset/via/lib/libXdamage.a",
+                   "home/mrosset/via/lib/libXdamage.la",
+                   "home/mrosset/via/lib/libXdamage.so",
+                   "home/mrosset/via/lib/libXdamage.so.1",
+                   "home/mrosset/via/lib/libXdamage.so.1.1.0",
+                   "home/mrosset/via/lib/pkgconfig/xdamage.pc"
     ]
 }

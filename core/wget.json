@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmfUAtFBEpUdwQUfvaXh7dCtgcHTqz2dcZY8Z23XJunEHA",
+    "Cid"          : "QmUyMKr6VamrjKi7cNAN8YsFnsgqJuHE8jGpVvsX2ks92W",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-21T16:00:46.372712238-07:00",
-    "Size"         : 448801,
+    "Date"         : "2019-01-02T23:22:55.033544813-08:00",
+    "Size"         : 448753,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -29,7 +29,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "tmp/via/bin/wget",
-                    "tmp/via/etc/wgetrc"
+                    "home/mrosset/via/bin/wget",
+                    "home/mrosset/via/etc/wgetrc"
     ]
 }
