@@ -19,7 +19,7 @@
     "Patch"         : null,
     "Build"         : null,
     "Package"       : [
-                    "python setup.py install --prefix=$PREFIX --root=$PKGDIR --optimize=1"
+                    "python3 setup.py install --prefix=$PREFIX --root=$PKGDIR --optimize=1"
     ],
     "PostInstall" : null,
     "Remove"      : null,

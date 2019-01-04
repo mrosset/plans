@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "",
+    "Cid"          : "QmP2mCx28CBdtr4TpL9sm1eBcARWEsjg6qg48anNCafKNH",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-14T17:15:02.178853982-07:00",
-    "Size"         : 51272,
+    "Date"         : "2019-01-03T18:29:39.820136851-08:00",
+    "Size"         : 47968,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -25,6 +25,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/ncdu"
+                    "home/mrosset/via/bin/ncdu"
     ]
 }

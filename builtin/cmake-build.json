@@ -1,0 +1,32 @@
+{
+    "Name"          : "cmake-build",
+    "Version"       : "1.0",
+    "Url"           : "",
+    "Group"         : "builtin",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "0001-01-01T00:00:00Z",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : [
+                    "cmake"
+    ],
+    "Flags" : null,
+    "Patch" : null,
+    "Build" : [
+            "cmake $SRCDIR -DCMAKE_INSTALL_PREFIX=$PREFIX -DEMBREE_ISPC_SUPPORT=0 -DEMBREE_TUTORIALS=0",
+            "make"
+    ],
+    "Package" : [
+              "make install DESTDIR=$PKGDIR"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
+}

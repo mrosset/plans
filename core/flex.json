@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "",
+    "Cid"          : "QmSVRqZwcjsUamub9s5s4dkKF5VCDw1GEwXb1b7wjmB2Up",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2017-10-09T09:15:05.454303789-07:00",
-    "Size"         : 330435,
+    "Date"         : "2019-01-03T22:30:37.653271983-08:00",
+    "Size"         : 337795,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,12 +24,13 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "via/bin/flex",
-                    "via/bin/flex++",
-                    "via/include/FlexLexer.h",
-                    "via/lib/libfl.la",
-                    "via/lib/libfl.so",
-                    "via/lib/libfl.so.2",
-                    "via/lib/libfl.so.2.0.0"
+                    "home/mrosset/via/bin/flex",
+                    "home/mrosset/via/bin/flex++",
+                    "home/mrosset/via/include/FlexLexer.h",
+                    "home/mrosset/via/lib/libfl.a",
+                    "home/mrosset/via/lib/libfl.la",
+                    "home/mrosset/via/lib/libfl.so",
+                    "home/mrosset/via/lib/libfl.so.2",
+                    "home/mrosset/via/lib/libfl.so.2.0.0"
     ]
 }

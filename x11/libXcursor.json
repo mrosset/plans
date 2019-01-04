@@ -1,24 +1,22 @@
 {
     "Name"         : "libXcursor",
-    "Version"      : "1.1.14",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXcursor-1.1.14.tar.bz2",
+    "Version"      : "1.1.15",
+    "Url"          : "https://www.x.org/archive//individual/lib/libXcursor-1.1.15.tar.gz",
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "",
+    "Cid"          : "QmQVfRS3C36CoPvoQmNjr8ie7b8Aiqnqyb2Fud2hCrTD5k",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T23:45:59.102939838-07:00",
-    "Size"         : 66228,
+    "Date"         : "2019-01-04T07:26:09.037814412-08:00",
+    "Size"         : 110882,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
                    "libX11",
                    "libXfixes",
-                   "libXrender",
-                   "libxau",
-                   "libxcb"
+                   "libXrender"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
@@ -29,11 +27,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/include/X11/Xcursor/Xcursor.h",
-                    "usr/local/via/lib/libXcursor.la",
-                    "usr/local/via/lib/libXcursor.so",
-                    "usr/local/via/lib/libXcursor.so.1",
-                    "usr/local/via/lib/libXcursor.so.1.0.2",
-                    "usr/local/via/lib/pkgconfig/xcursor.pc"
+                    "home/mrosset/via/include/X11/Xcursor/Xcursor.h",
+                    "home/mrosset/via/lib/libXcursor.a",
+                    "home/mrosset/via/lib/libXcursor.la",
+                    "home/mrosset/via/lib/libXcursor.so",
+                    "home/mrosset/via/lib/libXcursor.so.1",
+                    "home/mrosset/via/lib/libXcursor.so.1.0.2",
+                    "home/mrosset/via/lib/pkgconfig/xcursor.pc"
     ]
 }
