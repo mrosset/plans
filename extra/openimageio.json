@@ -1,9 +1,9 @@
 {
     "Name"         : "openimageio",
-    "Version"      : "2.0.3",
-    "Url"          : "https://github.com/OpenImageIO/oiio/archive/Release-2.0.3.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "oiio-Release-2.0.3",
+    "Version"      : "1.8.11",
+    "Url"          : "https://github.com/OpenImageIO/oiio/archive/Release-1.8.11.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "oiio-Release-1.8.11",
     "Inherit"      : "cmake-build",
     "Cid"          : "QmYdcohRYYEUocN6h8GiDUhhsanmpmg6xkp5bYxvuPCQVp",
     "BuildInStage" : false,

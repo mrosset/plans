@@ -2,7 +2,7 @@
     "Name"         : "boost",
     "Version"      : "1.68.0",
     "Url"          : "https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.bz2",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "boost_1_68_0",
     "Inherit"      : "",
     "Cid"          : "QmVU7jkVf5APYU66xjvqeYieL2oh8cbjuxnbhQwCwuALJt",

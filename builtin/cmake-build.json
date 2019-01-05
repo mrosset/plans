@@ -20,7 +20,7 @@
     "Flags" : null,
     "Patch" : null,
     "Build" : [
-            "cmake $SRCDIR -DCMAKE_INSTALL_PREFIX=$PREFIX -DEMBREE_ISPC_SUPPORT=0 -DEMBREE_TUTORIALS=0",
+            "cmake $SRCDIR -DCMAKE_INSTALL_PREFIX=$PREFIX -DEMBREE_ISPC_SUPPORT=0 -DEMBREE_TUTORIALS=0 -DUSE_PYTHON=0",
             "make"
     ],
     "Package" : [
