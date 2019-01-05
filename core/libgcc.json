@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "Qme9FBqtxUyYKK4ViW6rMBTFQMo4XLeaxrN5xkK6ZhN7gg",
+    "Cid"          : "QmUssmguA3KqHsDUGRNhETo5HXfiKW5FEouZCexj9wyaXR",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-01T13:48:28.317267017-08:00",
-    "Size"         : 7735346,
+    "Date"         : "2019-01-05T00:23:39.601412567-08:00",
+    "Size"         : 8253596,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -22,12 +22,13 @@
     "Build"         : null,
     "Package"       : [
                     "make install-strip-target-libgcc DESTDIR=$PKGDIR",
+                    "make install-strip-target-libgomp DESTDIR=$PKGDIR",
                     "mv $PKGDIR/$PREFIX/lib64/* $PKGDIR/$PREFIX/lib",
                     "rmdir $PKGDIR/$PREFIX/lib64"
     ],
     "PostInstall" : null,
     "Remove"      : [
-                  "$PREFIX/lib/gcc/$CHOST/6.2.0/include/unwind.h"
+                  "$PREFIX/lib/gcc/$CHOST/{{.Version}}/include/unwind.h"
     ],
     "Files" : [
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbegin.o",
@@ -40,11 +41,19 @@
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec64.o",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec80.o",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/gcov.h",
+            "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/omp.h",
+            "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/openacc.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/unwind.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc.a",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc_eh.a",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcov.a",
             "home/mrosset/via/lib/libgcc_s.so",
-            "home/mrosset/via/lib/libgcc_s.so.1"
+            "home/mrosset/via/lib/libgcc_s.so.1",
+            "home/mrosset/via/lib/libgomp.a",
+            "home/mrosset/via/lib/libgomp.la",
+            "home/mrosset/via/lib/libgomp.so",
+            "home/mrosset/via/lib/libgomp.so.1",
+            "home/mrosset/via/lib/libgomp.so.1.0.0",
+            "home/mrosset/via/lib/libgomp.spec"
     ]
 }

@@ -5,11 +5,11 @@
     "Group"        : "extra",
     "StageDir"     : "boost_1_68_0",
     "Inherit"      : "",
-    "Cid"          : "QmVU7jkVf5APYU66xjvqeYieL2oh8cbjuxnbhQwCwuALJt",
+    "Cid"          : "QmbHEJtMft1GqfG8N81gPox5zTNMbTr9rfqVBkUXP7pqri",
     "BuildInStage" : true,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-04T09:18:02.123910983-08:00",
+    "Date"         : "2019-01-05T00:59:10.657715959-08:00",
     "Size"         : 172937578,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -20,13 +20,15 @@
                    "xz",
                    "zlib"
     ],
-    "ManualDepends" : null,
-    "BuildDepends"  : null,
-    "Flags"         : null,
-    "Patch"         : null,
-    "Build"         : [
-                    "./bootstrap.sh --with-python-version=3.7 --with-python=$PREFIX/bin/python3",
-                    "./b2 -j$(nproc)"
+    "ManualDepends" : [],
+    "BuildDepends"  : [
+                    "numpy"
+    ],
+    "Flags" : null,
+    "Patch" : null,
+    "Build" : [
+            "./bootstrap.sh --with-python-version=3.7 --with-python=$PREFIX/bin/python3",
+            "./b2 -j$(nproc)"
     ],
     "Package" : [
               "./b2 -j$(nproc) install --prefix=$PKGDIR/$PREFIX"
