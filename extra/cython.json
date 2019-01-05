@@ -2,7 +2,7 @@
     "Name"         : "cython",
     "Version"      : "0.29.2",
     "Url"          : "https://files.pythonhosted.org/packages/c1/f2/d1207fd0dfe5cb4dbb06a035eb127653821510d896ce952b5c66ca3dafa4/Cython-0.29.2.tar.gz",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "Cython-0.29.2",
     "Inherit"      : "python-build",
     "Cid"          : "QmUYwJCH5u2W2ZwKr2tJTniv9VqaKSz9sd9BKsUwpDvce5",

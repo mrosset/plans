@@ -2,7 +2,7 @@
     "Name"         : "embree",
     "Version"      : "3.3.0",
     "Url"          : "https://github.com/embree/embree/archive/v3.3.0.tar.gz",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "cmake-build",
     "Cid"          : "QmZXQ2UAi7122wjD3Yq5FJHv8AMJnozWKXerXXbewUHinB",

@@ -2,7 +2,7 @@
     "Name"         : "ilmbase",
     "Version"      : "2.3.0",
     "Url"          : "https://github.com/openexr/openexr/releases/download/v2.3.0/ilmbase-2.3.0.tar.gz",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "Cid"          : "QmSGKMcvycHkisNFmvuR9x9DHQgXfiYCm9qyd8Q1sXSjxZ",

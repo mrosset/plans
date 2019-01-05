@@ -2,7 +2,7 @@
     "Name"         : "openexr",
     "Version"      : "2.3.0",
     "Url"          : "https://github.com/openexr/openexr/releases/download/v2.3.0/openexr-2.3.0.tar.gz",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
     "Cid"          : "QmRmpypnvSDUp6xxDnn8ffHaaJQTBCLBGp1Bf9NjACqVwW",

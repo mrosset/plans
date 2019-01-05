@@ -2,7 +2,7 @@
     "Name"         : "numpy",
     "Version"      : "1.15.4",
     "Url"          : "https://files.pythonhosted.org/packages/2d/80/1809de155bad674b494248bcfca0e49eb4c5d8bee58f26fe7a0dd45029e2/numpy-1.15.4.zip",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "numpy-1.16.0rc1",
     "Inherit"      : "python-build",
     "Cid"          : "QmfQ6BeSCGBBJnggy4PfNaeWJxH9D6Nth6MAYCJXSMDxoj",

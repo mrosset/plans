@@ -2,7 +2,7 @@
     "Name"         : "c-blosc",
     "Version"      : "1.15.1",
     "Url"          : "https://github.com/Blosc/c-blosc/archive/1.15.1.tar.gz",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "c-blosc-1.15.1",
     "Inherit"      : "cmake-build",
     "Cid"          : "Qme2Q8dCHBGkoZ386Yaf19s9EBedRcY5TBY4Hv4jtNc4P5",

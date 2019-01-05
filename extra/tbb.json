@@ -2,7 +2,7 @@
     "Name"         : "tbb",
     "Version"      : "2019",
     "Url"          : "https://github.com/01org/tbb/archive/2019_U3.tar.gz",
-    "Group"        : "core",
+    "Group"        : "extra",
     "StageDir"     : "tbb-2019_U3",
     "Inherit"      : "",
     "Cid"          : "Qmf9YajFBp5TtfZZwjvCYcNWs37zcTgx6rsVXszMikp6HQ",
