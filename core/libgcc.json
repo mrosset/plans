@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmTTkYsdpRXakcS7j4yjXLdaUyHNPLoHMiQnvj1AgftWSj",
+    "Cid"          : "QmQvhGNdhXKy22Qz3TJCstj48i1U9ZbqAbsNcA6xFJ77Xq",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-05T21:01:49.290337248-08:00",
-    "Size"         : 7735346,
+    "Date"         : "2019-01-05T21:12:29.723030841-08:00",
+    "Size"         : 7724629,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -27,7 +27,7 @@
     ],
     "PostInstall" : null,
     "Remove"      : [
-                  "$PREFIX/lib/gcc/$CHOST/{{.Version}}/include/unwind.h"
+                  "$PREFIX/lib/gcc/$CHOST/7.2.0/include/unwind.h"
     ],
     "Files" : [
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbegin.o",
@@ -40,7 +40,6 @@
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec64.o",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec80.o",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/gcov.h",
-            "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/unwind.h",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc.a",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc_eh.a",
             "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcov.a",

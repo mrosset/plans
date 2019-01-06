@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "Qmare57A5dLRsqwfwL4JhgggpVTswAbBaDGaY3VTVBt1k7",
+    "Cid"          : "QmYpGGTmf7qYvagHKQkuVXxdTNqJfVNZJSiAboCdj8TMxF",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 310961178659,
-    "Date"         : "2019-01-05T21:01:59.684955667-08:00",
+    "Date"         : "2019-01-05T21:12:39.681809247-08:00",
     "Size"         : 112679519,
     "SubPackages"  : [
                    "gotools",
