@@ -1,0 +1,40 @@
+{
+    "Name"         : "libgomp",
+    "Version"      : "7.2.0",
+    "Url"          : "",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "Cid"          : "QmS8gnyArMDcLFD2szNwQG8JU2Mi2E6wGARW3nrQaNsR2L",
+    "BuildInStage" : false,
+    "IsRebuilt"    : false,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-05T21:01:56.551939344-08:00",
+    "Size"         : 518250,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : [
+                    "make install-strip-target-libgomp DESTDIR=$PKGDIR",
+                    "mv $PKGDIR/$PREFIX/lib64/* $PKGDIR/$PREFIX/lib",
+                    "rmdir $PKGDIR/$PREFIX/lib64"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/omp.h",
+                  "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/openacc.h",
+                  "home/mrosset/via/lib/libgomp.a",
+                  "home/mrosset/via/lib/libgomp.la",
+                  "home/mrosset/via/lib/libgomp.so",
+                  "home/mrosset/via/lib/libgomp.so.1",
+                  "home/mrosset/via/lib/libgomp.so.1.0.0",
+                  "home/mrosset/via/lib/libgomp.spec"
+    ]
+}
