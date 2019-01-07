@@ -8,9 +8,9 @@
     "Linker"    : "/tmp/via/lib/linker",
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/home/mrosset/via/db",
-    "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
-    "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish",
-    "Binary"    : "https://gateway.ipfs.io/ipfs/",
+    "Plans"     : "$HOME/src/via/plans",
+    "Repo"      : "$HOME/src/via/publish",
+    "Binary"    : "http://localhost:8080/ipfs/",
     "Prefix"    : "/home/mrosset/via",
     "Flags"     : [
                 "--build=x86_64-via-linux-gnu",

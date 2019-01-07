@@ -71,6 +71,7 @@
     "core/libgcc.json",
     "core/libgcrypt.json",
     "core/libgo.json",
+    "core/libgomp.json",
     "core/libgpg-error.json",
     "core/libgpg.json",
     "core/libidn.json",
