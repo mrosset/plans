@@ -30,7 +30,7 @@
     "Build"       : null,
     "Package"     : null,
     "PostInstall" : [
-                  "gdk-pixbuf-query-loaders \u003e $PREFIX/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache"
+                  "#gdk-pixbuf-query-loaders \u003e $PREFIX/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache"
     ],
     "Remove" : null,
     "Files"  : [
