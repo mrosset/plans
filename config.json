@@ -5,7 +5,7 @@
     "OS"        : "linux",
     "Root"      : "/",
     "PlansRepo" : "http://github.com/mrosset/plans",
-    "Linker"    : "/tmp/via/lib/linker",
+    "Threads"   : 8,
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/home/mrosset/via/db",
     "Plans"     : "$HOME/src/via/plans",

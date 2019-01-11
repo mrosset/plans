@@ -5,12 +5,12 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmQv2THSVoRgHdb84uiTXzgcWgGyBTes3iGPbsyeagKudF",
+    "Cid"          : "QmWCiJkwDd7fLAv6697gAATMozCNN9dhcEY3WCwsL5XZkk",
     "BuildInStage" : false,
     "IsRebuilt"    : false,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:06:02.983362666-08:00",
-    "Size"         : 525263,
+    "Date"         : "2019-01-10T19:50:48.474956351-08:00",
+    "Size"         : 525055,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glib",
@@ -21,16 +21,18 @@
                    "pcre",
                    "zlib"
     ],
-    "ManualDepends" : null,
-    "BuildDepends"  : null,
-    "Flags"         : [
-                    "--without-libtiff"
+    "ManualDepends" : [
+                    "bash"
+    ],
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "--without-libtiff"
     ],
     "Patch"       : null,
     "Build"       : null,
     "Package"     : null,
     "PostInstall" : [
-                  "#gdk-pixbuf-query-loaders \u003e $PREFIX/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache"
+                  "gdk-pixbuf-query-loaders \u003e $PREFIX/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache"
     ],
     "Remove" : null,
     "Files"  : [
