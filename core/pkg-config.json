@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmawTmkg5A9YQsxvtU97t3jnAJ5L21JTt3toCdgcZtRXzE",
+    "Cid"          : "QmZCAruEk82Z3cQVgdoerEbspHg5kw4RqcBY1vY4NaAzen",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-01T13:51:32.229618189-08:00",
+    "Date"         : "2019-01-14T04:59:16.590340255Z",
     "Size"         : 1133863,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -26,8 +26,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/pkg-config",
-                  "home/mrosset/via/bin/x86_64-via-linux-gnu-pkg-config",
-                  "home/mrosset/via/share/aclocal/pkg.m4"
+                  "opt/via/bin/pkg-config",
+                  "opt/via/bin/x86_64-via-linux-gnu-pkg-config",
+                  "opt/via/share/aclocal/pkg.m4"
     ]
 }

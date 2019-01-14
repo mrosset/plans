@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmZ258PrRr6j2PYgeC2YMNEdAG4JjG139x9Qwmawofuv1F",
+    "Cid"          : "QmVsf9pDaN9qFS3tSJTLQAcLMwhkFGkMBdWDHJVQc5cY4C",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 69211121595,
-    "Date"         : "2019-01-01T13:49:16.114943527-08:00",
-    "Size"         : 1828216,
+    "Date"         : "2019-01-13T18:42:28.375918703-08:00",
+    "Size"         : 1881311,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,11 +24,11 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/include/gmp.h",
-                    "home/mrosset/via/lib/libgmp.a",
-                    "home/mrosset/via/lib/libgmp.la",
-                    "home/mrosset/via/lib/libgmp.so",
-                    "home/mrosset/via/lib/libgmp.so.10",
-                    "home/mrosset/via/lib/libgmp.so.10.3.0"
+                    "opt/via/include/gmp.h",
+                    "opt/via/lib/libgmp.a",
+                    "opt/via/lib/libgmp.la",
+                    "opt/via/lib/libgmp.so",
+                    "opt/via/lib/libgmp.so.10",
+                    "opt/via/lib/libgmp.so.10.3.0"
     ]
 }

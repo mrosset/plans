@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmWDGrhhqyCrF5oPGVWfCtZUu8ACN25MN2BVenQtKHaDc9",
+    "Cid"          : "QmbgZbUh2px88pPBv3fFKXBibGFEJGtFc91b2kB5Krjn7f",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 11670073958,
-    "Date"         : "2019-01-01T13:51:46.466818304-08:00",
+    "Date"         : "2019-01-14T04:49:11.270521985Z",
     "Size"         : 105776,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -27,6 +27,6 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/sed"
+                  "opt/via/bin/sed"
     ]
 }

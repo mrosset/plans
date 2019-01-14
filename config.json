@@ -8,11 +8,11 @@
     "Threads"   : 8,
     "IpfsApi"   : "localhost:5001",
     "Cache"     : "$HOME/.cache/via",
-    "DB"        : "/home/mrosset/via/db",
+    "DB"        : "/opt/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo",
     "Binary"    : "http://localhost:8080/ipfs/",
-    "Prefix"    : "/home/mrosset/via",
+    "Prefix"    : "/opt/via",
     "Flags"     : [
                 "--build={{.Arch}}-via-{{.OS}}-gnu",
                 "--config-cache",
@@ -27,14 +27,15 @@
                 "-q"
     ],
     "Env" : {
-          "CFLAGS"          : "-pipe -O2 -mtune=generic",
+          "CFLAGS"          : "-O2 -pipe -mtune=generic",
+          "CHOST"           : "{{.Branch}}",
           "CONFIG_SITE"     : "",
           "CXXFLAGS"        : "$CFLAGS",
           "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"    : "$PREFIX/lib",
           "LIBTOOLFLAGS"    : "--silent",
           "MAKEFLAGS"       : "-sw -j8",
-          "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin",
+          "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin:/usr/sbin",
           "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
           "PREFIX"          : "{{.Prefix}}"
     },

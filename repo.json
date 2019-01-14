@@ -249,10 +249,5 @@
     "x11/xinput.json",
     "x11/xproto.json",
     "x11/xterm.json",
-    "x11/xtrans.json",
-    "x86_64/binutils-x86_64-cross.json",
-    "x86_64/gcc-x86_64-cross.json",
-    "x86_64/glibc-x86_64-cross.json",
-    "x86_64/glibc-x86_64-headers.json",
-    "x86_64/linux-headers-x86_64.json"
+    "x11/xtrans.json"
 ]

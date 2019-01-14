@@ -5,16 +5,15 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmNpG1JfDhsFwwZBbVs2f6kTWWP4w4zE3pyHG8dhooHHS8",
+    "Cid"          : "QmP8xyo5vbgX8YLippcE93fHN8sk35uz5Md1Q2m9HrDbih",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 9494663451,
-    "Date"         : "2019-01-01T14:20:41.120267615-08:00",
-    "Size"         : 5148715,
+    "Date"         : "2019-01-14T04:47:15.747068713Z",
+    "Size"         : 5128718,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc",
-                   "zlib"
+                   "glibc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
@@ -25,12 +24,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/file",
-                    "home/mrosset/via/include/magic.h",
-                    "home/mrosset/via/lib/libmagic.la",
-                    "home/mrosset/via/lib/libmagic.so",
-                    "home/mrosset/via/lib/libmagic.so.1",
-                    "home/mrosset/via/lib/libmagic.so.1.0.0",
-                    "home/mrosset/via/share/misc/magic.mgc"
+                    "opt/via/bin/file",
+                    "opt/via/include/magic.h",
+                    "opt/via/lib/libmagic.la",
+                    "opt/via/lib/libmagic.so",
+                    "opt/via/lib/libmagic.so.1",
+                    "opt/via/lib/libmagic.so.1.0.0",
+                    "opt/via/share/misc/magic.mgc"
     ]
 }

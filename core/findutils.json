@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmZv6sbQJPEAPh4PemF78jaHsw9z2V6gjGJW6SvfnwkGjF",
+    "Cid"          : "Qmd2kXkT1auBzNavWnPGphPydiPzTepzkmJ3oAQvgbRDC6",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-01T13:42:27.602569853-08:00",
-    "Size"         : 422802,
+    "Date"         : "2019-01-14T04:47:46.963610447Z",
+    "Size"         : 422736,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,12 +24,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/find",
-                    "home/mrosset/via/bin/locate",
-                    "home/mrosset/via/bin/updatedb",
-                    "home/mrosset/via/bin/xargs",
-                    "home/mrosset/via/lib/bigram",
-                    "home/mrosset/via/lib/code",
-                    "home/mrosset/via/lib/frcode"
+                    "opt/via/bin/find",
+                    "opt/via/bin/locate",
+                    "opt/via/bin/updatedb",
+                    "opt/via/bin/xargs",
+                    "opt/via/lib/bigram",
+                    "opt/via/lib/code",
+                    "opt/via/lib/frcode"
     ]
 }

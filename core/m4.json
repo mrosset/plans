@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmVVHCa96ZQVV8qhjSgQo9oUTT9jRWB4DKQvZhqtxa32na",
+    "Cid"          : "QmSzZz5sEPzC4ecci3jxqSevbwsMLf8UnPGShoCRffFcXD",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 22752465060,
-    "Date"         : "2019-01-01T13:50:21.945746527-08:00",
+    "Date"         : "2019-01-14T04:48:35.290059978Z",
     "Size"         : 150672,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -24,6 +24,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/m4"
+                    "opt/via/bin/m4"
     ]
 }

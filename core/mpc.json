@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmbtYghboBDLF2BedgKs99EZAZ6r1yNqfWbhuYEi6zh8rs",
+    "Cid"          : "QmWfa9M1zxJbV5uHuxiuA5VFBoGXndAXERrxVBCd2VfpJr",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 1705545903,
-    "Date"         : "2019-01-15T22:58:32.497387276-08:00",
-    "Size"         : 348476,
+    "Date"         : "2019-01-13T18:43:34.267973355-08:00",
+    "Size"         : 359088,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -29,11 +29,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/include/mpc.h",
-                  "home/mrosset/via/lib/libmpc.a",
-                  "home/mrosset/via/lib/libmpc.la",
-                  "home/mrosset/via/lib/libmpc.so",
-                  "home/mrosset/via/lib/libmpc.so.3",
-                  "home/mrosset/via/lib/libmpc.so.3.0.0"
+                  "opt/via/include/mpc.h",
+                  "opt/via/lib/libmpc.a",
+                  "opt/via/lib/libmpc.la",
+                  "opt/via/lib/libmpc.so",
+                  "opt/via/lib/libmpc.so.3",
+                  "opt/via/lib/libmpc.so.3.0.0"
     ]
 }

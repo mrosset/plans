@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmbPFWZ481fgbSW3hKC1LKaqtSUCFySP3MBHQssQEAVEdm",
+    "Cid"          : "QmTeh3PKKPScv2v5w6pQKsACDsZA1XoKuxpUm26Ai9QTxY",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-01T13:52:13.613304753-08:00",
+    "Date"         : "2019-01-14T04:49:38.791138042Z",
     "Size"         : 415152,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -24,7 +24,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/tar",
-                    "home/mrosset/via/lib/rmt"
+                    "opt/via/bin/tar",
+                    "opt/via/lib/rmt"
     ]
 }

@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmceqzetdwnDZLYxUqmrJgYxcQ97Qu7tBbnSYGGZUicncj",
+    "Cid"          : "QmcYgDjM4jr1849aTGo41DLT1L45z7ggvVCLtnYxSeP5av",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-01T13:41:51.457291093-08:00",
+    "Date"         : "2019-01-14T04:47:09.667064073Z",
     "Size"         : 215976,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -24,9 +24,9 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/bin/cmp",
-                    "home/mrosset/via/bin/diff",
-                    "home/mrosset/via/bin/diff3",
-                    "home/mrosset/via/bin/sdiff"
+                    "opt/via/bin/cmp",
+                    "opt/via/bin/diff",
+                    "opt/via/bin/diff3",
+                    "opt/via/bin/sdiff"
     ]
 }
