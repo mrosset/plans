@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmexHmUDGBNaR52B8dfD9xyCB3h62e6KsEZfzKTkdAFGxH",
+    "Cid"          : "QmauDSeaZFXYusNkeMWUQabLcjEaCPdpUXsEamV6pcfPbb",
     "BuildInStage" : false,
-    "IsRebuilt"    : false,
+    "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-02T22:33:36.953316297-08:00",
-    "Size"         : 98703,
+    "Date"         : "2019-01-14T00:24:44.267054225-08:00",
+    "Size"         : 98685,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -32,13 +32,13 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/include/ffi.h",
-                  "home/mrosset/via/include/ffitarget.h",
-                  "home/mrosset/via/lib/libffi.a",
-                  "home/mrosset/via/lib/libffi.la",
-                  "home/mrosset/via/lib/libffi.so",
-                  "home/mrosset/via/lib/libffi.so.6",
-                  "home/mrosset/via/lib/libffi.so.6.0.4",
-                  "home/mrosset/via/lib/pkgconfig/libffi.pc"
+                  "opt/via/include/ffi.h",
+                  "opt/via/include/ffitarget.h",
+                  "opt/via/lib/libffi.a",
+                  "opt/via/lib/libffi.la",
+                  "opt/via/lib/libffi.so",
+                  "opt/via/lib/libffi.so.6",
+                  "opt/via/lib/libffi.so.6.0.4",
+                  "opt/via/lib/pkgconfig/libffi.pc"
     ]
 }
