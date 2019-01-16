@@ -6,6 +6,7 @@
     "Root"      : "/",
     "PlansRepo" : "http://github.com/mrosset/plans",
     "Threads"   : 8,
+    "IpfsApi"   : "localhost:5001",
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/home/mrosset/via/db",
     "Plans"     : "$HOME/src/via/plans",
