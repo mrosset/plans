@@ -1,16 +1,16 @@
 {
     "Name"         : "file",
-    "Version"      : "5.32",
+    "Version"      : "5.35",
     "Url"          : "http://fossies.org/linux/misc/file-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmbPyMWcsuZd3koBeVn8cV82x3on24QPGBsm9bGLdCZzFf",
+    "Cid"          : "QmRHeEqttx6Gxfq58KeYiyf32BGCNuWWmTyzYceG1RRMaD",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:18:38.55309548Z",
-    "Size"         : 5132906,
+    "BuildTime"    : 9494663451,
+    "Date"         : "2019-01-15T15:19:56.025813258Z",
+    "Size"         : 5638630,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -25,12 +25,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/file",
-                    "opt/via/include/magic.h",
-                    "opt/via/lib/libmagic.la",
-                    "opt/via/lib/libmagic.so",
-                    "opt/via/lib/libmagic.so.1",
-                    "opt/via/lib/libmagic.so.1.0.0",
-                    "opt/via/share/misc/magic.mgc"
+                    "home/mrosset/via/bin/file",
+                    "home/mrosset/via/include/magic.h",
+                    "home/mrosset/via/lib/libmagic.la",
+                    "home/mrosset/via/lib/libmagic.so",
+                    "home/mrosset/via/lib/libmagic.so.1",
+                    "home/mrosset/via/lib/libmagic.so.1.0.0",
+                    "home/mrosset/via/share/misc/magic.mgc"
     ]
 }

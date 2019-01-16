@@ -1,16 +1,16 @@
 {
     "Name"         : "mpc",
-    "Version"      : "1.0.2",
-    "Url"          : "http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz",
+    "Version"      : "1.1.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/mpc/mpc-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmVgi3NAew4Q3ow1opam7HSLbZ6RHiq7Qv8RohKxVW2NTq",
+    "Cid"          : "QmNedkA16FV9pPZqqGuMcZLDyeSHc3gJ9PW9ncjM86ShMf",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:38.49840301Z",
-    "Size"         : 348440,
+    "BuildTime"    : 1705545903,
+    "Date"         : "2019-01-15T15:29:29.38976381Z",
+    "Size"         : 408409,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -29,11 +29,11 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/include/mpc.h",
-                  "opt/via/lib/libmpc.a",
-                  "opt/via/lib/libmpc.la",
-                  "opt/via/lib/libmpc.so",
-                  "opt/via/lib/libmpc.so.3",
-                  "opt/via/lib/libmpc.so.3.0.0"
+                  "home/mrosset/via/include/mpc.h",
+                  "home/mrosset/via/lib/libmpc.a",
+                  "home/mrosset/via/lib/libmpc.la",
+                  "home/mrosset/via/lib/libmpc.so",
+                  "home/mrosset/via/lib/libmpc.so.3",
+                  "home/mrosset/via/lib/libmpc.so.3.1.0"
     ]
 }

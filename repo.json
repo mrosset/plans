@@ -47,8 +47,6 @@
     "core/giflib.json",
     "core/git.json",
     "core/glib.json",
-    "core/glibc-i686-headers.json",
-    "core/glibc-i686.json",
     "core/glibc.json",
     "core/gmp.json",
     "core/gnutls.json",

@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmXiQwQWFHwFqNVATBXr1p2fN2q9joQUnn66qzwdnKMJ7i",
+    "Cid"          : "QmWKqhphCPmVwfNDJVgqTj3EBP7AVLpVAG7k3xDxjBTxQb",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:17:36.345648Z",
-    "Size"         : 137442,
+    "BuildTime"    : 4665966173,
+    "Date"         : "2019-01-15T22:10:43.498177385Z",
+    "Size"         : 225696,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -28,17 +28,19 @@
                     "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/g++",
                     "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/cpp",
                     "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/x86_64-via-linux-gnu-g++",
-                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/x86_64-via-linux-gnu-gcc"
+                    "ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/x86_64-via-linux-gnu-gcc",
+                    "#ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/ppc64le-via-linux-gnu-g++",
+                    "#ln -s $PREFIX/bin/ccache $PKGDIR/$PREFIX/lib/ccache/ppc64le-via-linux-gnu-gcc"
     ],
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/bin/ccache",
-                  "opt/via/lib/ccache/clang",
-                  "opt/via/lib/ccache/cpp",
-                  "opt/via/lib/ccache/g++",
-                  "opt/via/lib/ccache/gcc",
-                  "opt/via/lib/ccache/x86_64-via-linux-gnu-g++",
-                  "opt/via/lib/ccache/x86_64-via-linux-gnu-gcc"
+                  "home/mrosset/via/bin/ccache",
+                  "home/mrosset/via/lib/ccache/clang",
+                  "home/mrosset/via/lib/ccache/cpp",
+                  "home/mrosset/via/lib/ccache/g++",
+                  "home/mrosset/via/lib/ccache/gcc",
+                  "home/mrosset/via/lib/ccache/x86_64-via-linux-gnu-g++",
+                  "home/mrosset/via/lib/ccache/x86_64-via-linux-gnu-gcc"
     ]
 }

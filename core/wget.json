@@ -5,18 +5,18 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmY6YZszbp7SnPjwBF2YaMUwY59d3eZTjD9feQgvSnTSAS",
+    "Cid"          : "QmaAhCFSwjhwke3tUhvMGQaRcuZ6JfgEgsCAa1YZWz2R2M",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:28:10.416274681Z",
-    "Size"         : 448753,
+    "Date"         : "2019-01-15T22:38:30.140414122Z",
+    "Size"         : 542713,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
                    "gnutls",
                    "nettle",
-                   "util-linux",
+                   "pcre",
                    "zlib"
     ],
     "ManualDepends" : null,
@@ -28,7 +28,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/wget",
-                    "opt/via/etc/wgetrc"
+                    "home/mrosset/via/bin/wget",
+                    "home/mrosset/via/etc/wgetrc"
     ]
 }

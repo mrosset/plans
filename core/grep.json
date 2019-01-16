@@ -5,15 +5,16 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmXVD64rqoQ2HqctKeJ3N9rmpXUCXzc6XYKVwCBgMGdUw9",
+    "Cid"          : "Qmb5RE9Ycpmw3Co2JpYsSQvKyDnsoPqqRFdms8EXuiWgBF",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:24:20.326781463Z",
-    "Size"         : 138852,
+    "BuildTime"    : 24151209794,
+    "Date"         : "2019-01-15T15:22:43.610708163Z",
+    "Size"         : 200300,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc"
+                   "glibc",
+                   "pcre"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
@@ -24,8 +25,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/egrep",
-                    "opt/via/bin/fgrep",
-                    "opt/via/bin/grep"
+                    "home/mrosset/via/bin/egrep",
+                    "home/mrosset/via/bin/fgrep",
+                    "home/mrosset/via/bin/grep"
     ]
 }

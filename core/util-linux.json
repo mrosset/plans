@@ -1,7 +1,7 @@
 {
     "Name"         : "util-linux",
-    "Version"      : "2.27.1",
-    "Url"          : "http://www.kernel.org/pub/linux/utils/util-linux/v2.27/util-linux-2.27.1.tar.xz",
+    "Version"      : "2.33.1",
+    "Url"          : "http://www.kernel.org/pub/linux/utils/util-linux/v2.33/util-linux-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",

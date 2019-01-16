@@ -5,26 +5,28 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmeqLeK6ojEVLsRvUfiP9Q5w1twD343QREQ26c7Boh2mkr",
+    "Cid"          : "QmYwW2jaMDbheiYuU58rttvL9MyUapCYmVmynkjK8E6Fv1",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:27:27.702314921Z",
-    "Size"         : 415152,
+    "Date"         : "2019-01-15T15:59:49.872262426Z",
+    "Size"         : 541624,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
-    "Flags"         : null,
-    "Patch"         : null,
-    "Build"         : null,
-    "Package"       : null,
-    "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : [
-                    "opt/via/bin/tar",
-                    "opt/via/lib/rmt"
+    "Flags"         : [
+                    "--without-selinux"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/bin/tar",
+                  "home/mrosset/via/lib/rmt"
     ]
 }

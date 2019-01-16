@@ -37,7 +37,6 @@
                     "pkg-config",
                     "sed",
                     "tar",
-                    "util-linux",
                     "wget",
                     "which",
                     "xz"

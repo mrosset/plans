@@ -1,7 +1,7 @@
 {
-    "Branch"    : "x86_64-via-linux-gnu",
+    "Branch"    : "ppc64le-via-linux-gnu",
     "Identity"  : "test user \u003ctest@test.com\u003e",
-    "Arch"      : "x86_64",
+    "Arch"      : "ppc64le",
     "OS"        : "linux",
     "Root"      : "/",
     "PlansRepo" : "http://github.com/mrosset/plans",
@@ -27,15 +27,13 @@
                 "-q"
     ],
     "Env" : {
-          "CFLAGS"          : "-O2 -pipe -mtune=generic",
-          "CHOST"           : "{{.Branch}}",
+          "CFLAGS"          : "-pipe -O2",
           "CONFIG_SITE"     : "",
-          "CXXFLAGS"        : "$CFLAGS",
-          "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
+          "EMACS"           : "",
+          "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld64.so.2",
           "LIBRARY_PATH"    : "$PREFIX/lib",
-          "LIBTOOLFLAGS"    : "--silent",
-          "MAKEFLAGS"       : "-sw -j8",
-          "PATH"            : "$HOME/go/bin:$GOPATH/bin:$PREFIX/lib/ccache:$PREFIX/bin",
+          "MAKEFLAGS"       : "-sw -j128",
+          "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$PREFIX/bin",
           "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
           "PREFIX"          : "{{.Prefix}}"
     },

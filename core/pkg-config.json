@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmPrX7Zz3huRJa2zw7LKWdTyc5CXws8WDY7DszJjWMCMac",
+    "Cid"          : "QmWNzztChDzeBM5tBdjbWeVQYghCZBqq9wDGoCZcBDb6KK",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:26:43.545262658Z",
-    "Size"         : 1133863,
+    "Date"         : "2019-01-15T15:30:50.697784276Z",
+    "Size"         : 1330231,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -18,7 +18,8 @@
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
-                    "--with-internal-glib"
+                    "--with-internal-glib",
+                    "--without-selinux"
     ],
     "Patch"       : null,
     "Build"       : null,
@@ -26,8 +27,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/bin/pkg-config",
-                  "opt/via/bin/x86_64-via-linux-gnu-pkg-config",
-                  "opt/via/share/aclocal/pkg.m4"
+                  "home/mrosset/via/bin/pkg-config",
+                  "home/mrosset/via/bin/powerpc64le-via-linux-gnu-pkg-config",
+                  "home/mrosset/via/share/aclocal/pkg.m4"
     ]
 }

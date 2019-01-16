@@ -5,31 +5,33 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmR6QtkMk7vjsA2rCWzq5kRksS4TbPxikDxHaJY8o9xyoS",
+    "Cid"          : "QmXBzjwAsQLmCKauFuyoizQVhCwZXcVHWp6KDvjt96fRc7",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:19:06.113489409Z",
-    "Size"         : 422748,
+    "Date"         : "2019-01-15T16:06:02.321837649Z",
+    "Size"         : 749434,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
-    "Flags"         : null,
-    "Patch"         : null,
-    "Build"         : null,
-    "Package"       : null,
-    "PostInstall"   : null,
-    "Remove"        : null,
-    "Files"         : [
-                    "opt/via/bin/find",
-                    "opt/via/bin/locate",
-                    "opt/via/bin/updatedb",
-                    "opt/via/bin/xargs",
-                    "opt/via/lib/bigram",
-                    "opt/via/lib/code",
-                    "opt/via/lib/frcode"
+    "Flags"         : [
+                    "--without-selinux"
+    ],
+    "Patch"       : null,
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/bin/find",
+                  "home/mrosset/via/bin/locate",
+                  "home/mrosset/via/bin/updatedb",
+                  "home/mrosset/via/bin/xargs",
+                  "home/mrosset/via/lib/bigram",
+                  "home/mrosset/via/lib/code",
+                  "home/mrosset/via/lib/frcode"
     ]
 }
