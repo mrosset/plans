@@ -7,6 +7,7 @@
     "PlansRepo" : "http://github.com/mrosset/plans",
     "Threads"   : 8,
     "IpfsApi"   : "localhost:5001",
+    "IpfsApi"   : "127.0.0.1:5001",
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/opt/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
