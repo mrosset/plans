@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "Qmbwun6enpadhvnUfvNMEU41JVSmf81T8diPyUsrvaxnBV",
+    "Cid"          : "QmQD3kH13sgrgC2RKmfav3SFg8WTYECKywZkbp4eN8SHuS",
     "BuildInStage" : false,
-    "IsRebuilt"    : false,
+    "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-05T21:12:36.644090536-08:00",
-    "Size"         : 518250,
+    "Date"         : "2019-01-15T09:04:26.582446801-08:00",
+    "Size"         : 461722,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -28,8 +28,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/omp.h",
-                  "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/openacc.h",
+                  "home/mrosset/via/lib/gcc/aarch64-via-linux-gnu/7.2.0/include/omp.h",
+                  "home/mrosset/via/lib/gcc/aarch64-via-linux-gnu/7.2.0/include/openacc.h",
                   "home/mrosset/via/lib/libgomp.a",
                   "home/mrosset/via/lib/libgomp.la",
                   "home/mrosset/via/lib/libgomp.so",
