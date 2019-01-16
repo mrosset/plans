@@ -35,7 +35,7 @@
           "LIBRARY_PATH"    : "$PREFIX/lib",
           "LIBTOOLFLAGS"    : "--silent",
           "MAKEFLAGS"       : "-sw -j8",
-          "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin:/bin:/usr/bin:/usr/sbin",
+          "PATH"            : "$HOME/go/bin:$GOPATH/bin:$PREFIX/lib/ccache::$PREFIX/bin",
           "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
           "PREFIX"          : "{{.Prefix}}"
     },
