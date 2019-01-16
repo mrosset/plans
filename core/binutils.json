@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmWnDQRNemj9npV8zZqMhwQvhGtoESLUEqAvou88tGUaE1",
+    "Cid"          : "QmegFwSF5ra4WWBuPJi5XB6hSpDjB79XRMx1t8RPAUNzNS",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 21101081336,
-    "Date"         : "2019-01-15T22:48:52.941406767Z",
-    "Size"         : 15970557,
+    "Date"         : "2019-01-16T01:10:58.556079407Z",
+    "Size"         : 15974709,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -20,7 +20,7 @@
     "Flags"         : [
                     "--enable-plugins",
                     "--with-lib-path=$PREFIX/lib",
-                    "--with-sysroot=$PREFIX"
+                    "--with-sysroot"
     ],
     "Patch"       : null,
     "Build"       : null,
