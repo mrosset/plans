@@ -1,0 +1,34 @@
+{
+    "Name"          : "guile-json",
+    "Version"       : "3.1.0",
+    "Url"           : "https://github.com/aconchillo/guile-json/archive/3.1.0.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "QmZRSyMR4G9MPBwDkt4PoEUKXLan8G3fPkxwQSxaab5cmd",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-18T17:24:50.680413101-08:00",
+    "Size"          : 270042,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "autoreconf -i"
+    ],
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/lib/guile/2.2/site-ccache/json/builder.go",
+                  "home/mrosset/via/lib/guile/2.2/site-ccache/json/parser.go",
+                  "home/mrosset/via/lib/guile/2.2/site-ccache/json.go",
+                  "home/mrosset/via/share/guile/site/2.2/json/builder.scm",
+                  "home/mrosset/via/share/guile/site/2.2/json/parser.scm",
+                  "home/mrosset/via/share/guile/site/2.2/json.scm"
+    ]
+}

@@ -10,7 +10,7 @@
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/home/mrosset/via/db",
     "Plans"     : "$HOME/src/via/plans",
-    "Repo"      : "$HOME/src/via/publish",
+    "Repo"      : "$HOME/src/via/publish/repo",
     "Binary"    : "http://localhost:8080/ipfs/",
     "Prefix"    : "/home/mrosset/via",
     "Flags"     : [
@@ -29,8 +29,10 @@
     "Env" : {
           "CFLAGS"          : "-pipe -O2 -mtune=generic",
           "CONFIG_SITE"     : "",
+          "CXXFLAGS"        : "$CFLAGS",
           "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"    : "$PREFIX/lib",
+          "LIBTOOLFLAGS"    : "--silent",
           "MAKEFLAGS"       : "-sw -j8",
           "PATH"            : "$GOPATH/bin:$PREFIX/lib/ccache:$HOME/bin:$PREFIX/bin",
           "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",

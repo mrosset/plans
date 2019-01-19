@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "",
+    "Cid"          : "QmUzo6DQVwzhHwD3pB3MmYXcuDWSffY1yjJThJmiHv8qrz",
     "BuildInStage" : false,
-    "IsRebuilt"    : false,
+    "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2016-10-20T22:25:11.205160855-07:00",
-    "Size"         : 1117724,
+    "Date"         : "2019-01-18T17:40:31.148722794-08:00",
+    "Size"         : 1034703,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -25,15 +25,15 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "usr/local/via/bin/dumpsexp",
-                    "usr/local/via/bin/hmac256",
-                    "usr/local/via/bin/libgcrypt-config",
-                    "usr/local/via/bin/mpicalc",
-                    "usr/local/via/include/gcrypt.h",
-                    "usr/local/via/lib/libgcrypt.la",
-                    "usr/local/via/lib/libgcrypt.so",
-                    "usr/local/via/lib/libgcrypt.so.20",
-                    "usr/local/via/lib/libgcrypt.so.20.0.2",
-                    "usr/local/via/share/aclocal/libgcrypt.m4"
+                    "home/mrosset/via/bin/dumpsexp",
+                    "home/mrosset/via/bin/hmac256",
+                    "home/mrosset/via/bin/libgcrypt-config",
+                    "home/mrosset/via/bin/mpicalc",
+                    "home/mrosset/via/include/gcrypt.h",
+                    "home/mrosset/via/lib/libgcrypt.la",
+                    "home/mrosset/via/lib/libgcrypt.so",
+                    "home/mrosset/via/lib/libgcrypt.so.20",
+                    "home/mrosset/via/lib/libgcrypt.so.20.0.2",
+                    "home/mrosset/via/share/aclocal/libgcrypt.m4"
     ]
 }

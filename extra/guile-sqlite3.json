@@ -1,0 +1,30 @@
+{
+    "Name"          : "guile-sqlite3",
+    "Version"       : "0.1.0",
+    "Url"           : "git://notabug.org/guile-sqlite3/guile-sqlite3",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "QmQXPS7B1YNGKkFS9WGsuYedGAwHRu5gxtJEep6uFvHGsb",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-18T17:36:41.642066403-08:00",
+    "Size"          : 241202,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "autoreconf -i"
+    ],
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "home/mrosset/via/lib/guile/2.2/site-ccache/sqlite3.go",
+                  "home/mrosset/via/share/guile/site/2.2/sqlite3.scm"
+    ]
+}
