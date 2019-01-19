@@ -5,12 +5,12 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Cid"           : "QmbBAWD8kDT3NVStZT5aB9NFkwZ2S7pPWyv3pDkzEXs3R7",
+    "Cid"           : "QmS8fiUtVnkfTANj6ncYBqW431WGAh6tbXtKtQY5Qnq8Qu",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-01T13:29:51.461240413-08:00",
-    "Size"          : 34667681,
+    "Date"          : "2019-01-19T04:00:25.303790149-08:00",
+    "Size"          : 148905801,
     "SubPackages"   : null,
     "AutoDepends"   : [],
     "ManualDepends" : [
@@ -34,6 +34,7 @@
     "Package" : [
               "#make install-bootstrap-headers=yes install-headers install_root=$PKGDIR",
               "make LDFLAGS= install install_root=$PKGDIR",
+              "make LDFLAGS= localedata/install-locales install_root=$PKGDIR",
               "sed -e 's/lib64/lib/g' -i $PKGDIR/$PREFIX/bin/ldd",
               "mv $PKGDIR/$PREFIX/sbin/* $PKGDIR/$PREFIX/bin",
               "rmdir $PKGDIR/$PREFIX/sbin"
@@ -824,6 +825,7 @@
                   "home/mrosset/via/lib/libutil.a",
                   "home/mrosset/via/lib/libutil.so",
                   "home/mrosset/via/lib/libutil.so.1",
+                  "home/mrosset/via/lib/locale/locale-archive",
                   "home/mrosset/via/share/i18n/charmaps/ANSI_X3.110-1983.gz",
                   "home/mrosset/via/share/i18n/charmaps/ANSI_X3.4-1968.gz",
                   "home/mrosset/via/share/i18n/charmaps/ARMSCII-8.gz",

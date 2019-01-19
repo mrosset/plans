@@ -5,21 +5,23 @@
     "Group"         : "extra",
     "StageDir"      : "guile-git-0.2.0",
     "Inherit"       : "gnu",
-    "Cid"           : "QmcGF2cMh8zR9HashniwSEjrJrk9vzJkPwCkKZy1KLMnq4",
+    "Cid"           : "QmaaePoW97B5wtojfiqXHLvWg32npuNMiw5SW182omEsZ7",
     "BuildInStage"  : false,
     "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-18T17:18:41.792128829-08:00",
+    "Date"          : "2019-01-19T03:06:28.052138696-08:00",
     "Size"          : 4217201,
     "SubPackages"   : null,
     "AutoDepends"   : [],
-    "ManualDepends" : null,
-    "BuildDepends"  : null,
-    "Flags"         : [
-                    "GUILE_AUTO_COMPILE=0"
+    "ManualDepends" : [
+                    "libgit2"
+    ],
+    "BuildDepends" : null,
+    "Flags"        : [
+                   "GUILE_AUTO_COMPILE=0"
     ],
     "Patch" : [
-            "./bootstrap"
+            "autoreconf -vif"
     ],
     "Build"       : null,
     "Package"     : null,
