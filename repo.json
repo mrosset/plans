@@ -74,6 +74,7 @@
     "core/libgomp.json",
     "core/libgpg-error.json",
     "core/libgpg.json",
+    "core/libiconv.json",
     "core/libidn.json",
     "core/libpeas.json",
     "core/libseccomp.json",

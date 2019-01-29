@@ -5,15 +5,14 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmNsuUzob1ufN7gDmJu1p6j74hHMiCKMAC5Tv8vJGbQGq2",
+    "Cid"          : "QmfGAUtMuyADM92TTt2A8W3S3XLsxp92m5hwTBjfkLSNGs",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 4665966173,
-    "Date"         : "2019-01-01T13:40:54.191562389-08:00",
-    "Size"         : 137496,
+    "Date"         : "2019-01-28T10:36:25.013248744-08:00",
+    "Size"         : 164486,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc",
                    "zlib"
     ],
     "ManualDepends" : null,
@@ -33,12 +32,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "home/mrosset/via/bin/ccache",
-                  "home/mrosset/via/lib/ccache/clang",
-                  "home/mrosset/via/lib/ccache/cpp",
-                  "home/mrosset/via/lib/ccache/g++",
-                  "home/mrosset/via/lib/ccache/gcc",
-                  "home/mrosset/via/lib/ccache/x86_64-via-linux-gnu-g++",
-                  "home/mrosset/via/lib/ccache/x86_64-via-linux-gnu-gcc"
+                  "data/data/org.golang.todo.libviaexample/files/via/bin/ccache",
+                  "data/data/org.golang.todo.libviaexample/files/via/lib/ccache/clang",
+                  "data/data/org.golang.todo.libviaexample/files/via/lib/ccache/cpp",
+                  "data/data/org.golang.todo.libviaexample/files/via/lib/ccache/g++",
+                  "data/data/org.golang.todo.libviaexample/files/via/lib/ccache/gcc",
+                  "data/data/org.golang.todo.libviaexample/files/via/lib/ccache/x86_64-via-linux-gnu-g++",
+                  "data/data/org.golang.todo.libviaexample/files/via/lib/ccache/x86_64-via-linux-gnu-gcc"
     ]
 }

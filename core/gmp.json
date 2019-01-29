@@ -1,20 +1,18 @@
 {
-    "Name"         : "gmp",
-    "Version"      : "6.1.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-6.1.0.tar.bz2",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmZ258PrRr6j2PYgeC2YMNEdAG4JjG139x9Qwmawofuv1F",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 69211121595,
-    "Date"         : "2019-01-01T13:49:16.114943527-08:00",
-    "Size"         : 1828216,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "gmp",
+    "Version"       : "6.1.0",
+    "Url"           : "http://mirrors.kernel.org/gnu/gmp/gmp-6.1.0.tar.bz2",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "Qmd56s58GGNAJcQK95aCqyQCyMuC4U3mdGzeK1RVKgPdvp",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 69211121595,
+    "Date"          : "2019-01-28T05:20:24.642219911-08:00",
+    "Size"          : 1654764,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -24,11 +22,9 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "home/mrosset/via/include/gmp.h",
-                    "home/mrosset/via/lib/libgmp.a",
-                    "home/mrosset/via/lib/libgmp.la",
-                    "home/mrosset/via/lib/libgmp.so",
-                    "home/mrosset/via/lib/libgmp.so.10",
-                    "home/mrosset/via/lib/libgmp.so.10.3.0"
+                    "data/data/org.golang.todo.libviaexample/files/via/include/gmp.h",
+                    "data/data/org.golang.todo.libviaexample/files/via/lib/libgmp.a",
+                    "data/data/org.golang.todo.libviaexample/files/via/lib/libgmp.la",
+                    "data/data/org.golang.todo.libviaexample/files/via/lib/libgmp.so"
     ]
 }
