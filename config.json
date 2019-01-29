@@ -9,8 +9,8 @@
     "IpfsApi"   : "localhost:5001",
     "Cache"     : "$HOME/.cache/via",
     "DB"        : "/home/mrosset/via/db",
-    "Plans"     : "$HOME/src/via/plans",
-    "Repo"      : "$HOME/src/via/publish/repo",
+    "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
+    "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo",
     "Binary"    : "http://localhost:8080/ipfs/",
     "Prefix"    : "/home/mrosset/via",
     "Flags"     : [
