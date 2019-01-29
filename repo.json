@@ -44,6 +44,7 @@
     "core/gdbm.json",
     "core/gedit.json",
     "core/gettext.json",
+    "core/giflib.json",
     "core/git.json",
     "core/glib.json",
     "core/glibc-i686-headers.json",

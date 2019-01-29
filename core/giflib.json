@@ -1,0 +1,42 @@
+{
+    "Name"         : "giflib",
+    "Version"      : "5.1.4",
+    "Url"          : "https://downloads.sourceforge.net/giflib/giflib-5.1.4.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmXGGiWVZCYfrDC7wyiBfcRyw7SdDMt9VVSF2aUHAgcYVQ",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T15:51:27.018347392-08:00",
+    "Size"         : 247427,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "home/mrosset/via/bin/gif2rgb",
+                    "home/mrosset/via/bin/gifbuild",
+                    "home/mrosset/via/bin/gifclrmp",
+                    "home/mrosset/via/bin/gifecho",
+                    "home/mrosset/via/bin/giffix",
+                    "home/mrosset/via/bin/gifinto",
+                    "home/mrosset/via/bin/giftext",
+                    "home/mrosset/via/bin/giftool",
+                    "home/mrosset/via/include/gif_lib.h",
+                    "home/mrosset/via/lib/libgif.a",
+                    "home/mrosset/via/lib/libgif.la",
+                    "home/mrosset/via/lib/libgif.so",
+                    "home/mrosset/via/lib/libgif.so.7",
+                    "home/mrosset/via/lib/libgif.so.7.0.0"
+    ]
+}
