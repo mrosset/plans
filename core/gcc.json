@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmZhNm5LuteXW6D16Q56XffJaDMMCdQjU65yBtJyGFTog6",
+    "Cid"          : "QmazC3fe1rauYP7N9CXBhvYPDiFksj1oagBNR7Zd7fiNci",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-29T20:55:42.289452442-08:00",
-    "Size"         : 87437880,
+    "Date"         : "2019-01-30T05:23:37.338642883Z",
+    "Size"         : 87437876,
     "SubPackages"  : [
                    "libgcc",
                    "libgomp",
@@ -19,6 +19,8 @@
     "AutoDepends" : [
                   "glibc",
                   "gmp",
+                  "mpc",
+                  "mpfr",
                   "zlib"
     ],
     "ManualDepends" : null,

@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmT1Ds4a5GBrNjdVNCRGAGkuPDKbxizexmcHu6SLjXegYD",
+    "Cid"          : "QmRjxhjHWC7xmLrkwsfrXETwE3ok9AHwEbBHE8vsQeaxcL",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-29T20:46:19.184554331-08:00",
+    "Date"         : "2019-01-30T05:17:33.651179636Z",
     "Size"         : 1421340,
     "SubPackages"  : null,
     "AutoDepends"  : [

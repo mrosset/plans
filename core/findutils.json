@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmTSEJt4UzXjTDrUYG8LsL1qFjNxkCRj6uvBuzYdkBE7NE",
+    "Cid"          : "QmR6QtkMk7vjsA2rCWzq5kRksS4TbPxikDxHaJY8o9xyoS",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-29T20:50:54.766078336-08:00",
+    "Date"         : "2019-01-30T05:19:06.113489409Z",
     "Size"         : 422748,
     "SubPackages"  : null,
     "AutoDepends"  : [

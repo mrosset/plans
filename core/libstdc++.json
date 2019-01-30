@@ -5,15 +5,16 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmfKniyNX9G7rZAqgHr2bTocGxNEdqw1i5XKTWjX4jYJCN",
+    "Cid"          : "QmQAsbq5RE7QGppmHwUij39L8Y7JJqMU6xE7TxWNgn6Zfs",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-29T20:55:41.179144584-08:00",
+    "Date"         : "2019-01-30T05:23:36.295923418Z",
     "Size"         : 16474842,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc"
+                   "glibc",
+                   "libgcc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,

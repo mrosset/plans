@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmUc2zFefULBxPQysszZbFrKMqvYQ88D1kJbK94ie4BNEb",
+    "Cid"          : "QmdaBe98jC76HmthCwGANuEKCKwDT1tLyv4wW8kGvngpyN",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-29T20:43:03.09738913-08:00",
+    "Date"         : "2019-01-30T05:26:29.01720445Z",
     "Size"         : 13305690,
     "SubPackages"  : null,
     "AutoDepends"  : [
