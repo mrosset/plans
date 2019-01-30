@@ -19,7 +19,7 @@
                 "--disable-multilib",
                 "--disable-nls",
                 "--enable-shared",
-                "--host={{.Arch}}-via-{{.OS}-gnu",
+                "--host={{.Arch}}-via-{{.OS}}-gnu",
                 "--libexec={{.Prefix}}/lib",
                 "--prefix=$PREFIX",
                 "--sbindir={{.Prefix}}/bin",
