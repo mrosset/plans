@@ -1,18 +1,24 @@
 {
-    "Name"          : "wget",
-    "Version"       : "1.19.1",
-    "Url"           : "http://mirrors.kernel.org/gnu/wget/wget-{{.Version}}.tar.xz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.706370585-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "wget",
+    "Version"      : "1.19.1",
+    "Url"          : "http://mirrors.kernel.org/gnu/wget/wget-{{.Version}}.tar.xz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "Qmbbxe3XSNQdZkE8AKXFE1Y6UnEFCy6Q13bok1WMprsP8K",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T21:00:46.097499152-08:00",
+    "Size"         : 448753,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "gnutls",
+                   "nettle",
+                   "util-linux",
+                   "zlib"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +27,8 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/wget",
+                    "opt/via/etc/wgetrc"
+    ]
 }

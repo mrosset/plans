@@ -1,18 +1,20 @@
 {
-    "Name"          : "grep",
-    "Version"       : "2.21",
-    "Url"           : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.661515673-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "grep",
+    "Version"      : "2.21",
+    "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmTpWptrWPK9gFhQxaNk6fp1qrCgrjqGYZGErnRhX64V7a",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T20:56:03.106805245-08:00",
+    "Size"         : 138852,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +23,9 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/egrep",
+                    "opt/via/bin/fgrep",
+                    "opt/via/bin/grep"
+    ]
 }

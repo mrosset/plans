@@ -1,18 +1,20 @@
 {
-    "Name"          : "which",
-    "Version"       : "2.20",
-    "Url"           : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.706657039-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "which",
+    "Version"      : "2.20",
+    "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmTYefhtU5heCYLRbepYz3Swiuqiiu5wNy81EKTQrB4yLt",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T20:58:52.692755031-08:00",
+    "Size"         : 23104,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +23,7 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/which"
+    ]
 }

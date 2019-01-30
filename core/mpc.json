@@ -1,18 +1,21 @@
 {
-    "Name"          : "mpc",
-    "Version"       : "1.0.2",
-    "Url"           : "http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.674502068-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "mpc",
+    "Version"      : "1.0.2",
+    "Url"          : "http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmRhK8RY5cHtAMJt6xJL4hpJKe7HAaL37B3bZRb4s2x2Mx",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T20:56:46.357705073-08:00",
+    "Size"         : 348440,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "gmp"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -24,5 +27,12 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/include/mpc.h",
+                  "opt/via/lib/libmpc.a",
+                  "opt/via/lib/libmpc.la",
+                  "opt/via/lib/libmpc.so",
+                  "opt/via/lib/libmpc.so.3",
+                  "opt/via/lib/libmpc.so.3.0.0"
+    ]
 }

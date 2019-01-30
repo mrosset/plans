@@ -1,18 +1,20 @@
 {
-    "Name"          : "zlib",
-    "Version"       : "1.2.11",
-    "Url"           : "http://zlib.net/current/zlib-{{.Version}}.tar.gz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "",
-    "Cid"           : "",
-    "BuildInStage"  : true,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.707255199-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "zlib",
+    "Version"      : "1.2.11",
+    "Url"          : "http://zlib.net/current/zlib-{{.Version}}.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "Cid"          : "QmdrM4uefHF53P981xJRkWS9WZ6W5NcSxZYbREgyGxmhv9",
+    "BuildInStage" : true,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T20:43:10.561207134-08:00",
+    "Size"         : 335860,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -26,5 +28,13 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/include/zconf.h",
+                  "opt/via/include/zlib.h",
+                  "opt/via/lib/libz.a",
+                  "opt/via/lib/libz.so",
+                  "opt/via/lib/libz.so.1",
+                  "opt/via/lib/libz.so.1.2.11",
+                  "opt/via/lib/pkgconfig/zlib.pc"
+    ]
 }

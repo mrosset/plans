@@ -1,18 +1,20 @@
 {
-    "Name"          : "tar",
-    "Version"       : "1.28",
-    "Url"           : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.701763404-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "tar",
+    "Version"      : "1.28",
+    "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmbqDVLQZqQNrok6KEmMfg8aPEEzGqiEHfVGJMaJdf17HT",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-29T20:58:00.36839013-08:00",
+    "Size"         : 415152,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +23,8 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/tar",
+                    "opt/via/lib/rmt"
+    ]
 }
