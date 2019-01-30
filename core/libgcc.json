@@ -1,6 +1,6 @@
 {
     "Name"         : "libgcc",
-    "Version"      : "6.2.0",
+    "Version"      : "7.2.0",
     "Url"          : "",
     "Group"        : "core",
     "StageDir"     : "",
