@@ -1,20 +1,18 @@
 {
-    "Name"         : "libxshmfence",
-    "Version"      : "1.2",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libxshmfence-1.2.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmUdbXFP17UnnsTY35MwfCMEdWKT64APq8Pd1XASXJBAgj",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:14:35.622600024-08:00",
-    "Size"         : 18215,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libxshmfence",
+    "Version"       : "1.2",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libxshmfence-1.2.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.766126341-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,13 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/include/X11/xshmfence.h",
-                    "home/mrosset/via/lib/libxshmfence.a",
-                    "home/mrosset/via/lib/libxshmfence.la",
-                    "home/mrosset/via/lib/libxshmfence.so",
-                    "home/mrosset/via/lib/libxshmfence.so.1",
-                    "home/mrosset/via/lib/libxshmfence.so.1.0.0",
-                    "home/mrosset/via/lib/pkgconfig/xshmfence.pc"
-    ]
+    "Files"         : null
 }

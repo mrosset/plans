@@ -1,20 +1,18 @@
 {
-    "Name"         : "libseccomp",
-    "Version"      : "2.1.1",
-    "Url"          : "http://downloads.sourceforge.net/project/libseccomp/libseccomp-2.1.1/libseccomp-2.1.1.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "Cid"          : "",
-    "BuildInStage" : true,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2014-12-29T09:41:15.660191489-08:00",
-    "Size"         : 165677,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libseccomp",
+    "Version"       : "2.1.1",
+    "Url"           : "http://downloads.sourceforge.net/project/libseccomp/libseccomp-2.1.1/libseccomp-2.1.1.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : true,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.668962955-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -28,12 +26,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/bin/scmp_sys_resolver",
-                  "usr/local/via/include/seccomp.h",
-                  "usr/local/via/lib/libseccomp.so",
-                  "usr/local/via/lib/libseccomp.so.2",
-                  "usr/local/via/lib/libseccomp.so.2.1.1",
-                  "usr/local/via/lib/pkgconfig/libseccomp.pc"
-    ]
+    "Files"       : null
 }

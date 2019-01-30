@@ -1,22 +1,18 @@
 {
-    "Name"         : "openssh",
-    "Version"      : "6.7p1",
-    "Url"          : "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.7p1.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu-nostrip",
-    "Cid"          : "",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2017-10-10T07:23:34.503917588-07:00",
-    "Size"         : 4226927,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "openssl",
-                   "zlib"
-    ],
+    "Name"          : "openssh",
+    "Version"       : "6.7p1",
+    "Url"           : "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.7p1.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu-nostrip",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.681976776-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -27,21 +23,5 @@
     "Remove"        : [
                     "/var"
     ],
-    "Files" : [
-            "via/bin/scp",
-            "via/bin/sftp",
-            "via/bin/slogin",
-            "via/bin/ssh",
-            "via/bin/ssh-add",
-            "via/bin/ssh-agent",
-            "via/bin/ssh-keygen",
-            "via/bin/ssh-keyscan",
-            "via/bin/sshd",
-            "via/etc/moduli",
-            "via/etc/ssh_config",
-            "via/etc/sshd_config",
-            "via/lib/sftp-server",
-            "via/lib/ssh-keysign",
-            "via/lib/ssh-pkcs11-helper"
-    ]
+    "Files" : null
 }

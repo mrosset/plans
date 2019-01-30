@@ -1,20 +1,18 @@
 {
-    "Name"         : "nghttp2",
-    "Version"      : "1.14",
-    "Url"          : "https://github.com/nghttp2/nghttp2/archive/v1.14.x.zip",
-    "Group"        : "core",
-    "StageDir"     : "nghttp2-1.14.x",
-    "Inherit"      : "gnu",
-    "Cid"          : "",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 1488985839,
-    "Date"         : "2016-11-09T16:19:52.807875374-08:00",
-    "Size"         : 345289,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "nghttp2",
+    "Version"       : "1.14",
+    "Url"           : "https://github.com/nghttp2/nghttp2/archive/v1.14.x.zip",
+    "Group"         : "core",
+    "StageDir"      : "nghttp2-1.14.x",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.678047086-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -27,14 +25,5 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "usr/local/via/include/nghttp2/nghttp2.h",
-                  "usr/local/via/include/nghttp2/nghttp2ver.h",
-                  "usr/local/via/lib/libnghttp2.la",
-                  "usr/local/via/lib/libnghttp2.so",
-                  "usr/local/via/lib/libnghttp2.so.14",
-                  "usr/local/via/lib/libnghttp2.so.14.10.1",
-                  "usr/local/via/lib/pkgconfig/libnghttp2.pc",
-                  "usr/local/via/share/nghttp2/fetch-ocsp-response"
-    ]
+    "Files"       : null
 }

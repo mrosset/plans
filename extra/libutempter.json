@@ -1,20 +1,18 @@
 {
-    "Name"         : "libutempter",
-    "Version"      : "1.1.6",
-    "Url"          : "ftp://ftp.altlinux.org/pub/people/ldv/utempter/libutempter-1.1.6.tar.bz2",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "Cid"          : "",
-    "BuildInStage" : true,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-03-14T02:05:54.57998866-07:00",
-    "Size"         : 26000,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libutempter",
+    "Version"       : "1.1.6",
+    "Url"           : "ftp://ftp.altlinux.org/pub/people/ldv/utempter/libutempter-1.1.6.tar.bz2",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : true,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.741991091-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -27,12 +25,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/.local/include/utempter.h",
-                  "home/mrosset/.local/lib/libutempter.a",
-                  "home/mrosset/.local/lib/libutempter.so",
-                  "home/mrosset/.local/lib/libutempter.so.0",
-                  "home/mrosset/.local/lib/libutempter.so.1.1.6",
-                  "home/mrosset/.local/lib/utempter/utempter"
-    ]
+    "Files"       : null
 }

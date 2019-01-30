@@ -1,22 +1,18 @@
 {
-    "Name"         : "patchelf",
-    "Version"      : "0.9",
-    "Url"          : "https://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.bz2",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmQFWKej9jB8ggpiJf7cXyY486mXvJNki1k4DxrLBC7TUD",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-04T23:51:48.346625624-08:00",
-    "Size"         : 105096,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libgcc",
-                   "libstdc++"
-    ],
+    "Name"          : "patchelf",
+    "Version"       : "0.9",
+    "Url"           : "https://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.bz2",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.684819631-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -25,7 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/bin/patchelf"
-    ]
+    "Files"         : null
 }

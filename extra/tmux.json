@@ -1,22 +1,18 @@
 {
-    "Name"         : "tmux",
-    "Version"      : "2.1",
-    "Url"          : "https://github.com/tmux/tmux/releases/download/2.1/tmux-2.1.tar.gz",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-14T17:49:14.378668506-07:00",
-    "Size"         : 535848,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libevent",
-                   "ncurses"
-    ],
+    "Name"          : "tmux",
+    "Version"       : "2.1",
+    "Url"           : "https://github.com/tmux/tmux/releases/download/2.1/tmux-2.1.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.748581561-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -25,7 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "usr/local/via/bin/tmux"
-    ]
+    "Files"         : null
 }

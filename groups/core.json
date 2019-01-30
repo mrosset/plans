@@ -9,10 +9,10 @@
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-10-21T11:05:03.806540435-07:00",
+    "Date"          : "2019-01-29T20:33:27.755828676-08:00",
     "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "bash",
                     "coreutils",
@@ -26,5 +26,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : []
+    "Files"        : null
 }

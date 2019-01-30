@@ -1,20 +1,18 @@
 {
-    "Name"         : "libgcc",
-    "Version"      : "6.2.0",
-    "Url"          : "",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "Cid"          : "QmWj5U2xsuJujnWFFBazpyrdxQfDR2GWQa666D8QsDUcVv",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-13T21:14:33.526649491-08:00",
-    "Size"         : 7723333,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libgcc",
+    "Version"       : "6.2.0",
+    "Url"           : "",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.666413622-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -29,21 +27,5 @@
     "Remove"      : [
                   "$PREFIX/lib/gcc/$CHOST/7.2.0/include/unwind.h"
     ],
-    "Files" : [
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbegin.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbeginS.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbeginT.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtend.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtendS.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtfastmath.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec32.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec64.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec80.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/gcov.h",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc.a",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc_eh.a",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcov.a",
-            "opt/via/lib/libgcc_s.so",
-            "opt/via/lib/libgcc_s.so.1"
-    ]
+    "Files" : null
 }

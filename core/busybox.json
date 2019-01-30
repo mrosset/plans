@@ -5,14 +5,14 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Cid"           : "QmeRMebjA4wqhBckBDfEtpJfmPUwPZGj6amA2s8tSnCR9q",
+    "Cid"           : "",
     "BuildInStage"  : true,
-    "IsRebuilt"     : true,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-20T19:03:21.755960015-08:00",
-    "Size"          : 2504656,
+    "Date"          : "2019-01-29T20:33:27.637947338-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -26,7 +26,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/via/bin/busybox"
-    ]
+    "Files"       : null
 }

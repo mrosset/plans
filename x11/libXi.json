@@ -1,24 +1,18 @@
 {
-    "Name"         : "libXi",
-    "Version"      : "1.7.6",
-    "Url"          : "http://xorg.freedesktop.org/releases/individual/lib/libXi-1.7.6.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmUhGaBwb2339ekDMte9ERWvRYun8Hij8vqSL78xUQ9ojV",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:10:49.784340442-08:00",
-    "Size"         : 278547,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libX11",
-                   "libXext",
-                   "libxau",
-                   "libxcb"
-    ],
+    "Name"          : "libXi",
+    "Version"       : "1.7.6",
+    "Url"           : "http://xorg.freedesktop.org/releases/individual/lib/libXi-1.7.6.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.76241215-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "libXfixes"
     ],
@@ -29,14 +23,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/include/X11/extensions/XInput.h",
-                   "home/mrosset/via/include/X11/extensions/XInput2.h",
-                   "home/mrosset/via/lib/libXi.a",
-                   "home/mrosset/via/lib/libXi.la",
-                   "home/mrosset/via/lib/libXi.so",
-                   "home/mrosset/via/lib/libXi.so.6",
-                   "home/mrosset/via/lib/libXi.so.6.1.0",
-                   "home/mrosset/via/lib/pkgconfig/xi.pc"
-    ]
+    "Files"        : null
 }

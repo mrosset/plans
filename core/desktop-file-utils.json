@@ -1,21 +1,18 @@
 {
-    "Name"         : "desktop-file-utils",
-    "Version"      : "0.23",
-    "Url"          : "http://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2017-10-09T07:52:29.186382761-07:00",
-    "Size"         : 173475,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glib",
-                   "glibc"
-    ],
+    "Name"          : "desktop-file-utils",
+    "Version"       : "0.23",
+    "Url"           : "http://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.648302626-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -24,12 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "via/bin/desktop-file-edit",
-                    "via/bin/desktop-file-install",
-                    "via/bin/desktop-file-validate",
-                    "via/bin/update-desktop-database",
-                    "via/share/emacs/site-lisp/desktop-entry-mode.el",
-                    "via/share/emacs/site-lisp/desktop-entry-mode.elc"
-    ]
+    "Files"         : null
 }

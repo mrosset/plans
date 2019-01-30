@@ -1,20 +1,18 @@
 {
-    "Name"         : "pixman",
-    "Version"      : "0.34.0",
-    "Url"          : "http://xorg.freedesktop.org/releases/individual/lib/pixman-0.34.0.tar.bz2",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmSsfkHYVRWZT4MCVT5CTA4Qt4DXcbThvVEgHYgAoHby1U",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T22:53:12.582313214-08:00",
-    "Size"         : 1596911,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "pixman",
+    "Version"       : "0.34.0",
+    "Url"           : "http://xorg.freedesktop.org/releases/individual/lib/pixman-0.34.0.tar.bz2",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.745768592-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,14 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/include/pixman-1/pixman-version.h",
-                    "home/mrosset/via/include/pixman-1/pixman.h",
-                    "home/mrosset/via/lib/libpixman-1.a",
-                    "home/mrosset/via/lib/libpixman-1.la",
-                    "home/mrosset/via/lib/libpixman-1.so",
-                    "home/mrosset/via/lib/libpixman-1.so.0",
-                    "home/mrosset/via/lib/libpixman-1.so.0.34.0",
-                    "home/mrosset/via/lib/pkgconfig/pixman-1.pc"
-    ]
+    "Files"         : null
 }

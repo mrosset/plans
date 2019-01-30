@@ -5,14 +5,14 @@
     "Group"         : "groups",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Cid"           : "QmaK2zCsPZbSrmxjZb6mLJFj8STpLqci7HvdYpLaMKRa8d",
+    "Cid"           : "",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-21T15:23:44.983487005-07:00",
+    "Date"          : "2019-01-29T20:33:27.756177786-08:00",
     "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "bash",
                     "binutils",
@@ -49,5 +49,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : []
+    "Files"        : null
 }

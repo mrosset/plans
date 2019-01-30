@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "QmSc1DThGZ2oXfGcMb37oNHmidy4c1mBQveHyVR2NSdvYH",
+    "Cid"           : "",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-02T23:14:42.027221487-08:00",
-    "Size"          : 105717,
+    "Date"          : "2019-01-29T20:33:27.758331188-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,12 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/include/GL/glxint.h",
-                    "home/mrosset/via/include/GL/glxmd.h",
-                    "home/mrosset/via/include/GL/glxproto.h",
-                    "home/mrosset/via/include/GL/glxtokens.h",
-                    "home/mrosset/via/include/GL/internal/glcore.h",
-                    "home/mrosset/via/lib/pkgconfig/glproto.pc"
-    ]
+    "Files"         : null
 }

@@ -1,20 +1,18 @@
 {
-    "Name"         : "libICE",
-    "Version"      : "1.0.9",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libICE-1.0.9.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmZLXmY7qa8CjQuhNwBoWzWStpKyBge6zvcvXXBnvNjgtQ",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:10:36.952078728-08:00",
-    "Size"         : 294865,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libICE",
+    "Version"       : "1.0.9",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libICE-1.0.9.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.759251483-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "pkg-config",
                     "xproto",
@@ -27,18 +25,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/include/X11/ICE/ICE.h",
-                   "home/mrosset/via/include/X11/ICE/ICEconn.h",
-                   "home/mrosset/via/include/X11/ICE/ICElib.h",
-                   "home/mrosset/via/include/X11/ICE/ICEmsg.h",
-                   "home/mrosset/via/include/X11/ICE/ICEproto.h",
-                   "home/mrosset/via/include/X11/ICE/ICEutil.h",
-                   "home/mrosset/via/lib/libICE.a",
-                   "home/mrosset/via/lib/libICE.la",
-                   "home/mrosset/via/lib/libICE.so",
-                   "home/mrosset/via/lib/libICE.so.6",
-                   "home/mrosset/via/lib/libICE.so.6.3.0",
-                   "home/mrosset/via/lib/pkgconfig/ice.pc"
-    ]
+    "Files"        : null
 }

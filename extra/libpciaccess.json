@@ -1,20 +1,18 @@
 {
-    "Name"         : "libpciaccess",
-    "Version"      : "0.13.4",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libpciaccess-0.13.4.tar.bz2",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmRm8uSbjmDKWBc5PMyHJtJAv2m24RVXUCQ39dhisoxUXA",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:14:18.006240543-08:00",
-    "Size"         : 106575,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libpciaccess",
+    "Version"       : "0.13.4",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libpciaccess-0.13.4.tar.bz2",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.740746495-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,13 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/include/pciaccess.h",
-                    "home/mrosset/via/lib/libpciaccess.a",
-                    "home/mrosset/via/lib/libpciaccess.la",
-                    "home/mrosset/via/lib/libpciaccess.so",
-                    "home/mrosset/via/lib/libpciaccess.so.0",
-                    "home/mrosset/via/lib/libpciaccess.so.0.11.1",
-                    "home/mrosset/via/lib/pkgconfig/pciaccess.pc"
-    ]
+    "Files"         : null
 }

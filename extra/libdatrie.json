@@ -1,20 +1,18 @@
 {
-    "Name"         : "libdatrie",
-    "Version"      : "0.2.10",
-    "Url"          : "http://linux.thai.net/pub/thailinux/software/libthai/libdatrie-0.2.10.tar.xz",
-    "Group"        : "extra",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-21T00:00:10.871841828-07:00",
-    "Size"         : 72781,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libdatrie",
+    "Version"       : "0.2.10",
+    "Url"           : "http://linux.thai.net/pub/thailinux/software/libthai/libdatrie-0.2.10.tar.xz",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.738396531-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,17 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "usr/local/via/bin/trietool",
-                    "usr/local/via/bin/trietool-0.2",
-                    "usr/local/via/include/datrie/alpha-map.h",
-                    "usr/local/via/include/datrie/trie.h",
-                    "usr/local/via/include/datrie/triedefs.h",
-                    "usr/local/via/include/datrie/typedefs.h",
-                    "usr/local/via/lib/libdatrie.la",
-                    "usr/local/via/lib/libdatrie.so",
-                    "usr/local/via/lib/libdatrie.so.1",
-                    "usr/local/via/lib/libdatrie.so.1.3.3",
-                    "usr/local/via/lib/pkgconfig/datrie-0.2.pc"
-    ]
+    "Files"         : null
 }

@@ -1,25 +1,18 @@
 {
-    "Name"         : "libXtst",
-    "Version"      : "1.2.2",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXtst-1.2.2.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmXQE5W5uLMjnS5yHgFyf26f8H6f7QShU8GW3gZhFtEct6",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:10:55.617602995-08:00",
-    "Size"         : 58382,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libX11",
-                   "libXext",
-                   "libXi",
-                   "libxau",
-                   "libxcb"
-    ],
+    "Name"          : "libXtst",
+    "Version"       : "1.2.2",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXtst-1.2.2.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.76435035-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "recordproto",
                     "xextproto"
@@ -31,14 +24,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/include/X11/extensions/XTest.h",
-                   "home/mrosset/via/include/X11/extensions/record.h",
-                   "home/mrosset/via/lib/libXtst.a",
-                   "home/mrosset/via/lib/libXtst.la",
-                   "home/mrosset/via/lib/libXtst.so",
-                   "home/mrosset/via/lib/libXtst.so.6",
-                   "home/mrosset/via/lib/libXtst.so.6.1.0",
-                   "home/mrosset/via/lib/pkgconfig/xtst.pc"
-    ]
+    "Files"        : null
 }

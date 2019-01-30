@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "Qmcjx16oPZhwrYStqTKLvQtkrzLGa6C2SJ7yq1FHDn9Hsq",
+    "Cid"           : "",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-02T22:50:05.960461705-08:00",
-    "Size"          : 202963,
+    "Date"          : "2019-01-29T20:33:27.770631544-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,15 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/include/X11/Xtrans/Xtrans.c",
-                    "home/mrosset/via/include/X11/Xtrans/Xtrans.h",
-                    "home/mrosset/via/include/X11/Xtrans/Xtransint.h",
-                    "home/mrosset/via/include/X11/Xtrans/Xtranslcl.c",
-                    "home/mrosset/via/include/X11/Xtrans/Xtranssock.c",
-                    "home/mrosset/via/include/X11/Xtrans/Xtransutil.c",
-                    "home/mrosset/via/include/X11/Xtrans/transport.c",
-                    "home/mrosset/via/share/aclocal/xtrans.m4",
-                    "home/mrosset/via/share/pkgconfig/xtrans.pc"
-    ]
+    "Files"         : null
 }

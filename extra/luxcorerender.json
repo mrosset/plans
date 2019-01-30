@@ -1,28 +1,18 @@
 {
-    "Name"         : "luxcorerender",
-    "Version"      : "2.1beta4",
-    "Url"          : "https://github.com/LuxCoreRender/LuxCore/archive/luxcorerender_v2.1beta4.tar.gz",
-    "Group"        : "extra",
-    "StageDir"     : "LuxCore-luxcorerender_v2.1beta4",
-    "Inherit"      : "",
-    "Cid"          : "Qmf7aVFE3a7MmBeYNJhP5Vsx8Zmp8RY1cXewr6X8Vumdgv",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-05T02:42:39.650521997-08:00",
-    "Size"         : 23717168,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "boost",
-                   "embree",
-                   "glibc",
-                   "ilmbase",
-                   "libgcc",
-                   "libstdc++",
-                   "openimageio",
-                   "tbb",
-                   "zlib"
-    ],
+    "Name"          : "luxcorerender",
+    "Version"       : "2.1beta4",
+    "Url"           : "https://github.com/LuxCoreRender/LuxCore/archive/luxcorerender_v2.1beta4.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "LuxCore-luxcorerender_v2.1beta4",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.742752356-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : [
                     "cmake",
@@ -45,8 +35,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/via/bin/benchsimple",
-                  "home/mrosset/via/bin/luxcoreconsole"
-    ]
+    "Files"       : null
 }

@@ -1,21 +1,18 @@
 {
-    "Name"         : "htop",
-    "Version"      : "2.0.1",
-    "Url"          : "http://hisham.hm/htop/releases/2.0.1/htop-2.0.1.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2016-10-14T17:59:33.329212557-07:00",
-    "Size"         : 189012,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "ncurses"
-    ],
+    "Name"          : "htop",
+    "Version"       : "2.0.1",
+    "Url"           : "http://hisham.hm/htop/releases/2.0.1/htop-2.0.1.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.663522186-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -24,9 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "usr/local/via/bin/htop",
-                    "usr/local/via/share/applications/htop.desktop",
-                    "usr/local/via/share/pixmaps/htop.png"
-    ]
+    "Files"         : null
 }

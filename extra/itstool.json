@@ -9,10 +9,10 @@
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2017-10-09T13:38:28.008550751-07:00",
-    "Size"          : 92001,
+    "Date"          : "2019-01-29T20:33:27.736409279-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,13 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "via/bin/itstool",
-                    "via/share/itstool/its/docbook.its",
-                    "via/share/itstool/its/docbook5.its",
-                    "via/share/itstool/its/its.its",
-                    "via/share/itstool/its/mallard.its",
-                    "via/share/itstool/its/ttml.its",
-                    "via/share/itstool/its/xhtml.its"
-    ]
+    "Files"         : null
 }

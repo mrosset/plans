@@ -5,14 +5,14 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "QmQZUjzTvg3WJmaD8KT8udKH85HoKUvvnRUVYpKxBhX4Ew",
+    "Cid"           : "",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-02T23:00:17.091891766-08:00",
-    "Size"          : 138815,
+    "Date"          : "2019-01-29T20:33:27.663808525-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "XML-Parser"
     ],
@@ -23,13 +23,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/bin/intltool-extract",
-                   "home/mrosset/via/bin/intltool-merge",
-                   "home/mrosset/via/bin/intltool-prepare",
-                   "home/mrosset/via/bin/intltool-update",
-                   "home/mrosset/via/bin/intltoolize",
-                   "home/mrosset/via/share/aclocal/intltool.m4",
-                   "home/mrosset/via/share/intltool/Makefile.in.in"
-    ]
+    "Files"        : null
 }

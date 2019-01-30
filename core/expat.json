@@ -1,20 +1,18 @@
 {
-    "Name"         : "expat",
-    "Version"      : "2.1.0",
-    "Url"          : "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmPVph7kh26k29dgx5F9WitA54n2BDubXrsQhNpa1ch56N",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-14T00:23:28.877706525-08:00",
-    "Size"         : 726872,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "expat",
+    "Version"       : "2.1.0",
+    "Url"           : "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu-nostrip",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.649520295-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,15 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "opt/via/bin/xmlwf",
-                    "opt/via/include/expat.h",
-                    "opt/via/include/expat_external.h",
-                    "opt/via/lib/libexpat.a",
-                    "opt/via/lib/libexpat.la",
-                    "opt/via/lib/libexpat.so",
-                    "opt/via/lib/libexpat.so.1",
-                    "opt/via/lib/libexpat.so.1.6.0",
-                    "opt/via/lib/pkgconfig/expat.pc"
-    ]
+    "Files"         : null
 }

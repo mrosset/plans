@@ -1,20 +1,18 @@
 {
-    "Name"         : "sqlite",
-    "Version"      : "3140200",
-    "Url"          : "http://www.sqlite.org/2016/sqlite-src-{{.Version}}.zip",
-    "Group"        : "extra",
-    "StageDir"     : "sqlite-src-3140200",
-    "Inherit"      : "gnu-nostrip",
-    "Cid"          : "Qmb5fr2DReJdF5X7NwMNrsNoi6De2KGnQYW6uQzPA2LCpa",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-18T17:36:08.452682926-08:00",
-    "Size"         : 3076365,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "sqlite",
+    "Version"       : "3140200",
+    "Url"           : "http://www.sqlite.org/2016/sqlite-src-{{.Version}}.zip",
+    "Group"         : "extra",
+    "StageDir"      : "sqlite-src-3140200",
+    "Inherit"       : "gnu-nostrip",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.747448883-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -25,15 +23,5 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/via/bin/sqlite3",
-                  "home/mrosset/via/include/sqlite3.h",
-                  "home/mrosset/via/include/sqlite3ext.h",
-                  "home/mrosset/via/lib/libsqlite3.a",
-                  "home/mrosset/via/lib/libsqlite3.la",
-                  "home/mrosset/via/lib/libsqlite3.so",
-                  "home/mrosset/via/lib/libsqlite3.so.0",
-                  "home/mrosset/via/lib/libsqlite3.so.0.8.6",
-                  "home/mrosset/via/lib/pkgconfig/sqlite3.pc"
-    ]
+    "Files"       : null
 }

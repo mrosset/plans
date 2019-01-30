@@ -1,21 +1,18 @@
 {
-    "Name"         : "less",
-    "Version"      : "444",
-    "Url"          : "http://www.greenwoodsoftware.com/less/less-444.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmQga3YKQMCGQb9uwCfg1z4GWeBVA71uxHL8s2vXa1zjef",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-21T17:38:24.836896692-08:00",
-    "Size"         : 179936,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "ncurses"
-    ],
+    "Name"          : "less",
+    "Version"       : "444",
+    "Url"           : "http://www.greenwoodsoftware.com/less/less-444.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.664716611-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -24,9 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/bin/less",
-                    "home/mrosset/via/bin/lessecho",
-                    "home/mrosset/via/bin/lesskey"
-    ]
+    "Files"         : null
 }

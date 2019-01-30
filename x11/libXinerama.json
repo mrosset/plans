@@ -1,24 +1,18 @@
 {
-    "Name"         : "libXinerama",
-    "Version"      : "1.1.3",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXinerama-1.1.3.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmPp8oTKoKPC5gNcr96pwz9Zip8BMFtp2mqFvqeMnof3x7",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:14:09.783741479-08:00",
-    "Size"         : 23812,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libX11",
-                   "libXext",
-                   "libxau",
-                   "libxcb"
-    ],
+    "Name"          : "libXinerama",
+    "Version"       : "1.1.3",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXinerama-1.1.3.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.762730095-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "xineramaproto"
     ],
@@ -29,14 +23,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/include/X11/extensions/Xinerama.h",
-                   "home/mrosset/via/include/X11/extensions/panoramiXext.h",
-                   "home/mrosset/via/lib/libXinerama.a",
-                   "home/mrosset/via/lib/libXinerama.la",
-                   "home/mrosset/via/lib/libXinerama.so",
-                   "home/mrosset/via/lib/libXinerama.so.1",
-                   "home/mrosset/via/lib/libXinerama.so.1.0.0",
-                   "home/mrosset/via/lib/pkgconfig/xinerama.pc"
-    ]
+    "Files"        : null
 }

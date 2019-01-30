@@ -1,20 +1,18 @@
 {
-    "Name"         : "file",
-    "Version"      : "5.32",
-    "Url"          : "http://fossies.org/linux/misc/file-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmP8xyo5vbgX8YLippcE93fHN8sk35uz5Md1Q2m9HrDbih",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 9494663451,
-    "Date"         : "2019-01-14T04:47:15.747068713Z",
-    "Size"         : 5128718,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "file",
+    "Version"       : "5.32",
+    "Url"           : "http://fossies.org/linux/misc/file-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.650131441-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,13 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "opt/via/bin/file",
-                    "opt/via/include/magic.h",
-                    "opt/via/lib/libmagic.la",
-                    "opt/via/lib/libmagic.so",
-                    "opt/via/lib/libmagic.so.1",
-                    "opt/via/lib/libmagic.so.1.0.0",
-                    "opt/via/share/misc/magic.mgc"
-    ]
+    "Files"         : null
 }

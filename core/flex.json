@@ -1,20 +1,18 @@
 {
-    "Name"         : "flex",
-    "Version"      : "2.6.4",
-    "Url"          : "https://github.com/westes/flex/files/981163/flex-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmSVRqZwcjsUamub9s5s4dkKF5VCDw1GEwXb1b7wjmB2Up",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-03T22:30:37.653271983-08:00",
-    "Size"         : 337795,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "flex",
+    "Version"       : "2.6.4",
+    "Url"           : "https://github.com/westes/flex/files/981163/flex-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.651031722-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,14 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/bin/flex",
-                    "home/mrosset/via/bin/flex++",
-                    "home/mrosset/via/include/FlexLexer.h",
-                    "home/mrosset/via/lib/libfl.a",
-                    "home/mrosset/via/lib/libfl.la",
-                    "home/mrosset/via/lib/libfl.so",
-                    "home/mrosset/via/lib/libfl.so.2",
-                    "home/mrosset/via/lib/libfl.so.2.0.0"
-    ]
+    "Files"         : null
 }

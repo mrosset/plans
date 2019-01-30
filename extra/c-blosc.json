@@ -1,22 +1,18 @@
 {
-    "Name"         : "c-blosc",
-    "Version"      : "1.15.1",
-    "Url"          : "https://github.com/Blosc/c-blosc/archive/1.15.1.tar.gz",
-    "Group"        : "extra",
-    "StageDir"     : "c-blosc-1.15.1",
-    "Inherit"      : "cmake-build",
-    "Cid"          : "Qme2Q8dCHBGkoZ386Yaf19s9EBedRcY5TBY4Hv4jtNc4P5",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 1488985839,
-    "Date"         : "2019-01-04T07:32:45.846330833-08:00",
-    "Size"         : 2295366,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libgcc",
-                   "libstdc++"
-    ],
+    "Name"          : "c-blosc",
+    "Version"       : "1.15.1",
+    "Url"           : "https://github.com/Blosc/c-blosc/archive/1.15.1.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "c-blosc-1.15.1",
+    "Inherit"       : "cmake-build",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.721853358-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -27,13 +23,5 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/via/include/blosc-export.h",
-                  "home/mrosset/via/include/blosc.h",
-                  "home/mrosset/via/lib/libblosc.a",
-                  "home/mrosset/via/lib/libblosc.so",
-                  "home/mrosset/via/lib/libblosc.so.1",
-                  "home/mrosset/via/lib/libblosc.so.1.15.1",
-                  "home/mrosset/via/lib/pkgconfig/blosc.pc"
-    ]
+    "Files"       : null
 }

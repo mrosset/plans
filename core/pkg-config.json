@@ -1,20 +1,18 @@
 {
-    "Name"         : "pkg-config",
-    "Version"      : "0.29.2",
-    "Url"          : "http://pkgconfig.freedesktop.org/releases/pkg-config-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmZCAruEk82Z3cQVgdoerEbspHg5kw4RqcBY1vY4NaAzen",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-14T04:59:16.590340255Z",
-    "Size"         : 1133863,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "pkg-config",
+    "Version"       : "0.29.2",
+    "Url"           : "http://pkgconfig.freedesktop.org/releases/pkg-config-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.687243037-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -25,9 +23,5 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "opt/via/bin/pkg-config",
-                  "opt/via/bin/x86_64-via-linux-gnu-pkg-config",
-                  "opt/via/share/aclocal/pkg.m4"
-    ]
+    "Files"       : null
 }

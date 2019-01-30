@@ -1,21 +1,18 @@
 {
-    "Name"         : "gotools",
-    "Version"      : "7.2.0",
-    "Url"          : "",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "Cid"          : "QmcrirY93v8Py6eDvDMK7nCXsCQwWohcetLuacuhgMiuhr",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-05T21:12:28.926806555-08:00",
-    "Size"         : 1406200,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libgo"
-    ],
+    "Name"          : "gotools",
+    "Version"       : "7.2.0",
+    "Url"           : "",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.660930635-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -26,9 +23,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "home/mrosset/via/bin/go",
-                  "home/mrosset/via/bin/gofmt",
-                  "home/mrosset/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/cgo"
-    ]
+    "Files"       : null
 }

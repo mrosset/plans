@@ -1,20 +1,18 @@
 {
-    "Name"         : "ccache",
-    "Version"      : "3.3.4",
-    "Url"          : "http://samba.org/ftp/ccache/ccache-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmY2Wwcx26Zejpn5N8czkpCi9MPqcRfGsZqYD6fa1B3Rgo",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 4665966173,
-    "Date"         : "2019-01-14T03:25:46.828026431-08:00",
-    "Size"         : 207914,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "ccache",
+    "Version"       : "3.3.4",
+    "Url"           : "http://samba.org/ftp/ccache/ccache-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu-nostrip",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.638737379-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -31,13 +29,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "opt/via/bin/ccache",
-                  "opt/via/lib/ccache/clang",
-                  "opt/via/lib/ccache/cpp",
-                  "opt/via/lib/ccache/g++",
-                  "opt/via/lib/ccache/gcc",
-                  "opt/via/lib/ccache/x86_64-via-linux-gnu-g++",
-                  "opt/via/lib/ccache/x86_64-via-linux-gnu-gcc"
-    ]
+    "Files"       : null
 }

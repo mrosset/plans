@@ -1,21 +1,18 @@
 {
-    "Name"         : "libgcrypt",
-    "Version"      : "1.6.2",
-    "Url"          : "ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.6.2.tar.bz2",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmUzo6DQVwzhHwD3pB3MmYXcuDWSffY1yjJThJmiHv8qrz",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-18T17:40:31.148722794-08:00",
-    "Size"         : 1034703,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libgpg-error"
-    ],
+    "Name"          : "libgcrypt",
+    "Version"       : "1.6.2",
+    "Url"           : "ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.6.2.tar.bz2",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.666750501-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -24,16 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/bin/dumpsexp",
-                    "home/mrosset/via/bin/hmac256",
-                    "home/mrosset/via/bin/libgcrypt-config",
-                    "home/mrosset/via/bin/mpicalc",
-                    "home/mrosset/via/include/gcrypt.h",
-                    "home/mrosset/via/lib/libgcrypt.la",
-                    "home/mrosset/via/lib/libgcrypt.so",
-                    "home/mrosset/via/lib/libgcrypt.so.20",
-                    "home/mrosset/via/lib/libgcrypt.so.20.0.2",
-                    "home/mrosset/via/share/aclocal/libgcrypt.m4"
-    ]
+    "Files"         : null
 }

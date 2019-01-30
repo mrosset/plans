@@ -1,20 +1,18 @@
 {
-    "Name"         : "libgomp",
-    "Version"      : "7.2.0",
-    "Url"          : "",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "",
-    "Cid"          : "QmTtnyNQcZW7ZkdoheK9BRrfLyKF2BRi9LXdvXghFy5o5Q",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-13T21:14:34.448522521-08:00",
-    "Size"         : 518241,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "libgomp",
+    "Version"       : "7.2.0",
+    "Url"           : "",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.66746899-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -27,14 +25,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/omp.h",
-                  "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/openacc.h",
-                  "opt/via/lib/libgomp.a",
-                  "opt/via/lib/libgomp.la",
-                  "opt/via/lib/libgomp.so",
-                  "opt/via/lib/libgomp.so.1",
-                  "opt/via/lib/libgomp.so.1.0.0",
-                  "opt/via/lib/libgomp.spec"
-    ]
+    "Files"       : null
 }

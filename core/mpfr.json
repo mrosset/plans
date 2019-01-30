@@ -1,21 +1,18 @@
 {
-    "Name"         : "mpfr",
-    "Version"      : "3.1.3",
-    "Url"          : "http://mirrors.kernel.org/gnu/mpfr/mpfr-3.1.3.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmWy4bSDGtBkLxTWLgSmw7UXZT5nmcNo7e6L3J3iXMwpBN",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 63611046575,
-    "Date"         : "2019-01-13T18:43:26.115893999-08:00",
-    "Size"         : 1419983,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "gmp"
-    ],
+    "Name"          : "mpfr",
+    "Version"       : "3.1.3",
+    "Url"           : "http://mirrors.kernel.org/gnu/mpfr/mpfr-3.1.3.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.674813497-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -26,13 +23,5 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "opt/via/include/mpf2mpfr.h",
-                  "opt/via/include/mpfr.h",
-                  "opt/via/lib/libmpfr.a",
-                  "opt/via/lib/libmpfr.la",
-                  "opt/via/lib/libmpfr.so",
-                  "opt/via/lib/libmpfr.so.4",
-                  "opt/via/lib/libmpfr.so.4.1.3"
-    ]
+    "Files"       : null
 }

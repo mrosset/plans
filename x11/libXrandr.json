@@ -1,25 +1,18 @@
 {
-    "Name"         : "libXrandr",
-    "Version"      : "1.5.0",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXrandr-1.5.0.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmQ1qYmNEAtHNcxnYyvoyM8JvRtsubt9CBK3xnUAyWvc6n",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:14:14.301872714-08:00",
-    "Size"         : 124047,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libX11",
-                   "libXext",
-                   "libXrender",
-                   "libxau",
-                   "libxcb"
-    ],
+    "Name"          : "libXrandr",
+    "Version"       : "1.5.0",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXrandr-1.5.0.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.763376895-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "randrproto"
     ],
@@ -30,13 +23,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/include/X11/extensions/Xrandr.h",
-                   "home/mrosset/via/lib/libXrandr.a",
-                   "home/mrosset/via/lib/libXrandr.la",
-                   "home/mrosset/via/lib/libXrandr.so",
-                   "home/mrosset/via/lib/libXrandr.so.2",
-                   "home/mrosset/via/lib/libXrandr.so.2.2.0",
-                   "home/mrosset/via/lib/pkgconfig/xrandr.pc"
-    ]
+    "Files"        : null
 }

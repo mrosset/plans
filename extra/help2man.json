@@ -9,10 +9,10 @@
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2016-03-30T22:33:50.905675219-07:00",
-    "Size"          : 19315,
+    "Date"          : "2019-01-29T20:33:27.735250077-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,7 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/bin/help2man"
-    ]
+    "Files"         : null
 }

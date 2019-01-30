@@ -1,20 +1,18 @@
 {
-    "Name"         : "findutils",
-    "Version"      : "4.6.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "Qmd2kXkT1auBzNavWnPGphPydiPzTepzkmJ3oAQvgbRDC6",
-    "BuildInStage" : true,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-14T04:47:46.963610447Z",
-    "Size"         : 422736,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "findutils",
+    "Version"       : "4.6.0",
+    "Url"           : "http://mirrors.kernel.org/gnu/findutils/findutils-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : true,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.65073287-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,13 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "opt/via/bin/find",
-                    "opt/via/bin/locate",
-                    "opt/via/bin/updatedb",
-                    "opt/via/bin/xargs",
-                    "opt/via/lib/bigram",
-                    "opt/via/lib/code",
-                    "opt/via/lib/frcode"
-    ]
+    "Files"         : null
 }

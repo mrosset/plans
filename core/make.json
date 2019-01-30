@@ -1,20 +1,18 @@
 {
-    "Name"         : "make",
-    "Version"      : "4.2.1",
-    "Url"          : "http://mirrors.kernel.org/gnu/make/make-{{.Version}}.tar.gz",
-    "Group"        : "core",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmSza9jCoRs7bB5MwmNwjR71BtABbXHatGJhCt1GcA3rA3",
-    "BuildInStage" : false,
-    "IsRebuilt"    : true,
-    "BuildTime"    : 1488985839,
-    "Date"         : "2019-01-14T04:48:40.428464204Z",
-    "Size"         : 206216,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc"
-    ],
+    "Name"          : "make",
+    "Version"       : "4.2.1",
+    "Url"           : "http://mirrors.kernel.org/gnu/make/make-{{.Version}}.tar.gz",
+    "Group"         : "core",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.673885187-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -25,8 +23,5 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : [
-                  "opt/via/bin/make",
-                  "opt/via/include/gnumake.h"
-    ]
+    "Files"       : null
 }

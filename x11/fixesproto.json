@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "QmVo5cs28TEbevmVw2Hz3FwJsToyM2KS4bm6LoQARmDPod",
+    "Cid"           : "",
     "BuildInStage"  : false,
-    "IsRebuilt"     : true,
+    "IsRebuilt"     : false,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-02T23:10:41.861034424-08:00",
-    "Size"          : 19054,
+    "Date"          : "2019-01-29T20:33:27.75802326-08:00",
+    "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : [],
+    "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,9 +21,5 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : [
-                    "home/mrosset/via/include/X11/extensions/xfixesproto.h",
-                    "home/mrosset/via/include/X11/extensions/xfixeswire.h",
-                    "home/mrosset/via/lib/pkgconfig/fixesproto.pc"
-    ]
+    "Files"         : null
 }

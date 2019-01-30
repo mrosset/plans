@@ -1,23 +1,18 @@
 {
-    "Name"         : "libXfixes",
-    "Version"      : "5.0.1",
-    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXfixes-5.0.1.tar.bz2",
-    "Group"        : "x11",
-    "StageDir"     : "",
-    "Inherit"      : "gnu",
-    "Cid"          : "QmZCPQewG5j9sNbwvsRLgj3eq3rWsdCSnBFup6fLXghuw3",
-    "BuildInStage" : false,
-    "IsRebuilt"    : false,
-    "BuildTime"    : 0,
-    "Date"         : "2019-01-02T23:10:44.539756463-08:00",
-    "Size"         : 57560,
-    "SubPackages"  : null,
-    "AutoDepends"  : [
-                   "glibc",
-                   "libX11",
-                   "libxau",
-                   "libxcb"
-    ],
+    "Name"          : "libXfixes",
+    "Version"       : "5.0.1",
+    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXfixes-5.0.1.tar.bz2",
+    "Group"         : "x11",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.761767819-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
     "ManualDepends" : [
                     "fixesproto"
     ],
@@ -28,13 +23,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : [
-                   "home/mrosset/via/include/X11/extensions/Xfixes.h",
-                   "home/mrosset/via/lib/libXfixes.a",
-                   "home/mrosset/via/lib/libXfixes.la",
-                   "home/mrosset/via/lib/libXfixes.so",
-                   "home/mrosset/via/lib/libXfixes.so.3",
-                   "home/mrosset/via/lib/libXfixes.so.3.1.0",
-                   "home/mrosset/via/lib/pkgconfig/xfixes.pc"
-    ]
+    "Files"        : null
 }
