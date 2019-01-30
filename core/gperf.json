@@ -1,18 +1,22 @@
 {
-    "Name"          : "gperf",
-    "Version"       : "3.0.4",
-    "Url"           : "http://mirrors.kernel.org/gnu/gperf/gperf-3.0.4.tar.gz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu-nostrip",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.661227089-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "gperf",
+    "Version"      : "3.0.4",
+    "Url"          : "http://mirrors.kernel.org/gnu/gperf/gperf-3.0.4.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu-nostrip",
+    "Cid"          : "QmNXK6sEQWyt2TWB24YR1eQVvMj8WqxM9CdnryAAJKtBEs",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-30T06:28:41.107357825Z",
+    "Size"         : 103096,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libgcc",
+                   "libstdc++"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +25,7 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/gperf"
+    ]
 }

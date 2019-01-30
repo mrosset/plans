@@ -1,18 +1,20 @@
 {
-    "Name"          : "libjpeg-turbo",
-    "Version"       : "1.4.2",
-    "Url"           : "http://downloads.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz",
-    "Group"         : "extra",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.740051357-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libjpeg-turbo",
+    "Version"      : "1.4.2",
+    "Url"          : "http://downloads.sourceforge.net/project/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmWBhZjmEWVLTuQWX1kB7ndhMZHkXF357Qk6Xr1bDqW8wG",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-30T06:21:26.946679323Z",
+    "Size"         : 2166117,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : [
                     "nasm"
@@ -25,5 +27,27 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/bin/cjpeg",
+                  "opt/via/bin/djpeg",
+                  "opt/via/bin/jpegtran",
+                  "opt/via/bin/rdjpgcom",
+                  "opt/via/bin/tjbench",
+                  "opt/via/bin/wrjpgcom",
+                  "opt/via/include/jconfig.h",
+                  "opt/via/include/jerror.h",
+                  "opt/via/include/jmorecfg.h",
+                  "opt/via/include/jpeglib.h",
+                  "opt/via/include/turbojpeg.h",
+                  "opt/via/lib/libjpeg.a",
+                  "opt/via/lib/libjpeg.la",
+                  "opt/via/lib/libjpeg.so",
+                  "opt/via/lib/libjpeg.so.8",
+                  "opt/via/lib/libjpeg.so.8.0.2",
+                  "opt/via/lib/libturbojpeg.a",
+                  "opt/via/lib/libturbojpeg.la",
+                  "opt/via/lib/libturbojpeg.so",
+                  "opt/via/lib/libturbojpeg.so.0",
+                  "opt/via/lib/libturbojpeg.so.0.1.0"
+    ]
 }

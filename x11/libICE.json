@@ -1,18 +1,20 @@
 {
-    "Name"          : "libICE",
-    "Version"       : "1.0.9",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libICE-1.0.9.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.759251483-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libICE",
+    "Version"      : "1.0.9",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libICE-1.0.9.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmUMN3fV18HGKbCisboMGGQsfkY4tGyAMBm2R8ZHYNkR7U",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-30T06:11:54.582905523Z",
+    "Size"         : 294847,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : [
                     "pkg-config",
                     "xproto",
@@ -25,5 +27,18 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/X11/ICE/ICE.h",
+                   "opt/via/include/X11/ICE/ICEconn.h",
+                   "opt/via/include/X11/ICE/ICElib.h",
+                   "opt/via/include/X11/ICE/ICEmsg.h",
+                   "opt/via/include/X11/ICE/ICEproto.h",
+                   "opt/via/include/X11/ICE/ICEutil.h",
+                   "opt/via/lib/libICE.a",
+                   "opt/via/lib/libICE.la",
+                   "opt/via/lib/libICE.so",
+                   "opt/via/lib/libICE.so.6",
+                   "opt/via/lib/libICE.so.6.3.0",
+                   "opt/via/lib/pkgconfig/ice.pc"
+    ]
 }

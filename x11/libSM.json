@@ -1,18 +1,22 @@
 {
-    "Name"          : "libSM",
-    "Version"       : "1.2.2",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libSM-1.2.2.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.759581002-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libSM",
+    "Version"      : "1.2.2",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libSM-1.2.2.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmQikzjhKciJYCLZ2Eyj9FxBYMQ9hcqQ2EnLhwTSevwhZh",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-30T06:12:29.279455589Z",
+    "Size"         : 97950,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libICE",
+                   "util-linux"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +25,15 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/SM/SM.h",
+                    "opt/via/include/X11/SM/SMlib.h",
+                    "opt/via/include/X11/SM/SMproto.h",
+                    "opt/via/lib/libSM.a",
+                    "opt/via/lib/libSM.la",
+                    "opt/via/lib/libSM.so",
+                    "opt/via/lib/libSM.so.6",
+                    "opt/via/lib/libSM.so.6.0.1",
+                    "opt/via/lib/pkgconfig/sm.pc"
+    ]
 }

@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmcrensZVf1YjcHwiMQPiNWuY9mNK3o6MoxedkC2p8KQEz",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.758633455-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-01-30T05:49:27.801371225Z",
+    "Size"          : 100693,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +21,11 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/extensions/XI.h",
+                    "opt/via/include/X11/extensions/XI2.h",
+                    "opt/via/include/X11/extensions/XI2proto.h",
+                    "opt/via/include/X11/extensions/XIproto.h",
+                    "opt/via/lib/pkgconfig/inputproto.pc"
+    ]
 }

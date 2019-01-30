@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmQkuF3C7VXpCkuaM3m7Uw9pmRPTrzu3J6bFciDLGd2ELZ",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.758940875-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-01-30T05:49:29.405103106Z",
+    "Size"          : 122801,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +21,12 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/extensions/XKB.h",
+                    "opt/via/include/X11/extensions/XKBgeom.h",
+                    "opt/via/include/X11/extensions/XKBproto.h",
+                    "opt/via/include/X11/extensions/XKBsrv.h",
+                    "opt/via/include/X11/extensions/XKBstr.h",
+                    "opt/via/lib/pkgconfig/kbproto.pc"
+    ]
 }

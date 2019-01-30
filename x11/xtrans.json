@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmYMrpFfXNXZ4hXUhGctSTn64FubQgE9fqTSX61nRvoEbX",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.770631544-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-01-29T21:56:10.564169198-08:00",
+    "Size"          : 202954,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +21,15 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/Xtrans/Xtrans.c",
+                    "opt/via/include/X11/Xtrans/Xtrans.h",
+                    "opt/via/include/X11/Xtrans/Xtransint.h",
+                    "opt/via/include/X11/Xtrans/Xtranslcl.c",
+                    "opt/via/include/X11/Xtrans/Xtranssock.c",
+                    "opt/via/include/X11/Xtrans/Xtransutil.c",
+                    "opt/via/include/X11/Xtrans/transport.c",
+                    "opt/via/share/aclocal/xtrans.m4",
+                    "opt/via/share/pkgconfig/xtrans.pc"
+    ]
 }

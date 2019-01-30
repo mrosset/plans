@@ -5,14 +5,14 @@
     "Group"         : "devel",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Cid"           : "",
+    "Cid"           : "QmYyjiShaD1h1SUEe8CWyDeyonCbTd5F5pexnatB1zLcx2",
     "BuildInStage"  : true,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.70757643-08:00",
+    "Date"          : "2019-01-30T06:21:14.523814181Z",
     "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -26,5 +26,5 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : []
 }

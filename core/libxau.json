@@ -1,18 +1,20 @@
 {
-    "Name"          : "libxau",
-    "Version"       : "1.0.8",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXau-1.0.8.tar.bz2",
-    "Group"         : "core",
-    "StageDir"      : "libXau-1.0.8",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.671274282-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libxau",
+    "Version"      : "1.0.8",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXau-1.0.8.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "libXau-1.0.8",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmVkKcG2q2oRgbgFmjxxWAwpQFEaveNHBdJbu3ohPBuVhK",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-01-30T06:00:50.070320535Z",
+    "Size"         : 37939,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : [
                     "xproto"
     ],
@@ -23,5 +25,13 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/X11/Xauth.h",
+                   "opt/via/lib/libXau.a",
+                   "opt/via/lib/libXau.la",
+                   "opt/via/lib/libXau.so",
+                   "opt/via/lib/libXau.so.6",
+                   "opt/via/lib/libXau.so.6.0.0",
+                   "opt/via/lib/pkgconfig/xau.pc"
+    ]
 }
