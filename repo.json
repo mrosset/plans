@@ -141,6 +141,7 @@
     "extra/cairo.json",
     "extra/cython.json",
     "extra/dbus-glib.json",
+    "extra/emacs-nox.json",
     "extra/emacs.json",
     "extra/embree.json",
     "extra/fontconfig.json",
