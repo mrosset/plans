@@ -5,11 +5,11 @@
     "Group"        : "extra",
     "StageDir"     : "emacs-26.1",
     "Inherit"      : "gnu",
-    "Cid"          : "QmNpRAXKDxYkm5BuGquzvYLYV72HhxCEeWoh3egyrSLCJq",
+    "Cid"          : "QmfQSad6YFM6prYzm7JyRShUzrbVCxM6HAhym2S1c9XRaa",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-31T02:22:03.068171492-08:00",
+    "Date"         : "2019-01-31T11:00:20.512568018-08:00",
     "Size"         : 127499377,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -19,20 +19,10 @@
                    "ncurses",
                    "zlib"
     ],
-    "ManualDepends" : [
-                    "damageproto",
-                    "fixesproto",
-                    "inputproto",
-                    "kbproto",
-                    "randrproto",
-                    "renderproto",
-                    "xextproto",
-                    "xineramaproto",
-                    "xproto"
-    ],
-    "BuildDepends" : null,
-    "Flags"        : [
-                   "--without-x"
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : [
+                    "--without-x"
     ],
     "Patch"       : null,
     "Build"       : null,
