@@ -21,7 +21,7 @@
                 "--enable-shared",
                 "--host={{.Arch}}-via-{{.OS}}-gnu",
                 "--libexec={{.Prefix}}/lib",
-                "--prefix=$PREFIX",
+                "--prefix={{.Prefix}}",
                 "--sbindir={{.Prefix}}/bin",
                 "--sysconfdir={{.Prefix}}/etc",
                 "-q"
@@ -30,19 +30,19 @@
           "CFLAGS"          : "-O2 -pipe -mtune=generic",
           "CHOST"           : "{{.Branch}}",
           "CONFIG_SITE"     : "",
-          "CXXFLAGS"        : "$CFLAGS",
-          "LDFLAGS"         : "-Wl,-rpath -Wl,$PREFIX/lib -Wl,--as-needed -Wl,--dynamic-linker,$PREFIX/lib/ld-linux-x86-64.so.2",
-          "LIBRARY_PATH"    : "$PREFIX/lib",
+          "CXXFLAGS"        : "{{.Env.CFLAGS}}",
+          "LDFLAGS"         : "-Wl,-rpath -Wl,{{.Prefix}}/lib -Wl,--as-needed -Wl,--dynamic-linker,{{.Prefix}}/lib/ld-linux-x86-64.so.2",
+          "LIBRARY_PATH"    : "{{.Prefix}}/lib",
           "LIBTOOLFLAGS"    : "--silent",
           "MAKEFLAGS"       : "-sw -j8",
-          "PATH"            : "$HOME/go/bin:$GOPATH/bin:$PREFIX/lib/ccache:$PREFIX/bin",
-          "PKG_CONFIG_PATH" : "$PREFIX/lib/pkgconfig",
+          "PATH"            : "$HOME/go/bin:$GOPATH/bin:{{.Prefix}}/lib/ccache:{{.Prefix}}/bin",
+          "PKG_CONFIG_PATH" : "{{.Prefix}}/lib/pkgconfig",
           "PREFIX"          : "{{.Prefix}}"
     },
     "Remove" : [
-             "$PREFIX/share/doc",
-             "$PREFIX/share/info",
-             "$PREFIX/share/man"
+             "{{.Prefix}}/share/doc",
+             "{{.Prefix}}/share/info",
+             "{{.Prefix}}/share/man"
     ],
     "PostInstall" : null
 }
