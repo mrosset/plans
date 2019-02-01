@@ -1,6 +1,6 @@
 {
     "Name"         : "gcc",
-    "Version"      : "7.2.0",
+    "Version"      : "8.2.0",
     "Url"          : "http://mirrors.kernel.org/gnu/gcc/gcc-{{.Version}}/gcc-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
@@ -59,7 +59,7 @@
                   "opt/via/bin/x86_64-via-linux-gnu-c++",
                   "opt/via/bin/x86_64-via-linux-gnu-g++",
                   "opt/via/bin/x86_64-via-linux-gnu-gcc",
-                  "opt/via/bin/x86_64-via-linux-gnu-gcc-7.2.0",
+                  "opt/via/bin/x86_64-via-linux-gnu-gcc-8.2.0",
                   "opt/via/bin/x86_64-via-linux-gnu-gcc-ar",
                   "opt/via/bin/x86_64-via-linux-gnu-gcc-nm",
                   "opt/via/bin/x86_64-via-linux-gnu-gcc-ranlib",

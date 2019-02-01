@@ -1,6 +1,6 @@
 {
     "Name"         : "libgomp",
-    "Version"      : "7.2.0",
+    "Version"      : "8.2.0",
     "Url"          : "",
     "Group"        : "core",
     "StageDir"     : "",
@@ -28,8 +28,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/omp.h",
-                  "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/openacc.h",
+                  "opt/via/lib/gcc/x86_64-via-linux-gnu/8.2.0/include/omp.h",
+                  "opt/via/lib/gcc/x86_64-via-linux-gnu/8.2.0/include/openacc.h",
                   "opt/via/lib/libgomp.a",
                   "opt/via/lib/libgomp.la",
                   "opt/via/lib/libgomp.so",
