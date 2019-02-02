@@ -1,16 +1,16 @@
 {
     "Name"         : "gotools",
-    "Version"      : "7.2.0",
+    "Version"      : "8.2.0",
     "Url"          : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmPHJvsnrRZbUWc1c9hVoNHRybeVPLz3SDaWSojcg4qBVb",
+    "Cid"          : "QmbRcKpHrQsgs3QhA3hMVoPUHxLWRkH5Wf5VTmbkzgtM3F",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-02T05:57:10.610094406-08:00",
-    "Size"         : 1406200,
+    "Date"         : "2019-02-02T06:10:36.431548552-08:00",
+    "Size"         : 2859216,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -29,6 +29,9 @@
     "Files"       : [
                   "opt/via/bin/go",
                   "opt/via/bin/gofmt",
-                  "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/cgo"
+                  "opt/via/lib/gcc/x86_64-via-linux-gnu/8.2.0/buildid",
+                  "opt/via/lib/gcc/x86_64-via-linux-gnu/8.2.0/cgo",
+                  "opt/via/lib/gcc/x86_64-via-linux-gnu/8.2.0/test2json",
+                  "opt/via/lib/gcc/x86_64-via-linux-gnu/8.2.0/vet"
     ]
 }
