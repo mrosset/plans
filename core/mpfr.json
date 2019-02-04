@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmWqNjg688b7qmyDA4SjvsQNe6pCgASYCfbBchm8nbkdae",
+    "Cid"          : "QmWUEshu5e6s1NZp5j8VYZUetinhKY5YFqKYzt2GeLHn9C",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:55.313137906Z",
-    "Size"         : 1381807,
+    "Date"         : "2019-02-04T08:08:35.636047359Z",
+    "Size"         : 1381825,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -27,12 +27,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/include/mpf2mpfr.h",
-                  "opt/via/include/mpfr.h",
-                  "opt/via/lib/libmpfr.a",
-                  "opt/via/lib/libmpfr.la",
-                  "opt/via/lib/libmpfr.so",
-                  "opt/via/lib/libmpfr.so.4",
-                  "opt/via/lib/libmpfr.so.4.1.3"
+                  "usr/local/via/include/mpf2mpfr.h",
+                  "usr/local/via/include/mpfr.h",
+                  "usr/local/via/lib/libmpfr.a",
+                  "usr/local/via/lib/libmpfr.la",
+                  "usr/local/via/lib/libmpfr.so",
+                  "usr/local/via/lib/libmpfr.so.4",
+                  "usr/local/via/lib/libmpfr.so.4.1.3"
     ]
 }

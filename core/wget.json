@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmY6YZszbp7SnPjwBF2YaMUwY59d3eZTjD9feQgvSnTSAS",
+    "Cid"          : "QmVAj3ScVh17u9MCwaTJP3aW3neBPWgg8Yu7f2ss6ExJdD",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:28:10.416274681Z",
+    "Date"         : "2019-02-04T08:11:22.471016091Z",
     "Size"         : 448753,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -28,7 +28,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/wget",
-                    "opt/via/etc/wgetrc"
+                    "usr/local/via/bin/wget",
+                    "usr/local/via/etc/wgetrc"
     ]
 }

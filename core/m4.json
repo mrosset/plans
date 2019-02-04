@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmQjFkTD5mYr3Lcp97YiyeA5chyvvL5bwyoG5Jd1FWJjzP",
+    "Cid"          : "QmPHh4JcSQdfWRfSzgzDFcueE2KbhX15L2Qn5G6TLpxLSY",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:22.383185056Z",
+    "Date"         : "2019-02-04T08:08:08.211955345Z",
     "Size"         : 150672,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -24,6 +24,6 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/m4"
+                    "usr/local/via/bin/m4"
     ]
 }

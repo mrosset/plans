@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmXVD64rqoQ2HqctKeJ3N9rmpXUCXzc6XYKVwCBgMGdUw9",
+    "Cid"          : "QmbDRd7ywJ36TdqSD2fMjVjh218UrjCgmG3DJG3nvQvq6n",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:24:20.326781463Z",
+    "Date"         : "2019-02-04T08:06:36.771841778Z",
     "Size"         : 138852,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -24,8 +24,8 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/egrep",
-                    "opt/via/bin/fgrep",
-                    "opt/via/bin/grep"
+                    "usr/local/via/bin/egrep",
+                    "usr/local/via/bin/fgrep",
+                    "usr/local/via/bin/grep"
     ]
 }

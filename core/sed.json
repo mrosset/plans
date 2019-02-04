@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmVeQtpHcEDxhDhyisF39QiDexRMZGm64S3DEjGLNRtW5r",
+    "Cid"          : "QmXgNMySHryFSMYsZaVGPvQtQzNoJHHsHa5LENP7fT7s8a",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:27:02.962618187Z",
+    "Date"         : "2019-02-04T08:09:59.070503548Z",
     "Size"         : 105776,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -27,6 +27,6 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/bin/sed"
+                  "usr/local/via/bin/sed"
     ]
 }

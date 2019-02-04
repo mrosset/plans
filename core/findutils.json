@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmR6QtkMk7vjsA2rCWzq5kRksS4TbPxikDxHaJY8o9xyoS",
+    "Cid"          : "Qmcr2RtVGtRk1Lsc1jKZrzgK9mVpjjQR99qCRiikTwjr1W",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:19:06.113489409Z",
-    "Size"         : 422748,
+    "Date"         : "2019-02-04T08:00:06.837090986Z",
+    "Size"         : 422784,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,12 +24,12 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/find",
-                    "opt/via/bin/locate",
-                    "opt/via/bin/updatedb",
-                    "opt/via/bin/xargs",
-                    "opt/via/lib/bigram",
-                    "opt/via/lib/code",
-                    "opt/via/lib/frcode"
+                    "usr/local/via/bin/find",
+                    "usr/local/via/bin/locate",
+                    "usr/local/via/bin/updatedb",
+                    "usr/local/via/bin/xargs",
+                    "usr/local/via/lib/bigram",
+                    "usr/local/via/lib/code",
+                    "usr/local/via/lib/frcode"
     ]
 }

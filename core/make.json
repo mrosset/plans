@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYcGrhKSLVgyiRmqS1R395C3mN3gq2WZZRZHm3ifqiPTr",
+    "Cid"          : "QmcF8PgHno55dCSwez39GEYFvrW4nyba9mEuH1WhqN64Ui",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:30.228453355Z",
+    "Date"         : "2019-02-04T08:08:17.334790246Z",
     "Size"         : 206216,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -26,7 +26,7 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/bin/make",
-                  "opt/via/include/gnumake.h"
+                  "usr/local/via/bin/make",
+                  "usr/local/via/include/gnumake.h"
     ]
 }

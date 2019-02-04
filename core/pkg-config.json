@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmPrX7Zz3huRJa2zw7LKWdTyc5CXws8WDY7DszJjWMCMac",
+    "Cid"          : "Qmeof63SCac4bc3PNPCAbpqopo4hEfEG2M3d2GzdBjeyS9",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:26:43.545262658Z",
+    "Date"         : "2019-02-04T08:09:44.273493371Z",
     "Size"         : 1133863,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -26,8 +26,8 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/bin/pkg-config",
-                  "opt/via/bin/x86_64-via-linux-gnu-pkg-config",
-                  "opt/via/share/aclocal/pkg.m4"
+                  "usr/local/via/bin/pkg-config",
+                  "usr/local/via/bin/x86_64-via-linux-gnu-pkg-config",
+                  "usr/local/via/share/aclocal/pkg.m4"
     ]
 }

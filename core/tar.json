@@ -5,11 +5,11 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmeqLeK6ojEVLsRvUfiP9Q5w1twD343QREQ26c7Boh2mkr",
+    "Cid"          : "QmXEa7SGGY52pVUeQMTctwyMZxV5fRt6xDCUvvWzJ3JcJW",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:27:27.702314921Z",
+    "Date"         : "2019-02-04T08:10:26.213058866Z",
     "Size"         : 415152,
     "SubPackages"  : null,
     "AutoDepends"  : [
@@ -24,7 +24,7 @@
     "PostInstall"   : null,
     "Remove"        : null,
     "Files"         : [
-                    "opt/via/bin/tar",
-                    "opt/via/lib/rmt"
+                    "usr/local/via/bin/tar",
+                    "usr/local/via/lib/rmt"
     ]
 }

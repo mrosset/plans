@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmXiQwQWFHwFqNVATBXr1p2fN2q9joQUnn66qzwdnKMJ7i",
+    "Cid"          : "QmYPJ3optMQrb6FtrBo78qMFrSvq9W81Rp4yG6bmYJ8w7U",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:17:36.345648Z",
-    "Size"         : 137442,
+    "Date"         : "2019-02-04T07:57:55.055386733Z",
+    "Size"         : 137478,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -33,12 +33,12 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/bin/ccache",
-                  "opt/via/lib/ccache/clang",
-                  "opt/via/lib/ccache/cpp",
-                  "opt/via/lib/ccache/g++",
-                  "opt/via/lib/ccache/gcc",
-                  "opt/via/lib/ccache/x86_64-via-linux-gnu-g++",
-                  "opt/via/lib/ccache/x86_64-via-linux-gnu-gcc"
+                  "usr/local/via/bin/ccache",
+                  "usr/local/via/lib/ccache/clang",
+                  "usr/local/via/lib/ccache/cpp",
+                  "usr/local/via/lib/ccache/g++",
+                  "usr/local/via/lib/ccache/gcc",
+                  "usr/local/via/lib/ccache/x86_64-via-linux-gnu-g++",
+                  "usr/local/via/lib/ccache/x86_64-via-linux-gnu-gcc"
     ]
 }
