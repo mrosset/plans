@@ -1,18 +1,22 @@
 {
-    "Name"          : "openssh",
-    "Version"       : "6.7p1",
-    "Url"           : "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-6.7p1.tar.gz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu-nostrip",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.681976776-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "openssh",
+    "Version"      : "7.6p1",
+    "Url"          : "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-{{.Version}}.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu-nostrip",
+    "Cid"          : "QmVUWGGAvjfK9sAn9WcL28svAbkP3acYgGiWDQfX3p2mhz",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-04T09:25:25.624861557Z",
+    "Size"         : 4671704,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "openssl",
+                   "zlib"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,5 +27,20 @@
     "Remove"        : [
                     "/var"
     ],
-    "Files" : null
+    "Files" : [
+            "usr/local/via/bin/scp",
+            "usr/local/via/bin/sftp",
+            "usr/local/via/bin/ssh",
+            "usr/local/via/bin/ssh-add",
+            "usr/local/via/bin/ssh-agent",
+            "usr/local/via/bin/ssh-keygen",
+            "usr/local/via/bin/ssh-keyscan",
+            "usr/local/via/bin/sshd",
+            "usr/local/via/etc/moduli",
+            "usr/local/via/etc/ssh_config",
+            "usr/local/via/etc/sshd_config",
+            "usr/local/via/lib/sftp-server",
+            "usr/local/via/lib/ssh-keysign",
+            "usr/local/via/lib/ssh-pkcs11-helper"
+    ]
 }
