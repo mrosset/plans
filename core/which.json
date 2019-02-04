@@ -1,16 +1,16 @@
 {
     "Name"         : "which",
-    "Version"      : "2.20",
-    "Url"          : "http://mirrors.kernel.org/gnu/which/which-2.20.tar.gz",
+    "Version"      : "2.21",
+    "Url"          : "http://mirrors.kernel.org/gnu/which/which-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmaJ95Pyuxb2Vx4mjuC5awLLto2sA3yPUynRERqHWhzLyh",
+    "Cid"          : "QmPbvxVMKXCZYgTMX4k2kYyysjqJTztscToqoj8bw3JzHQ",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:28:17.085216905Z",
-    "Size"         : 23104,
+    "Date"         : "2019-02-04T06:51:22.420042961-08:00",
+    "Size"         : 23136,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

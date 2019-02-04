@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYcGrhKSLVgyiRmqS1R395C3mN3gq2WZZRZHm3ifqiPTr",
+    "Cid"          : "QmXQyNqx4E2jUdKXb8PECmnFK8mJJQmGz59q6WwYXjEnkR",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:30.228453355Z",
-    "Size"         : 206216,
+    "Date"         : "2019-02-04T07:31:48.344989179-08:00",
+    "Size"         : 206288,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -20,7 +20,11 @@
     "Flags"         : [
                     "--without-guile"
     ],
-    "Patch"       : null,
+    "Patch" : [
+            "# have make link to glibc 2.29 glob not gnulib. fix is upsteam via git",
+            "sed -e 's/== GLOB_INTERFACE_VERSION/\u003e= GLOB_INTERFACE_VERSION/g' -i configure.ac",
+            "autoreconf -fiv"
+    ],
     "Build"       : null,
     "Package"     : null,
     "PostInstall" : null,

@@ -1,16 +1,16 @@
 {
     "Name"         : "gmp",
-    "Version"      : "6.1.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-6.1.0.tar.bz2",
+    "Version"      : "6.1.2",
+    "Url"          : "http://mirrors.kernel.org/gnu/gmp/gmp-{{.Version}}.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmU3Wxn9gMvtWGxpQcPdKwuFHiVXiA5RqagzzZdwToQrAD",
+    "Cid"          : "QmZZfeRja86GDofSbZimjF2YizaiwDbdjLGvdGqCNAuZ6o",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:24:05.054744595Z",
-    "Size"         : 1828207,
+    "Date"         : "2019-02-04T06:47:06.328263364-08:00",
+    "Size"         : 1827978,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -29,6 +29,6 @@
                     "opt/via/lib/libgmp.la",
                     "opt/via/lib/libgmp.so",
                     "opt/via/lib/libgmp.so.10",
-                    "opt/via/lib/libgmp.so.10.3.0"
+                    "opt/via/lib/libgmp.so.10.3.2"
     ]
 }

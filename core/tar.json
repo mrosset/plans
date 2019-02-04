@@ -1,16 +1,16 @@
 {
     "Name"         : "tar",
-    "Version"      : "1.28",
-    "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-1.28.tar.xz",
+    "Version"      : "1.31",
+    "Url"          : "http://mirrors.kernel.org/gnu/tar/tar-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmeqLeK6ojEVLsRvUfiP9Q5w1twD343QREQ26c7Boh2mkr",
+    "Cid"          : "QmU5q4x6yTXqxaz1LEXNjaTrUTuCmkATdU6Kyxocgz3dTS",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:27:27.702314921Z",
-    "Size"         : 415152,
+    "Date"         : "2019-02-04T06:49:08.9418123-08:00",
+    "Size"         : 522584,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
