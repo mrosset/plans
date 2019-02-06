@@ -1,0 +1,31 @@
+{
+    "Name"         : "slirp4netns",
+    "Version"      : "0.3.0",
+    "Url"          : "https://github.com/rootless-containers/slirp4netns/archive/v0.3.0-alpha.2.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "slirp4netns-0.3.0-alpha.2",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmQQp75syuJkCPrpJW47f3Sgm3PrX1uHrvSbzHsVWgg2p3",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-04T11:39:14.195866847-08:00",
+    "Size"         : 109544,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "./autogen.sh"
+    ],
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "opt/via/bin/slirp4netns"
+    ]
+}

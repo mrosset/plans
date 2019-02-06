@@ -186,6 +186,7 @@
     "extra/protobuf.json",
     "extra/python-psutil.json",
     "extra/setuptools.json",
+    "extra/slirp4netns.json",
     "extra/sqlite.json",
     "extra/tbb.json",
     "extra/tiff.json",

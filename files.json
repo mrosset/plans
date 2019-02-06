@@ -32467,9 +32467,12 @@
     "sed"      : [
                "opt/via/bin/sed"
     ],
-    "setuptools" : null,
-    "shadow"     : null,
-    "shepherd"   : null,
+    "setuptools"  : null,
+    "shadow"      : null,
+    "shepherd"    : null,
+    "slirp4netns" : [
+                  "opt/via/bin/slirp4netns"
+    ],
     "sqlite"     : null,
     "strace"     : null,
     "sudo"       : null,
