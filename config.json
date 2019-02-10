@@ -39,10 +39,6 @@
           "PKG_CONFIG_PATH" : "{{.Prefix}}/lib/pkgconfig",
           "PREFIX"          : "{{.Prefix}}"
     },
-    "Remove" : [
-             "{{.Prefix}}/share/doc",
-             "{{.Prefix}}/share/info",
-             "{{.Prefix}}/share/man"
-    ],
+    "Remove"      : null,
     "PostInstall" : null
 }
