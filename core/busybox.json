@@ -5,12 +5,12 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Cid"           : "",
+    "Cid"           : "QmYHi9XFxYPFTh9HMJHkwTnSb7h9s8YabxUD2ZBuy1vTDQ",
     "BuildInStage"  : true,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.637947338-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-02-19T15:59:09.303812913-08:00",
+    "Size"          : 2504656,
     "SubPackages"   : null,
     "AutoDepends"   : null,
     "ManualDepends" : null,
@@ -26,5 +26,7 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/bin/busybox"
+    ]
 }

@@ -920,8 +920,10 @@
                     "opt/via/share/bison/xslt/xml2xhtml.xsl",
                     "opt/via/share/bison/yacc.c"
     ],
-    "boost"          : null,
-    "busybox"        : null,
+    "boost"   : null,
+    "busybox" : [
+              "opt/via/bin/busybox"
+    ],
     "bytestructures" : null,
     "bzip2"          : [
                      "opt/via/bin/bunzip2",
