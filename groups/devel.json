@@ -17,6 +17,7 @@
                     "bash",
                     "binutils",
                     "bison",
+                    "busybox",
                     "bzip2",
                     "ccache",
                     "coreutils",
