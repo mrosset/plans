@@ -11,7 +11,7 @@
     "DB"        : "/opt/via/db",
     "Plans"     : "$GOPATH/src/github.com/mrosset/via/plans",
     "Repo"      : "$GOPATH/src/github.com/mrosset/via/publish/repo",
-    "Binary"    : "http://localhost:8080/ipfs/",
+    "Binary"    : "http://ipfs.io/ipfs/",
     "Prefix"    : "/opt/via",
     "Flags"     : [
                 "--build={{.Arch}}-via-{{.OS}}-gnu",
