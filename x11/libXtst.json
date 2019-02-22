@@ -1,18 +1,25 @@
 {
-    "Name"          : "libXtst",
-    "Version"       : "1.2.2",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXtst-1.2.2.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.76435035-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libXtst",
+    "Version"      : "1.2.2",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXtst-1.2.2.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmPwo1CzQcCRfkfqcgNf63Npi3eLsnhU3KB92BTXitxP8G",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T16:43:03.969153588Z",
+    "Size"         : 58310,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libXext",
+                   "libXi",
+                   "libxau",
+                   "libxcb"
+    ],
     "ManualDepends" : [
                     "recordproto",
                     "xextproto"
@@ -24,5 +31,14 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/X11/extensions/XTest.h",
+                   "opt/via/include/X11/extensions/record.h",
+                   "opt/via/lib/libXtst.a",
+                   "opt/via/lib/libXtst.la",
+                   "opt/via/lib/libXtst.so",
+                   "opt/via/lib/libXtst.so.6",
+                   "opt/via/lib/libXtst.so.6.1.0",
+                   "opt/via/lib/pkgconfig/xtst.pc"
+    ]
 }

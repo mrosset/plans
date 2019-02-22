@@ -5,16 +5,17 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmNmwVQVnznKB3eLj6ScdPDtQReRAhdZHDtuienpMJj7oV",
+    "Cid"          : "QmaNzEiuhTCrrDWBCBECzwhJn7hbudR2NbgNqGZQGPL4bC",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T06:26:55.821355863Z",
-    "Size"         : 836371,
+    "Date"         : "2019-02-22T16:41:01.68566074Z",
+    "Size"         : 848915,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "expat",
-                   "glibc"
+                   "glibc",
+                   "libX11"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,

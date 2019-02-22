@@ -1,18 +1,20 @@
 {
-    "Name"          : "libepoxy",
-    "Version"       : "1.3.1",
-    "Url"           : "https://github.com/anholt/libepoxy/releases/download/v1.3.1/libepoxy-1.3.1.tar.bz2",
-    "Group"         : "extra",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.738706181-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libepoxy",
+    "Version"      : "1.3.1",
+    "Url"          : "https://github.com/anholt/libepoxy/releases/download/v1.3.1/libepoxy-1.3.1.tar.bz2",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmVmXYoMUnaqJjSsxJpP7t7sLmnsaWzgnFq8pxAHTPUKjb",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T16:39:15.20776421Z",
+    "Size"         : 2514545,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : [
                     "mesa"
     ],
@@ -23,5 +25,17 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/epoxy/egl.h",
+                   "opt/via/include/epoxy/egl_generated.h",
+                   "opt/via/include/epoxy/gl.h",
+                   "opt/via/include/epoxy/gl_generated.h",
+                   "opt/via/include/epoxy/glx.h",
+                   "opt/via/include/epoxy/glx_generated.h",
+                   "opt/via/lib/libepoxy.la",
+                   "opt/via/lib/libepoxy.so",
+                   "opt/via/lib/libepoxy.so.0",
+                   "opt/via/lib/libepoxy.so.0.0.0",
+                   "opt/via/lib/pkgconfig/epoxy.pc"
+    ]
 }

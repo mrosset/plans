@@ -1,18 +1,24 @@
 {
-    "Name"          : "libXi",
-    "Version"       : "1.7.6",
-    "Url"           : "http://xorg.freedesktop.org/releases/individual/lib/libXi-1.7.6.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.76241215-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libXi",
+    "Version"      : "1.7.6",
+    "Url"          : "http://xorg.freedesktop.org/releases/individual/lib/libXi-1.7.6.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmU6AQAxuKTneoxS1pczN65hYGKRifLGyeNeMmvSMYWRQy",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T16:32:19.897392027Z",
+    "Size"         : 278484,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libXext",
+                   "libxau",
+                   "libxcb"
+    ],
     "ManualDepends" : [
                     "libXfixes"
     ],
@@ -23,5 +29,14 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/X11/extensions/XInput.h",
+                   "opt/via/include/X11/extensions/XInput2.h",
+                   "opt/via/lib/libXi.a",
+                   "opt/via/lib/libXi.la",
+                   "opt/via/lib/libXi.so",
+                   "opt/via/lib/libXi.so.6",
+                   "opt/via/lib/libXi.so.6.1.0",
+                   "opt/via/lib/pkgconfig/xi.pc"
+    ]
 }

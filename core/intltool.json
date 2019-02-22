@@ -5,14 +5,14 @@
     "Group"         : "core",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmZStib6prQ3tdJ9GSDQuxy6CNXf3D2AuqF6GR3Huyt2xv",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.663808525-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-02-22T16:40:38.899940652Z",
+    "Size"          : 138770,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : [
                     "XML-Parser"
     ],
@@ -23,5 +23,13 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/bin/intltool-extract",
+                   "opt/via/bin/intltool-merge",
+                   "opt/via/bin/intltool-prepare",
+                   "opt/via/bin/intltool-update",
+                   "opt/via/bin/intltoolize",
+                   "opt/via/share/aclocal/intltool.m4",
+                   "opt/via/share/intltool/Makefile.in.in"
+    ]
 }

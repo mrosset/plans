@@ -5,14 +5,14 @@
     "Group"         : "x11",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmcTvMqTButQkjP8JtMCF6R4vT4qvhw3kkvyKrg73F9bg5",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.766829406-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-02-22T16:34:37.883602374Z",
+    "Size"          : 9058,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +21,9 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/extensions/presentproto.h",
+                    "opt/via/include/X11/extensions/presenttokens.h",
+                    "opt/via/lib/pkgconfig/presentproto.pc"
+    ]
 }

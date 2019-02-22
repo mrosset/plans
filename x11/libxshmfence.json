@@ -1,18 +1,20 @@
 {
-    "Name"          : "libxshmfence",
-    "Version"       : "1.2",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libxshmfence-1.2.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.766126341-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libxshmfence",
+    "Version"      : "1.2",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libxshmfence-1.2.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmZ5UBBedcg18w4VspgSrhhPtdeDFwvFYQUn2XTm2pqj8Z",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T16:34:51.440305401Z",
+    "Size"         : 18188,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +23,13 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/xshmfence.h",
+                    "opt/via/lib/libxshmfence.a",
+                    "opt/via/lib/libxshmfence.la",
+                    "opt/via/lib/libxshmfence.so",
+                    "opt/via/lib/libxshmfence.so.1",
+                    "opt/via/lib/libxshmfence.so.1.0.0",
+                    "opt/via/lib/pkgconfig/xshmfence.pc"
+    ]
 }

@@ -1,18 +1,24 @@
 {
-    "Name"          : "libXdamage",
-    "Version"       : "1.1.4",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXdamage-1.1.4.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.76112021-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libXdamage",
+    "Version"      : "1.1.4",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXdamage-1.1.4.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmeMV5rVG5yLYHjxKVhpmbPw3Fog4CcR5ZJP14jS7w59Qb",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T16:35:18.96244922Z",
+    "Size"         : 20922,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libXfixes",
+                   "libxau",
+                   "libxcb"
+    ],
     "ManualDepends" : [
                     "damageproto"
     ],
@@ -23,5 +29,13 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/X11/extensions/Xdamage.h",
+                   "opt/via/lib/libXdamage.a",
+                   "opt/via/lib/libXdamage.la",
+                   "opt/via/lib/libXdamage.so",
+                   "opt/via/lib/libXdamage.so.1",
+                   "opt/via/lib/libXdamage.so.1.1.0",
+                   "opt/via/lib/pkgconfig/xdamage.pc"
+    ]
 }

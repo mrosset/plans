@@ -1,18 +1,20 @@
 {
-    "Name"          : "libffi",
-    "Version"       : "3.2.1",
-    "Url"           : "http://www.mirrorservice.org/sites/sourceware.org/pub/libffi/libffi-3.2.1.tar.gz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.666043207-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libffi",
+    "Version"      : "3.2.1",
+    "Url"          : "http://www.mirrorservice.org/sites/sourceware.org/pub/libffi/libffi-3.2.1.tar.gz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmYWoKr1McibJqfc3rDyngE4iHdT4zkZxTFmnpE92SDih3",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T16:15:21.217793188Z",
+    "Size"         : 98685,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -29,5 +31,14 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/include/ffi.h",
+                  "opt/via/include/ffitarget.h",
+                  "opt/via/lib/libffi.a",
+                  "opt/via/lib/libffi.la",
+                  "opt/via/lib/libffi.so",
+                  "opt/via/lib/libffi.so.6",
+                  "opt/via/lib/libffi.so.6.0.4",
+                  "opt/via/lib/pkgconfig/libffi.pc"
+    ]
 }
