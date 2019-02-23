@@ -1,18 +1,21 @@
 {
-    "Name"          : "libcap",
-    "Version"       : "2.24",
-    "Url"           : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "",
-    "Cid"           : "",
-    "BuildInStage"  : true,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.6650173-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libcap",
+    "Version"      : "2.24",
+    "Url"          : "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.24.tar.xz",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "",
+    "Cid"          : "QmfHPiBfT9MbCkecAwKLPiCrCdRCKwwYsCWR9Reb8BLdVU",
+    "BuildInStage" : true,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T18:08:14.428270759Z",
+    "Size"         : 253614,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "attr",
+                   "glibc"
+    ],
     "ManualDepends" : [
                     "pam"
     ],
@@ -27,5 +30,16 @@
     ],
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/include/sys/capability.h",
+                  "opt/via/lib/libcap.a",
+                  "opt/via/lib/libcap.so",
+                  "opt/via/lib/libcap.so.2",
+                  "opt/via/lib/libcap.so.2.24",
+                  "opt/via/lib/pkgconfig/libcap.pc",
+                  "opt/via/sbin/capsh",
+                  "opt/via/sbin/getcap",
+                  "opt/via/sbin/getpcaps",
+                  "opt/via/sbin/setcap"
+    ]
 }

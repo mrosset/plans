@@ -1,0 +1,38 @@
+{
+    "Name"         : "libtasn",
+    "Version"      : "1-4.13",
+    "Url"          : "https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.13.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "libtasn1-4.13",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmUCxEzdRVkz2Qrp9htXxh1kRR325o2NDg63mQpteDFpsm",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T20:13:32.844848327Z",
+    "Size"         : 267534,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/asn1Coding",
+                    "opt/via/bin/asn1Decoding",
+                    "opt/via/bin/asn1Parser",
+                    "opt/via/include/libtasn1.h",
+                    "opt/via/lib/libtasn1.a",
+                    "opt/via/lib/libtasn1.la",
+                    "opt/via/lib/libtasn1.so",
+                    "opt/via/lib/libtasn1.so.6",
+                    "opt/via/lib/libtasn1.so.6.5.5",
+                    "opt/via/lib/pkgconfig/libtasn1.pc"
+    ]
+}

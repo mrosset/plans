@@ -1,5 +1,5 @@
 {
-    "Name"          : "cmake-build",
+    "Name"          : "meson-build",
     "Version"       : "1.0",
     "Url"           : "",
     "Group"         : "builtin",
@@ -15,18 +15,20 @@
     "AutoDepends"   : null,
     "ManualDepends" : null,
     "BuildDepends"  : [
-                    "cmake"
+                    "meson"
     ],
     "Flags" : null,
     "Patch" : null,
     "Build" : [
-            "cmake $SRCDIR -DENABLE_SPELLCHECK=OFF -DCMAKE_INSTALL_PREFIX=$PREFIX -DEMBREE_ISPC_SUPPORT=0 -DEMBREE_TUTORIALS=0 -DUSE_PYTHON=0 -DPORT=GTK -DUSE_WOFF2=OFF  -DUSE_LIBHYPHEN=OFF",
-            "make"
+            "meson -Dsysvinit-path=$PREFIX/etc/init.d -Dsysconfdir=$PREFIX/etc -Drootprefix=$PREFIX -Drootlibdir=$PREFIX/lib -Dlibproxy_support=false -Dselinux=disabled --prefix=$PREFIX $SRCDIR",
+            "ninja"
     ],
     "Package" : [
-              "make install DESTDIR=$PKGDIR"
+              "DESTDIR=$PKGDIR ninja install"
     ],
     "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : null
+    "Remove"      : [
+                  "var"
+    ],
+    "Files" : null
 }

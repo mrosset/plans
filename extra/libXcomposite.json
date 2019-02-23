@@ -1,0 +1,38 @@
+{
+    "Name"         : "libXcomposite",
+    "Version"      : "0.4.4",
+    "Url"          : "https://www.x.org/archive//individual/lib/libXcomposite-0.4.4.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmPR4Y3MPa6aKNC85baJjsFJtsKPXdHSaNJui1qT1x48Hv",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T20:53:51.187484944Z",
+    "Size"         : 23295,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libxau",
+                   "libxcb"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/include/X11/extensions/Xcomposite.h",
+                    "opt/via/lib/libXcomposite.a",
+                    "opt/via/lib/libXcomposite.la",
+                    "opt/via/lib/libXcomposite.so",
+                    "opt/via/lib/libXcomposite.so.1",
+                    "opt/via/lib/libXcomposite.so.1.0.0",
+                    "opt/via/lib/pkgconfig/xcomposite.pc"
+    ]
+}

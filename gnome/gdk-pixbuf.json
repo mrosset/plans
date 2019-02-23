@@ -5,20 +5,18 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmZcNssqTzCZmjhxJVjeF6SVNVo1AQ3QwYJueUERWB5FkP",
+    "Cid"          : "QmNyE4pr6JgsqEnfxpZfyvx7Lfy97MwYhXYnuKqSN42n1E",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-22T16:20:41.281899724Z",
-    "Size"         : 524064,
+    "Date"         : "2019-02-22T19:43:27.448542749Z",
+    "Size"         : 735069,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glib",
                    "glibc",
-                   "libffi",
                    "libjpeg-turbo",
                    "libpng",
-                   "pcre",
                    "zlib"
     ],
     "ManualDepends" : [
@@ -76,10 +74,12 @@
              "opt/via/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xbm.so",
              "opt/via/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.la",
              "opt/via/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so",
+             "opt/via/lib/girepository-1.0/GdkPixbuf-2.0.typelib",
              "opt/via/lib/libgdk_pixbuf-2.0.la",
              "opt/via/lib/libgdk_pixbuf-2.0.so",
              "opt/via/lib/libgdk_pixbuf-2.0.so.0",
              "opt/via/lib/libgdk_pixbuf-2.0.so.0.3600.0",
-             "opt/via/lib/pkgconfig/gdk-pixbuf-2.0.pc"
+             "opt/via/lib/pkgconfig/gdk-pixbuf-2.0.pc",
+             "opt/via/share/gir-1.0/GdkPixbuf-2.0.gir"
     ]
 }

@@ -1,18 +1,20 @@
 {
-    "Name"          : "fakeroot",
-    "Version"       : "1.20.2",
-    "Url"           : "http://ftp.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.20.2.orig.tar.bz2",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.64980785-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "fakeroot",
+    "Version"      : "1.20.2",
+    "Url"          : "http://ftp.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.20.2.orig.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmdyMkWcQaAmGWaNHHXXemyvqHMcp2Ytc76fgXWTwYDhCu",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T18:27:25.573686555Z",
+    "Size"         : 85807,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -25,5 +27,11 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/bin/faked",
+                  "opt/via/bin/fakeroot",
+                  "opt/via/lib/libfakeroot/libfakeroot-0.so",
+                  "opt/via/lib/libfakeroot/libfakeroot.la",
+                  "opt/via/lib/libfakeroot/libfakeroot.so"
+    ]
 }

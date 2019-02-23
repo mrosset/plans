@@ -1,0 +1,41 @@
+{
+    "Name"         : "libdaemon",
+    "Version"      : "0.14",
+    "Url"          : "http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmaxTK3dKad4XBabe1zwv6H5etnhxknkKeWETqxH7eY2nV",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T19:18:38.141748678Z",
+    "Size"         : 86901,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/include/libdaemon/daemon.h",
+                    "opt/via/include/libdaemon/dexec.h",
+                    "opt/via/include/libdaemon/dfork.h",
+                    "opt/via/include/libdaemon/dlog.h",
+                    "opt/via/include/libdaemon/dnonblock.h",
+                    "opt/via/include/libdaemon/dpid.h",
+                    "opt/via/include/libdaemon/dsignal.h",
+                    "opt/via/lib/libdaemon.a",
+                    "opt/via/lib/libdaemon.la",
+                    "opt/via/lib/libdaemon.so",
+                    "opt/via/lib/libdaemon.so.0",
+                    "opt/via/lib/libdaemon.so.0.5.0",
+                    "opt/via/lib/pkgconfig/libdaemon.pc"
+    ]
+}

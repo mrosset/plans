@@ -1,18 +1,21 @@
 {
-    "Name"          : "sqlite",
-    "Version"       : "3140200",
-    "Url"           : "http://www.sqlite.org/2016/sqlite-src-{{.Version}}.zip",
-    "Group"         : "extra",
-    "StageDir"      : "sqlite-src-3140200",
-    "Inherit"       : "gnu-nostrip",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.747448883-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "sqlite",
+    "Version"      : "3240000",
+    "Url"          : "https://sqlite.org/2018/sqlite-autoconf-{{.Version}}.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "sqlite-autoconf-3240000",
+    "Inherit"      : "gnu-nostrip",
+    "Cid"          : "QmX8ufVajEv4amd3FkGQ9zKgyxEec23Pi8mwLt8LawskE8",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T17:05:57.652896511Z",
+    "Size"         : 4336705,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "zlib"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
@@ -23,5 +26,15 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/bin/sqlite3",
+                  "opt/via/include/sqlite3.h",
+                  "opt/via/include/sqlite3ext.h",
+                  "opt/via/lib/libsqlite3.a",
+                  "opt/via/lib/libsqlite3.la",
+                  "opt/via/lib/libsqlite3.so",
+                  "opt/via/lib/libsqlite3.so.0",
+                  "opt/via/lib/libsqlite3.so.0.8.6",
+                  "opt/via/lib/pkgconfig/sqlite3.pc"
+    ]
 }

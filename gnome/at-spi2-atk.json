@@ -5,12 +5,12 @@
     "Group"        : "gnome",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYvxpjggPLt1UkQyyEQaEPEsMhgppDREeKwUGdQUoMCw6",
+    "Cid"          : "QmfKz88boysKUhHRm9weRXtD2h2qP7Q44MfzUN1LtcjFNH",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-22T16:43:17.355053999Z",
-    "Size"         : 204271,
+    "Date"         : "2019-02-22T19:35:35.153414596Z",
+    "Size"         : 204075,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "at-spi2-core",
@@ -22,10 +22,8 @@
                    "libXext",
                    "libXi",
                    "libXtst",
-                   "libffi",
                    "libxau",
-                   "libxcb",
-                   "pcre"
+                   "libxcb"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,

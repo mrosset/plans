@@ -1,0 +1,43 @@
+{
+    "Name"         : "libnotify",
+    "Version"      : "0.7.7",
+    "Url"          : "http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/libnotify-0.7.7.tar.xz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmRptdBrWXvZgBAt9TA6nJfP8ppivQJhkYBmqM3JyrDTCi",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T20:01:10.88342143Z",
+    "Size"         : 142623,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "gdk-pixbuf",
+                   "glib",
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/notify-send",
+                    "opt/via/include/libnotify/notification.h",
+                    "opt/via/include/libnotify/notify-enum-types.h",
+                    "opt/via/include/libnotify/notify-features.h",
+                    "opt/via/include/libnotify/notify.h",
+                    "opt/via/lib/girepository-1.0/Notify-0.7.typelib",
+                    "opt/via/lib/libnotify.a",
+                    "opt/via/lib/libnotify.la",
+                    "opt/via/lib/libnotify.so",
+                    "opt/via/lib/libnotify.so.4",
+                    "opt/via/lib/libnotify.so.4.0.0",
+                    "opt/via/lib/pkgconfig/libnotify.pc",
+                    "opt/via/share/gir-1.0/Notify-0.7.gir"
+    ]
+}

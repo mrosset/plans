@@ -1,0 +1,34 @@
+{
+    "Name"         : "ninja",
+    "Version"      : "1.9.0",
+    "Url"          : "https://github.com/ninja-build/ninja/archive/v1.9.0.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "ninja-1.9.0",
+    "Inherit"      : "",
+    "Cid"          : "QmeFdXnSPg4kERVEoJjJjs8SWCysWr3tEWU4t5AzbS5E56",
+    "BuildInStage" : true,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T17:50:31.893500975Z",
+    "Size"         : 183352,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libstdc++"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : [
+                    "python3 ./configure.py --bootstrap"
+    ],
+    "Package" : [
+              "install -vm755 -D -s ninja $PKGDIR/$PREFIX/bin/ninja"
+    ],
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : [
+                  "opt/via/bin/ninja"
+    ]
+}

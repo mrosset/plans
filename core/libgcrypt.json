@@ -1,18 +1,21 @@
 {
-    "Name"          : "libgcrypt",
-    "Version"       : "1.6.2",
-    "Url"           : "ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.6.2.tar.bz2",
-    "Group"         : "core",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.666750501-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libgcrypt",
+    "Version"      : "1.8.3",
+    "Url"          : "https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-{{.Version}}.tar.bz2",
+    "Group"        : "core",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmYYcokH2assNpbCAfDBkCi4jQd84c12fsbHAov8zH7Hmi",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-22T20:20:45.040713387Z",
+    "Size"         : 1286007,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libgpg-error"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +24,16 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/dumpsexp",
+                    "opt/via/bin/hmac256",
+                    "opt/via/bin/libgcrypt-config",
+                    "opt/via/bin/mpicalc",
+                    "opt/via/include/gcrypt.h",
+                    "opt/via/lib/libgcrypt.la",
+                    "opt/via/lib/libgcrypt.so",
+                    "opt/via/lib/libgcrypt.so.20",
+                    "opt/via/lib/libgcrypt.so.20.2.3",
+                    "opt/via/share/aclocal/libgcrypt.m4"
+    ]
 }

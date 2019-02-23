@@ -1,0 +1,29 @@
+{
+    "Name"          : "compositeproto",
+    "Version"       : "0.4",
+    "Url"           : "https://www.x.org/archive//individual/proto/compositeproto-0.4.tar.gz",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "QmRusqxvt6YJuk3gydgw62dA8vbeR5y82eizk6by838DHj",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 0,
+    "Date"          : "2019-02-22T20:53:42.665025591Z",
+    "Size"          : 9000,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/include/X11/extensions/composite.h",
+                    "opt/via/include/X11/extensions/compositeproto.h",
+                    "opt/via/lib/pkgconfig/compositeproto.pc"
+    ]
+}
