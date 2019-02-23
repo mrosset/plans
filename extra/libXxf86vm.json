@@ -1,0 +1,39 @@
+{
+    "Name"         : "libXxf86vm",
+    "Version"      : "1.1.4",
+    "Url"          : "https://www.x.org/archive//individual/lib/libXxf86vm-1.1.4.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmZfcavLpzett49ckzrJpkmtu5b7wcC2btcNTiQq9wspbx",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-23T15:50:19.335556189Z",
+    "Size"         : 51995,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libXext",
+                   "libxau",
+                   "libxcb"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/include/X11/extensions/xf86vmode.h",
+                    "opt/via/lib/libXxf86vm.a",
+                    "opt/via/lib/libXxf86vm.la",
+                    "opt/via/lib/libXxf86vm.so",
+                    "opt/via/lib/libXxf86vm.so.1",
+                    "opt/via/lib/libXxf86vm.so.1.0.0",
+                    "opt/via/lib/pkgconfig/xxf86vm.pc"
+    ]
+}

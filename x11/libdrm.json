@@ -1,16 +1,16 @@
 {
     "Name"         : "libdrm",
-    "Version"      : "2.4.67",
-    "Url"          : "http://dri.freedesktop.org/libdrm/libdrm-2.4.67.tar.bz2",
+    "Version"      : "2.4.97",
+    "Url"          : "https://dri.freedesktop.org/libdrm/libdrm-{{.Version}}.tar.bz2",
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYJ4G7waaNpkyycmiMj9VdwSZjdV6jWrkzgtWTUbB8wjN",
+    "Cid"          : "QmdUU6Twgv18uUWsR4Vc7VG3Zp5u9e7CymfrRVMmKzsT9p",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-22T16:33:55.569298013Z",
-    "Size"         : 732472,
+    "Date"         : "2019-02-23T07:29:49.739341526-08:00",
+    "Size"         : 885439,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -40,6 +40,7 @@
                    "opt/via/include/libdrm/intel_debug.h",
                    "opt/via/include/libdrm/mach64_drm.h",
                    "opt/via/include/libdrm/mga_drm.h",
+                   "opt/via/include/libdrm/msm_drm.h",
                    "opt/via/include/libdrm/nouveau/nouveau.h",
                    "opt/via/include/libdrm/nouveau/nvif/cl0080.h",
                    "opt/via/include/libdrm/nouveau/nvif/cl9097.h",
@@ -65,8 +66,10 @@
                    "opt/via/include/libdrm/tegra_drm.h",
                    "opt/via/include/libdrm/vc4_drm.h",
                    "opt/via/include/libdrm/via_drm.h",
+                   "opt/via/include/libdrm/virtgpu_drm.h",
                    "opt/via/include/libdrm/vmwgfx_drm.h",
                    "opt/via/include/libkms/libkms.h",
+                   "opt/via/include/libsync.h",
                    "opt/via/include/xf86drm.h",
                    "opt/via/include/xf86drmMode.h",
                    "opt/via/lib/libdrm.la",
@@ -98,6 +101,7 @@
                    "opt/via/lib/pkgconfig/libdrm_intel.pc",
                    "opt/via/lib/pkgconfig/libdrm_nouveau.pc",
                    "opt/via/lib/pkgconfig/libdrm_radeon.pc",
-                   "opt/via/lib/pkgconfig/libkms.pc"
+                   "opt/via/lib/pkgconfig/libkms.pc",
+                   "opt/via/share/libdrm/amdgpu.ids"
     ]
 }

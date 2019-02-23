@@ -1,16 +1,16 @@
 {
     "Name"         : "mesa",
-    "Version"      : "17.0.0",
-    "Url"          : "https://mesa.freedesktop.org/archive/{{.Version}}/mesa-{{.Version}}.tar.xz",
+    "Version"      : "18.3.4",
+    "Url"          : "https://mesa.freedesktop.org/archive/mesa-{{.Version}}.tar.xz",
     "Group"        : "x11",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmXhAyQtuKdfsM7jLmBNi9XA1c14z7LCR7ky8UxK6KidfL",
+    "Cid"          : "Qmb3Rz24kLYYpYmR2GvoN6QtZcBZZjYp4JKCu4w4GyQjXB",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-22T16:37:58.369330731Z",
-    "Size"         : 69233882,
+    "Date"         : "2019-02-23T15:50:38.565520748Z",
+    "Size"         : 91347080,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "expat",
@@ -19,13 +19,15 @@
                    "libXdamage",
                    "libXext",
                    "libXfixes",
+                   "libXxf86vm",
                    "libdrm",
                    "libgcc",
                    "libpciaccess",
                    "libstdc++",
                    "libxau",
                    "libxcb",
-                   "libxshmfence"
+                   "libxshmfence",
+                   "zlib"
     ],
     "ManualDepends" : [
                     "dri2proto",
@@ -35,6 +37,7 @@
     ],
     "BuildDepends" : null,
     "Flags"        : [
+                   "--disable-gbm",
                    "--with-gallium-drivers=nouveau,svga,swrast"
     ],
     "Patch"       : null,
@@ -43,7 +46,6 @@
     "PostInstall" : null,
     "Remove"      : null,
     "Files"       : [
-                  "opt/via/etc/drirc",
                   "opt/via/include/EGL/egl.h",
                   "opt/via/include/EGL/eglext.h",
                   "opt/via/include/EGL/eglextchromium.h",
@@ -70,7 +72,6 @@
                   "opt/via/include/GLES3/gl3ext.h",
                   "opt/via/include/GLES3/gl3platform.h",
                   "opt/via/include/KHR/khrplatform.h",
-                  "opt/via/include/gbm.h",
                   "opt/via/lib/dri/i915_dri.so",
                   "opt/via/lib/dri/i965_dri.so",
                   "opt/via/lib/dri/kms_swrast_dri.so",
@@ -96,19 +97,15 @@
                   "opt/via/lib/libGLESv2.so",
                   "opt/via/lib/libGLESv2.so.2",
                   "opt/via/lib/libGLESv2.so.2.0.0",
-                  "opt/via/lib/libgbm.la",
-                  "opt/via/lib/libgbm.so",
-                  "opt/via/lib/libgbm.so.1",
-                  "opt/via/lib/libgbm.so.1.0.0",
                   "opt/via/lib/libglapi.la",
                   "opt/via/lib/libglapi.so",
                   "opt/via/lib/libglapi.so.0",
                   "opt/via/lib/libglapi.so.0.0.0",
                   "opt/via/lib/pkgconfig/dri.pc",
                   "opt/via/lib/pkgconfig/egl.pc",
-                  "opt/via/lib/pkgconfig/gbm.pc",
                   "opt/via/lib/pkgconfig/gl.pc",
                   "opt/via/lib/pkgconfig/glesv1_cm.pc",
-                  "opt/via/lib/pkgconfig/glesv2.pc"
+                  "opt/via/lib/pkgconfig/glesv2.pc",
+                  "opt/via/share/drirc.d/00-mesa-defaults.conf"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "Name"          : "xf86vidmodeproto",
+    "Version"       : "2.3",
+    "Url"           : "https://www.x.org/archive//individual/proto/xf86vidmodeproto-2.3.tar.bz2",
+    "Group"         : "extra",
+    "StageDir"      : "",
+    "Inherit"       : "gnu",
+    "Cid"           : "QmUVDNfwuMfKfEoJxYFVcmA3rcB9LQwCRWaxHaX5J9NRE4",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : true,
+    "BuildTime"     : 0,
+    "Date"          : "2019-02-23T14:54:48.62689792Z",
+    "Size"          : 19397,
+    "SubPackages"   : null,
+    "AutoDepends"   : [],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/include/X11/extensions/xf86vm.h",
+                    "opt/via/include/X11/extensions/xf86vmproto.h",
+                    "opt/via/include/X11/extensions/xf86vmstr.h",
+                    "opt/via/lib/pkgconfig/xf86vidmodeproto.pc"
+    ]
+}

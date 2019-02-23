@@ -1,18 +1,25 @@
 {
-    "Name"          : "libXrandr",
-    "Version"       : "1.5.0",
-    "Url"           : "http://xorg.freedesktop.org//releases/individual/lib/libXrandr-1.5.0.tar.bz2",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.763376895-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libXrandr",
+    "Version"      : "1.5.0",
+    "Url"          : "http://xorg.freedesktop.org//releases/individual/lib/libXrandr-1.5.0.tar.bz2",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmStxY3dAZW1DnF5yZkUBrCRXgL5VLDuZ7WqBymFtidULD",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-02-23T14:55:52.899439012Z",
+    "Size"         : 123975,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libXext",
+                   "libXrender",
+                   "libxau",
+                   "libxcb"
+    ],
     "ManualDepends" : [
                     "randrproto"
     ],
@@ -23,5 +30,13 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : [
+                   "opt/via/include/X11/extensions/Xrandr.h",
+                   "opt/via/lib/libXrandr.a",
+                   "opt/via/lib/libXrandr.la",
+                   "opt/via/lib/libXrandr.so",
+                   "opt/via/lib/libXrandr.so.2",
+                   "opt/via/lib/libXrandr.so.2.2.0",
+                   "opt/via/lib/pkgconfig/xrandr.pc"
+    ]
 }
