@@ -34,7 +34,7 @@
           "LDFLAGS"         : "-Wl,-rpath -Wl,{{.Prefix}}/lib -Wl,--as-needed -Wl,--dynamic-linker,{{.Prefix}}/lib/ld-linux-x86-64.so.2",
           "LIBRARY_PATH"    : "{{.Prefix}}/lib",
           "LIBTOOLFLAGS"    : "--silent",
-          "MAKEFLAGS"       : "-sw -j4",
+          "MAKEFLAGS"       : "-sw -j{{.Threads}}",
           "PATH"            : "$HOME/go/bin:$GOPATH/bin:{{.Prefix}}/lib/ccache:{{.Prefix}}/bin",
           "PKG_CONFIG_PATH" : "{{.Prefix}}/lib/pkgconfig",
           "PREFIX"          : "{{.Prefix}}"
