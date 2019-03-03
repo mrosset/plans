@@ -58,7 +58,7 @@
             "autoreconf -fvi"
     ],
     "Build" : [
-            "./configure $Flags",
+            "./configure $Flags $PlanFlags",
             "make"
     ],
     "Package" : [

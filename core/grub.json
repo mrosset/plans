@@ -18,7 +18,7 @@
     "Flags"         : null,
     "Patch"         : null,
     "Build"         : [
-                    "sh -c $SRCDIR/configure $Flags",
+                    "$SRCDIR/configure $Flags $PlanFlags",
                     "make"
     ],
     "Package" : [

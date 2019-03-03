@@ -28,7 +28,7 @@
     ],
     "Patch" : null,
     "Build" : [
-            "$SRCDIR/configure $Flags"
+            "$SRCDIR/configure $Flags $PlanFlags"
     ],
     "Package" : [
               "make install-bootstrap-headers=yes install-headers install_root=$PKGDIR",

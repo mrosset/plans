@@ -18,7 +18,7 @@
     "Flags"         : null,
     "Patch"         : null,
     "Build"         : [
-                    "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags",
+                    "CFLAGS=\"$CFLAGS -I$PREFIX/include\" $SRCDIR/configure $Flags $PlanFlags",
                     "make"
     ],
     "Package" : [

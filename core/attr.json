@@ -20,7 +20,7 @@
     "Flags"         : null,
     "Patch"         : null,
     "Build"         : [
-                    "$SRCDIR/configure $Flags"
+                    "$SRCDIR/configure $Flags $PlanFlags"
     ],
     "Package" : [
               "make -j1 install install-dev install-lib DIST_ROOT=$PKGDIR"

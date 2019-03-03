@@ -28,7 +28,7 @@
     ],
     "Patch" : null,
     "Build" : [
-            "$SRCDIR/configure $Flags LDFLAGS=",
+            "$SRCDIR/configure $Flags $PlanFlags LDFLAGS=",
             "make LDFLAGS="
     ],
     "Package" : [

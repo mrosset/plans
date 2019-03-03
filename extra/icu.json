@@ -24,7 +24,7 @@
     ],
     "Patch" : null,
     "Build" : [
-            "$SRCDIR/source/configure $Flags",
+            "$SRCDIR/source/configure $Flags $PlanFlags",
             "make"
     ],
     "Package" : [

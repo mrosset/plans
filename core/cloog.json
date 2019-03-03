@@ -4,7 +4,7 @@
     "Url"           : "http://www.bastoul.net/cloog/pages/download/cloog-0.17.0.tar.gz",
     "Group"         : "core",
     "StageDir"      : "",
-    "Inherit"       : "",
+    "Inherit"       : "gnu",
     "Cid"           : "",
     "BuildInStage"  : false,
     "IsRebuilt"     : false,
@@ -17,14 +17,9 @@
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : null,
-    "Build"         : [
-                    "$SRCDIR/configure $Flags",
-                    "make"
-    ],
-    "Package" : [
-              "make install DESTDIR=$PKGDIR"
-    ],
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : null
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : null
 }
