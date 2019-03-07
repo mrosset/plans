@@ -213,7 +213,6 @@
     "extra/python-psutil.json",
     "extra/ruby.json",
     "extra/setuptools.json",
-    "extra/slibtool.json",
     "extra/sqlite.json",
     "extra/tbb.json",
     "extra/tiff.json",

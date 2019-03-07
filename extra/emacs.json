@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmXWGZ1cXqk4GsytU1ToKTwUEaKpr7eLiergwKeR3pdMby",
+    "Cid"          : "QmXzLSv8Vw7rHH8fjSxVcjW322Mx9vqBnosMvGrWBS5AN2",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-29T22:47:42.484774488-08:00",
-    "Size"         : 128076993,
+    "Date"         : "2019-03-06T18:54:01.049952424Z",
+    "Size"         : 128097698,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "dbus",
@@ -49,6 +49,7 @@
     ],
     "BuildDepends" : null,
     "Flags"        : [
+                   "--with-modules",
                    "--with-x-toolkit=lucid",
                    "--with-xft"
     ],
