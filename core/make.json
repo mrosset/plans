@@ -5,20 +5,21 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYcGrhKSLVgyiRmqS1R395C3mN3gq2WZZRZHm3ifqiPTr",
+    "Cid"          : "QmYJgJt22MFHX7HjRRDa4NWCnhg7itxTYgEcRbRuw5xawS",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:30.228453355Z",
-    "Size"         : 206216,
+    "Date"         : "2019-03-22T11:00:00.31426073Z",
+    "Size"         : 206344,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc"
+                   "glibc",
+                   "guile2"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
-                    "--without-guile"
+                    "--with-guile"
     ],
     "Patch"       : null,
     "Build"       : null,

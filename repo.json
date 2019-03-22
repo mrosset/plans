@@ -60,6 +60,7 @@
     "core/groff.json",
     "core/grub.json",
     "core/gtksourceview.json",
+    "core/guile2.json",
     "core/gzip.json",
     "core/htop.json",
     "core/intltool.json",
