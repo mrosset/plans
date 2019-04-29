@@ -5,14 +5,14 @@
     "Group"         : "extra",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmXNcKSmfTkoPSz6qiCsxKrDuJ4xf24GvhTdCPKQWZx4Tt",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.731225759-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-04-29T15:55:35.662764414Z",
+    "Size"          : 241193,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,5 +23,8 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/lib/guile/2.2/site-ccache/sqlite3.go",
+                  "opt/via/share/guile/site/2.2/sqlite3.scm"
+    ]
 }

@@ -5,29 +5,26 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYJgJt22MFHX7HjRRDa4NWCnhg7itxTYgEcRbRuw5xawS",
+    "Cid"          : "QmUAYsnn1zNiY56hhHHJ8tzQFGBReFJVyuaCuM5ZUpzfWA",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-03-22T11:00:00.31426073Z",
-    "Size"         : 206344,
+    "Date"         : "2019-04-29T15:40:07.061396647Z",
+    "Size"         : 206216,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc",
-                   "guile2"
+                   "glibc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
-    "Flags"         : [
-                    "--with-guile"
-    ],
-    "Patch"       : null,
-    "Build"       : null,
-    "Package"     : null,
-    "PostInstall" : null,
-    "Remove"      : null,
-    "Files"       : [
-                  "opt/via/bin/make",
-                  "opt/via/include/gnumake.h"
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/make",
+                    "opt/via/include/gnumake.h"
     ]
 }

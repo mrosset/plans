@@ -5,14 +5,14 @@
     "Group"         : "extra",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmcE1LeQpk6cXdRzQbCYmQK56QAD26wa8qSSSMvso5uTZd",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.730908665-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-04-29T15:51:29.081670167Z",
+    "Size"          : 270042,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -23,5 +23,12 @@
     "Package"     : null,
     "PostInstall" : null,
     "Remove"      : null,
-    "Files"       : null
+    "Files"       : [
+                  "opt/via/lib/guile/2.2/site-ccache/json/builder.go",
+                  "opt/via/lib/guile/2.2/site-ccache/json/parser.go",
+                  "opt/via/lib/guile/2.2/site-ccache/json.go",
+                  "opt/via/share/guile/site/2.2/json/builder.scm",
+                  "opt/via/share/guile/site/2.2/json/parser.scm",
+                  "opt/via/share/guile/site/2.2/json.scm"
+    ]
 }
