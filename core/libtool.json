@@ -1,16 +1,16 @@
 {
     "Name"         : "libtool",
-    "Version"      : "2.4.4",
-    "Url"          : "http://ftp.gnu.org/pub/gnu/libtool/libtool-2.4.4.tar.xz",
+    "Version"      : "2.4.6",
+    "Url"          : "http://ftp.gnu.org/pub/gnu/libtool/libtool-2.4.6.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmbMpGjcau2VyfsJsfGgs5qvpet2ARic2BqqRx6ZEgfeF3",
+    "Cid"          : "QmZfhRj4v1mzHpPJCtchftp5RyTx1GHULWV7oFGfw4aTxg",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-23T00:57:39.935636614Z",
-    "Size"         : 2209774,
+    "Date"         : "2019-10-10T15:05:11.598932764Z",
+    "Size"         : 2222594,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

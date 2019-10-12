@@ -20,7 +20,7 @@
     "Flags" : null,
     "Patch" : null,
     "Build" : [
-            "meson -Dsysvinit-path=$PREFIX/etc/init.d -Dsysconfdir=$PREFIX/etc -Drootprefix=$PREFIX -Drootlibdir=$PREFIX/lib -Dlibproxy_support=false -Dselinux=disabled --prefix=$PREFIX $SRCDIR",
+            "meson -Dsysvinit-path=$PREFIX/etc/init.d -Dsysconfdir=$PREFIX/etc -Drootprefix=$PREFIX -Drootlibdir=$PREFIX/lib -Dlibproxy_support=false --prefix=$PREFIX $SRCDIR",
             "ninja"
     ],
     "Package" : [

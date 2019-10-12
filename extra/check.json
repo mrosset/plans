@@ -1,0 +1,38 @@
+{
+    "Name"         : "check",
+    "Version"      : "0.11.0",
+    "Url"          : "https://github.com/libcheck/check/releases/download/0.11.0/check-0.11.0.tar.gz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "Qme6WQrhJG9bLJ1pKtSX4EqDN8KGUDsX9S1vysGn45fSFb",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-10-11T14:58:20.026684043Z",
+    "Size"         : 205487,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/checkmk",
+                    "opt/via/include/check.h",
+                    "opt/via/include/check_stdint.h",
+                    "opt/via/lib/libcheck.a",
+                    "opt/via/lib/libcheck.la",
+                    "opt/via/lib/libcheck.so",
+                    "opt/via/lib/libcheck.so.0",
+                    "opt/via/lib/libcheck.so.0.0.0",
+                    "opt/via/lib/pkgconfig/check.pc",
+                    "opt/via/share/aclocal/check.m4"
+    ]
+}

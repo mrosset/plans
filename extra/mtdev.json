@@ -1,0 +1,38 @@
+{
+    "Name"         : "mtdev",
+    "Version"      : "1.1.5",
+    "Url"          : "http://bitmath.org/code/mtdev/mtdev-1.1.5.tar.bz2",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmUMuQ7XbBDFkiEreNvdn1ayLSA4AsymQmA2FVwgHm88aF",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-10-11T14:50:32.806936129Z",
+    "Size"         : 72058,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/mtdev-test",
+                    "opt/via/include/mtdev-mapping.h",
+                    "opt/via/include/mtdev-plumbing.h",
+                    "opt/via/include/mtdev.h",
+                    "opt/via/lib/libmtdev.a",
+                    "opt/via/lib/libmtdev.la",
+                    "opt/via/lib/libmtdev.so",
+                    "opt/via/lib/libmtdev.so.1",
+                    "opt/via/lib/libmtdev.so.1.0.0",
+                    "opt/via/lib/pkgconfig/mtdev.pc"
+    ]
+}

@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmTZPLiHFT1HAwjEBRsgRrbhpHft5FQ1Q4LRVZhtj4du1u",
+    "Cid"          : "QmXv7agemywfN6wTmKtQYejZ4hbprN3QREer6VZpfn9QMb",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-04-29T15:42:34.838438359Z",
-    "Size"         : 3490436,
+    "Date"         : "2019-10-11T04:29:23.180660861Z",
+    "Size"         : 3490237,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "gc",
@@ -25,6 +25,7 @@
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : [
+                    "--enable-guile",
                     "--with-included-libtasn1",
                     "--with-included-unistring",
                     "--without-p11-kit"

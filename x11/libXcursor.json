@@ -1,18 +1,23 @@
 {
-    "Name"          : "libXcursor",
-    "Version"       : "1.1.15",
-    "Url"           : "https://www.x.org/archive//individual/lib/libXcursor-1.1.15.tar.gz",
-    "Group"         : "x11",
-    "StageDir"      : "",
-    "Inherit"       : "gnu",
-    "Cid"           : "",
-    "BuildInStage"  : false,
-    "IsRebuilt"     : false,
-    "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.760812037-08:00",
-    "Size"          : 0,
-    "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "Name"         : "libXcursor",
+    "Version"      : "1.1.15",
+    "Url"          : "https://www.x.org/archive//individual/lib/libXcursor-1.1.15.tar.gz",
+    "Group"        : "x11",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmPfUUYrQ21mmgyQD7dRKJkEG2j5xPBrfQkonEveqQeCeA",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-10-10T21:18:45.414089371Z",
+    "Size"         : 110676,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc",
+                   "libX11",
+                   "libXfixes",
+                   "libXrender"
+    ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +26,13 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/include/X11/Xcursor/Xcursor.h",
+                    "opt/via/lib/libXcursor.a",
+                    "opt/via/lib/libXcursor.la",
+                    "opt/via/lib/libXcursor.so",
+                    "opt/via/lib/libXcursor.so.1",
+                    "opt/via/lib/libXcursor.so.1.0.2",
+                    "opt/via/lib/pkgconfig/xcursor.pc"
+    ]
 }

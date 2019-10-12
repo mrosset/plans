@@ -1,0 +1,39 @@
+{
+    "Name"         : "libevdev",
+    "Version"      : "1.5.7",
+    "Url"          : "https://www.freedesktop.org/software/libevdev/libevdev-1.5.7.tar.xz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "Qmdd1Ueh2mrCRLw97USeRwtvHiDPw1a1fvkgzAeS5pFzBk",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-10-11T14:47:52.482910988Z",
+    "Size"         : 383251,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/libevdev-tweak-device",
+                    "opt/via/bin/mouse-dpi-tool",
+                    "opt/via/bin/touchpad-edge-detector",
+                    "opt/via/include/libevdev-1.0/libevdev/libevdev-uinput.h",
+                    "opt/via/include/libevdev-1.0/libevdev/libevdev.h",
+                    "opt/via/lib/libevdev.a",
+                    "opt/via/lib/libevdev.la",
+                    "opt/via/lib/libevdev.so",
+                    "opt/via/lib/libevdev.so.2",
+                    "opt/via/lib/libevdev.so.2.1.19",
+                    "opt/via/lib/pkgconfig/libevdev.pc"
+    ]
+}

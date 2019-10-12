@@ -1,0 +1,27 @@
+{
+    "Name"          : "emacsy ",
+    "Version"       : "0.4.1",
+    "Url"           : "git://git.savannah.gnu.org/emacsy.git",
+    "Group"         : "extra",
+    "StageDir"      : "emacsy",
+    "Inherit"       : "gnu",
+    "Cid"           : "",
+    "BuildInStage"  : false,
+    "IsRebuilt"     : false,
+    "BuildTime"     : 0,
+    "Date"          : "2019-01-29T20:33:27.730175719-08:00",
+    "Size"          : 0,
+    "SubPackages"   : null,
+    "AutoDepends"   : null,
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : [
+                    "autoreconf -ivf"
+    ],
+    "Build"       : null,
+    "Package"     : null,
+    "PostInstall" : null,
+    "Remove"      : null,
+    "Files"       : null
+}
