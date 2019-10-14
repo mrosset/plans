@@ -5,14 +5,14 @@
     "Group"         : "extra",
     "StageDir"      : "",
     "Inherit"       : "gnu",
-    "Cid"           : "",
+    "Cid"           : "QmTA9opqRrVZjCUN3HUHztq9SJBPszqjQAp7U6oYpRkERw",
     "BuildInStage"  : false,
-    "IsRebuilt"     : false,
+    "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T20:33:27.736409279-08:00",
-    "Size"          : 0,
+    "Date"          : "2019-10-14T15:44:04.95826763Z",
+    "Size"          : 92009,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : null,
     "BuildDepends"  : null,
     "Flags"         : null,
@@ -21,5 +21,13 @@
     "Package"       : null,
     "PostInstall"   : null,
     "Remove"        : null,
-    "Files"         : null
+    "Files"         : [
+                    "opt/via/bin/itstool",
+                    "opt/via/share/itstool/its/docbook.its",
+                    "opt/via/share/itstool/its/docbook5.its",
+                    "opt/via/share/itstool/its/its.its",
+                    "opt/via/share/itstool/its/mallard.its",
+                    "opt/via/share/itstool/its/ttml.its",
+                    "opt/via/share/itstool/its/xhtml.its"
+    ]
 }
