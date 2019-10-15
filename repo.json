@@ -223,6 +223,7 @@
     "extra/numpy.json",
     "extra/openexr.json",
     "extra/openimageio.json",
+    "extra/patch.json",
     "extra/pcre2.json",
     "extra/pixman.json",
     "extra/protobuf.json",

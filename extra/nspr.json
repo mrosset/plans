@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "nspr-4.22/nspr",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmZD3HVCs5rSiZ29BqGtEqFV4MNdQ2VJ1vgHXBWLVNoYWA",
+    "Cid"          : "QmRJeFzu7FLij7Zx63fGPrqDvdCBNruPn78t1Sz9GgxMQ3",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-10-10T03:49:22.924208344Z",
-    "Size"         : 4196948,
+    "Date"         : "2019-10-15T15:32:31.614361558Z",
+    "Size"         : 4195842,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
