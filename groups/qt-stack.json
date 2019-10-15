@@ -17,6 +17,7 @@
                     "compositeproto",
                     "devel",
                     "g-golf",
+                    "gjs",
                     "gobject-introspection",
                     "gtk3",
                     "guile",
@@ -24,6 +25,7 @@
                     "python3",
                     "qt",
                     "sbcl",
+                    "shared-mime-info",
                     "wayland-protocols",
                     "xf86vidmodeproto"
     ],

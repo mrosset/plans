@@ -14,6 +14,8 @@
     "SubPackages"   : null,
     "AutoDepends"   : null,
     "ManualDepends" : [
+                    "autoconf",
+                    "automake",
                     "bash",
                     "binutils",
                     "bison",
@@ -34,6 +36,7 @@
                     "mpc",
                     "mpfr",
                     "ncurses",
+                    "perl",
                     "pkg-config",
                     "sed",
                     "tar",
