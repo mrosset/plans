@@ -1,0 +1,30 @@
+{
+    "Name"         : "patch",
+    "Version"      : "2.7.6",
+    "Url"          : "http://mirrors.kernel.org/gnu/patch/patch-2.7.6.tar.xz",
+    "Group"        : "extra",
+    "StageDir"     : "",
+    "Inherit"      : "gnu",
+    "Cid"          : "QmVLZyehmZwYpFLsv4QtLwonc1P7ehtKtqQbxQ1BYW53fj",
+    "BuildInStage" : false,
+    "IsRebuilt"    : true,
+    "BuildTime"    : 0,
+    "Date"         : "2019-10-15T15:25:27.336789305Z",
+    "Size"         : 175552,
+    "SubPackages"  : null,
+    "AutoDepends"  : [
+                   "attr",
+                   "glibc"
+    ],
+    "ManualDepends" : null,
+    "BuildDepends"  : null,
+    "Flags"         : null,
+    "Patch"         : null,
+    "Build"         : null,
+    "Package"       : null,
+    "PostInstall"   : null,
+    "Remove"        : null,
+    "Files"         : [
+                    "opt/via/bin/patch"
+    ]
+}

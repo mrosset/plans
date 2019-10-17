@@ -5,12 +5,12 @@
     "Group"        : "extra",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "Qmex5qRQ6WW4RdK9ZjWjmgpyWp7TGakeoEwToo78VVBLeC",
+    "Cid"          : "QmRATapRTWDwHGMrkf6iTWVKWEVgnxt8SJXLnYq9TSFens",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-10-15T15:35:08.66658477Z",
-    "Size"         : 7331189,
+    "Date"         : "2019-10-17T14:26:51.702404425Z",
+    "Size"         : 7331261,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -25,11 +25,14 @@
                     "BUILD_OPT=1",
                     "NSPR_INCLUDE_DIR=$PREFIX/include/nspr",
                     "NSS_USE_SYSTEM_SQLITE=1",
+                    "RPATH=-Wl,-rpath=$PREFIX/lib",
                     "USE_64=1",
                     "USE_SYSTEM_ZLIB=1",
                     "ZLIB_LIBS=-lz"
     ],
-    "Patch" : null,
+    "Patch" : [
+            "patch -Np1 -i ../nss-3.46-standalone-1.patch"
+    ],
     "Build" : [
             "make -j1 -C nss $PlanFlags"
     ],

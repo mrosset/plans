@@ -17,7 +17,7 @@
     "BuildDepends"  : null,
     "Flags"         : null,
     "Patch"         : [
-                    "#patch -Np1 -i ../meson-for-build-rpath.patch"
+                    "patch -Np1 -i ../meson-for-build-rpath.patch"
     ],
     "Build"       : null,
     "Package"     : null,

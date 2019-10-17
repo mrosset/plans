@@ -14,6 +14,7 @@
     "SubPackages"   : null,
     "AutoDepends"   : null,
     "ManualDepends" : [
+                    "PyGObject",
                     "compositeproto",
                     "devel",
                     "g-golf",
