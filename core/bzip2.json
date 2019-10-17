@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmRjxhjHWC7xmLrkwsfrXETwE3ok9AHwEbBHE8vsQeaxcL",
+    "Cid"          : "QmSZJxvcZ3Upqksk8hVeLbjAbSN7zPSUjqKFiYyrxtmmPr",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:17:33.651179636Z",
-    "Size"         : 1421340,
+    "Date"         : "2019-10-17T22:44:46.478721693Z",
+    "Size"         : 1418056,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -20,7 +20,8 @@
     "Flags"         : null,
     "Patch"         : null,
     "Build"         : [
-                    "make -f Makefile-libbz2_so"
+                    "make -f Makefile-libbz2_so",
+                    "make"
     ],
     "Package" : [
               "make install PREFIX=$PKGDIR/$PREFIX",
