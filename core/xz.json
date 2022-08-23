@@ -1,16 +1,16 @@
 {
     "Name"         : "xz",
-    "Version"      : "5.2.3",
+    "Version"      : "5.2.6",
     "Url"          : "https://downloads.sourceforge.net/project/lzmautils/xz-{{.Version}}.tar.bz2",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmSBTSuK5bdMEPdWrJN2qce7LQLrYfWusdCyKLtXXAB1mz",
+    "Cid"          : "QmU959GvS1WwZNSwNg43CHSGL6oZ18u8aFCfcnxV9VPxFK",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:28:29.020507549Z",
-    "Size"         : 731475,
+    "Date"         : "2022-08-23T10:14:18.420004972-07:00",
+    "Size"         : 754003,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -66,7 +66,7 @@
                     "opt/via/lib/liblzma.la",
                     "opt/via/lib/liblzma.so",
                     "opt/via/lib/liblzma.so.5",
-                    "opt/via/lib/liblzma.so.5.2.3",
+                    "opt/via/lib/liblzma.so.5.2.6",
                     "opt/via/lib/pkgconfig/liblzma.pc"
     ]
 }

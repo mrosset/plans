@@ -1,16 +1,16 @@
 {
     "Name"         : "sed",
-    "Version"      : "4.4",
+    "Version"      : "4.8",
     "Url"          : "http://mirrors.kernel.org/gnu/sed/sed-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmVeQtpHcEDxhDhyisF39QiDexRMZGm64S3DEjGLNRtW5r",
+    "Cid"          : "QmWT2UDB3UXAn94KqsJvabLd3xEoimfSChpg5X6JcDL6oS",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:27:02.962618187Z",
-    "Size"         : 105776,
+    "Date"         : "2022-08-23T10:12:12.446355763-07:00",
+    "Size"         : 179728,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

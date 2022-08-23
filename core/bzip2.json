@@ -1,16 +1,16 @@
 {
     "Name"         : "bzip2",
-    "Version"      : "1.0.6",
-    "Url"          : "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
+    "Version"      : "1.0.8",
+    "Url"          : "https://www.sourceware.org/pub/bzip2/bzip2-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmRjxhjHWC7xmLrkwsfrXETwE3ok9AHwEbBHE8vsQeaxcL",
+    "Cid"          : "QmRWcVttz7mczhLQuF1M4n2UjxPxG6w8KEAv5wT1cPJAkE",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:17:33.651179636Z",
-    "Size"         : 1421340,
+    "Date"         : "2022-08-23T09:58:35.142471684-07:00",
+    "Size"         : 1308546,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -24,10 +24,10 @@
     ],
     "Package" : [
               "make install PREFIX=$PKGDIR/$PREFIX",
-              "install -m755 libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib",
-              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so",
-              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1",
-              "ln -s libbz2.so.1.0.6 $PKGDIR/$PREFIX/lib/libbz2.so.1.0"
+              "install -m755 libbz2.so.1.0.8 $PKGDIR/$PREFIX/lib",
+              "ln -s libbz2.so.1.0.8 $PKGDIR/$PREFIX/lib/libbz2.so",
+              "ln -s libbz2.so.1.0.8 $PKGDIR/$PREFIX/lib/libbz2.so.1",
+              "ln -s libbz2.so.1.0.8 $PKGDIR/$PREFIX/lib/libbz2.so.1.0"
     ],
     "PostInstall" : null,
     "Remove"      : null,
@@ -48,7 +48,7 @@
                   "opt/via/lib/libbz2.so",
                   "opt/via/lib/libbz2.so.1",
                   "opt/via/lib/libbz2.so.1.0",
-                  "opt/via/lib/libbz2.so.1.0.6",
+                  "opt/via/lib/libbz2.so.1.0.8",
                   "opt/via/man/man1/bzcmp.1",
                   "opt/via/man/man1/bzdiff.1",
                   "opt/via/man/man1/bzegrep.1",

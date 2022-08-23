@@ -1,16 +1,16 @@
 {
     "Name"         : "gzip",
-    "Version"      : "1.5",
-    "Url"          : "http://ftp.gnu.org/pub/gnu/gzip/gzip-1.5.tar.xz",
+    "Version"      : "1.12",
+    "Url"          : "http://ftp.gnu.org/pub/gnu/gzip/gzip-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYKJBcAPruK2oyNESDFRmievumUniWrqKN5jYzAv6Z5U4",
+    "Cid"          : "QmWaPboTNr5NSeVBPAKZMs6BJRMYJkHZA9s6AupibmPHZw",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:24:36.634580352Z",
-    "Size"         : 132295,
+    "Date"         : "2022-08-23T10:09:50.487367273-07:00",
+    "Size"         : 117983,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

@@ -1,16 +1,16 @@
 {
     "Name"         : "m4",
-    "Version"      : "1.4.17",
-    "Url"          : "http://mirrors.kernel.org/gnu/m4/m4-1.4.17.tar.gz",
+    "Version"      : "1.4.19",
+    "Url"          : "http://mirrors.kernel.org/gnu/m4/m4-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmQjFkTD5mYr3Lcp97YiyeA5chyvvL5bwyoG5Jd1FWJjzP",
+    "Cid"          : "QmcYMbRERRMdWdGoWo999cX8q8zjts15uNCDknF9qzAYyi",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:22.383185056Z",
-    "Size"         : 150672,
+    "Date"         : "2022-08-23T10:10:36.223023847-07:00",
+    "Size"         : 245304,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

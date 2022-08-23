@@ -1,16 +1,16 @@
 {
     "Name"         : "findutils",
-    "Version"      : "4.6.0",
-    "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-{{.Version}}.tar.gz",
+    "Version"      : "4.9.0",
+    "Url"          : "http://mirrors.kernel.org/gnu/findutils/findutils-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmR6QtkMk7vjsA2rCWzq5kRksS4TbPxikDxHaJY8o9xyoS",
+    "Cid"          : "QmQ9ssqW5jPNf6oXD4pRRrmMVc18TrTtJBd2GnJqXrBGf1",
     "BuildInStage" : true,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:19:06.113489409Z",
-    "Size"         : 422748,
+    "Date"         : "2022-08-23T10:07:49.315324966-07:00",
+    "Size"         : 379521,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -28,8 +28,6 @@
                     "opt/via/bin/locate",
                     "opt/via/bin/updatedb",
                     "opt/via/bin/xargs",
-                    "opt/via/lib/bigram",
-                    "opt/via/lib/code",
                     "opt/via/lib/frcode"
     ]
 }

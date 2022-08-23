@@ -5,14 +5,14 @@
     "Group"         : "groups",
     "StageDir"      : "",
     "Inherit"       : "",
-    "Cid"           : "QmcJXoKrY7FuTUwmn4TXMm8Mi9MNGduS8cbaGZUp6vxA6k",
+    "Cid"           : "Qmf71oLURDcwdj7wKM1zc8G669qbYUTJdEcEWcpkzTky75",
     "BuildInStage"  : false,
     "IsRebuilt"     : true,
     "BuildTime"     : 0,
-    "Date"          : "2019-01-29T21:06:32.893792183-08:00",
+    "Date"          : "2022-08-23T10:20:17.745024554-07:00",
     "Size"          : 0,
     "SubPackages"   : null,
-    "AutoDepends"   : null,
+    "AutoDepends"   : [],
     "ManualDepends" : [
                     "bash",
                     "binutils",
@@ -38,7 +38,6 @@
                     "sed",
                     "tar",
                     "util-linux",
-                    "wget",
                     "which",
                     "xz"
     ],
@@ -49,5 +48,5 @@
     "Package"      : null,
     "PostInstall"  : null,
     "Remove"       : null,
-    "Files"        : null
+    "Files"        : []
 }

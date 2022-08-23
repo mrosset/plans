@@ -1,16 +1,16 @@
 {
     "Name"         : "libgcc",
-    "Version"      : "7.2.0",
+    "Version"      : "12.2.0",
     "Url"          : "",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "",
-    "Cid"          : "QmWfky8T1qtdRJdgvgD6MggzuH3KRZoPEHCThYRaqJFRSi",
+    "Cid"          : "QmYPLDRKobb9m5wDmp9eNxnWpfK73QE9qA1fJLb5uSyhjr",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-02T05:57:11.330840393-08:00",
-    "Size"         : 7723333,
+    "Date"         : "2022-08-23T09:52:02.852814287-07:00",
+    "Size"         : 8700649,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"
@@ -21,7 +21,7 @@
     "Patch"         : null,
     "Build"         : null,
     "Package"       : [
-                    "make install-strip-target-libgcc DESTDIR=$PKGDIR",
+                    "make -C ../gcc-12.2.0 install-strip-target-libgcc DESTDIR=$PKGDIR",
                     "mv $PKGDIR/$PREFIX/lib64/* $PKGDIR/$PREFIX/lib",
                     "rmdir $PKGDIR/$PREFIX/lib64"
     ],
@@ -30,19 +30,20 @@
                   "$PREFIX/lib/gcc/$CHOST/7.2.0/include/unwind.h"
     ],
     "Files" : [
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbegin.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbeginS.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtbeginT.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtend.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtendS.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtfastmath.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec32.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec64.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/crtprec80.o",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/include/gcov.h",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc.a",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcc_eh.a",
-            "opt/via/lib/gcc/x86_64-via-linux-gnu/7.2.0/libgcov.a",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtbegin.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtbeginS.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtbeginT.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtend.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtendS.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtfastmath.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtprec32.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtprec64.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/crtprec80.o",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/include/gcov.h",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/include/unwind.h",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/libgcc.a",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/libgcc_eh.a",
+            "opt/via/lib/gcc/x86_64-via-linux-gnu/12.2.0/libgcov.a",
             "opt/via/lib/libgcc_s.so",
             "opt/via/lib/libgcc_s.so.1"
     ]

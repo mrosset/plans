@@ -1,16 +1,16 @@
 {
     "Name"         : "grep",
-    "Version"      : "2.21",
-    "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-2.21.tar.xz",
+    "Version"      : "3.7",
+    "Url"          : "http://mirrors.kernel.org/gnu/grep/grep-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmXVD64rqoQ2HqctKeJ3N9rmpXUCXzc6XYKVwCBgMGdUw9",
+    "Cid"          : "QmbqbsTCk9AFazugFTBjPXD8pKtFB2FmctJuNKZxMGVW3Y",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:24:20.326781463Z",
-    "Size"         : 138852,
+    "Date"         : "2022-08-23T10:09:14.203254651-07:00",
+    "Size"         : 155172,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

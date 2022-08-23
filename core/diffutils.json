@@ -1,16 +1,16 @@
 {
     "Name"         : "diffutils",
-    "Version"      : "3.3",
-    "Url"          : "http://ftp.gnu.org/gnu/diffutils/diffutils-3.3.tar.xz",
+    "Version"      : "3.8",
+    "Url"          : "http://ftp.gnu.org/gnu/diffutils/diffutils-{{.Version}}.tar.xz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmWybxDAUDYfDNqoLZjoYue7BcFHBNxm4E8FhTG5uibV9W",
+    "Cid"          : "QmcvKgt7MF5ChBFM2whvmn51x7LXPDS18Z6tf3RsHKCgDV",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:18:33.239173969Z",
-    "Size"         : 281544,
+    "Date"         : "2022-08-23T10:04:21.739341341-07:00",
+    "Size"         : 262320,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

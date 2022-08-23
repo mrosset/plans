@@ -1,20 +1,20 @@
 {
     "Name"         : "file",
-    "Version"      : "5.32",
-    "Url"          : "http://fossies.org/linux/misc/file-{{.Version}}.tar.gz",
+    "Version"      : "5.42",
+    "Url"          : "https://astron.com/pub/file/file-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmbPyMWcsuZd3koBeVn8cV82x3on24QPGBsm9bGLdCZzFf",
+    "Cid"          : "QmR6M1jNj45PbpiBkoZJGkyA5LyCKnGuiEBVVVL3tWBAq6",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:18:38.55309548Z",
-    "Size"         : 5132906,
+    "Date"         : "2022-08-23T10:05:42.530073082-07:00",
+    "Size"         : 7933054,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc",
-                   "zlib"
+                   "bzip2",
+                   "glibc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
@@ -31,6 +31,7 @@
                     "opt/via/lib/libmagic.so",
                     "opt/via/lib/libmagic.so.1",
                     "opt/via/lib/libmagic.so.1.0.0",
+                    "opt/via/lib/pkgconfig/libmagic.pc",
                     "opt/via/share/misc/magic.mgc"
     ]
 }

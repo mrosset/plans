@@ -1,16 +1,16 @@
 {
     "Name"         : "make",
-    "Version"      : "4.2.1",
+    "Version"      : "4.3",
     "Url"          : "http://mirrors.kernel.org/gnu/make/make-{{.Version}}.tar.gz",
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmYcGrhKSLVgyiRmqS1R395C3mN3gq2WZZRZHm3ifqiPTr",
+    "Cid"          : "QmXH6MFitjp4VYiuKSpcRvJpZkP3nZQuRitCU3EtBq1Uzw",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:25:30.228453355Z",
-    "Size"         : 206216,
+    "Date"         : "2022-08-23T10:10:46.882360396-07:00",
+    "Size"         : 218752,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc"

@@ -5,16 +5,15 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu-nostrip",
-    "Cid"          : "QmXiQwQWFHwFqNVATBXr1p2fN2q9joQUnn66qzwdnKMJ7i",
+    "Cid"          : "QmQzMe75D6MkBbCPPSciTxsygJqozX8aqjwHFTEyB1xsej",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-01-30T05:17:36.345648Z",
-    "Size"         : 137442,
+    "Date"         : "2022-08-23T10:01:17.779597963-07:00",
+    "Size"         : 211474,
     "SubPackages"  : null,
     "AutoDepends"  : [
-                   "glibc",
-                   "zlib"
+                   "glibc"
     ],
     "ManualDepends" : null,
     "BuildDepends"  : null,
