@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmTb7crN8Y3aAhBEg1Lv78GxXoH7nVraVmx2aw6vPiWq8w",
+    "Cid"          : "QmWVNp7VcCztpMv3YoLY6FGu8cown2h7ax1teUVtA66dwY",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2022-08-23T09:53:42.912014744-07:00",
-    "Size"         : 37213787,
+    "Date"         : "2022-08-24T01:37:54.182719949Z",
+    "Size"         : 36702947,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -18,12 +18,14 @@
                    "libstdc++"
     ],
     "ManualDepends" : null,
-    "BuildDepends"  : null,
-    "Flags"         : [
-                    "--enable-gold=default",
-                    "--enable-plugins",
-                    "--with-lib-path=$PREFIX/lib",
-                    "--with-sysroot"
+    "BuildDepends"  : [
+                    "texinfo"
+    ],
+    "Flags" : [
+            "--enable-gold=default",
+            "--enable-plugins",
+            "--with-lib-path=$PREFIX/lib",
+            "--with-sysroot"
     ],
     "Patch"       : null,
     "Build"       : null,
