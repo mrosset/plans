@@ -19145,10 +19145,7 @@
     "less" : [
            "opt/via/bin/less",
            "opt/via/bin/lessecho",
-           "opt/via/bin/lesskey",
-           "opt/via/share/man/man1/less.1",
-           "opt/via/share/man/man1/lessecho.1",
-           "opt/via/share/man/man1/lesskey.1"
+           "opt/via/bin/lesskey"
     ],
     "libICE" : [
              "opt/via/include/X11/ICE/ICE.h",

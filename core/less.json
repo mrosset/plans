@@ -5,12 +5,12 @@
     "Group"        : "core",
     "StageDir"     : "",
     "Inherit"      : "gnu",
-    "Cid"          : "QmQ6ir6u1Ha81NF5ADmDbCUq32mQ1vZsv2PSrGvuq5q6EE",
+    "Cid"          : "Qmaf8EqWdcK7cRzKHnGnpbAwRtJ8gK4t8RqeaV2k9qz8ag",
     "BuildInStage" : false,
     "IsRebuilt"    : true,
     "BuildTime"    : 0,
-    "Date"         : "2019-02-22T14:49:56.755847605Z",
-    "Size"         : 256471,
+    "Date"         : "2022-08-24T13:12:58.653185717Z",
+    "Size"         : 184672,
     "SubPackages"  : null,
     "AutoDepends"  : [
                    "glibc",
@@ -27,9 +27,6 @@
     "Files"         : [
                     "opt/via/bin/less",
                     "opt/via/bin/lessecho",
-                    "opt/via/bin/lesskey",
-                    "opt/via/share/man/man1/less.1",
-                    "opt/via/share/man/man1/lessecho.1",
-                    "opt/via/share/man/man1/lesskey.1"
+                    "opt/via/bin/lesskey"
     ]
 }
